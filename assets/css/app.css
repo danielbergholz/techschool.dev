@@ -7,3 +7,17 @@
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
+
+@layer components {
+  .container-l1 {
+    @apply mx-auto w-11/12;
+  }
+
+  .container-l2 {
+    @apply mx-auto w-4/5;
+  }
+
+  .container-l3 {
+    @apply container-l2 md:w-3/4;
+  }
+}
