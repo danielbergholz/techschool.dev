@@ -4,7 +4,17 @@
 
 /* This file is for your main application CSS */
 
+:root {
+  --color-white: #f5f5f5;
+  --color-black: #0d0d0d;
+  --color-green: #00e3a5;
+  --color-gray: #a1a1aa;
+}
+
+html,
 body {
+  color: var(--color-white);
+  background-color: var(--color-black);
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
