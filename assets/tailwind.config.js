@@ -14,9 +14,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        brand: "#FD4F00",
+        gray: "var(--color-gray)",
+        green: "var(--color-green)",
+        black: "var(--color-black)",
+        white: "var(--color-white)"
       }
-    },
+    }
   },
   plugins: [
     require("@tailwindcss/forms"),
