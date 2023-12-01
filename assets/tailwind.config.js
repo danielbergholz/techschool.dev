@@ -18,6 +18,9 @@ module.exports = {
         green: "var(--color-green)",
         black: "var(--color-black)",
         white: "var(--color-white)"
+      },
+      backgroundImage: {
+        pattern: "url('/images/pattern.svg')"
       }
     }
   },
