@@ -1,0 +1,68 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/techschool_web/controllers/page_html/home.html.heex:6
+#, elixir-autogen, elixir-format
+msgid "Accessible technology education for everyone"
+msgstr "Ensino de tecnologia acessível para todos"
+
+#: lib/techschool_web/components/core_components.ex:482
+#, elixir-autogen, elixir-format
+msgid "Actions"
+msgstr ""
+
+#: lib/techschool_web/controllers/page_html.ex:14
+#, elixir-autogen, elixir-format
+msgid "Code available on"
+msgstr "Código disponível em"
+
+#: lib/techschool_web/components/layouts.ex:16
+#, elixir-autogen, elixir-format
+msgid "Courses"
+msgstr "Cursos"
+
+#: lib/techschool_web/controllers/page_html.ex:10
+#, elixir-autogen, elixir-format
+msgid "Developed by"
+msgstr "Desenvolvido por"
+
+#: lib/techschool_web/controllers/page_html/home.html.heex:22
+#, elixir-autogen, elixir-format
+msgid "Our mission"
+msgstr "Nossa missão"
+
+#: lib/techschool_web/controllers/page_html/home.html.heex:37
+#, elixir-autogen, elixir-format
+msgid "Tech School came to jointly promote free courses that did not have the visibility they deserved. Only then will we be able to face the market sharks. Our site has a collection of courses in different areas, allowing anyone to go from zero to their first job without having to suffer any financial loss."
+msgstr "O Tech School veio para propagarmos em conjunto os cursos gratuitos que não tiveram a visibilidade merecida. Só assim vamos conseguir bater de frente contra os tubarões do mercado. Nosso site conta com uma coletânia de cursos de diversas áreas, possibilitando que qualquer pessoa consiga sair do zero até o primeiro emprego sem precisar ter qualquer prejuízo financeiro."
+
+#: lib/techschool_web/controllers/page_html/home.html.heex:25
+#, elixir-autogen, elixir-format
+msgid "Tech School is a movement that fights for free access to quality education in the area of technology. We are against the big programming teaching conglomerates, which are responsible for making knowledge accessible only to the financially privileged."
+msgstr "Tech School é um movimento que luta pelo livre acesso à educação de qualidade na área de tecnologia. Somos contra os grandes conglomerados de ensino em programação, que são responsáveis por tornar o conhecimento acessível somente para os privilegiados financeiramente."
+
+#: lib/techschool_web/controllers/page_html/home.html.heex:31
+#, elixir-autogen, elixir-format
+msgid "There are thousands of free and quality courses spread over the internet, however, we don't have millions of dollars to invest in marketing. Thus, when a beginner tries to enter the area, he ends up facing expensive and predatory courses first, generating the false feeling that it is mandatory to disburse a lot of money."
+msgstr "Existem milhares de cursos gratuitos e de qualidade expalhados pela internet, contudo, não temos milhões de reais para investir em marketing. Assim, quando um iniciante tenta ingressar na área, ele acaba se deparando primeiro com os cursos caros e predatórios, gerando a falsa sensação de que é obrigatório desembolsar muito dinheiro."
+
+#: lib/techschool_web/components/core_components.ex:76
+#: lib/techschool_web/components/core_components.ex:130
+#, elixir-autogen, elixir-format
+msgid "close"
+msgstr ""
+
+#: lib/techschool_web/controllers/page_html/home.html.heex:9
+#, elixir-autogen, elixir-format, fuzzy
+msgid "Go from zero to your first job without any financial loss"
+msgstr "Saia do zero até o primeiro emprego sem ter nenhum prejuízo financeiro"
