@@ -1,0 +1,68 @@
+## This file is a PO Template file.
+##
+## "msgid"s here are often extracted from source code.
+## Add new messages manually only if they're dynamic
+## messages that can't be statically extracted.
+##
+## Run "mix gettext.extract" to bring this file up to
+## date. Leave "msgstr"s empty as changing them here has no
+## effect: edit them in PO (.po) files instead.
+#
+msgid ""
+msgstr ""
+
+#: lib/techschool_web/controllers/page_html/home.html.heex:6
+#, elixir-autogen, elixir-format
+msgid "Accessible technology education for everyone"
+msgstr ""
+
+#: lib/techschool_web/components/core_components.ex:482
+#, elixir-autogen, elixir-format
+msgid "Actions"
+msgstr ""
+
+#: lib/techschool_web/controllers/page_html.ex:14
+#, elixir-autogen, elixir-format
+msgid "Code available on"
+msgstr ""
+
+#: lib/techschool_web/components/layouts.ex:16
+#, elixir-autogen, elixir-format
+msgid "Courses"
+msgstr ""
+
+#: lib/techschool_web/controllers/page_html.ex:10
+#, elixir-autogen, elixir-format
+msgid "Developed by"
+msgstr ""
+
+#: lib/techschool_web/controllers/page_html/home.html.heex:22
+#, elixir-autogen, elixir-format
+msgid "Our mission"
+msgstr ""
+
+#: lib/techschool_web/controllers/page_html/home.html.heex:37
+#, elixir-autogen, elixir-format
+msgid "Tech School came to jointly promote free courses that did not have the visibility they deserved. Only then will we be able to face the market sharks. Our site has a collection of courses in different areas, allowing anyone to go from zero to their first job without having to suffer any financial loss."
+msgstr ""
+
+#: lib/techschool_web/controllers/page_html/home.html.heex:25
+#, elixir-autogen, elixir-format
+msgid "Tech School is a movement that fights for free access to quality education in the area of technology. We are against the big programming teaching conglomerates, which are responsible for making knowledge accessible only to the financially privileged."
+msgstr ""
+
+#: lib/techschool_web/controllers/page_html/home.html.heex:31
+#, elixir-autogen, elixir-format
+msgid "There are thousands of free and quality courses spread over the internet, however, we don't have millions of dollars to invest in marketing. Thus, when a beginner tries to enter the area, he ends up facing expensive and predatory courses first, generating the false feeling that it is mandatory to disburse a lot of money."
+msgstr ""
+
+#: lib/techschool_web/components/core_components.ex:76
+#: lib/techschool_web/components/core_components.ex:130
+#, elixir-autogen, elixir-format
+msgid "close"
+msgstr ""
+
+#: lib/techschool_web/controllers/page_html/home.html.heex:9
+#, elixir-autogen, elixir-format
+msgid "Go from zero to your first job without any financial loss"
+msgstr ""
