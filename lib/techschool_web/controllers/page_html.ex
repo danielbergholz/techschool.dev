@@ -7,11 +7,11 @@ defmodule TechschoolWeb.PageHTML do
     ~H"""
     <footer class="text-center text-gray py-2 container-l1">
       <span class="text-sm">
-        Desenvolvido por
+        <%= gettext("Developed by") %>
         <a href="https://bergdaniel.com.br/" target="_blank" rel="noreferrer" class="underline">
           Daniel Bergholz
         </a>
-        . Código disponível no
+        . <%= gettext("Code available on") %>
         <a
           href="https://github.com/danielbergholz/techschool"
           target="_blank"

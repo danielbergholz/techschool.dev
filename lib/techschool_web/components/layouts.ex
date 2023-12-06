@@ -13,7 +13,7 @@ defmodule TechschoolWeb.Layouts do
         </h1>
       </.link>
       <.link navigate="/cursos" class="font-bold">
-        Cursos
+        <%= gettext("Courses") %>
       </.link>
     </nav>
     """
