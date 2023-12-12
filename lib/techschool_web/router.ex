@@ -8,6 +8,7 @@ defmodule TechschoolWeb.Router do
     plug :put_root_layout, html: {TechschoolWeb.Layouts, :root}
     plug :protect_from_forgery
     plug :put_secure_browser_headers
+    plug TechschoolWeb.SetLocale
   end
 
   pipeline :api do
