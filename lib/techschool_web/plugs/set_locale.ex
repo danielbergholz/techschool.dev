@@ -1,6 +1,7 @@
 defmodule TechschoolWeb.Plugs.SetLocale do
   @moduledoc """
-  Set the process' locale based on the query params
+  Set the process' locale based on the query params and store it in a cookie.
+  It expires in 1 year.
 
   ## Example
 
@@ -9,16 +10,35 @@ defmodule TechschoolWeb.Plugs.SetLocale do
 
     - Then the process' locale will be set to "en"
   """
+  import Plug.Conn
 
-  @available_locales ["en", "pt"]
+  @default_locale Application.compile_env(:gettext, :default_locale)
+  @available_locales Gettext.known_locales(TechschoolWeb.Gettext)
+  @one_year 365 * 24 * 60 * 60
 
-  def init(opts), do: opts
+  def init(_opts), do: nil
 
-  def call(%Plug.Conn{params: %{"locale" => locale}} = conn, _opts)
-      when locale in @available_locales do
-    Gettext.put_locale(TechschoolWeb.Gettext, locale)
-    conn
+  def call(conn, _opts) do
+    case fetch_locale_from(conn) do
+      nil ->
+        conn
+        |> assign(:locale, @default_locale)
+
+      locale ->
+        TechschoolWeb.Gettext
+        |> Gettext.put_locale(locale)
+
+        conn
+        |> assign(:locale, locale)
+        |> put_resp_cookie("locale", locale, max_age: @one_year)
+    end
   end
 
-  def call(conn, _opts), do: conn
+  defp fetch_locale_from(conn) do
+    (conn.params["locale"] || conn.cookies["locale"])
+    |> check_locale
+  end
+
+  defp check_locale(locale) when locale in @available_locales, do: locale
+  defp check_locale(_), do: nil
 end
