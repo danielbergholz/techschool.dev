@@ -1,4 +1,4 @@
-defmodule TechschoolWeb.SetLocale do
+defmodule TechschoolWeb.Plugs.SetLocale do
   @moduledoc """
   Set the process' locale based on the query params
 
