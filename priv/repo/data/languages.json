@@ -1,0 +1,38 @@
+[
+  {
+    "name": "HTML",
+    "image_url": "/images/languages/html.svg"
+  },
+  {
+    "name": "CSS",
+    "image_url": "/images/languages/css.svg"
+  },
+  {
+    "name": "JavaScript",
+    "image_url": "/images/languages/javascript.svg"
+  },
+  {
+    "name": "TypeScript",
+    "image_url": "/images/languages/typescript.svg"
+  },
+  {
+    "name": "Elixir",
+    "image_url": "/images/languages/elixir.svg"
+  },
+  {
+    "name": "Ruby",
+    "image_url": "/images/languages/ruby.svg"
+  },
+  {
+    "name": "Python",
+    "image_url": "/images/languages/python.svg"
+  },
+  {
+    "name": "Java",
+    "image_url": "/images/languages/java.svg"
+  },
+  {
+    "name": "PHP",
+    "image_url": "/images/languages/php.svg"
+  }
+]
