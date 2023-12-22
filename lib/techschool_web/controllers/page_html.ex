@@ -24,4 +24,28 @@ defmodule TechschoolWeb.PageHTML do
     </footer>
     """
   end
+
+  attr :inverse_locale, :string, required: true
+
+  def translate_button(assigns) do
+    ~H"""
+    <div class="gradient-container mt-4 w-max items-center mx-auto md:mx-0">
+      <a href={"?locale=#{@inverse_locale}"} class="gradient-item p-1 md:p-2 items-center">
+        <img
+          src={"/images/flags/#{@inverse_locale}.svg"}
+          alt={"Flag of #{String.upcase(@inverse_locale)}"}
+          class="w-7 md:w-8"
+        />
+        <p class="font-bold ml-1 md:ml-2"><%= gettext("Translate") %></p>
+      </a>
+    </div>
+    """
+  end
+
+  defp inverse_locale(locale) do
+    case locale do
+      "pt" -> "en"
+      "en" -> "pt"
+    end
+  end
 end
