@@ -1,224 +1,222 @@
 <svg
-  width="252"
-  height="179"
-  viewBox="0 0 252 179"
-  fill="none"
   xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  viewBox="9.85 5.69 232.31 147.63"
 >
   <g filter="url(#filter0_dd_1105_9001)">
     <g clip-path="url(#clip0_1105_9001)">
-      <rect x="15.5" y="6" width="221" height="147" fill="white" />
-      <path d="M236.5 6H15.5V153H236.5V6Z" fill="#B31942" />
+      <rect x="15.5" y="6" width="221" height="147" fill="white"></rect>
+      <path d="M236.5 6H15.5V153H236.5V6Z" fill="#B31942"></path>
       <path
         d="M15.5 22.9609H236.5H15.5ZM236.5 45.5763H15.5H236.5ZM15.5 68.1917H236.5H15.5ZM236.5 90.8071H15.5H236.5ZM15.5 113.422H236.5H15.5ZM236.5 136.038H15.5H236.5Z"
         fill="#000008"
-      />
+      ></path>
       <path
         d="M15.5 22.9609H236.5M236.5 45.5763H15.5M15.5 68.1917H236.5M236.5 90.8071H15.5M15.5 113.422H236.5M236.5 136.038H15.5"
         stroke="white"
         stroke-width="11.3077"
-      />
-      <path d="M127.22 6H15.5V85.1538H127.22V6Z" fill="#0A3161" />
+      ></path>
+      <path d="M127.22 6H15.5V85.1538H127.22V6Z" fill="#0A3161"></path>
       <path
         d="M24.81 9.39258L27.4686 17.5749L20.5083 12.5179H29.1117L22.1514 17.5749L24.81 9.39258Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M24.81 25.2227L27.4686 33.405L20.5083 28.348H29.1117L22.1514 33.405L24.81 25.2227Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M24.81 41.0547L27.4686 49.237L20.5083 44.1801H29.1117L22.1514 49.237L24.81 41.0547Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M24.81 56.8848L27.4686 65.0671L20.5083 60.0101H29.1117L22.1514 65.0671L24.81 56.8848Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M24.81 72.7148L27.4686 80.8972L20.5083 75.8402H29.1117L22.1514 80.8972L24.81 72.7148Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M34.1191 17.3086L36.7777 25.4909L29.8174 20.434H38.4208L31.4605 25.4909L34.1191 17.3086Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M34.1191 33.1387L36.7777 41.321L29.8174 36.264H38.4208L31.4605 41.321L34.1191 33.1387Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M34.1191 48.9707L36.7777 57.153L29.8174 52.0961H38.4208L31.4605 57.153L34.1191 48.9707Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M34.1191 64.8008L36.7777 72.9831L29.8174 67.9262H38.4208L31.4605 72.9831L34.1191 64.8008Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M43.4296 9.39258L46.0882 17.5749L39.1279 12.5179H47.7313L40.771 17.5749L43.4296 9.39258Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M43.4296 25.2246L46.0882 33.4069L39.1279 28.35H47.7313L40.771 33.4069L43.4296 25.2246Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M43.4296 41.0547L46.0882 49.237L39.1279 44.1801H47.7313L40.771 49.237L43.4296 41.0547Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M43.4296 56.8848L46.0882 65.0671L39.1279 60.0101H47.7313L40.771 65.0671L43.4296 56.8848Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M43.4296 72.7168L46.0882 80.8991L39.1279 75.8422H47.7313L40.771 80.8991L43.4296 72.7168Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M52.7407 17.3086L55.3993 25.4909L48.439 20.434H57.0424L50.0821 25.4909L52.7407 17.3086Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M52.7407 33.1387L55.3993 41.321L48.439 36.264H57.0424L50.0821 41.321L52.7407 33.1387Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M52.7407 48.9707L55.3993 57.153L48.439 52.0961H57.0424L50.0821 57.153L52.7407 48.9707Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M52.7407 64.8008L55.3993 72.9831L48.439 67.9262H57.0424L50.0821 72.9831L52.7407 64.8008Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M62.0498 9.39258L64.7084 17.5749L57.748 12.5179H66.3515L59.3912 17.5749L62.0498 9.39258Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M62.0498 25.2227L64.7084 33.405L57.748 28.348H66.3515L59.3912 33.405L62.0498 25.2227Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M62.0498 41.0547L64.7084 49.237L57.748 44.1801H66.3515L59.3912 49.237L62.0498 41.0547Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M62.0498 56.8848L64.7084 65.0671L57.748 60.0101H66.3515L59.3912 65.0671L62.0498 56.8848Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M62.0498 72.7168L64.7084 80.8991L57.748 75.8422H66.3515L59.3912 80.8991L62.0498 72.7168Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M71.3608 17.3086L74.0194 25.4909L67.0591 20.434H75.6625L68.7022 25.4909L71.3608 17.3086Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M71.3608 33.1387L74.0194 41.321L67.0591 36.264H75.6625L68.7022 41.321L71.3608 33.1387Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M71.3608 48.9707L74.0194 57.153L67.0591 52.0961H75.6625L68.7022 57.153L71.3608 48.9707Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M71.3608 64.8008L74.0194 72.9831L67.0591 67.9262H75.6625L68.7022 72.9831L71.3608 64.8008Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M80.6704 9.39258L83.329 17.5749L76.3687 12.5179H84.9721L78.0118 17.5749L80.6704 9.39258Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M80.6699 25.2227L83.3285 33.405L76.3682 28.348H84.9716L78.0113 33.405L80.6699 25.2227Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M80.6699 41.0547L83.3285 49.237L76.3682 44.1801H84.9716L78.0113 49.237L80.6699 41.0547Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M80.6699 56.8848L83.3285 65.0671L76.3682 60.0101H84.9716L78.0113 65.0671L80.6699 56.8848Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M80.6699 72.7148L83.3285 80.8972L76.3682 75.8402H84.9716L78.0113 80.8972L80.6699 72.7148Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M89.9804 17.3086L92.639 25.4909L85.6787 20.434H94.2821L87.3218 25.4909L89.9804 17.3086Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M89.9804 33.1387L92.639 41.321L85.6787 36.264H94.2821L87.3218 41.321L89.9804 33.1387Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M89.9804 48.9707L92.639 57.153L85.6787 52.0961H94.2821L87.3218 57.153L89.9804 48.9707Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M89.9804 64.8008L92.639 72.9831L85.6787 67.9262H94.2821L87.3218 72.9831L89.9804 64.8008Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M99.2885 9.39258L101.947 17.5749L94.9868 12.5179H103.59L96.6299 17.5749L99.2885 9.39258Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M99.2885 25.2227L101.947 33.405L94.9868 28.348H103.59L96.6299 33.405L99.2885 25.2227Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M99.2885 41.0547L101.947 49.237L94.9868 44.1801H103.59L96.6299 49.237L99.2885 41.0547Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M99.2885 56.8848L101.947 65.0671L94.9868 60.0101H103.59L96.6299 65.0671L99.2885 56.8848Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M99.289 72.7148L101.948 80.8972L94.9873 75.8402H103.591L96.6304 80.8972L99.289 72.7148Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M108.599 17.3086L111.258 25.4909L104.297 20.434H112.901L105.94 25.4909L108.599 17.3086Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M108.599 33.1387L111.258 41.321L104.297 36.264H112.901L105.94 41.321L108.599 33.1387Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M108.599 48.9707L111.258 57.153L104.297 52.0961H112.901L105.94 57.153L108.599 48.9707Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M108.599 64.8008L111.258 72.9831L104.297 67.9262H112.901L105.94 72.9831L108.599 64.8008Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M117.909 9.39258L120.568 17.5749L113.607 12.5179H122.211L115.251 17.5749L117.909 9.39258Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M117.909 25.2246L120.568 33.4069L113.607 28.35H122.211L115.251 33.4069L117.909 25.2246Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M117.909 41.0547L120.568 49.237L113.607 44.1801H122.211L115.251 49.237L117.909 41.0547Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M117.909 56.8848L120.568 65.0671L113.607 60.0101H122.211L115.251 65.0671L117.909 56.8848Z"
         fill="white"
-      />
+      ></path>
       <path
         d="M117.91 72.7168L120.568 80.8991L113.608 75.8422H122.211L115.251 80.8991L117.91 72.7168Z"
         fill="white"
-      />
+      ></path>
     </g>
     <rect
       x="15.5"
@@ -228,7 +226,7 @@
       stroke="#A8B7D4"
       stroke-width="0.629909"
       stroke-linejoin="round"
-    />
+    ></rect>
   </g>
   <defs>
     <filter
@@ -240,52 +238,52 @@
       filterUnits="userSpaceOnUse"
       color-interpolation-filters="sRGB"
     >
-      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
       <feColorMatrix
         in="SourceAlpha"
         type="matrix"
         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
         result="hardAlpha"
-      />
-      <feOffset dy="10.1104" />
-      <feGaussianBlur stdDeviation="7.58281" />
-      <feComposite in2="hardAlpha" operator="out" />
+      ></feColorMatrix>
+      <feOffset dy="10.1104"></feOffset>
+      <feGaussianBlur stdDeviation="7.58281"></feGaussianBlur>
+      <feComposite in2="hardAlpha" operator="out"></feComposite>
       <feColorMatrix
         type="matrix"
         values="0 0 0 0 0.258824 0 0 0 0 0.278431 0 0 0 0 0.298039 0 0 0 0.08 0"
-      />
+      ></feColorMatrix>
       <feBlend
         mode="normal"
         in2="BackgroundImageFix"
         result="effect1_dropShadow_1105_9001"
-      />
+      ></feBlend>
       <feColorMatrix
         in="SourceAlpha"
         type="matrix"
         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
         result="hardAlpha"
-      />
-      <feOffset />
-      <feGaussianBlur stdDeviation="0.631901" />
-      <feComposite in2="hardAlpha" operator="out" />
+      ></feColorMatrix>
+      <feOffset></feOffset>
+      <feGaussianBlur stdDeviation="0.631901"></feGaussianBlur>
+      <feComposite in2="hardAlpha" operator="out"></feComposite>
       <feColorMatrix
         type="matrix"
         values="0 0 0 0 0.258824 0 0 0 0 0.278431 0 0 0 0 0.298039 0 0 0 0.32 0"
-      />
+      ></feColorMatrix>
       <feBlend
         mode="normal"
         in2="effect1_dropShadow_1105_9001"
         result="effect2_dropShadow_1105_9001"
-      />
+      ></feBlend>
       <feBlend
         mode="normal"
         in="SourceGraphic"
         in2="effect2_dropShadow_1105_9001"
         result="shape"
-      />
+      ></feBlend>
     </filter>
     <clipPath id="clip0_1105_9001">
-      <rect x="15.5" y="6" width="221" height="147" fill="white" />
+      <rect x="15.5" y="6" width="221" height="147" fill="white"></rect>
     </clipPath>
   </defs>
 </svg>
