@@ -9,6 +9,13 @@
   --color-black: #0d0d0d;
   --color-green: #00e3a5;
   --color-gray: #a1a1aa;
+
+  --accent-gradient: linear-gradient(
+    45deg,
+    rgb(124, 58, 237),
+    #da62c4 30%,
+    white 60%
+  );
 }
 
 html,
@@ -16,6 +23,21 @@ body {
   color: var(--color-white);
   background-color: var(--color-black);
   font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.gradient-container {
+  padding: 0.25rem;
+  background-size: 400%;
+  border-radius: 0.6rem;
+  background-image: var(--accent-gradient);
+}
+
+.gradient-item {
+  border-radius: 0.35rem;
+  color: var(--color-black);
+  background-color: var(--color-white);
+  opacity: 0.8;
+  display: flex;
 }
 
 @layer components {
