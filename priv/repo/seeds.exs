@@ -12,3 +12,4 @@
 import Techschool.SeedsHelper
 
 seed_languages()
+seed_frameworks()
