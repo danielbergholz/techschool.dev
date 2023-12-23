@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Phoenix",
+    "image_url": "/images/frameworks/phoenix.svg"
+  },
+  {
+    "name": "Rails",
+    "image_url": "/images/frameworks/rails.svg"
+  },
+  {
+    "name": "Django",
+    "image_url": "/images/frameworks/django.svg"
+  },
+  {
+    "name": "Laravel",
+    "image_url": "/images/frameworks/laravel.svg"
+  },
+  {
+    "name": "Spring",
+    "image_url": "/images/frameworks/spring.svg"
+  },
+  {
+    "name": "Tailwind",
+    "image_url": "/images/frameworks/tailwind.svg"
+  },
+  {
+    "name": "React",
+    "image_url": "/images/frameworks/react.svg"
+  },
+  {
+    "name": "Angular",
+    "image_url": "/images/frameworks/angular.svg"
+  },
+  {
+    "name": "Vue",
+    "image_url": "/images/frameworks/vue.svg"
+  },
+  {
+    "name": "Next",
+    "image_url": "/images/frameworks/next.svg"
+  },
+  {
+    "name": "Nest",
+    "image_url": "/images/frameworks/nest.svg"
+  },
+  {
+    "name": "Adonis",
+    "image_url": "/images/frameworks/adonis.svg"
+  }
+]
