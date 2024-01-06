@@ -10,12 +10,12 @@ defmodule Techschool.ChannelsTest do
 
     @invalid_attrs %{name: nil, image_url: nil, youtube_channel_id: nil}
 
-    test "list_channels/0 returns all channels" do
+    test "list_channels/0 returns all channels with URLs generated" do
       channel = channel_fixture()
       assert Channels.list_channels() == [channel]
     end
 
-    test "get_channel!/1 returns the channel with given id" do
+    test "get_channel!/1 returns the channel by id with URL generated" do
       channel = channel_fixture()
       assert Channels.get_channel!(channel.id) == channel
     end
