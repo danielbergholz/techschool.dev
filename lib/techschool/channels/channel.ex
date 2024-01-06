@@ -4,6 +4,7 @@ defmodule Techschool.Channels.Channel do
 
   schema "channels" do
     field :name, :string
+    field :url, :string, virtual: true
     field :image_url, :string
     field :youtube_channel_id, :string
 
