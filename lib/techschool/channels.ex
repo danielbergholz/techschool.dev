@@ -18,7 +18,7 @@ defmodule Techschool.Channels do
 
   """
   def list_channels do
-    Repo.all(Channel)
+    Repo.all(Channel) |> Enum.map(&add_channel_url/1)
   end
 
   @doc """
@@ -35,7 +35,15 @@ defmodule Techschool.Channels do
       ** (Ecto.NoResultsError)
 
   """
-  def get_channel!(id), do: Repo.get!(Channel, id)
+  def get_channel!(id), do: Repo.get!(Channel, id) |> add_channel_url()
+
+  def add_channel_url(%Channel{} = channel) do
+    Map.put(channel, :url, generate_channel_url(channel.youtube_channel_id))
+  end
+
+  defp generate_channel_url(youtube_channel_id) do
+    "https://www.youtube.com/channel/#{youtube_channel_id}"
+  end
 
   @doc """
   Creates a channel.
