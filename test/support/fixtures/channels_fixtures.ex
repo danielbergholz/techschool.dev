@@ -8,7 +8,7 @@ defmodule Techschool.ChannelsFixtures do
   Generate a unique channel youtube_channel_id.
   """
   def unique_channel_youtube_channel_id,
-    do: "some youtube_channel_id#{System.unique_integer([:positive])}"
+    do: "youtube_channel_id_#{System.unique_integer([:positive])}"
 
   @doc """
   Generate a channel.
@@ -23,6 +23,6 @@ defmodule Techschool.ChannelsFixtures do
       })
       |> Techschool.Channels.create_channel()
 
-    channel
+    channel |> Techschool.Channels.add_channel_url()
   end
 end
