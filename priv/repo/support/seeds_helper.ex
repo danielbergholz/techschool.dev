@@ -40,7 +40,7 @@ defmodule Techschool.SeedsHelper do
     Channels.create_channel!(%{
       name: channel[:name],
       image_url: channel[:image_url],
-      channel_id: channel[:channel_id]
+      youtube_channel_id: channel[:youtube_channel_id]
     })
   end
 end

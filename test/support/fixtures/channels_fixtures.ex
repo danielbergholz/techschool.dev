@@ -5,9 +5,10 @@ defmodule Techschool.ChannelsFixtures do
   """
 
   @doc """
-  Generate a unique channel channel_id.
+  Generate a unique channel youtube_channel_id.
   """
-  def unique_channel_channel_id, do: "some channel_id#{System.unique_integer([:positive])}"
+  def unique_channel_youtube_channel_id,
+    do: "some youtube_channel_id#{System.unique_integer([:positive])}"
 
   @doc """
   Generate a channel.
@@ -16,7 +17,7 @@ defmodule Techschool.ChannelsFixtures do
     {:ok, channel} =
       attrs
       |> Enum.into(%{
-        channel_id: unique_channel_channel_id(),
+        youtube_channel_id: unique_channel_youtube_channel_id(),
         image_url: "some image_url",
         name: "some name"
       })

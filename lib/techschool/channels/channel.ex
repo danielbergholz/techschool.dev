@@ -5,7 +5,7 @@ defmodule Techschool.Channels.Channel do
   schema "channels" do
     field :name, :string
     field :image_url, :string
-    field :channel_id, :string
+    field :youtube_channel_id, :string
 
     timestamps(type: :utc_datetime)
   end
@@ -13,8 +13,8 @@ defmodule Techschool.Channels.Channel do
   @doc false
   def changeset(channel, attrs) do
     channel
-    |> cast(attrs, [:name, :image_url, :channel_id])
-    |> validate_required([:name, :image_url, :channel_id])
-    |> unique_constraint(:channel_id)
+    |> cast(attrs, [:name, :image_url, :youtube_channel_id])
+    |> validate_required([:name, :image_url, :youtube_channel_id])
+    |> unique_constraint(:youtube_channel_id)
   end
 end

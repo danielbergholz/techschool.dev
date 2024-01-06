@@ -8,7 +8,7 @@ defmodule Techschool.ChannelsTest do
 
     import Techschool.ChannelsFixtures
 
-    @invalid_attrs %{name: nil, image_url: nil, channel_id: nil}
+    @invalid_attrs %{name: nil, image_url: nil, youtube_channel_id: nil}
 
     test "list_channels/0 returns all channels" do
       channel = channel_fixture()
@@ -21,12 +21,16 @@ defmodule Techschool.ChannelsTest do
     end
 
     test "create_channel/1 with valid data creates a channel" do
-      valid_attrs = %{name: "some name", image_url: "some image_url", channel_id: "some channel_id"}
+      valid_attrs = %{
+        name: "some name",
+        image_url: "some image_url",
+        youtube_channel_id: "some youtube_channel_id"
+      }
 
       assert {:ok, %Channel{} = channel} = Channels.create_channel(valid_attrs)
       assert channel.name == "some name"
       assert channel.image_url == "some image_url"
-      assert channel.channel_id == "some channel_id"
+      assert channel.youtube_channel_id == "some youtube_channel_id"
     end
 
     test "create_channel/1 with invalid data returns error changeset" do
@@ -35,12 +39,17 @@ defmodule Techschool.ChannelsTest do
 
     test "update_channel/2 with valid data updates the channel" do
       channel = channel_fixture()
-      update_attrs = %{name: "some updated name", image_url: "some updated image_url", channel_id: "some updated channel_id"}
+
+      update_attrs = %{
+        name: "some updated name",
+        image_url: "some updated image_url",
+        youtube_channel_id: "some updated youtube_channel_id"
+      }
 
       assert {:ok, %Channel{} = channel} = Channels.update_channel(channel, update_attrs)
       assert channel.name == "some updated name"
       assert channel.image_url == "some updated image_url"
-      assert channel.channel_id == "some updated channel_id"
+      assert channel.youtube_channel_id == "some updated youtube_channel_id"
     end
 
     test "update_channel/2 with invalid data returns error changeset" do
