@@ -7,6 +7,7 @@ defmodule Techschool.Channels.Channel do
     field :url, :string, virtual: true
     field :image_url, :string
     field :youtube_channel_id, :string
+    has_many :courses, Techschool.Courses.Course
 
     timestamps(type: :utc_datetime)
   end
