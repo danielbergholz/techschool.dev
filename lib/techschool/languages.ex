@@ -76,24 +76,6 @@ defmodule Techschool.Languages do
   end
 
   @doc """
-  Updates a language.
-
-  ## Examples
-
-      iex> update_language(language, %{field: new_value})
-      {:ok, %Language{}}
-
-      iex> update_language(language, %{field: bad_value})
-      {:error, %Ecto.Changeset{}}
-
-  """
-  def update_language(%Language{} = language, attrs) do
-    language
-    |> Language.changeset(attrs)
-    |> Repo.update()
-  end
-
-  @doc """
   Deletes a language.
 
   ## Examples
@@ -107,18 +89,5 @@ defmodule Techschool.Languages do
   """
   def delete_language(%Language{} = language) do
     Repo.delete(language)
-  end
-
-  @doc """
-  Returns an `%Ecto.Changeset{}` for tracking language changes.
-
-  ## Examples
-
-      iex> change_language(language)
-      %Ecto.Changeset{data: %Language{}}
-
-  """
-  def change_language(%Language{} = language, attrs \\ %{}) do
-    Language.changeset(language, attrs)
   end
 end
