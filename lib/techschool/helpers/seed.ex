@@ -1,4 +1,4 @@
-defmodule Techschool.SeedsHelper do
+defmodule Techschool.Helpers.Seed do
   alias Techschool.{Languages, Frameworks, Channels, Courses}
 
   def seed_languages() do
