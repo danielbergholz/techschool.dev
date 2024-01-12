@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Curso de TypeScript",
+    "youtube_course_id": "PLbV6TI03ZWYWwU5p9ZBH8oJTCjgneX53u",
+    "type": "playlist",
+    "locale": "pt",
+    "image_url": "https://i.ytimg.com/vi/3LPWQtvxHOk/sddefault.jpg",
+    "published_at": "2022-06-16T21:25:09Z",
+    "youtube_channel_id": "UCnmbV9eyMwIl50Ji1ObFxqg"
+  },
+  {
+    "name": "Curso de NPM",
+    "youtube_course_id": "PLbV6TI03ZWYVjruiKLeb3m2rEXeYsG6RQ",
+    "type": "playlist",
+    "locale": "pt",
+    "image_url": "https://i.ytimg.com/vi/g-V5qptW2oo/sddefault.jpg",
+    "published_at": "2022-07-04T19:56:33Z",
+    "youtube_channel_id": "UCnmbV9eyMwIl50Ji1ObFxqg"
+  },
+  {
+    "name": "Curso de JavaScript",
+    "youtube_course_id": "PLbV6TI03ZWYVP6EByYoUxZJeZaqitHi9r",
+    "type": "playlist",
+    "locale": "pt",
+    "image_url": "https://i.ytimg.com/vi/pL9nX6Ac2Lc/sddefault.jpg",
+    "published_at": "2020-04-04T23:19:26Z",
+    "youtube_channel_id": "UCnmbV9eyMwIl50Ji1ObFxqg"
+  },
+  {
+    "name": "Learn HTML - Full Tutorial for Beginners (2022)",
+    "youtube_course_id": "kUMe1FH4CHE",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/kUMe1FH4CHE/sddefault.jpg",
+    "published_at": "2022-03-08T16:34:38Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
+  },
+  {
+    "name": "CSS Tutorial - Full Course for Beginners",
+    "youtube_course_id": "OXGznpKZ_sA",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/OXGznpKZ_sA/sddefault.jpg",
+    "published_at": "2022-08-30T13:55:14Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ"
+  }
+]
