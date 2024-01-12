@@ -1,0 +1,30 @@
+<a
+  href={@course.url}
+  target="_blank"
+  rel="noopener"
+  class="border border-gray hover:border-green rounded w-60 md:w-72 px-5 pb-5"
+>
+  <img class="rounded object-cover" src={@course.image_url} alt={@course.name} />
+  <div class="flex justify-between items-center">
+    <div>
+      <div class="font-bold">
+        <%= @course.name %>
+      </div>
+      <div class="mt-2 flex items-center">
+        <img
+          src={@course.channel.image_url}
+          alt={"Flag of #{String.upcase(to_string(@course.locale))}"}
+          class="rounded-full w-6 mr-2"
+        />
+        <div class="text-gray text-sm">
+          <%= @course.channel.name %>
+        </div>
+      </div>
+    </div>
+    <img
+      src={"/images/flags/#{@course.locale}.svg"}
+      alt={"Flag of #{String.upcase(to_string(@course.locale))}"}
+      class="w-6 md:w-7"
+    />
+  </div>
+</a>
