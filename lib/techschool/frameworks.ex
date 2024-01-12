@@ -76,24 +76,6 @@ defmodule Techschool.Frameworks do
   end
 
   @doc """
-  Updates a framework.
-
-  ## Examples
-
-      iex> update_framework(framework, %{field: new_value})
-      {:ok, %Framework{}}
-
-      iex> update_framework(framework, %{field: bad_value})
-      {:error, %Ecto.Changeset{}}
-
-  """
-  def update_framework(%Framework{} = framework, attrs) do
-    framework
-    |> Framework.changeset(attrs)
-    |> Repo.update()
-  end
-
-  @doc """
   Deletes a framework.
 
   ## Examples
@@ -107,18 +89,5 @@ defmodule Techschool.Frameworks do
   """
   def delete_framework(%Framework{} = framework) do
     Repo.delete(framework)
-  end
-
-  @doc """
-  Returns an `%Ecto.Changeset{}` for tracking framework changes.
-
-  ## Examples
-
-      iex> change_framework(framework)
-      %Ecto.Changeset{data: %Framework{}}
-
-  """
-  def change_framework(%Framework{} = framework, attrs \\ %{}) do
-    Framework.changeset(framework, attrs)
   end
 end
