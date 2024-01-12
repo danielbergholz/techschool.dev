@@ -84,24 +84,6 @@ defmodule Techschool.Channels do
   end
 
   @doc """
-  Updates a channel.
-
-  ## Examples
-
-      iex> update_channel(channel, %{field: new_value})
-      {:ok, %Channel{}}
-
-      iex> update_channel(channel, %{field: bad_value})
-      {:error, %Ecto.Changeset{}}
-
-  """
-  def update_channel(%Channel{} = channel, attrs) do
-    channel
-    |> Channel.changeset(attrs)
-    |> Repo.update()
-  end
-
-  @doc """
   Deletes a channel.
 
   ## Examples
@@ -115,18 +97,5 @@ defmodule Techschool.Channels do
   """
   def delete_channel(%Channel{} = channel) do
     Repo.delete(channel)
-  end
-
-  @doc """
-  Returns an `%Ecto.Changeset{}` for tracking channel changes.
-
-  ## Examples
-
-      iex> change_channel(channel)
-      %Ecto.Changeset{data: %Channel{}}
-
-  """
-  def change_channel(%Channel{} = channel, attrs \\ %{}) do
-    Channel.changeset(channel, attrs)
   end
 end
