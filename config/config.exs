@@ -62,7 +62,7 @@ config :logger, :console,
 config :phoenix, :json_library, Jason
 
 # Configure gettext (i18n)
-config :gettext, :default_locale, "pt"
+config :gettext, :default_locale, "en"
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
