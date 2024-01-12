@@ -25,7 +25,6 @@ defmodule Techschool.MixProject do
 
   # Specifies which paths to compile per environment.
   defp elixirc_paths(:test), do: ["lib", "test/support"]
-  defp elixirc_paths(:dev), do: ["lib", "priv/repo/support"]
   defp elixirc_paths(_), do: ["lib"]
 
   # Specifies your project dependencies.
@@ -63,6 +62,7 @@ defmodule Techschool.MixProject do
   # See the documentation for `Mix` for more info on aliases.
   defp aliases do
     [
+      seed: ["run priv/repo/seeds.exs"],
       setup: ["deps.get", "ecto.setup", "assets.setup", "assets.build"],
       "ecto.setup": ["ecto.create", "ecto.migrate", "run priv/repo/seeds.exs"],
       "ecto.reset": ["ecto.drop", "ecto.setup"],
