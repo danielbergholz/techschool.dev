@@ -1,7 +1,14 @@
 defmodule Techschool.Helpers.Seed do
   alias Techschool.{Languages, Frameworks, Channels, Courses}
 
-  def seed_languages() do
+  def call() do
+    seed_languages()
+    seed_frameworks()
+    seed_channels()
+    seed_courses()
+  end
+
+  defp seed_languages() do
     "priv/repo/data/languages.json"
     |> File.read!()
     |> Jason.decode!(keys: :atoms)
@@ -15,7 +22,7 @@ defmodule Techschool.Helpers.Seed do
     })
   end
 
-  def seed_frameworks() do
+  defp seed_frameworks() do
     "priv/repo/data/frameworks.json"
     |> File.read!()
     |> Jason.decode!(keys: :atoms)
@@ -29,7 +36,7 @@ defmodule Techschool.Helpers.Seed do
     })
   end
 
-  def seed_channels() do
+  defp seed_channels() do
     "priv/repo/data/channels.json"
     |> File.read!()
     |> Jason.decode!(keys: :atoms)
@@ -44,7 +51,7 @@ defmodule Techschool.Helpers.Seed do
     })
   end
 
-  def seed_courses() do
+  defp seed_courses() do
     "priv/repo/data/courses.json"
     |> File.read!()
     |> Jason.decode!(keys: :atoms)

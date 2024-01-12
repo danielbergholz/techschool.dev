@@ -9,9 +9,4 @@
 #
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
-import Techschool.Helpers.Seed
-
-seed_languages()
-seed_frameworks()
-seed_channels()
-seed_courses()
+Techschool.Helpers.Seed.call()
