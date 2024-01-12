@@ -1,11 +1,11 @@
 <nav class="text-xl md:text-2xl container-l1 flex justify-between items-center py-3 md:py-4">
-  <.link navigate={~p"/"} class="flex items-center">
+  <.link href={~p"/"} class="flex items-center">
     <img src={~p"/images/logo.svg"} alt="TechSchool Logo" class="w-5 md:w-7" />
     <h1 class="font-extrabold ml-2">
       TechSchool
     </h1>
   </.link>
-  <.link navigate={~p"/courses"} class="font-bold">
+  <.link href={~p"/courses"} class="font-bold">
     <%= gettext("Courses") %>
   </.link>
 </nav>
