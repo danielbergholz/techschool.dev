@@ -1,15 +1,15 @@
 defmodule Techschool.Helpers.Seed do
   alias Techschool.{Languages, Frameworks, Channels, Courses}
 
-  def call() do
-    seed_languages()
-    seed_frameworks()
-    seed_channels()
-    seed_courses()
+  def call(data_folder_path \\ "priv/repo/data") do
+    seed_languages(data_folder_path)
+    seed_frameworks(data_folder_path)
+    seed_channels(data_folder_path)
+    seed_courses(data_folder_path)
   end
 
-  defp seed_languages() do
-    "priv/repo/data/languages.json"
+  defp seed_languages(data_folder_path) do
+    "#{data_folder_path}/languages.json"
     |> File.read!()
     |> Jason.decode!(keys: :atoms)
     |> Enum.each(&insert_language/1)
@@ -22,8 +22,8 @@ defmodule Techschool.Helpers.Seed do
     })
   end
 
-  defp seed_frameworks() do
-    "priv/repo/data/frameworks.json"
+  defp seed_frameworks(data_folder_path) do
+    "#{data_folder_path}/frameworks.json"
     |> File.read!()
     |> Jason.decode!(keys: :atoms)
     |> Enum.each(&insert_framework/1)
@@ -36,8 +36,8 @@ defmodule Techschool.Helpers.Seed do
     })
   end
 
-  defp seed_channels() do
-    "priv/repo/data/channels.json"
+  defp seed_channels(data_folder_path) do
+    "#{data_folder_path}/channels.json"
     |> File.read!()
     |> Jason.decode!(keys: :atoms)
     |> Enum.each(&insert_channel/1)
@@ -51,8 +51,8 @@ defmodule Techschool.Helpers.Seed do
     })
   end
 
-  defp seed_courses() do
-    "priv/repo/data/courses.json"
+  defp seed_courses(data_folder_path) do
+    "#{data_folder_path}/courses.json"
     |> File.read!()
     |> Jason.decode!(keys: :atoms)
     |> Enum.each(&insert_course/1)
