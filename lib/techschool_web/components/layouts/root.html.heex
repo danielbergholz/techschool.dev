@@ -8,6 +8,13 @@
       <%= assigns[:page_title] || "TechSchool" %>
     </.live_title>
     <link phx-track-static rel="stylesheet" href={~p"/assets/app.css"} />
+    <link
+      rel="preload"
+      fetchpriority="high"
+      as="image"
+      href={~p"/images/pattern.svg"}
+      type="image/svg+xml"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
