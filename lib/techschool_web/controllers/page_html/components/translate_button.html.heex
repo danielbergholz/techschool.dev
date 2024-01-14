@@ -1,8 +1,15 @@
 <div class="gradient-container mt-4 w-max items-center mx-auto md:mx-0">
   <.link href={"?locale=#{@inverse_locale}"} class="gradient-item p-1 md:p-2 items-center">
     <img
-      src={"/images/flags/#{@inverse_locale}.svg"}
-      alt={"Flag of #{String.upcase(@inverse_locale)}"}
+      :if={@inverse_locale == "pt"}
+      src={~p"/images/flags/pt.svg"}
+      alt="Flag of Brazil"
+      class="w-7 md:w-8"
+    />
+    <img
+      :if={@inverse_locale == "en"}
+      src={~p"/images/flags/en.svg"}
+      alt="Flag of USA"
       class="w-7 md:w-8"
     />
     <p class="font-bold ml-1 md:ml-2"><%= gettext("Translate") %></p>

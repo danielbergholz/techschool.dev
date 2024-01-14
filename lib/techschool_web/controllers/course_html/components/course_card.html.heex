@@ -22,8 +22,15 @@
       </div>
     </div>
     <img
-      src={"/images/flags/#{@course.locale}.svg"}
-      alt={"Flag of #{String.upcase(to_string(@course.locale))}"}
+      :if={@course.locale == :pt}
+      src={~p"/images/flags/pt.svg"}
+      alt="Flag of Brazil"
+      class="w-6 md:w-7"
+    />
+    <img
+      :if={@course.locale == :en}
+      src={~p"/images/flags/en.svg"}
+      alt="Flag of USA"
       class="w-6 md:w-7"
     />
   </div>
