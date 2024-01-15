@@ -20,7 +20,7 @@ module.exports = {
         white: "var(--color-white)"
       },
       backgroundImage: {
-        pattern: "url('https://ucarecdn.com/f7c42c17-1332-428f-b9a4-a68ba3ec5000/')"
+        pattern: "url('https://ucarecdn.com/f7c42c17-1332-428f-b9a4-a68ba3ec5000/pattern.svg')"
       }
     }
   },
