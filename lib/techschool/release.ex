@@ -13,13 +13,14 @@ defmodule Techschool.Release do
     end
   end
 
-  def seed do
-    load_app()
+  def reset_db, do: Techschool.Helpers.ResetDb.call()
 
-    case :code.priv_dir(:techschool) do
-      {:error, _} -> "Could not find :techschool priv directory"
-      priv_path -> Techschool.Helpers.Seed.call("#{priv_path}/repo/data")
-    end
+  def seed do
+    Techschool.Helpers.Seed.call(get_data_path())
+  end
+
+  def re_seed do
+    Techschool.Helpers.ReSeed.call(get_data_path())
   end
 
   def rollback(repo, version) do
@@ -33,5 +34,12 @@ defmodule Techschool.Release do
 
   defp load_app do
     Application.load(@app)
+  end
+
+  defp get_data_path do
+    case :code.priv_dir(:techschool) do
+      {:error, _} -> "Could not find :techschool priv directory"
+      priv_path -> "#{priv_path}/repo/data"
+    end
   end
 end
