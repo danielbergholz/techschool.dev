@@ -1,11 +1,11 @@
 defmodule TechschoolWeb.PageController do
   use TechschoolWeb, :controller
 
-  @two_hours 2 * 60 * 60
+  @one_day 60 * 60 * 24
 
   def home(conn, _params) do
     conn
-    |> put_resp_header("cache-control", "public, max-age=#{@two_hours}")
+    |> put_resp_header("cache-control", "public, max-age=#{@one_day}")
     |> render(:home)
   end
 end
