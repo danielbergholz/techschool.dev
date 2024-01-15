@@ -3,7 +3,7 @@ defmodule TechschoolWeb.CourseControllerTest do
 
   import Techschool.{CoursesFixtures, ChannelsFixtures}
 
-  describe "index" do
+  describe "GET /courses" do
     test "lists all courses", %{conn: conn} do
       channel = channel_fixture()
       course = course_fixture(channel.youtube_channel_id)
