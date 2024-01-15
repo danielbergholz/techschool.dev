@@ -3,13 +3,13 @@ defmodule TechschoolWeb.CourseController do
 
   alias Techschool.Courses
 
-  @one_hour 1 * 60 * 60
+  @one_day 60 * 60 * 24
 
   def index(conn, _params) do
     courses = Courses.list_courses()
 
     conn
-    |> put_resp_header("cache-control", "public, max-age=#{@one_hour}")
+    |> put_resp_header("cache-control", "public, max-age=#{@one_day}")
     |> assign(:page_title, gettext("Courses") <> " | TechSchool")
     |> assign(:courses, courses)
     |> render(:index)
