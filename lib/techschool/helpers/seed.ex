@@ -2,6 +2,7 @@ defmodule Techschool.Helpers.Seed do
   alias Techschool.{Languages, Frameworks, Channels, Courses}
 
   def call(data_folder_path \\ "priv/repo/data") do
+    Techschool.Helpers.ResetDb.call()
     seed_languages(data_folder_path)
     seed_frameworks(data_folder_path)
     seed_channels(data_folder_path)
