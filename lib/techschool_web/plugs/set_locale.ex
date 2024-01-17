@@ -1,14 +1,14 @@
 defmodule TechschoolWeb.Plugs.SetLocale do
   @moduledoc """
-  Set the process' locale based on the query params and store it in a cookie.
+  Set the process' locale based on the URL path and store it in a cookie.
   It expires in 1 year.
 
   ## Example
 
     - When the user visits the following URL:
-    http://localhost:4000/?locale=en
+    http://localhost:4000/pt
 
-    - Then the process' locale will be set to "en"
+    - Then the process' locale will be set to "pt"
   """
   import Plug.Conn
 
