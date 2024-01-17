@@ -5,7 +5,7 @@ defmodule TechschoolWeb.PageController do
 
   def index(conn, _params) do
     conn
-    |> Phoenix.Controller.redirect(to: "/#{conn.assigns.locale}")
+    |> redirect(to: "/#{conn.assigns.locale}")
   end
 
   def home(conn, _params) do
