@@ -18,8 +18,9 @@ defmodule TechschoolWeb.Router do
   scope "/", TechschoolWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
-    get "/courses", CourseController, :index
+    get "/", PageController, :index
+    get "/:locale", PageController, :home
+    get "/:locale/courses", CourseController, :index
   end
 
   # Other scopes may use custom stacks.

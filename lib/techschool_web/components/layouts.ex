@@ -3,4 +3,8 @@ defmodule TechschoolWeb.Layouts do
 
   embed_templates "layouts/*"
   embed_templates "layouts/components/*"
+
+  attr :locale, :string, required: true
+
+  def navbar(assigns)
 end
