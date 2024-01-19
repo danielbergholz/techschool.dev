@@ -7,7 +7,8 @@
     "image_url": "https://i.ytimg.com/vi/3LPWQtvxHOk/sddefault.jpg",
     "published_at": "2022-06-16T21:25:09Z",
     "youtube_channel_id": "UCnmbV9eyMwIl50Ji1ObFxqg",
-    "language_names": ["TypeScript"]
+    "language_names": ["TypeScript"],
+    "framework_names": []
   },
   {
     "name": "Curso de JavaScript",
@@ -17,7 +18,8 @@
     "image_url": "https://i.ytimg.com/vi/pL9nX6Ac2Lc/sddefault.jpg",
     "published_at": "2020-04-04T23:19:26Z",
     "youtube_channel_id": "UCnmbV9eyMwIl50Ji1ObFxqg",
-    "language_names": ["JavaScript"]
+    "language_names": ["JavaScript"],
+    "framework_names": []
   },
   {
     "name": "Learn HTML - Full Tutorial for Beginners (2022)",
@@ -27,7 +29,8 @@
     "image_url": "https://i.ytimg.com/vi/kUMe1FH4CHE/sddefault.jpg",
     "published_at": "2022-03-08T16:34:38Z",
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
-    "language_names": ["HTML"]
+    "language_names": ["HTML"],
+    "framework_names": []
   },
   {
     "name": "CSS Tutorial - Full Course for Beginners",
@@ -37,6 +40,7 @@
     "image_url": "https://i.ytimg.com/vi/OXGznpKZ_sA/sddefault.jpg",
     "published_at": "2022-08-30T13:55:14Z",
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
-    "language_names": ["CSS"]
+    "language_names": ["CSS"],
+    "framework_names": []
   }
 ]

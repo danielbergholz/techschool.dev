@@ -70,7 +70,8 @@ defmodule Techschool.Helpers.Seed do
         youtube_course_id: course[:youtube_course_id]
       },
       course[:youtube_channel_id],
-      course[:language_names]
+      course[:language_names],
+      course[:framework_names]
     )
   end
 end

@@ -9,6 +9,7 @@ defmodule Techschool.Courses do
   alias Techschool.Courses.Course
   alias Techschool.Channels
   alias Techschool.Languages
+  alias Techschool.Frameworks
 
   @doc """
   Returns the list of courses.
@@ -56,23 +57,30 @@ defmodule Techschool.Courses do
       {:error, %Ecto.Changeset{}}
 
   """
-  def create_course(attrs \\ %{}, youtube_channel_id, language_names \\ []) do
+  def create_course(attrs \\ %{}, youtube_channel_id, language_names \\ [], framework_names \\ []) do
     channel = Channels.get_channel_by_youtube_channel_id(youtube_channel_id)
     languages = Languages.get_languages_by_name(language_names)
+    frameworks = Frameworks.get_frameworks_by_name(framework_names)
 
     channel
     |> Ecto.build_assoc(:courses)
-    |> Course.changeset(attrs, languages)
+    |> Course.changeset(attrs, languages, frameworks)
     |> Repo.insert()
   end
 
-  def create_course!(attrs \\ %{}, youtube_channel_id, language_names \\ []) do
+  def create_course!(
+        attrs \\ %{},
+        youtube_channel_id,
+        language_names \\ [],
+        framework_names \\ []
+      ) do
     channel = Channels.get_channel_by_youtube_channel_id(youtube_channel_id)
     languages = Languages.get_languages_by_name(language_names)
+    frameworks = Frameworks.get_frameworks_by_name(framework_names)
 
     channel
     |> Ecto.build_assoc(:courses)
-    |> Course.changeset(attrs, languages)
+    |> Course.changeset(attrs, languages, frameworks)
     |> Repo.insert!()
   end
 
