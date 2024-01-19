@@ -37,8 +37,10 @@ defmodule Techschool.Frameworks do
   """
   def get_framework!(id), do: Repo.get!(Framework, id)
 
-  def get_framework_by_name(name) do
-    Repo.get_by(Framework, name: name)
+  def get_frameworks_by_name([]), do: []
+
+  def get_frameworks_by_name(names) do
+    Repo.all(from framework in Framework, where: framework.name in ^names)
   end
 
   @doc """
