@@ -37,6 +37,10 @@ defmodule Techschool.Frameworks do
   """
   def get_framework!(id), do: Repo.get!(Framework, id)
 
+  def get_framework_by_name(name) do
+    Repo.get_by(Framework, name: name)
+  end
+
   @doc """
   Creates a framework.
 
