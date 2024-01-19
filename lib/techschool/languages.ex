@@ -37,6 +37,10 @@ defmodule Techschool.Languages do
   """
   def get_language!(id), do: Repo.get!(Language, id)
 
+  def get_language_by_name(name) do
+    Repo.get_by(Language, name: name)
+  end
+
   @doc """
   Creates a language.
 
