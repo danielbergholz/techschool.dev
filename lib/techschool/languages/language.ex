@@ -5,6 +5,7 @@ defmodule Techschool.Languages.Language do
   schema "languages" do
     field :name, :string
     field :image_url, :string
+    many_to_many :courses, Techschool.Courses.Course, join_through: "courses_languages"
 
     timestamps(type: :utc_datetime)
   end

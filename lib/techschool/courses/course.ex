@@ -11,12 +11,13 @@ defmodule Techschool.Courses.Course do
     field :published_at, :utc_datetime
     field :youtube_course_id, :string
     belongs_to :channel, Techschool.Channels.Channel
+    many_to_many :languages, Techschool.Languages.Language, join_through: "courses_languages"
 
     timestamps(type: :utc_datetime)
   end
 
   @doc false
-  def changeset(course, attrs) do
+  def changeset(course, attrs, languages \\ []) do
     course
     |> cast(attrs, [
       :name,
@@ -38,5 +39,6 @@ defmodule Techschool.Courses.Course do
     ])
     |> foreign_key_constraint(:channel_id)
     |> unique_constraint(:youtube_course_id)
+    |> put_assoc(:languages, languages)
   end
 end
