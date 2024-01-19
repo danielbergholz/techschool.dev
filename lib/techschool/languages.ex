@@ -37,8 +37,10 @@ defmodule Techschool.Languages do
   """
   def get_language!(id), do: Repo.get!(Language, id)
 
-  def get_language_by_name(name) do
-    Repo.get_by(Language, name: name)
+  def get_languages_by_name([]), do: []
+
+  def get_languages_by_name(names) do
+    Repo.all(from language in Language, where: language.name in ^names)
   end
 
   @doc """
