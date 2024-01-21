@@ -1,4 +1,6 @@
-# Tech School
+<p align="center">
+  <img src="docs/assets/logo.svg" title="TechSchool" alt="TechSchool">
+</p>
 
 ## Our manifesto
 
