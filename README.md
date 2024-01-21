@@ -2,7 +2,7 @@
   <img src="docs/assets/logo.svg" title="TechSchool" alt="TechSchool">
 </p>
 
-## Our manifesto
+# Our manifesto
 
 Tech School is a movement that fights for free access to quality education in the area of technology. We are against the big programming teaching conglomerates, which are responsible for making knowledge accessible only to the financially privileged.
 
