@@ -26,7 +26,8 @@ msgstr ""
 msgid "Code available on"
 msgstr ""
 
-#: lib/techschool_web/components/layouts/components/navbar.html.heex:9
+#: lib/techschool_web/components/layouts/components/navbar.html.heex:13
+#: lib/techschool_web/controllers/course_controller.ex:13
 #, elixir-autogen, elixir-format
 msgid "Courses"
 msgstr ""
@@ -41,21 +42,6 @@ msgstr ""
 msgid "Our mission"
 msgstr ""
 
-#: lib/techschool_web/controllers/page_html/home.html.heex:38
-#, elixir-autogen, elixir-format
-msgid "Tech School came to jointly promote free courses that did not have the visibility they deserved. Only then will we be able to face the market sharks. Our site has a collection of courses in different areas, allowing anyone to go from zero to their first job without having to suffer any financial loss."
-msgstr ""
-
-#: lib/techschool_web/controllers/page_html/home.html.heex:26
-#, elixir-autogen, elixir-format
-msgid "Tech School is a movement that fights for free access to quality education in the area of technology. We are against the big programming teaching conglomerates, which are responsible for making knowledge accessible only to the financially privileged."
-msgstr ""
-
-#: lib/techschool_web/controllers/page_html/home.html.heex:32
-#, elixir-autogen, elixir-format
-msgid "There are thousands of free and quality courses spread over the internet, however, we don't have millions of dollars to invest in marketing. Thus, when a beginner tries to enter the area, he ends up facing expensive and predatory courses first, generating the false feeling that it is mandatory to disburse a lot of money."
-msgstr ""
-
 #: lib/techschool_web/components/core_components.ex:76
 #: lib/techschool_web/components/core_components.ex:130
 #, elixir-autogen, elixir-format
@@ -67,7 +53,17 @@ msgstr ""
 msgid "Go from zero to your first job without any financial loss"
 msgstr ""
 
-#: lib/techschool_web/controllers/page_html/components/translate_button.html.heex:8
+#: lib/techschool_web/controllers/page_html/components/translate_button.html.heex:15
 #, elixir-autogen, elixir-format
 msgid "Translate"
 msgstr "Traduzir"
+
+#: lib/techschool_web/controllers/page_html/home.html.heex:26
+#, elixir-autogen, elixir-format
+msgid "TechSchool is all about making tech education accessible to everyone for free. There are tons of awesome courses online, but we don't have big bucks for marketing. So, newbies often run into the expensive courses first, making it seem like you have to shell out a ton of money."
+msgstr ""
+
+#: lib/techschool_web/controllers/page_html/home.html.heex:32
+#, elixir-autogen, elixir-format
+msgid "That's where TechSchool steps in. We're here to shine a light on those awesome free courses that might be flying under the radar. Our website has a bunch of courses covering different areas. The goal? Help anyone go from zero to landing their first job without breaking the bank. We want to tackle the expensive course culture and make tech education fair and equal for everyone."
+msgstr ""
