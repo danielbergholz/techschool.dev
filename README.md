@@ -4,18 +4,18 @@
 
 # Our manifesto
 
-Tech School is a movement that fights for free access to quality education in the area of technology. We are against the big programming teaching conglomerates, which are responsible for making knowledge accessible only to the financially privileged.
+Tech School is all about making tech education accessible to everyone for free. There are tons of awesome courses online, but we don't have big bucks for marketing. So, newbies often run into the expensive courses first, making it seem like you have to shell out a ton of money.
 
-There are thousands of free and quality courses spread over the internet, however, we don't have millions of dollars to invest in marketing. Thus, when a beginner tries to enter the area, he ends up facing expensive and predatory courses first, generating the false feeling that it is mandatory to disburse a lot of money.
-
-Tech School came to jointly promote free courses that did not have the visibility they deserved. Only then will we be able to face the market sharks. Our site has a collection of courses in different areas, allowing anyone to go from zero to their first job without having to suffer any financial loss.
+That's where Tech School steps in. We're here to shine a light on those awesome free courses that might be flying under the radar. Our website has a bunch of courses covering different areas. The goal? Help anyone go from zero to landing their first job without breaking the bank. We want to tackle the expensive course culture and make tech education fair and equal for everyone.
 
 # The Tech Stack
 
-This is a [Phoenix](https://www.phoenixframework.org/) project bootstrapped with [`mix phx.new techschool --database sqlite3`](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.New.html). Besides Phoenix, the only framework used is [Tailwind CSS](https://tailwindcss.com/).
+This is a [Phoenix](https://www.phoenixframework.org/) project bootstrapped with [SQLite3](https://hexdocs.pm/ecto_sqlite3/Ecto.Adapters.SQLite3.html) and [Tailwind CSS](https://tailwindcss.com/).
 
-To start your Phoenix server:
+To run TechSchool locally:
 
+- Install [Elixir](https://elixir-lang.org/install.html)
+- Install [Phoenix](https://hexdocs.pm/phoenix/installation.html)
 - Run `mix setup` to install and setup dependencies
 - Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
