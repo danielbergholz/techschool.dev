@@ -19,6 +19,8 @@ To run TechSchool locally:
 - Run `mix setup` to install and setup dependencies
 - Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
+If you just want to seed the database with courses, run `mix run priv/repo/seeds.exs` or `mix ecto.reset` to drop the database, re-run the migrations and seed the database.
+
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 ## Learn more
