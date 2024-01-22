@@ -30,3 +30,16 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 - Docs: https://hexdocs.pm/phoenix
 - Forum: https://elixirforum.com/c/phoenix-forum
 - Source: https://github.com/phoenixframework/phoenix
+
+# Contributing
+
+We love our contributors! Here's how you can contribute:
+
+- [Open an issue](https://github.com/danielbergholz/techschool.dev/issues) if you believe you've encountered a bug.
+- Make a [pull request](https://github.com/danielbergholz/techschool.dev/pull) to add new features/make quality-of-life improvements/fix bugs.
+
+<a href="https://github.com/danielbergholz/techschool.dev/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=danielbergholz/techschool.dev" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
