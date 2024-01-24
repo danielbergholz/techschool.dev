@@ -54,6 +54,7 @@ defmodule TechschoolWeb do
       use Phoenix.LiveView,
         layout: {TechschoolWeb.Layouts, :app}
 
+      on_mount TechschoolWeb.Hooks.RestoreLocale
       unquote(html_helpers())
 
       def ok(socket), do: {:ok, socket}
