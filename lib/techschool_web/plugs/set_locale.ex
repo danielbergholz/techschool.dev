@@ -23,13 +23,12 @@ defmodule TechschoolWeb.Plugs.SetLocale do
       nil ->
         conn
         |> assign(:locale, @default_locale)
+        |> put_session(:locale, @default_locale)
 
       locale ->
-        TechschoolWeb.Gettext
-        |> Gettext.put_locale(locale)
-
         conn
         |> assign(:locale, locale)
+        |> put_session(:locale, locale)
         |> put_resp_cookie("locale", locale, max_age: @one_year)
     end
   end
