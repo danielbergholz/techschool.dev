@@ -1,6 +1,7 @@
-defmodule TechschoolWeb.CourseControllerTest do
+defmodule TechschoolWeb.CourseLiveTest do
   use TechschoolWeb.ConnCase
 
+  import Phoenix.LiveViewTest
   import Techschool.{CoursesFixtures, ChannelsFixtures}
 
   describe "GET /:locale/courses" do
@@ -8,8 +9,8 @@ defmodule TechschoolWeb.CourseControllerTest do
       channel = channel_fixture()
       course = course_fixture(channel.youtube_channel_id)
 
-      conn = get(conn, ~p"/en/courses")
-      assert html_response(conn, 200) =~ course.name
+      assert {:ok, _index_live, html} = live(conn, ~p"/en/courses")
+      assert html =~ course.name
     end
   end
 end

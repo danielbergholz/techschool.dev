@@ -1,0 +1,9 @@
+<section class="container-l1 md:mt-8 my-10">
+  <div
+    class="flex flex-wrap justify-evenly xl:justify-between gap-8 md:gap-10"
+    id="courses"
+    phx-update="stream"
+  >
+    <.course_card :for={{dom_id, course} <- @streams.courses} id={dom_id} course={course} />
+  </div>
+</section>
