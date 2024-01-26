@@ -14,7 +14,29 @@ defmodule TechschoolWeb.CourseLive.Index do
   def mount(_params, _session, socket) do
     socket
     |> assign(:page_title, gettext("Courses") <> " | TechSchool")
-    |> stream(:courses, Courses.list_courses())
+    |> stream(:courses, [])
     |> ok()
+  end
+
+  @impl true
+  def handle_params(params, _url, socket) do
+    socket
+    |> stream(:courses, Courses.list_courses(params), reset: true)
+    |> noreply()
+  end
+
+  @impl true
+  def handle_event("search", params, socket) do
+    socket
+    |> push_patch(to: build_url(socket, params))
+    |> noreply()
+  end
+
+  defp build_url(%{assigns: %{locale: locale}}, %{"search" => search}) do
+    "/#{locale}/courses?search=#{search}"
+  end
+
+  defp build_url(%{assigns: %{locale: locale}}, _params) do
+    "/#{locale}/courses"
   end
 end
