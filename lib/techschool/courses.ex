@@ -20,8 +20,34 @@ defmodule Techschool.Courses do
       [%Course{}, ...]
 
   """
-  def list_courses do
-    Repo.all(from course in Course, preload: [:channel])
+  def list_courses() do
+    query =
+      from course in Course,
+        preload: [:channel]
+
+    query
+    |> Repo.all()
+    |> Enum.map(&add_course_and_channel_urls/1)
+  end
+
+  def list_courses(%{"search" => search}) do
+    query =
+      from course in Course,
+        where: fragment("? LIKE ? COLLATE NOCASE", course.name, ^"%#{search}%"),
+        preload: [:channel]
+
+    query
+    |> Repo.all()
+    |> Enum.map(&add_course_and_channel_urls/1)
+  end
+
+  def list_courses(_) do
+    query =
+      from course in Course,
+        preload: [:channel]
+
+    query
+    |> Repo.all()
     |> Enum.map(&add_course_and_channel_urls/1)
   end
 
