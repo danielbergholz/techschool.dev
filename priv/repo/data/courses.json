@@ -42,5 +42,50 @@
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": ["CSS"],
     "framework_names": []
+  },
+
+  {
+    "name": "HTML for Beginners",
+    "youtube_course_id": "PLm8ctt9NhMNUU-g3I9RWml0jMYAnDgMdl",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/cV0RbfwntGs/sddefault.jpg",
+    "published_at": "2023-11-02T13:14:40Z",
+    "youtube_channel_id": "UCIQmhQxCvLHRr3Beku77tww",
+    "language_names": ["HTML"],
+    "framework_names": []
+  },
+  {
+    "name": "Build a Blog with Ruby on Rails",
+    "youtube_course_id": "PLm8ctt9NhMNWD939gE728i13W999EFS0n",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/i2rTiEhQzig/sddefault.jpg",
+    "published_at": "2023-04-03T20:20:58Z",
+    "youtube_channel_id": "UCIQmhQxCvLHRr3Beku77tww",
+    "language_names": [],
+    "framework_names": ["Rails"]
+  },
+  {
+    "name": "Rails 7.1",
+    "youtube_course_id": "PLm8ctt9NhMNVZU4EjeqOjSpxkjFphW5yC",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/Hb9WtQf9K60/sddefault.jpg",
+    "published_at": "2023-09-13T17:09:57Z",
+    "youtube_channel_id": "UCIQmhQxCvLHRr3Beku77tww",
+    "language_names": [],
+    "framework_names": ["Rails"]
+  },
+  {
+    "name": "Ruby for Beginners 2023",
+    "youtube_course_id": "PLm8ctt9NhMNXP7FODFNrQhB6Dg-z_XqTd",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/Nzd_BASEE8Q/sddefault.jpg",
+    "published_at": "2023-03-13T17:20:49Z",
+    "youtube_channel_id": "UCIQmhQxCvLHRr3Beku77tww",
+    "language_names": ["Ruby"],
+    "framework_names": []
   }
 ]
