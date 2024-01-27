@@ -21,34 +21,34 @@ defmodule Techschool.Courses do
 
   """
   def list_courses() do
-    query =
-      from course in Course,
-        preload: [:channel]
-
-    query
+    build_search_query()
     |> Repo.all()
     |> Enum.map(&add_course_and_channel_urls/1)
   end
 
-  def list_courses(%{"search" => search}) do
-    query =
-      from course in Course,
-        where: fragment("? LIKE ? COLLATE NOCASE", course.name, ^"%#{search}%"),
-        preload: [:channel]
-
-    query
+  def search_courses(params, locale) do
+    build_search_query(params, locale)
     |> Repo.all()
     |> Enum.map(&add_course_and_channel_urls/1)
   end
 
-  def list_courses(_) do
-    query =
-      from course in Course,
-        preload: [:channel]
+  defp build_search_query do
+    from course in Course,
+      preload: [:channel]
+  end
 
-    query
-    |> Repo.all()
-    |> Enum.map(&add_course_and_channel_urls/1)
+  defp build_search_query(%{"search" => search}, locale) do
+    from course in Course,
+      where:
+        fragment("? LIKE ? COLLATE NOCASE", course.name, ^"%#{search}%") and
+          course.locale in ^locale,
+      preload: [:channel]
+  end
+
+  defp build_search_query(_, locale) do
+    from course in Course,
+      where: course.locale in ^locale,
+      preload: [:channel]
   end
 
   @doc """
