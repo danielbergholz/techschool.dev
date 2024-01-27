@@ -43,7 +43,6 @@
     "language_names": ["CSS"],
     "framework_names": []
   },
-
   {
     "name": "HTML for Beginners",
     "youtube_course_id": "PLm8ctt9NhMNUU-g3I9RWml0jMYAnDgMdl",
@@ -86,6 +85,28 @@
     "published_at": "2023-03-13T17:20:49Z",
     "youtube_channel_id": "UCIQmhQxCvLHRr3Beku77tww",
     "language_names": ["Ruby"],
+    "framework_names": []
+  },
+  {
+    "name": "Curso completo de Ruby",
+    "youtube_course_id": "PLdDT8if5attEOcQGPHLNIfnSFiJHhGDOZ",
+    "type": "playlist",
+    "locale": "pt",
+    "image_url": "https://i.ytimg.com/vi/2js9Q_BMD-8/sddefault.jpg",
+    "published_at": "2018-07-20T22:05:32Z",
+    "youtube_channel_id": "UC44Mzz2-5TpyfklUCQ5NuxQ",
+    "language_names": ["Ruby"],
+    "framework_names": []
+  },
+  {
+    "name": "Curso de JavaScript da Onebitcode",
+    "youtube_course_id": "PLdDT8if5attF2jr06amvcfXOqI4LG4nd4",
+    "type": "playlist",
+    "locale": "pt",
+    "image_url": "https://i.ytimg.com/vi/O8T_wlotoRE/sddefault.jpg",
+    "published_at": "2023-09-27T18:55:20Z",
+    "youtube_channel_id": "UC44Mzz2-5TpyfklUCQ5NuxQ",
+    "language_names": ["JavaScript"],
     "framework_names": []
   }
 ]
