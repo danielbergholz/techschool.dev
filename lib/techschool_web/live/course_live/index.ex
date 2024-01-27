@@ -4,6 +4,8 @@ defmodule TechschoolWeb.CourseLive.Index do
   alias Techschool.Courses
   alias Techschool.Courses.Course
 
+  @default_locale Application.compile_env(:gettext, :default_locale)
+
   embed_templates "components/*"
 
   attr :course, Course, required: true
@@ -14,14 +16,13 @@ defmodule TechschoolWeb.CourseLive.Index do
   def mount(_params, _session, socket) do
     socket
     |> assign(:page_title, gettext("Courses") <> " | TechSchool")
-    |> stream(:courses, [])
     |> ok()
   end
 
   @impl true
   def handle_params(params, _url, socket) do
     socket
-    |> stream(:courses, Courses.list_courses(params), reset: true)
+    |> stream(:courses, Courses.search_courses(params, search_locale(socket)), reset: true)
     |> noreply()
   end
 
@@ -39,4 +40,13 @@ defmodule TechschoolWeb.CourseLive.Index do
   defp build_url(%{assigns: %{locale: locale}}, _params) do
     "/#{locale}/courses"
   end
+
+  defp search_locale(%{assigns: %{locale: locale}}) do
+    case locale do
+      @default_locale -> [@default_locale]
+      _ -> [locale, @default_locale]
+    end
+  end
+
+  defp search_locale(_), do: [@default_locale]
 end
