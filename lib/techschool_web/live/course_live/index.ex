@@ -41,7 +41,10 @@ defmodule TechschoolWeb.CourseLive.Index do
   end
 
   defp build_url(%{assigns: %{locale: locale}}, %{"search" => search, "language" => language}) do
-    "/#{locale}/courses?search=#{search}&language=#{language}"
+    case {search, language} do
+      {"", ""} -> "/#{locale}/courses"
+      {_, _} -> "/#{locale}/courses?search=#{search}&language=#{language}"
+    end
   end
 
   defp build_url(%{assigns: %{locale: locale}}, _params) do
