@@ -21,6 +21,10 @@ defmodule Techschool.Languages do
     Repo.all(Language)
   end
 
+  def list_language_names do
+    Repo.all(from language in Language, select: language.name)
+  end
+
   @doc """
   Gets a single language.
 
