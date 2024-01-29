@@ -37,12 +37,35 @@ defmodule Techschool.Courses do
       preload: [:channel]
   end
 
-  defp build_search_query(%{"search" => search}, locale) do
-    from course in Course,
-      where:
-        fragment("? LIKE ? COLLATE NOCASE", course.name, ^"%#{search}%") and
-          course.locale in ^locale,
-      preload: [:channel]
+  defp build_search_query(%{"search" => search, "language" => language_name}, locale) do
+    case {search, language_name} do
+      {"", ""} ->
+        from course in Course,
+          where: course.locale in ^locale,
+          preload: [:channel]
+
+      {"", _} ->
+        from course in Course,
+          join: language in assoc(course, :languages),
+          where: course.locale in ^locale and language.name == ^language_name,
+          preload: [:channel]
+
+      {_, ""} ->
+        from course in Course,
+          where:
+            fragment("? LIKE ? COLLATE NOCASE", course.name, ^"%#{search}%") and
+              course.locale in ^locale,
+          preload: [:channel]
+
+      {_, _} ->
+        from course in Course,
+          join: language in assoc(course, :languages),
+          where:
+            course.locale in ^locale and
+              fragment("? LIKE ? COLLATE NOCASE", course.name, ^"%#{search}%") and
+              language.name == ^language_name,
+          preload: [:channel]
+    end
   end
 
   defp build_search_query(_, locale) do
