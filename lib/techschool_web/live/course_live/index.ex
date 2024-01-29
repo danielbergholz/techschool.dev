@@ -1,6 +1,7 @@
 defmodule TechschoolWeb.CourseLive.Index do
   use TechschoolWeb, :live_view
 
+  alias Techschool.Languages
   alias Techschool.Courses
   alias Techschool.Courses.Course
 
@@ -12,10 +13,16 @@ defmodule TechschoolWeb.CourseLive.Index do
   attr :rest, :global, doc: "the arbitrary HTML attributes to add to the container"
   def course_card(assigns)
 
+  attr :language_names, :list, required: true
+  def search(assigns)
+
   @impl true
   def mount(_params, _session, socket) do
+    language_names = Languages.list_language_names()
+
     socket
     |> assign(:page_title, gettext("Courses") <> " | TechSchool")
+    |> assign(:language_names, language_names)
     |> ok()
   end
 
@@ -33,8 +40,8 @@ defmodule TechschoolWeb.CourseLive.Index do
     |> noreply()
   end
 
-  defp build_url(%{assigns: %{locale: locale}}, %{"search" => search}) do
-    "/#{locale}/courses?search=#{search}"
+  defp build_url(%{assigns: %{locale: locale}}, %{"search" => search, "language" => language}) do
+    "/#{locale}/courses?search=#{search}&language=#{language}"
   end
 
   defp build_url(%{assigns: %{locale: locale}}, _params) do
