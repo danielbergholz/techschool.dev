@@ -37,15 +37,21 @@ defmodule Techschool.Courses do
       preload: [:channel]
   end
 
-  defp build_search_query(%{"search" => search, "language" => language_name}, locale) do
+  defp build_search_query(
+         %{"search" => search, "language" => language_name, "framework" => framework_name},
+         locale
+       ) do
     from course in Course,
       left_join: language in assoc(course, :languages),
+      left_join: framework in assoc(course, :frameworks),
       where:
         course.locale in ^locale and
           (^is_nil_or_empty(search) or
              fragment("lower(?) LIKE lower(?)", course.name, ^"%#{search}%")) and
           (^is_nil_or_empty(language_name) or
-             fragment("lower(?) LIKE lower(?)", language.name, ^"%#{language_name}%")),
+             fragment("lower(?) LIKE lower(?)", language.name, ^"%#{language_name}%")) and
+          (^is_nil_or_empty(framework_name) or
+             fragment("lower(?) LIKE lower(?)", framework.name, ^"%#{framework_name}%")),
       preload: [:channel]
   end
 

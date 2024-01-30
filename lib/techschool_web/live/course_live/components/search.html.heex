@@ -9,7 +9,7 @@
     />
     <.button type="submit" class="ml-3">Search</.button>
   </div>
-  <div class="mt-4 ">
+  <div class="mt-4">
     <select
       name="language"
       class="rounded-lg bg-black text-white focus:outline-none focus:ring-0 focus:border-green"
@@ -17,6 +17,15 @@
       <option value="" selected>Language</option>
       <option :for={language_name <- @language_names} value={language_name}>
         <%= language_name %>
+      </option>
+    </select>
+    <select
+      name="framework"
+      class="rounded-lg bg-black text-white focus:outline-none focus:ring-0 focus:border-green ml-3"
+    >
+      <option value="" selected>Framework</option>
+      <option :for={framework_name <- @framework_names} value={framework_name}>
+        <%= framework_name %>
       </option>
     </select>
   </div>

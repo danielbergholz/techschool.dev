@@ -2,6 +2,7 @@ defmodule TechschoolWeb.CourseLive.Index do
   use TechschoolWeb, :live_view
 
   alias Techschool.Languages
+  alias Techschool.Frameworks
   alias Techschool.Courses
   alias Techschool.Courses.Course
 
@@ -14,15 +15,18 @@ defmodule TechschoolWeb.CourseLive.Index do
   def course_card(assigns)
 
   attr :language_names, :list, required: true
+  attr :framework_names, :list, required: true
   def search(assigns)
 
   @impl true
   def mount(_params, _session, socket) do
     language_names = Languages.list_language_names()
+    framework_names = Frameworks.list_framework_names()
 
     socket
     |> assign(:page_title, gettext("Courses") <> " | TechSchool")
     |> assign(:language_names, language_names)
+    |> assign(:framework_names, framework_names)
     |> ok()
   end
 
@@ -40,10 +44,17 @@ defmodule TechschoolWeb.CourseLive.Index do
     |> noreply()
   end
 
-  defp build_url(%{assigns: %{locale: locale}}, %{"search" => search, "language" => language}) do
-    case {search, language} do
-      {"", ""} -> "/#{locale}/courses"
-      {_, _} -> "/#{locale}/courses?search=#{search}&language=#{language}"
+  defp build_url(%{assigns: %{locale: locale}}, %{
+         "search" => search,
+         "language" => language,
+         "framework" => framework
+       }) do
+    case {search, language, framework} do
+      {"", "", ""} ->
+        "/#{locale}/courses"
+
+      {_, _, _} ->
+        "/#{locale}/courses?search=#{search}&language=#{language}&framework=#{framework}"
     end
   end
 
