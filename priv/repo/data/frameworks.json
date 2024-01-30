@@ -24,14 +24,6 @@
     "image_url": "/images/frameworks/react.svg"
   },
   {
-    "name": "Angular",
-    "image_url": "/images/frameworks/angular.svg"
-  },
-  {
-    "name": "Vue",
-    "image_url": "/images/frameworks/vue.svg"
-  },
-  {
     "name": "Next",
     "image_url": "/images/frameworks/next.svg"
   }
