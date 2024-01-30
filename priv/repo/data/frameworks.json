@@ -20,10 +20,6 @@
     "image_url": "/images/frameworks/spring.svg"
   },
   {
-    "name": "Tailwind",
-    "image_url": "/images/frameworks/tailwind.svg"
-  },
-  {
     "name": "React",
     "image_url": "/images/frameworks/react.svg"
   },
