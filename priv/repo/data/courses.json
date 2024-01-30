@@ -108,5 +108,49 @@
     "youtube_channel_id": "UC44Mzz2-5TpyfklUCQ5NuxQ",
     "language_names": ["JavaScript"],
     "framework_names": []
+  },
+  {
+    "name": "Elixir Basics",
+    "youtube_course_id": "PL2Rv8vpZJz4w7Sm9STyZvoY0JAKUk_JOB",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/O5b8GWAAjqs/sddefault.jpg",
+    "published_at": "2022-08-13T23:54:49Z",
+    "youtube_channel_id": "UChbS_z6KHQiIu9et38O37eQ",
+    "language_names": ["Elixir"],
+    "framework_names": []
+  },
+  {
+    "name": "Elixir API: Password Authentication",
+    "youtube_course_id": "PL2Rv8vpZJz4zM3Go3X-dda478p-6xrmEl",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/LGY_eILc8Ks/sddefault.jpg",
+    "published_at": "2022-11-16T21:30:32Z",
+    "youtube_channel_id": "UChbS_z6KHQiIu9et38O37eQ",
+    "language_names": [],
+    "framework_names": ["Phoenix"]
+  },
+  {
+    "name": "Elixir API: Testing",
+    "youtube_course_id": "PL2Rv8vpZJz4xGWPUWVfSTciCvmk8ot_zs",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/RZLuB4vGPJI/sddefault.jpg",
+    "published_at": "2023-03-21T21:07:22Z",
+    "youtube_channel_id": "UChbS_z6KHQiIu9et38O37eQ",
+    "language_names": [],
+    "framework_names": ["Phoenix"]
+  },
+  {
+    "name": "Mastering Phoenix LiveView",
+    "youtube_course_id": "PL2Rv8vpZJz4x1Svv79WdT0Da42kWt_hQ0",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/OMKugMwRrko/sddefault.jpg",
+    "published_at": "2023-07-17T21:51:59Z",
+    "youtube_channel_id": "UChbS_z6KHQiIu9et38O37eQ",
+    "language_names": [],
+    "framework_names": ["Phoenix"]
   }
 ]
