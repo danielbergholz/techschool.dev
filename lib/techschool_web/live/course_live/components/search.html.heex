@@ -4,17 +4,17 @@
       phx-debounce="blur"
       type="text"
       name="search"
-      placeholder="Search courses"
+      placeholder={gettext("Search courses")}
       class="rounded-lg bg-black text-white w-full md:w-2/5 focus:outline-none focus:ring-0 focus:border-green"
     />
-    <.button type="submit" class="ml-3">Search</.button>
+    <.button type="submit" class="ml-3"><%= gettext("Search") %></.button>
   </div>
   <div class="mt-4">
     <select
       name="language"
       class="rounded-lg bg-black text-white focus:outline-none focus:ring-0 focus:border-green"
     >
-      <option value="" selected>Language</option>
+      <option value="" selected><%= gettext("Language") %></option>
       <option :for={language_name <- @language_names} value={language_name}>
         <%= language_name %>
       </option>
