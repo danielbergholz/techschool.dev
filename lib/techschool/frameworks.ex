@@ -21,6 +21,10 @@ defmodule Techschool.Frameworks do
     Repo.all(Framework)
   end
 
+  def list_framework_names do
+    Repo.all(from framework in Framework, select: framework.name)
+  end
+
   @doc """
   Gets a single framework.
 
