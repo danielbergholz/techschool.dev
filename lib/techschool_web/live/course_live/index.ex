@@ -54,7 +54,7 @@ defmodule TechschoolWeb.CourseLive.Index do
         "/#{locale}/courses"
 
       {_, _, _} ->
-        "/#{locale}/courses?search=#{search}&language=#{language}&framework=#{framework}"
+        "/#{locale}/courses?search=#{String.downcase(search)}&language=#{String.downcase(language)}&framework=#{String.downcase(framework)}"
     end
   end
 
