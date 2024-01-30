@@ -38,13 +38,5 @@
   {
     "name": "Next",
     "image_url": "/images/frameworks/next.svg"
-  },
-  {
-    "name": "Nest",
-    "image_url": "/images/frameworks/nest.svg"
-  },
-  {
-    "name": "Adonis",
-    "image_url": "/images/frameworks/adonis.svg"
   }
 ]
