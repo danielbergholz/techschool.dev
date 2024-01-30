@@ -20,11 +20,11 @@
     "image_url": "/images/frameworks/spring.svg"
   },
   {
-    "name": "React",
+    "name": "React.js",
     "image_url": "/images/frameworks/react.svg"
   },
   {
-    "name": "Next",
+    "name": "Next.js",
     "image_url": "/images/frameworks/next.svg"
   }
 ]
