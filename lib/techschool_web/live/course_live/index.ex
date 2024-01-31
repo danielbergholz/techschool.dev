@@ -50,22 +50,30 @@ defmodule TechschoolWeb.CourseLive.Index do
     |> noreply()
   end
 
-  defp build_url(%{assigns: %{locale: locale}}, %{
-         "search" => search,
-         "language" => language,
-         "framework" => framework
-       }) do
-    case {search, language, framework} do
-      {"", "", ""} ->
-        "/#{locale}/courses"
+  defp build_url(%{assigns: %{locale: locale}}, params) do
+    search = Map.get(params, "search", "")
+    language_name = Map.get(params, "language", "")
+    framework_name = Map.get(params, "framework", "")
 
-      {_, _, _} ->
-        "/#{locale}/courses?search=#{String.downcase(search)}&language=#{String.downcase(language)}&framework=#{String.downcase(framework)}"
+    query_params =
+      []
+      |> add_query_param("framework", String.downcase(framework_name))
+      |> add_query_param("language", String.downcase(language_name))
+      |> add_query_param("search", String.downcase(search))
+      |> Enum.join("&")
+
+    case query_params do
+      "" -> "/#{locale}/courses"
+      _ -> "/#{locale}/courses?#{query_params}"
     end
   end
 
-  defp build_url(%{assigns: %{locale: locale}}, _params) do
-    "/#{locale}/courses"
+  defp add_query_param(list, key, value) when value != "" do
+    ["#{key}=#{value}" | list]
+  end
+
+  defp add_query_param(list, _key, _value) do
+    list
   end
 
   defp search_locale(%{assigns: %{locale: locale}}) do
