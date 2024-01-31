@@ -25,6 +25,12 @@ defmodule TechschoolWeb.CourseLive.Index do
 
     socket
     |> assign(:page_title, gettext("Courses") <> " | TechSchool")
+    |> assign(
+      :page_description,
+      gettext(
+        "Find the best courses to learn programming! Search by name or filter by language and framework."
+      )
+    )
     |> assign(:language_names, language_names)
     |> assign(:framework_names, framework_names)
     |> ok()

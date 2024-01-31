@@ -7,6 +7,25 @@
     <.live_title>
       <%= assigns[:page_title] || "TechSchool" %>
     </.live_title>
+    <meta
+      name="description"
+      content={
+        assigns[:page_description] ||
+          gettext("TechSchool is a platform for learning programming, 100% free and open source!")
+      }
+    />
+    <meta property="og:title" content={assigns[:page_title] || "TechSchool"} />
+    <meta
+      property="og:description"
+      content={
+        assigns[:page_description] ||
+          gettext("TechSchool is a platform for learning programming, 100% free and open source!")
+      }
+    />
+    <meta property="og:image" content={~p"/images/logo.svg"} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={"https://techschool.dev" <> @conn.request_path} />
+    <link rel="canonical" href={"https://techschool.dev" <> @conn.request_path} />
     <link phx-track-static rel="stylesheet" href={~p"/assets/app.css"} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

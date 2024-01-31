@@ -82,3 +82,14 @@ msgstr ""
 #, elixir-autogen, elixir-format
 msgid "Search courses"
 msgstr ""
+
+#: lib/techschool_web/live/course_live/index.ex:30
+#, elixir-autogen, elixir-format
+msgid "Find the best courses to learn programming! Search by name or filter by language and framework."
+msgstr ""
+
+#: lib/techschool_web/components/layouts/root.html.heex:14
+#: lib/techschool_web/components/layouts/root.html.heex:22
+#, elixir-autogen, elixir-format
+msgid "TechSchool is a platform for learning programming, 100% free and open source!"
+msgstr ""
