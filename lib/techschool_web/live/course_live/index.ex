@@ -68,12 +68,12 @@ defmodule TechschoolWeb.CourseLive.Index do
     end
   end
 
-  defp add_query_param(list, key, value) when value != "" do
-    ["#{key}=#{value}" | list]
+  defp add_query_param(list, _key, "") do
+    list
   end
 
-  defp add_query_param(list, _key, _value) do
-    list
+  defp add_query_param(list, key, value) do
+    ["#{key}=#{value}" | list]
   end
 
   defp search_locale(%{assigns: %{locale: locale}}) do
