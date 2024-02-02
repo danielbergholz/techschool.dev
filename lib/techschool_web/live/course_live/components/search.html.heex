@@ -6,6 +6,7 @@
       name="search"
       placeholder={gettext("Search courses")}
       class="rounded-lg bg-black text-white w-full md:w-2/5 focus:outline-none focus:ring-0 focus:border-green"
+      value={@search}
     />
     <.button type="submit" class="ml-3"><%= gettext("Search") %></.button>
   </div>
@@ -14,8 +15,12 @@
       name="language"
       class="rounded-lg bg-black text-white focus:outline-none focus:ring-0 focus:border-green"
     >
-      <option value="" selected><%= gettext("Language") %></option>
-      <option :for={language_name <- @language_names} value={language_name}>
+      <option value="" selected={@selected_language == ""}><%= gettext("Language") %></option>
+      <option
+        :for={language_name <- @language_names}
+        value={language_name}
+        selected={@selected_language == String.downcase(language_name)}
+      >
         <%= language_name %>
       </option>
     </select>
@@ -23,8 +28,12 @@
       name="framework"
       class="rounded-lg bg-black text-white focus:outline-none focus:ring-0 focus:border-green ml-3"
     >
-      <option value="" selected>Framework</option>
-      <option :for={framework_name <- @framework_names} value={framework_name}>
+      <option value="" selected={@selected_framework == ""}>Framework</option>
+      <option
+        :for={framework_name <- @framework_names}
+        value={framework_name}
+        selected={@selected_framework == String.downcase(framework_name)}
+      >
         <%= framework_name %>
       </option>
     </select>

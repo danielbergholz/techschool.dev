@@ -16,6 +16,9 @@ defmodule TechschoolWeb.CourseLive.Index do
 
   attr :language_names, :list, required: true
   attr :framework_names, :list, required: true
+  attr :search, :string, required: true
+  attr :selected_language, :string, required: true
+  attr :selected_framework, :string, required: true
   def search(assigns)
 
   @impl true
@@ -39,6 +42,9 @@ defmodule TechschoolWeb.CourseLive.Index do
   @impl true
   def handle_params(params, _url, socket) do
     socket
+    |> assign(:selected_language, get_param(params, "language"))
+    |> assign(:selected_framework, get_param(params, "framework"))
+    |> assign(:search, get_param(params, "search"))
     |> stream(:courses, Courses.search_courses(params, search_locale(socket)), reset: true)
     |> noreply()
   end
