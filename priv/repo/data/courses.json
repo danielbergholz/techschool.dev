@@ -152,5 +152,49 @@
     "youtube_channel_id": "UChbS_z6KHQiIu9et38O37eQ",
     "language_names": [],
     "framework_names": ["Phoenix"]
+  },
+  {
+    "name": "Maratona Java Virado no Jiraya",
+    "youtube_course_id": "PL62G310vn6nFIsOCC0H-C2infYgwm8SWW",
+    "type": "playlist",
+    "locale": "pt",
+    "image_url": "https://i.ytimg.com/vi/VKjFuX91G5Q/sddefault.jpg",
+    "published_at": "2020-12-29T20:13:46Z",
+    "youtube_channel_id": "UCjF0OccBT05WxsJb2zNkL4g",
+    "language_names": ["Java"],
+    "framework_names": []
+  },
+  {
+    "name": "Spring Boot essentials: O essencial do Spring Boot",
+    "youtube_course_id": "PL62G310vn6nF3gssjqfCKLpTK2sZJ_a_1",
+    "type": "playlist",
+    "locale": "pt",
+    "image_url": "https://i.ytimg.com/vi/R-F-UcDo_5I/sddefault.jpg",
+    "published_at": "2017-07-14T21:16:40Z",
+    "youtube_channel_id": "UCjF0OccBT05WxsJb2zNkL4g",
+    "language_names": [],
+    "framework_names": ["Spring"]
+  },
+  {
+    "name": "Spring Boot Essentials 2",
+    "youtube_course_id": "PL62G310vn6nFBIxp6ZwGnm8xMcGE3VA5H",
+    "type": "playlist",
+    "locale": "pt",
+    "image_url": "https://i.ytimg.com/vi/bCzsSXE4Jzg/sddefault.jpg",
+    "published_at": "2020-11-19T03:07:09Z",
+    "youtube_channel_id": "UCjF0OccBT05WxsJb2zNkL4g",
+    "language_names": [],
+    "framework_names": ["Spring"]
+  },
+  {
+    "name": "Spring Boot Microservices",
+    "youtube_course_id": "PL62G310vn6nH_iMQoPMhIlK_ey1npyUUl",
+    "type": "playlist",
+    "locale": "pt",
+    "image_url": "https://i.ytimg.com/vi/vxeMnM15gsI/sddefault.jpg",
+    "published_at": "2019-03-09T23:00:47Z",
+    "youtube_channel_id": "UCjF0OccBT05WxsJb2zNkL4g",
+    "language_names": [],
+    "framework_names": ["Spring"]
   }
 ]
