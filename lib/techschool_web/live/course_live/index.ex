@@ -53,9 +53,9 @@ defmodule TechschoolWeb.CourseLive.Index do
   defp build_url(%{assigns: %{locale: locale}}, params) do
     query_params =
       []
-      |> add_query_param("framework", String.downcase(get_param(params, "framework")))
-      |> add_query_param("language", String.downcase(get_param(params, "language")))
-      |> add_query_param("search", String.downcase(get_param(params, "search")))
+      |> add_query_param(params, "framework")
+      |> add_query_param(params, "language")
+      |> add_query_param(params, "search")
       |> Enum.join("&")
 
     case query_params do
@@ -68,12 +68,11 @@ defmodule TechschoolWeb.CourseLive.Index do
     Map.get(params, param_name, "")
   end
 
-  defp add_query_param(list, _key, "") do
-    list
-  end
-
-  defp add_query_param(list, key, value) do
-    ["#{key}=#{value}" | list]
+  defp add_query_param(list, params, key) do
+    case get_param(params, key) do
+      "" -> list
+      value -> ["#{key}=#{String.downcase(value)}" | list]
+    end
   end
 
   defp search_locale(%{assigns: %{locale: locale}}) do
