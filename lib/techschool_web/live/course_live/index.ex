@@ -51,21 +51,21 @@ defmodule TechschoolWeb.CourseLive.Index do
   end
 
   defp build_url(%{assigns: %{locale: locale}}, params) do
-    search = Map.get(params, "search", "")
-    language_name = Map.get(params, "language", "")
-    framework_name = Map.get(params, "framework", "")
-
     query_params =
       []
-      |> add_query_param("framework", String.downcase(framework_name))
-      |> add_query_param("language", String.downcase(language_name))
-      |> add_query_param("search", String.downcase(search))
+      |> add_query_param("framework", String.downcase(get_param(params, "framework")))
+      |> add_query_param("language", String.downcase(get_param(params, "language")))
+      |> add_query_param("search", String.downcase(get_param(params, "search")))
       |> Enum.join("&")
 
     case query_params do
       "" -> "/#{locale}/courses"
       _ -> "/#{locale}/courses?#{query_params}"
     end
+  end
+
+  defp get_param(params, param_name) do
+    Map.get(params, param_name, "")
   end
 
   defp add_query_param(list, _key, "") do
