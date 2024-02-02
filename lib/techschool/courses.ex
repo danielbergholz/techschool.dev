@@ -50,7 +50,7 @@ defmodule Techschool.Courses do
           (^is_nil_or_empty(search) or
              fragment("lower(?) LIKE lower(?)", course.name, ^"%#{search}%")) and
           (^is_nil_or_empty(language_name) or
-             fragment("lower(?) LIKE lower(?)", language.name, ^"%#{language_name}%")) and
+             fragment("lower(?) LIKE lower(?)", language.name, ^"#{language_name}")) and
           (^is_nil_or_empty(framework_name) or
              fragment("lower(?) LIKE lower(?)", framework.name, ^"%#{framework_name}%")),
       preload: [:channel]
