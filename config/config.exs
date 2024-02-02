@@ -14,7 +14,7 @@ config :techschool,
 # Configures the endpoint
 config :techschool, TechschoolWeb.Endpoint,
   url: [host: "localhost"],
-  adapter: Phoenix.Endpoint.Cowboy2Adapter,
+  adapter: Bandit.PhoenixAdapter,
   render_errors: [
     formats: [html: TechschoolWeb.ErrorHTML, json: TechschoolWeb.ErrorJSON],
     layout: false
