@@ -85,15 +85,15 @@ You should only add multiple languages/frameworks if the course teaches multiple
 
 ## FAQ
 
-## This is too much work, I just want to add a course!
+### This is too much work, I just want to add a course!
 
 I know. I'm working to make this whole process easier. In the meantime, if you want to add a course, just open an issue with the course details and I'll add it for you.
 
-## What type of content can I add?
+### What type of content can I add?
 
 The primary focus of this plataform is web development courses. But feel free to also add content for: Data Science, Machine Learning, DevOps, Mobile Development, etc.
 
-## What type of content can I not add?
+### What type of content can I not add?
 
 - Content that is not related to programming. This includes: music, movies, TV shows, etc.
 - Content from creators with any type of bad behavior, like: racism, sexism, homophobia, etc. This is completely unacceptable.
