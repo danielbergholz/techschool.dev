@@ -361,5 +361,71 @@
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": [],
     "framework_names": ["Spring"]
+  },
+  {
+    "name": "Python Django 7 Hour Course",
+    "youtube_course_id": "PtQiiknWUcI",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/PtQiiknWUcI/sddefault.jpg",
+    "published_at": "2021-09-29T14:00:10Z",
+    "youtube_channel_id": "UC29ju8bIPH5as8OGnQzwJyA",
+    "language_names": [],
+    "framework_names": ["Django"]
+  },
+  {
+    "name": "Django For Everybody - Full Python University Course",
+    "youtube_course_id": "o0XbHvKxw7Y",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/o0XbHvKxw7Y/sddefault.jpg",
+    "published_at": "2021-09-20T13:37:57Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": [],
+    "framework_names": ["Django"]
+  },
+  {
+    "name": "Python Backend Web Development Course (with Django)",
+    "youtube_course_id": "jBzwzrDvZ18",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/jBzwzrDvZ18/sddefault.jpg",
+    "published_at": "2021-07-01T16:51:03Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": [],
+    "framework_names": ["Django"]
+  },
+  {
+    "name": "Learn Django in 20 Minutes",
+    "youtube_course_id": "nGIg40xs9e4",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/nGIg40xs9e4/sddefault.jpg",
+    "published_at": "2023-07-29T13:00:38Z",
+    "youtube_channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+    "language_names": [],
+    "framework_names": ["Django"]
+  },
+  {
+    "name": "Django For Beginners - Full Tutorial",
+    "youtube_course_id": "sm1mokevMWk",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/sm1mokevMWk/sddefault.jpg",
+    "published_at": "2021-03-21T15:00:16Z",
+    "youtube_channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+    "language_names": [],
+    "framework_names": ["Django"]
+  },
+  {
+    "name": "Django Authentication & User Management - Full Tutorial",
+    "youtube_course_id": "WuyKxdLcw3w",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/WuyKxdLcw3w/sddefault.jpg",
+    "published_at": "2022-03-28T15:00:18Z",
+    "youtube_channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+    "language_names": [],
+    "framework_names": ["Django"]
   }
 ]
