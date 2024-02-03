@@ -251,5 +251,38 @@
     "youtube_channel_id": "UCyZar0X0FKFx1mfhSbT0AaQ",
     "language_names": ["Elixir"],
     "framework_names": []
+  },
+  {
+    "name": "Learn Ruby on Rails - Full Course (CREATE INSTAGRAM)",
+    "youtube_course_id": "DhxLOC-9kW0",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/DhxLOC-9kW0/sddefault.jpg",
+    "published_at": "2022-12-25T22:34:06Z",
+    "youtube_channel_id": "UC4Rtbj695kt2PgWdrFuvzHg",
+    "language_names": [],
+    "framework_names": ["Rails"]
+  },
+  {
+    "name": "Learn Ruby on Rails 7 - Full Course (CREATE LINKTREE)",
+    "youtube_course_id": "Ei4Aa6RJTyo",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/Ei4Aa6RJTyo/sddefault.jpg",
+    "published_at": "2024-01-16T17:36:07Z",
+    "youtube_channel_id": "UC4Rtbj695kt2PgWdrFuvzHg",
+    "language_names": [],
+    "framework_names": ["Rails"]
+  },
+  {
+    "name": "Create Youtube with Ruby on Rails Full Course",
+    "youtube_course_id": "F-eI4MXnyPA",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/F-eI4MXnyPA/sddefault.jpg",
+    "published_at": "2023-07-15T19:30:08Z",
+    "youtube_channel_id": "UC4Rtbj695kt2PgWdrFuvzHg",
+    "language_names": [],
+    "framework_names": ["Rails"]
   }
 ]
