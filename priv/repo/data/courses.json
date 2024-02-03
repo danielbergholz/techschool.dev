@@ -44,6 +44,50 @@
     "framework_names": []
   },
   {
+    "name": "Functional Programming with Elixir - Full Course",
+    "youtube_course_id": "IiIgm_yaoOA",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/IiIgm_yaoOA/sddefault.jpg",
+    "published_at": "2023-05-10T14:07:21Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": ["Elixir"],
+    "framework_names": []
+  },
+  {
+    "name": "PHP Programming Language Tutorial - Full Course",
+    "youtube_course_id": "OK_JCtrrv-c",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/OK_JCtrrv-c/sddefault.jpg",
+    "published_at": "2018-06-20T18:49:27Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": ["PHP"],
+    "framework_names": []
+  },
+  {
+    "name": "Use PHP to Create an MVC Framework - Full Course",
+    "youtube_course_id": "6ERdu4k62wI",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/6ERdu4k62wI/sddefault.jpg",
+    "published_at": "2020-10-22T18:03:09Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": ["PHP"],
+    "framework_names": []
+  },
+  {
+    "name": "Laravel PHP Framework Tutorial - Full Course for Beginners",
+    "youtube_course_id": "ImtZ5yENzgE",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/ImtZ5yENzgE/sddefault.jpg",
+    "published_at": "2019-05-07T12:39:04Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": [],
+    "framework_names": ["Laravel"]
+  },
+  {
     "name": "HTML for Beginners",
     "youtube_course_id": "PLm8ctt9NhMNUU-g3I9RWml0jMYAnDgMdl",
     "type": "playlist",
