@@ -26,8 +26,8 @@ defmodule Techschool.Courses do
     |> Enum.map(&add_course_and_channel_urls/1)
   end
 
-  def search_courses(params, locale) do
-    build_search_query(params, locale)
+  def search_courses(params, locale, offset \\ 0) do
+    build_search_query(params, locale, offset)
     |> Repo.all()
     |> Enum.map(&add_course_and_channel_urls/1)
   end
@@ -37,7 +37,7 @@ defmodule Techschool.Courses do
       preload: [:channel]
   end
 
-  defp build_search_query(params, locale) do
+  defp build_search_query(params, locale, offset) do
     search = Map.get(params, "search", "")
     language_name = Map.get(params, "language", "")
     framework_name = Map.get(params, "framework", "")
@@ -54,7 +54,9 @@ defmodule Techschool.Courses do
           (^is_nil_or_empty(framework_name) or
              fragment("lower(?) LIKE lower(?)", framework.name, ^"%#{framework_name}%")),
       preload: [:channel],
-      order_by: [desc: course.published_at]
+      order_by: [desc: course.published_at],
+      limit: 20,
+      offset: ^offset
   end
 
   defp is_nil_or_empty(value), do: value in ["", nil]

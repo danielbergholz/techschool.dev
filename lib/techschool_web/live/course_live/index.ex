@@ -41,11 +41,32 @@ defmodule TechschoolWeb.CourseLive.Index do
 
   @impl true
   def handle_params(params, _url, socket) do
+    courses = Courses.search_courses(params, search_locale(socket))
+
+    has_more_courses_to_load = length(courses) == 20
+
     socket
     |> assign(:selected_language, get_param(params, "language"))
     |> assign(:selected_framework, get_param(params, "framework"))
     |> assign(:search, get_param(params, "search"))
-    |> stream(:courses, Courses.search_courses(params, search_locale(socket)), reset: true)
+    |> assign(:offset, 0)
+    |> assign(:has_more_courses_to_load, has_more_courses_to_load)
+    |> stream(:courses, courses, reset: true)
+    |> noreply()
+  end
+
+  @impl true
+  def handle_event("load_more", params, socket) do
+    offset = socket.assigns.offset + 20
+
+    courses = Courses.search_courses(params, search_locale(socket), offset)
+
+    has_more_courses_to_load = length(courses) == 20
+
+    socket
+    |> assign(:offset, offset)
+    |> assign(:has_more_courses_to_load, has_more_courses_to_load)
+    |> stream(:courses, courses)
     |> noreply()
   end
 

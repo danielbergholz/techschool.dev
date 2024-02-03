@@ -6,7 +6,12 @@
     selected_language={@selected_language}
     selected_framework={@selected_framework}
   />
-  <div class="flex flex-wrap justify-center gap-8 md:gap-10" id="courses" phx-update="stream">
-    <.course_card :for={{dom_id, course} <- @streams.courses} id={dom_id} course={course} />
+  <div class="text-center">
+    <div class="flex flex-wrap justify-center gap-8 md:gap-10" id="courses" phx-update="stream">
+      <.course_card :for={{dom_id, course} <- @streams.courses} id={dom_id} course={course} />
+    </div>
+    <.button phx-click="load_more" class="mt-8" disabled={@has_more_courses_to_load == false}>
+      Load More
+    </.button>
   </div>
 </section>
