@@ -240,5 +240,16 @@
     "youtube_channel_id": "UCjF0OccBT05WxsJb2zNkL4g",
     "language_names": [],
     "framework_names": ["Spring"]
+  },
+  {
+    "name": "Hands-on Elixir & OTP: Create a cryptocurrency trading bot",
+    "youtube_course_id": "PLxsE19GnjC5Nv1CbeKOiS5YqGqw35aZFJ",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/gUM1vwcLgRE/sddefault.jpg",
+    "published_at": "2020-06-12T21:09:38Z",
+    "youtube_channel_id": "UCyZar0X0FKFx1mfhSbT0AaQ",
+    "language_names": ["Elixir"],
+    "framework_names": []
   }
 ]
