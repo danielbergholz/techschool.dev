@@ -11,7 +11,7 @@
       <.course_card :for={{dom_id, course} <- @streams.courses} id={dom_id} course={course} />
     </div>
     <.button phx-click="load_more" class="mt-8" disabled={@has_more_courses_to_load == false}>
-      Load More
+      <%= gettext("Load More") %>
     </.button>
   </div>
 </section>
