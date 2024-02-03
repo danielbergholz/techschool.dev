@@ -284,5 +284,82 @@
     "youtube_channel_id": "UC4Rtbj695kt2PgWdrFuvzHg",
     "language_names": [],
     "framework_names": ["Rails"]
+  },
+  {
+    "name": "Python Full Course",
+    "youtube_course_id": "LzYNWme1W6Q",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/LzYNWme1W6Q/sddefault.jpg",
+    "published_at": "2020-10-12T13:53:01Z",
+    "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
+    "language_names": ["Python"],
+    "framework_names": []
+  },
+  {
+    "name": "Python Tutorial for Beginners - Full Course in 3 Hours",
+    "youtube_course_id": "mJEpimi_tFo",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/mJEpimi_tFo/sddefault.jpg",
+    "published_at": "2020-11-17T14:25:24Z",
+    "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
+    "language_names": ["Python"],
+    "framework_names": []
+  },
+  {
+    "name": "Java Full Course",
+    "youtube_course_id": "Qgl81fPcLc8",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/Qgl81fPcLc8/sddefault.jpg",
+    "published_at": "2020-09-09T14:02:52Z",
+    "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
+    "language_names": ["Java"],
+    "framework_names": []
+  },
+  {
+    "name": "Java Tutorial For Beginners 2023",
+    "youtube_course_id": "j9VNCI9Xo80",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/j9VNCI9Xo80/sddefault.jpg",
+    "published_at": "2022-10-24T13:00:26Z",
+    "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
+    "language_names": ["Java"],
+    "framework_names": []
+  },
+  {
+    "name": "Java Functional Programming | Full Course",
+    "youtube_course_id": "VRpHdSFWGPs",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/VRpHdSFWGPs/sddefault.jpg",
+    "published_at": "2020-02-04T23:53:11Z",
+    "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
+    "language_names": ["Java"],
+    "framework_names": []
+  },
+  {
+    "name": "Spring Boot Tutorial | Full Course 2023",
+    "youtube_course_id": "9SGDpanrc8U",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/9SGDpanrc8U/sddefault.jpg",
+    "published_at": "2021-01-10T14:24:30Z",
+    "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
+    "language_names": [],
+    "framework_names": ["Spring"]
+  },
+  {
+    "name": "Spring Security Tutorial - 2023",
+    "youtube_course_id": "b9O9NI-RJ3o",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/b9O9NI-RJ3o/sddefault.jpg",
+    "published_at": "2022-12-06T13:00:09Z",
+    "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
+    "language_names": [],
+    "framework_names": ["Spring"]
   }
 ]
