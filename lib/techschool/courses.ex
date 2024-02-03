@@ -53,7 +53,8 @@ defmodule Techschool.Courses do
              fragment("lower(?) LIKE lower(?)", language.name, ^"#{language_name}")) and
           (^is_nil_or_empty(framework_name) or
              fragment("lower(?) LIKE lower(?)", framework.name, ^"%#{framework_name}%")),
-      preload: [:channel]
+      preload: [:channel],
+      order_by: [desc: course.published_at]
   end
 
   defp is_nil_or_empty(value), do: value in ["", nil]
