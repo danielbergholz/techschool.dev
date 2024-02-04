@@ -449,5 +449,38 @@
     "youtube_channel_id": "UCE5KlC4hhy_QlXEYPgRKvVA",
     "language_names": [],
     "framework_names": ["Phoenix"]
+  },
+  {
+    "name": "How you start writing LiveView",
+    "youtube_course_id": "GsOcNO0NlHU",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/GsOcNO0NlHU/sddefault.jpg",
+    "published_at": "2024-01-15T11:42:17Z",
+    "youtube_channel_id": "UCYQ3zFdm_2fiQA3zXPONvcQ",
+    "language_names": [],
+    "framework_names": ["Phoenix"]
+  },
+  {
+    "name": "Magic Link Authentication in Elixir Phoenix",
+    "youtube_course_id": "eM8vl7pgRJM",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/eM8vl7pgRJM/sddefault.jpg",
+    "published_at": "2023-12-28T17:13:24Z",
+    "youtube_channel_id": "UCYQ3zFdm_2fiQA3zXPONvcQ",
+    "language_names": [],
+    "framework_names": ["Phoenix"]
+  },
+  {
+    "name": "Phoenix LiveView in Depth: Navigation, Lifecycle & mount vs handle_params",
+    "youtube_course_id": "HaK9N-kqSXU",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/HaK9N-kqSXU/sddefault.jpg",
+    "published_at": "2024-01-08T22:06:02Z",
+    "youtube_channel_id": "UCYQ3zFdm_2fiQA3zXPONvcQ",
+    "language_names": [],
+    "framework_names": ["Phoenix"]
   }
 ]
