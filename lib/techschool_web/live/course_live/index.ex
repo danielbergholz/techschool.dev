@@ -59,7 +59,7 @@ defmodule TechschoolWeb.CourseLive.Index do
   def handle_event("load_more", params, socket) do
     offset = socket.assigns.offset + 20
 
-    courses = Courses.search_courses(params, search_locale(socket), offset)
+    courses = Courses.search_courses(params, search_locale(socket), offset: offset)
 
     has_more_courses_to_load = length(courses) == 20
 
