@@ -7,6 +7,7 @@ defmodule TechschoolWeb.CourseLive.Index do
   alias Techschool.Courses.Course
 
   @default_locale Application.compile_env(:gettext, :default_locale)
+  @available_locales Gettext.known_locales(TechschoolWeb.Gettext)
 
   embed_templates "components/*"
 
@@ -102,11 +103,8 @@ defmodule TechschoolWeb.CourseLive.Index do
     end
   end
 
-  defp search_locale(%{assigns: %{locale: locale}}) do
-    case locale do
-      @default_locale -> [@default_locale]
-      locale -> [locale]
-    end
+  defp search_locale(%{assigns: %{locale: locale}}) when locale in @available_locales do
+    [locale]
   end
 
   defp search_locale(_), do: [@default_locale]
