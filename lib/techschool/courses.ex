@@ -49,19 +49,17 @@ defmodule Techschool.Courses do
       left_join: framework in assoc(course, :frameworks),
       where:
         course.locale in ^locale and
-          (^is_nil_or_empty(search) or
+          (^search == "" or
              fragment("lower(?) LIKE lower(?)", course.name, ^"%#{search}%")) and
-          (^is_nil_or_empty(language_name) or
+          (^language_name == "" or
              fragment("lower(?) LIKE lower(?)", language.name, ^"#{language_name}")) and
-          (^is_nil_or_empty(framework_name) or
+          (^framework_name == "" or
              fragment("lower(?) LIKE lower(?)", framework.name, ^"%#{framework_name}%")),
       preload: [:channel],
       order_by: [desc: course.published_at],
       limit: ^limit,
       offset: ^offset
   end
-
-  defp is_nil_or_empty(value), do: value in ["", nil]
 
   @doc """
   Gets a single course.
