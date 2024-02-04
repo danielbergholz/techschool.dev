@@ -105,7 +105,7 @@ defmodule TechschoolWeb.CourseLive.Index do
   defp search_locale(%{assigns: %{locale: locale}}) do
     case locale do
       @default_locale -> [@default_locale]
-      _ -> [locale, @default_locale]
+      locale -> [locale]
     end
   end
 
