@@ -427,5 +427,27 @@
     "youtube_channel_id": "UC4JX40jDee_tINbkjycV4Sg",
     "language_names": [],
     "framework_names": ["Django"]
+  },
+  {
+    "name": "OTP V2",
+    "youtube_course_id": "PLKBMoE8mCkXghS-YhV8Uw7yyzbePqqDIV",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/KTVQtATxivQ/sddefault.jpg",
+    "published_at": "2023-06-07T18:46:29Z",
+    "youtube_channel_id": "UCE5KlC4hhy_QlXEYPgRKvVA",
+    "language_names": ["Elixir"],
+    "framework_names": []
+  },
+  {
+    "name": "LiveView and Phoenix 1.7",
+    "youtube_course_id": "PLKBMoE8mCkXgWXVaHxqPdo20WkZKwFw6r",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/FUvFpSp9FMg/sddefault.jpg",
+    "published_at": "2023-02-25T15:26:15Z",
+    "youtube_channel_id": "UCE5KlC4hhy_QlXEYPgRKvVA",
+    "language_names": [],
+    "framework_names": ["Phoenix"]
   }
 ]
