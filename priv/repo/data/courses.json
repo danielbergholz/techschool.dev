@@ -586,5 +586,29 @@
     "language_names": [],
     "framework_names": ["Phoenix"],
     "tool_names": []
+  },
+  {
+    "name": "Introdução à programação (usando a linguagem Ruby)",
+    "youtube_course_id": "F_cQSB3l0W0",
+    "type": "video",
+    "locale": "pt",
+    "image_url": "https://i.ytimg.com/vi/F_cQSB3l0W0/sddefault.jpg",
+    "published_at": "2023-12-01T09:15:25Z",
+    "youtube_channel_id": "UCSBsYBhO5FLvvSl_ChnwDdw",
+    "language_names": ["Ruby"],
+    "framework_names": [],
+    "tool_names": []
+  },
+  {
+    "name": "Introdução à OO (Orientação à Objetos) usando Ruby",
+    "youtube_course_id": "R_tpnjR1s1U",
+    "type": "video",
+    "locale": "pt",
+    "image_url": "https://i.ytimg.com/vi/R_tpnjR1s1U/sddefault.jpg",
+    "published_at": "2023-12-05T06:15:52Z",
+    "youtube_channel_id": "UCSBsYBhO5FLvvSl_ChnwDdw",
+    "language_names": ["Ruby"],
+    "framework_names": [],
+    "tool_names": []
   }
 ]
