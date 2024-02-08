@@ -396,6 +396,30 @@
     "tool_names": []
   },
   {
+    "name": "SQL For Beginners Tutorial | Learn SQL in 4.2 Hours | 2021",
+    "youtube_course_id": "5hzZtqCNQKk",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/5hzZtqCNQKk/sddefault.jpg",
+    "published_at": "2021-01-31T14:00:12Z",
+    "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": ["SQL"]
+  },
+  {
+    "name": "PosgresSQL Course",
+    "youtube_course_id": "PLwvrYc43l1MxAEOI_KwGe8l42uJxMoKeS",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/XQ_6G0iCyMQ/sddefault.jpg",
+    "published_at": "2019-03-13T09:58:07Z",
+    "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": ["SQL"]
+  },
+  {
     "name": "Python Django 7 Hour Course",
     "youtube_course_id": "PtQiiknWUcI",
     "type": "video",
