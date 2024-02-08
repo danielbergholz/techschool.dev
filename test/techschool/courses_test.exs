@@ -52,7 +52,7 @@ defmodule Techschool.CoursesTest do
       }
 
       assert {:ok, %Course{} = course} =
-               Courses.create_course(valid_attrs, youtube_channel_id)
+               Courses.create_course(youtube_channel_id, valid_attrs)
 
       assert course.name == "some name"
       assert course.type == :video
@@ -66,7 +66,7 @@ defmodule Techschool.CoursesTest do
       youtube_channel_id: youtube_channel_id
     } do
       assert {:error, %Ecto.Changeset{}} =
-               Courses.create_course(@invalid_attrs, youtube_channel_id)
+               Courses.create_course(youtube_channel_id, @invalid_attrs)
     end
 
     test "delete_course/1 deletes the course", %{youtube_channel_id: youtube_channel_id} do

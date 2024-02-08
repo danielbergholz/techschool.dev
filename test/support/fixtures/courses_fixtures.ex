@@ -15,16 +15,18 @@ defmodule Techschool.CoursesFixtures do
   """
   def course_fixture(attrs \\ %{}, youtube_channel_id) do
     {:ok, course} =
-      attrs
-      |> Enum.into(%{
-        youtube_course_id: unique_course_youtube_course_id(),
-        image_url: "some image_url",
-        locale: :en,
-        name: "some name",
-        published_at: ~U[2024-01-05 17:44:00Z],
-        type: :video
-      })
-      |> Techschool.Courses.create_course(youtube_channel_id)
+      Techschool.Courses.create_course(
+        youtube_channel_id,
+        attrs
+        |> Enum.into(%{
+          youtube_course_id: unique_course_youtube_course_id(),
+          image_url: "some image_url",
+          locale: :en,
+          name: "some name",
+          published_at: ~U[2024-01-05 17:44:00Z],
+          type: :video
+        })
+      )
 
     Techschool.Courses.get_course!(course.id)
   end
