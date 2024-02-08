@@ -24,6 +24,18 @@
     "tool_names": []
   },
   {
+    "name": "Curso de Terminal Linux",
+    "youtube_course_id": "PLbV6TI03ZWYXXwbP2TNTbviUaFh6YqqVt",
+    "type": "playlist",
+    "locale": "pt",
+    "image_url": "https://i.ytimg.com/vi/VRR3V42EdSg/sddefault.jpg",
+    "published_at": "2020-02-05T17:34:31Z",
+    "youtube_channel_id": "UCnmbV9eyMwIl50Ji1ObFxqg",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": ["Linux"]
+  },
+  {
     "name": "Learn HTML - Full Tutorial for Beginners (2022)",
     "youtube_course_id": "kUMe1FH4CHE",
     "type": "video",
