@@ -37,6 +37,12 @@ defmodule Techschool.Tools do
   """
   def get_tool!(id), do: Repo.get!(Tool, id)
 
+  def get_tools_by_name([]), do: []
+
+  def get_tools_by_name(names) do
+    Repo.all(from tool in Tool, where: tool.name in ^names)
+  end
+
   @doc """
   Creates a tool.
 
