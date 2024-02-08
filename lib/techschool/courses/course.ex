@@ -13,6 +13,7 @@ defmodule Techschool.Courses.Course do
     belongs_to :channel, Techschool.Channels.Channel
     many_to_many :languages, Techschool.Languages.Language, join_through: "courses_languages"
     many_to_many :frameworks, Techschool.Frameworks.Framework, join_through: "courses_frameworks"
+    many_to_many :tools, Techschool.Tools.Tool, join_through: "courses_tools"
 
     timestamps(type: :utc_datetime)
   end

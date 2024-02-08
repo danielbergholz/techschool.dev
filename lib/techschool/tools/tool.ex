@@ -4,6 +4,7 @@ defmodule Techschool.Tools.Tool do
 
   schema "tools" do
     field :name, :string
+    many_to_many :courses, Techschool.Courses.Course, join_through: "courses_tools"
 
     timestamps(type: :utc_datetime)
   end
