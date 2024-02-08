@@ -420,6 +420,30 @@
     "tool_names": ["SQL"]
   },
   {
+    "name": "Docker Tutorial for Beginners | Full Course [2021]",
+    "youtube_course_id": "p28piYY_wv8",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/p28piYY_wv8/sddefault.jpg",
+    "published_at": "2020-10-24T16:52:13Z",
+    "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": ["Docker"]
+  },
+  {
+    "name": "Linux For Beginners - Full Course",
+    "youtube_course_id": "pkZEKIXe3u4",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/pkZEKIXe3u4/sddefault.jpg",
+    "published_at": "2023-12-04T13:10:49Z",
+    "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": ["Linux"]
+  },
+  {
     "name": "Python Django 7 Hour Course",
     "youtube_course_id": "PtQiiknWUcI",
     "type": "video",
