@@ -27,7 +27,7 @@ msgid "Code available on"
 msgstr "Código disponível em"
 
 #: lib/techschool_web/components/layouts/components/navbar.html.heex:13
-#: lib/techschool_web/live/course_live/index.ex:30
+#: lib/techschool_web/live/course_live/index.ex:31
 #, elixir-autogen, elixir-format
 msgid "Courses"
 msgstr "Cursos"
@@ -83,7 +83,7 @@ msgstr "Pesquisar"
 msgid "Search courses"
 msgstr "Pesquisar cursos"
 
-#: lib/techschool_web/live/course_live/index.ex:33
+#: lib/techschool_web/live/course_live/index.ex:34
 #, elixir-autogen, elixir-format
 msgid "Find the best courses to learn programming! Search by name or filter by language and framework."
 msgstr "Encontre os melhores cursos para aprender programação! Pesquise por nome ou filtre por linguagem e framework."
@@ -94,7 +94,12 @@ msgstr "Encontre os melhores cursos para aprender programação! Pesquise por no
 msgid "TechSchool is a platform for learning programming, 100% free and open source!"
 msgstr "TechSchool é uma plataforma de ensino programação, 100% gratuita e open source!"
 
-#: lib/techschool_web/live/course_live/index.html.heex:14
+#: lib/techschool_web/live/course_live/index.html.heex:16
 #, elixir-autogen, elixir-format
 msgid "Load More"
 msgstr "Carregar mais"
+
+#: lib/techschool_web/live/course_live/components/search.html.heex:44
+#, elixir-autogen, elixir-format
+msgid "Tool"
+msgstr "Ferramenta"

@@ -10,7 +10,7 @@
     />
     <.button type="submit" class="ml-3"><%= gettext("Search") %></.button>
   </div>
-  <div class="mt-4">
+  <div class="mt-4 flex flex-wrap justify-center gap-3">
     <select
       name="language"
       class="rounded-lg bg-black text-white focus:outline-none focus:ring-0 focus:border-green"
@@ -26,7 +26,7 @@
     </select>
     <select
       name="framework"
-      class="rounded-lg bg-black text-white focus:outline-none focus:ring-0 focus:border-green ml-3"
+      class="rounded-lg bg-black text-white focus:outline-none focus:ring-0 focus:border-green"
     >
       <option value="" selected={@selected_framework == ""}>Framework</option>
       <option
@@ -35,6 +35,19 @@
         selected={@selected_framework == String.downcase(framework_name)}
       >
         <%= framework_name %>
+      </option>
+    </select>
+    <select
+      name="tool"
+      class="rounded-lg bg-black text-white focus:outline-none focus:ring-0 focus:border-green"
+    >
+      <option value="" selected={@selected_tool == ""}><%= gettext("Tool") %></option>
+      <option
+        :for={tool_name <- @tool_names}
+        value={tool_name}
+        selected={@selected_tool == String.downcase(tool_name)}
+      >
+        <%= tool_name %>
       </option>
     </select>
   </div>

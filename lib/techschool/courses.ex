@@ -39,12 +39,14 @@ defmodule Techschool.Courses do
     search = Map.get(params, "search", "")
     language_name = Map.get(params, "language", "")
     framework_name = Map.get(params, "framework", "")
+    tool_name = Map.get(params, "tool", "")
     limit = Keyword.get(opts, :limit, 20)
     offset = Keyword.get(opts, :offset, 0)
 
     from course in Course,
       left_join: language in assoc(course, :languages),
       left_join: framework in assoc(course, :frameworks),
+      left_join: tool in assoc(course, :tools),
       where:
         course.locale in ^locale and
           (^search == "" or
@@ -52,7 +54,9 @@ defmodule Techschool.Courses do
           (^language_name == "" or
              fragment("lower(?) LIKE lower(?)", language.name, ^"#{language_name}")) and
           (^framework_name == "" or
-             fragment("lower(?) LIKE lower(?)", framework.name, ^"%#{framework_name}%")),
+             fragment("lower(?) LIKE lower(?)", framework.name, ^"#{framework_name}")) and
+          (^tool_name == "" or
+             fragment("lower(?) LIKE lower(?)", tool.name, ^"#{tool_name}")),
       preload: [:channel],
       order_by: [desc: course.published_at],
       limit: ^limit,
