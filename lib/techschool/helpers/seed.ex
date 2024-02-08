@@ -75,6 +75,7 @@ defmodule Techschool.Helpers.Seed do
 
   defp insert_course(course) do
     Courses.create_course!(
+      course[:youtube_channel_id],
       %{
         name: course[:name],
         type: course[:type],
@@ -83,9 +84,9 @@ defmodule Techschool.Helpers.Seed do
         published_at: course[:published_at],
         youtube_course_id: course[:youtube_course_id]
       },
-      course[:youtube_channel_id],
-      course[:language_names],
-      course[:framework_names]
+      language_names: course[:language_names],
+      framework_names: course[:framework_names],
+      tool_names: course[:tool_names]
     )
   end
 end

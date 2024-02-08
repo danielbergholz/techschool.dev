@@ -19,7 +19,11 @@ defmodule Techschool.Courses.Course do
   end
 
   @doc false
-  def changeset(course, attrs, languages \\ [], frameworks \\ []) do
+  def changeset(course, attrs, opts \\ []) do
+    languages = Keyword.get(opts, :languages, [])
+    frameworks = Keyword.get(opts, :frameworks, [])
+    tools = Keyword.get(opts, :tools, [])
+
     course
     |> cast(attrs, [
       :name,
@@ -43,5 +47,6 @@ defmodule Techschool.Courses.Course do
     |> unique_constraint(:youtube_course_id)
     |> put_assoc(:languages, languages)
     |> put_assoc(:frameworks, frameworks)
+    |> put_assoc(:tools, tools)
   end
 end

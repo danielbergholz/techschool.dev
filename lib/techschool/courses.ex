@@ -6,10 +6,8 @@ defmodule Techschool.Courses do
   import Ecto.Query, warn: false
   alias Techschool.Repo
 
+  alias Techschool.{Channels, Languages, Frameworks, Tools}
   alias Techschool.Courses.Course
-  alias Techschool.Channels
-  alias Techschool.Languages
-  alias Techschool.Frameworks
 
   @doc """
   Returns the list of courses.
@@ -93,30 +91,35 @@ defmodule Techschool.Courses do
       {:error, %Ecto.Changeset{}}
 
   """
-  def create_course(attrs \\ %{}, youtube_channel_id, language_names \\ [], framework_names \\ []) do
+  def create_course(youtube_channel_id, attrs \\ %{}, opts \\ []) do
+    language_names = Keyword.get(opts, :language_names, [])
+    framework_names = Keyword.get(opts, :framework_names, [])
+    tool_names = Keyword.get(opts, :tool_names, [])
+
     channel = Channels.get_channel_by_youtube_channel_id(youtube_channel_id)
     languages = Languages.get_languages_by_name(language_names)
     frameworks = Frameworks.get_frameworks_by_name(framework_names)
+    tools = Tools.get_tools_by_name(tool_names)
 
     channel
     |> Ecto.build_assoc(:courses)
-    |> Course.changeset(attrs, languages, frameworks)
+    |> Course.changeset(attrs, languages: languages, frameworks: frameworks, tools: tools)
     |> Repo.insert()
   end
 
-  def create_course!(
-        attrs \\ %{},
-        youtube_channel_id,
-        language_names \\ [],
-        framework_names \\ []
-      ) do
+  def create_course!(youtube_channel_id, attrs \\ %{}, opts \\ []) do
+    language_names = Keyword.get(opts, :language_names, [])
+    framework_names = Keyword.get(opts, :framework_names, [])
+    tool_names = Keyword.get(opts, :tool_names, [])
+
     channel = Channels.get_channel_by_youtube_channel_id(youtube_channel_id)
     languages = Languages.get_languages_by_name(language_names)
     frameworks = Frameworks.get_frameworks_by_name(framework_names)
+    tools = Tools.get_tools_by_name(tool_names)
 
     channel
     |> Ecto.build_assoc(:courses)
-    |> Course.changeset(attrs, languages, frameworks)
+    |> Course.changeset(attrs, languages: languages, frameworks: frameworks, tools: tools)
     |> Repo.insert!()
   end
 

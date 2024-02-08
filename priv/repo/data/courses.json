@@ -8,7 +8,8 @@
     "published_at": "2022-06-16T21:25:09Z",
     "youtube_channel_id": "UCnmbV9eyMwIl50Ji1ObFxqg",
     "language_names": ["TypeScript"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "Curso de JavaScript",
@@ -19,7 +20,8 @@
     "published_at": "2020-04-04T23:19:26Z",
     "youtube_channel_id": "UCnmbV9eyMwIl50Ji1ObFxqg",
     "language_names": ["JavaScript"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "Learn HTML - Full Tutorial for Beginners (2022)",
@@ -30,7 +32,8 @@
     "published_at": "2022-03-08T16:34:38Z",
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": ["HTML"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "CSS Tutorial - Full Course for Beginners",
@@ -41,7 +44,8 @@
     "published_at": "2022-08-30T13:55:14Z",
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": ["CSS"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "Functional Programming with Elixir - Full Course",
@@ -52,7 +56,8 @@
     "published_at": "2023-05-10T14:07:21Z",
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": ["Elixir"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "PHP Programming Language Tutorial - Full Course",
@@ -63,7 +68,8 @@
     "published_at": "2018-06-20T18:49:27Z",
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": ["PHP"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "Use PHP to Create an MVC Framework - Full Course",
@@ -74,7 +80,8 @@
     "published_at": "2020-10-22T18:03:09Z",
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": ["PHP"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "Laravel PHP Framework Tutorial - Full Course for Beginners",
@@ -85,7 +92,8 @@
     "published_at": "2019-05-07T12:39:04Z",
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": [],
-    "framework_names": ["Laravel"]
+    "framework_names": ["Laravel"],
+    "tool_names": []
   },
   {
     "name": "HTML for Beginners",
@@ -96,7 +104,8 @@
     "published_at": "2023-11-02T13:14:40Z",
     "youtube_channel_id": "UCIQmhQxCvLHRr3Beku77tww",
     "language_names": ["HTML"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "Build a Blog with Ruby on Rails",
@@ -107,7 +116,8 @@
     "published_at": "2023-04-03T20:20:58Z",
     "youtube_channel_id": "UCIQmhQxCvLHRr3Beku77tww",
     "language_names": [],
-    "framework_names": ["Rails"]
+    "framework_names": ["Rails"],
+    "tool_names": []
   },
   {
     "name": "Rails 7.1",
@@ -118,7 +128,8 @@
     "published_at": "2023-09-13T17:09:57Z",
     "youtube_channel_id": "UCIQmhQxCvLHRr3Beku77tww",
     "language_names": [],
-    "framework_names": ["Rails"]
+    "framework_names": ["Rails"],
+    "tool_names": []
   },
   {
     "name": "Ruby for Beginners 2023",
@@ -129,7 +140,8 @@
     "published_at": "2023-03-13T17:20:49Z",
     "youtube_channel_id": "UCIQmhQxCvLHRr3Beku77tww",
     "language_names": ["Ruby"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "Curso completo de Ruby",
@@ -140,7 +152,8 @@
     "published_at": "2018-07-20T22:05:32Z",
     "youtube_channel_id": "UC44Mzz2-5TpyfklUCQ5NuxQ",
     "language_names": ["Ruby"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "Curso de JavaScript da Onebitcode",
@@ -151,7 +164,8 @@
     "published_at": "2023-09-27T18:55:20Z",
     "youtube_channel_id": "UC44Mzz2-5TpyfklUCQ5NuxQ",
     "language_names": ["JavaScript"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "Elixir Basics",
@@ -162,7 +176,8 @@
     "published_at": "2022-08-13T23:54:49Z",
     "youtube_channel_id": "UChbS_z6KHQiIu9et38O37eQ",
     "language_names": ["Elixir"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "Elixir API: Password Authentication",
@@ -173,7 +188,8 @@
     "published_at": "2022-11-16T21:30:32Z",
     "youtube_channel_id": "UChbS_z6KHQiIu9et38O37eQ",
     "language_names": [],
-    "framework_names": ["Phoenix"]
+    "framework_names": ["Phoenix"],
+    "tool_names": []
   },
   {
     "name": "Elixir API: Testing",
@@ -184,7 +200,8 @@
     "published_at": "2023-03-21T21:07:22Z",
     "youtube_channel_id": "UChbS_z6KHQiIu9et38O37eQ",
     "language_names": [],
-    "framework_names": ["Phoenix"]
+    "framework_names": ["Phoenix"],
+    "tool_names": []
   },
   {
     "name": "Mastering Phoenix LiveView",
@@ -195,7 +212,8 @@
     "published_at": "2023-07-17T21:51:59Z",
     "youtube_channel_id": "UChbS_z6KHQiIu9et38O37eQ",
     "language_names": [],
-    "framework_names": ["Phoenix"]
+    "framework_names": ["Phoenix"],
+    "tool_names": []
   },
   {
     "name": "Maratona Java Virado no Jiraya",
@@ -206,7 +224,8 @@
     "published_at": "2020-12-29T20:13:46Z",
     "youtube_channel_id": "UCjF0OccBT05WxsJb2zNkL4g",
     "language_names": ["Java"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "Spring Boot essentials: O essencial do Spring Boot",
@@ -217,7 +236,8 @@
     "published_at": "2017-07-14T21:16:40Z",
     "youtube_channel_id": "UCjF0OccBT05WxsJb2zNkL4g",
     "language_names": [],
-    "framework_names": ["Spring"]
+    "framework_names": ["Spring"],
+    "tool_names": []
   },
   {
     "name": "Spring Boot Essentials 2",
@@ -228,7 +248,8 @@
     "published_at": "2020-11-19T03:07:09Z",
     "youtube_channel_id": "UCjF0OccBT05WxsJb2zNkL4g",
     "language_names": [],
-    "framework_names": ["Spring"]
+    "framework_names": ["Spring"],
+    "tool_names": []
   },
   {
     "name": "Spring Boot Microservices",
@@ -239,7 +260,8 @@
     "published_at": "2019-03-09T23:00:47Z",
     "youtube_channel_id": "UCjF0OccBT05WxsJb2zNkL4g",
     "language_names": [],
-    "framework_names": ["Spring"]
+    "framework_names": ["Spring"],
+    "tool_names": []
   },
   {
     "name": "Hands-on Elixir & OTP: Create a cryptocurrency trading bot",
@@ -250,7 +272,8 @@
     "published_at": "2020-06-12T21:09:38Z",
     "youtube_channel_id": "UCyZar0X0FKFx1mfhSbT0AaQ",
     "language_names": ["Elixir"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "Learn Ruby on Rails - Full Course (CREATE INSTAGRAM)",
@@ -261,7 +284,8 @@
     "published_at": "2022-12-25T22:34:06Z",
     "youtube_channel_id": "UC4Rtbj695kt2PgWdrFuvzHg",
     "language_names": [],
-    "framework_names": ["Rails"]
+    "framework_names": ["Rails"],
+    "tool_names": []
   },
   {
     "name": "Learn Ruby on Rails 7 - Full Course (CREATE LINKTREE)",
@@ -272,7 +296,8 @@
     "published_at": "2024-01-16T17:36:07Z",
     "youtube_channel_id": "UC4Rtbj695kt2PgWdrFuvzHg",
     "language_names": [],
-    "framework_names": ["Rails"]
+    "framework_names": ["Rails"],
+    "tool_names": []
   },
   {
     "name": "Create Youtube with Ruby on Rails Full Course",
@@ -283,7 +308,8 @@
     "published_at": "2023-07-15T19:30:08Z",
     "youtube_channel_id": "UC4Rtbj695kt2PgWdrFuvzHg",
     "language_names": [],
-    "framework_names": ["Rails"]
+    "framework_names": ["Rails"],
+    "tool_names": []
   },
   {
     "name": "Python Full Course",
@@ -294,7 +320,8 @@
     "published_at": "2020-10-12T13:53:01Z",
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": ["Python"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "Python Tutorial for Beginners - Full Course in 3 Hours",
@@ -305,7 +332,8 @@
     "published_at": "2020-11-17T14:25:24Z",
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": ["Python"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "Java Full Course",
@@ -316,7 +344,8 @@
     "published_at": "2020-09-09T14:02:52Z",
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": ["Java"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "Java Tutorial For Beginners 2023",
@@ -327,7 +356,8 @@
     "published_at": "2022-10-24T13:00:26Z",
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": ["Java"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "Java Functional Programming | Full Course",
@@ -338,7 +368,8 @@
     "published_at": "2020-02-04T23:53:11Z",
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": ["Java"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "Spring Boot Tutorial | Full Course 2023",
@@ -349,7 +380,8 @@
     "published_at": "2021-01-10T14:24:30Z",
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": [],
-    "framework_names": ["Spring"]
+    "framework_names": ["Spring"],
+    "tool_names": []
   },
   {
     "name": "Spring Security Tutorial - 2023",
@@ -360,7 +392,8 @@
     "published_at": "2022-12-06T13:00:09Z",
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": [],
-    "framework_names": ["Spring"]
+    "framework_names": ["Spring"],
+    "tool_names": []
   },
   {
     "name": "Python Django 7 Hour Course",
@@ -371,7 +404,8 @@
     "published_at": "2021-09-29T14:00:10Z",
     "youtube_channel_id": "UC29ju8bIPH5as8OGnQzwJyA",
     "language_names": [],
-    "framework_names": ["Django"]
+    "framework_names": ["Django"],
+    "tool_names": []
   },
   {
     "name": "Django For Everybody - Full Python University Course",
@@ -382,7 +416,8 @@
     "published_at": "2021-09-20T13:37:57Z",
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": [],
-    "framework_names": ["Django"]
+    "framework_names": ["Django"],
+    "tool_names": []
   },
   {
     "name": "Python Backend Web Development Course (with Django)",
@@ -393,7 +428,8 @@
     "published_at": "2021-07-01T16:51:03Z",
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": [],
-    "framework_names": ["Django"]
+    "framework_names": ["Django"],
+    "tool_names": []
   },
   {
     "name": "Learn Django in 20 Minutes",
@@ -404,7 +440,8 @@
     "published_at": "2023-07-29T13:00:38Z",
     "youtube_channel_id": "UC4JX40jDee_tINbkjycV4Sg",
     "language_names": [],
-    "framework_names": ["Django"]
+    "framework_names": ["Django"],
+    "tool_names": []
   },
   {
     "name": "Django For Beginners - Full Tutorial",
@@ -415,7 +452,8 @@
     "published_at": "2021-03-21T15:00:16Z",
     "youtube_channel_id": "UC4JX40jDee_tINbkjycV4Sg",
     "language_names": [],
-    "framework_names": ["Django"]
+    "framework_names": ["Django"],
+    "tool_names": []
   },
   {
     "name": "Django Authentication & User Management - Full Tutorial",
@@ -426,7 +464,8 @@
     "published_at": "2022-03-28T15:00:18Z",
     "youtube_channel_id": "UC4JX40jDee_tINbkjycV4Sg",
     "language_names": [],
-    "framework_names": ["Django"]
+    "framework_names": ["Django"],
+    "tool_names": []
   },
   {
     "name": "OTP V2",
@@ -437,7 +476,8 @@
     "published_at": "2023-06-07T18:46:29Z",
     "youtube_channel_id": "UCE5KlC4hhy_QlXEYPgRKvVA",
     "language_names": ["Elixir"],
-    "framework_names": []
+    "framework_names": [],
+    "tool_names": []
   },
   {
     "name": "LiveView and Phoenix 1.7",
@@ -448,7 +488,8 @@
     "published_at": "2023-02-25T15:26:15Z",
     "youtube_channel_id": "UCE5KlC4hhy_QlXEYPgRKvVA",
     "language_names": [],
-    "framework_names": ["Phoenix"]
+    "framework_names": ["Phoenix"],
+    "tool_names": []
   },
   {
     "name": "How you start writing LiveView",
@@ -459,7 +500,8 @@
     "published_at": "2024-01-15T11:42:17Z",
     "youtube_channel_id": "UCYQ3zFdm_2fiQA3zXPONvcQ",
     "language_names": [],
-    "framework_names": ["Phoenix"]
+    "framework_names": ["Phoenix"],
+    "tool_names": []
   },
   {
     "name": "Magic Link Authentication in Elixir Phoenix",
@@ -470,7 +512,8 @@
     "published_at": "2023-12-28T17:13:24Z",
     "youtube_channel_id": "UCYQ3zFdm_2fiQA3zXPONvcQ",
     "language_names": [],
-    "framework_names": ["Phoenix"]
+    "framework_names": ["Phoenix"],
+    "tool_names": []
   },
   {
     "name": "Phoenix LiveView in Depth: Navigation, Lifecycle & mount vs handle_params",
@@ -481,6 +524,7 @@
     "published_at": "2024-01-08T22:06:02Z",
     "youtube_channel_id": "UCYQ3zFdm_2fiQA3zXPONvcQ",
     "language_names": [],
-    "framework_names": ["Phoenix"]
+    "framework_names": ["Phoenix"],
+    "tool_names": []
   }
 ]
