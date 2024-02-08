@@ -6,6 +6,7 @@ defmodule Techschool.Helpers.ResetDb do
     tables = [
       Techschool.Languages.Language,
       Techschool.Frameworks.Framework,
+      Techschool.Tools.Tool,
       Techschool.Channels.Channel,
       Techschool.Courses.Course
     ]

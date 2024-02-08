@@ -1,9 +1,10 @@
 defmodule Techschool.Helpers.ReSeed do
-  alias Techschool.{Languages, Frameworks, Channels, Courses}
+  alias Techschool.{Languages, Frameworks, Channels, Courses, Tools}
 
   def call(data_folder_path \\ "priv/repo/data") do
     seed_languages(data_folder_path)
     seed_frameworks(data_folder_path)
+    seed_tools(data_folder_path)
     seed_channels(data_folder_path)
     seed_courses(data_folder_path)
   end
@@ -33,6 +34,19 @@ defmodule Techschool.Helpers.ReSeed do
     Frameworks.create_framework(%{
       name: framework[:name],
       image_url: framework[:image_url]
+    })
+  end
+
+  defp seed_tools(data_folder_path) do
+    "#{data_folder_path}/tools.json"
+    |> File.read!()
+    |> Jason.decode!(keys: :atoms)
+    |> Enum.each(&insert_tool/1)
+  end
+
+  defp insert_tool(tool) do
+    Tools.create_tool(%{
+      name: tool[:name]
     })
   end
 
