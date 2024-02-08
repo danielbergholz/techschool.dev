@@ -31,6 +31,16 @@ If you don't want to manually add an SVG for the `image_url` field, don't worry 
 
 Same note as the `image_url` field from the `languages.json` file. Don't worry about it.
 
+## Adding a new tool
+
+- Add a new entry on the JSON file `priv/repo/data/tools.json`. The file should have the following structure:
+
+```json
+{
+  "name": "Tool Name" // case sensitive
+}
+```
+
 ## Adding a new channel
 
 - Add a new entry on the JSON file `priv/repo/data/channels.json`. The file should have the following structure:
@@ -64,7 +74,8 @@ Same note as the `image_url` field from the `languages.json` file. Don't worry a
   "published_at": "published_at_date", // ISO 8601 format, example: "2022-06-16" (YYYY-MM-DD)
   "youtube_channel_id": "uuid_from_youtube", // must be present inside channels.json
   "language_names": ["Programming Language Name"], // must be present inside languages.json (case sensitive)
-  "framework_names": ["Framework Name"] // must be present inside frameworks.json (case sensitive)
+  "framework_names": ["Framework Name"], // must be present inside frameworks.json (case sensitive)
+  "tool_names": ["Tool Name"] // must be present inside tools.json (case sensitive)
 }
 ```
 
@@ -79,9 +90,9 @@ Same note as the `image_url` field from the `languages.json` file. Don't worry a
 
 ### Important notes
 
-The programming language and framework for the course must be exactly what is being taught in the course. If the course is only about Rails, `framework_names` should be `["Rails"]` but `language_names` should be empty. If the course is about Ruby, language_names should be `["Ruby"]` and `framework_names` should be empty.
+The programming language, framework and tool for the course must be exactly what is being taught in the course. If the course is only about Rails, `framework_names` should be `["Rails"]` but `language_names` and `tool_names` should be empty. If the course is about Ruby, `language_names` should be `["Ruby"]` and `framework_names` and `tool_names` should be empty.
 
-You should only add multiple languages/frameworks if the course teaches multiple languages/frameworks. For example: If there is a "complete web development" course that teaches HTML, CSS, JavaScript, Ruby, Rails and React, then `language_names` should be `["HTML", "CSS", "JavaScript", "Ruby"]` and `framework_names` should be `["Rails", "React.js"]`.
+You should only add multiple languages/frameworks if the course teaches multiple languages/frameworks. For example: If there is a "complete web development" course that teaches HTML, CSS, JavaScript, SQL, Ruby, Rails and React, then `language_names` should be `["HTML", "CSS", "JavaScript", "Ruby"]`, `framework_names` should be `["Rails", "React.js"]` and `tool_names` should be `["SQL"]`.
 
 ## FAQ
 
