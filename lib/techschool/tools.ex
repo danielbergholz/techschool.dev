@@ -21,6 +21,10 @@ defmodule Techschool.Tools do
     Repo.all(Tool)
   end
 
+  def list_tool_names do
+    Repo.all(from tool in Tool, select: tool.name)
+  end
+
   @doc """
   Gets a single tool.
 
