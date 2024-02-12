@@ -610,5 +610,41 @@
     "language_names": ["Ruby"],
     "framework_names": [],
     "tool_names": []
+  },
+  {
+    "name": "Descomplicando o Docker",
+    "youtube_course_id": "PLf-O3X2-mxDn1VpyU2q3fuI6YYeIWp5rR",
+    "type": "playlist",
+    "locale": "pt",
+    "image_url": "https://i.ytimg.com/vi/Wm99C_f7Kxw/sddefault.jpg",
+    "published_at": "2022-06-20T12:55:53Z",
+    "youtube_channel_id": "UCJnKVGmXRXrH49Tvrx5X0Sw",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": ["Docker"]
+  },
+  {
+    "name": "LINUXweek",
+    "youtube_course_id": "PLf-O3X2-mxDnl7LhhjhEgbo2etWKkJ0GV",
+    "type": "playlist",
+    "locale": "pt",
+    "image_url": "https://i.ytimg.com/vi/zGE4UxYndrk/sddefault.jpg",
+    "published_at": "2020-08-04T02:34:17Z",
+    "youtube_channel_id": "UCJnKVGmXRXrH49Tvrx5X0Sw",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": ["Linux"]
+  },
+  {
+    "name": "Python week - 2022",
+    "youtube_course_id": "PLf-O3X2-mxDlfAv8IOfic1sHArdwrrkgh",
+    "type": "playlist",
+    "locale": "pt",
+    "image_url": "https://i.ytimg.com/vi/NqUC-G_Pu-o/sddefault.jpg",
+    "published_at": "2022-04-30T11:20:17Z",
+    "youtube_channel_id": "UCJnKVGmXRXrH49Tvrx5X0Sw",
+    "language_names": ["Python"],
+    "framework_names": [],
+    "tool_names": []
   }
 ]
