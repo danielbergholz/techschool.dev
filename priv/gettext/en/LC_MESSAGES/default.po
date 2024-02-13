@@ -68,7 +68,7 @@ msgstr ""
 msgid "That's where TechSchool steps in. We're here to shine a light on those awesome free courses that might be flying under the radar. Our website has a bunch of courses covering different areas. The goal? Help anyone go from zero to landing their first job without breaking the bank. We want to tackle the expensive course culture and make tech education fair and equal for everyone."
 msgstr ""
 
-#: lib/techschool_web/live/course_live/components/search.html.heex:18
+#: lib/techschool_web/live/course_live/components/search.html.heex:19
 #, elixir-autogen, elixir-format
 msgid "Language"
 msgstr ""
@@ -99,7 +99,13 @@ msgstr ""
 msgid "Load More"
 msgstr ""
 
-#: lib/techschool_web/live/course_live/components/search.html.heex:44
+#: lib/techschool_web/live/course_live/components/search.html.heex:43
+#: lib/techschool_web/live/course_live/components/search.html.heex:47
 #, elixir-autogen, elixir-format
 msgid "Tool"
+msgstr ""
+
+#: lib/techschool_web/live/course_live/components/search.html.heex:15
+#, elixir-autogen, elixir-format
+msgid "Programming Language"
 msgstr ""

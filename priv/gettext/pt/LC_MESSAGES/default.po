@@ -68,7 +68,7 @@ msgstr "O TechSchool foi criado pra tornar o ensino em tecnologia acessível pra
 msgid "That's where TechSchool steps in. We're here to shine a light on those awesome free courses that might be flying under the radar. Our website has a bunch of courses covering different areas. The goal? Help anyone go from zero to landing their first job without breaking the bank. We want to tackle the expensive course culture and make tech education fair and equal for everyone."
 msgstr "É aí que o TechSchool entra na jogada. Estamos aqui para destacar aqueles cursos gratuitos incríveis que podem passar despercebidos. Nosso site oferece uma variedade de cursos em diferentes áreas. A meta é ajudar qualquer pessoa a sair do zero e conseguir o primeiro emprego sem gastar dinheiro. Queremos combater a cultura de bootcamps caros e tornar a educação em tecnologia justa e acessível para todos."
 
-#: lib/techschool_web/live/course_live/components/search.html.heex:18
+#: lib/techschool_web/live/course_live/components/search.html.heex:19
 #, elixir-autogen, elixir-format
 msgid "Language"
 msgstr "Linguagem"
@@ -99,7 +99,13 @@ msgstr "TechSchool é uma plataforma de ensino programação, 100% gratuita e op
 msgid "Load More"
 msgstr "Carregar mais"
 
-#: lib/techschool_web/live/course_live/components/search.html.heex:44
+#: lib/techschool_web/live/course_live/components/search.html.heex:43
+#: lib/techschool_web/live/course_live/components/search.html.heex:47
 #, elixir-autogen, elixir-format
 msgid "Tool"
 msgstr "Ferramenta"
+
+#: lib/techschool_web/live/course_live/components/search.html.heex:15
+#, elixir-autogen, elixir-format
+msgid "Programming Language"
+msgstr "Linguagem de programação"
