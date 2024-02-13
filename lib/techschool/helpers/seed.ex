@@ -1,11 +1,12 @@
 defmodule Techschool.Helpers.Seed do
-  alias Techschool.{Languages, Frameworks, Channels, Courses, Tools}
+  alias Techschool.{Languages, Frameworks, Channels, Courses, Tools, Bootcamps}
 
   def call(data_folder_path \\ "priv/repo/data") do
     Techschool.Helpers.ResetDb.call()
     seed_languages(data_folder_path)
     seed_frameworks(data_folder_path)
     seed_tools(data_folder_path)
+    seed_bootcamps(data_folder_path)
     seed_channels(data_folder_path)
     seed_courses(data_folder_path)
   end
@@ -48,6 +49,22 @@ defmodule Techschool.Helpers.Seed do
   defp insert_tool(tool) do
     Tools.create_tool!(%{
       name: tool[:name]
+    })
+  end
+
+  defp seed_bootcamps(data_folder_path) do
+    "#{data_folder_path}/bootcamps.json"
+    |> File.read!()
+    |> Jason.decode!(keys: :atoms)
+    |> Enum.each(&insert_bootcamp/1)
+  end
+
+  defp insert_bootcamp(bootcamp) do
+    Bootcamps.create_bootcamp!(%{
+      name: bootcamp[:name],
+      image_url: bootcamp[:image_url],
+      description_en: bootcamp[:description_en],
+      description_pt: bootcamp[:description_pt]
     })
   end
 

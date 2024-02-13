@@ -8,7 +8,8 @@ defmodule Techschool.Helpers.ResetDb do
       Techschool.Frameworks.Framework,
       Techschool.Tools.Tool,
       Techschool.Channels.Channel,
-      Techschool.Courses.Course
+      Techschool.Courses.Course,
+      Techschool.Bootcamps.Bootcamp
     ]
 
     Enum.each(tables, &Repo.delete_all/1)
