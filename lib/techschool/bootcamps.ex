@@ -55,6 +55,12 @@ defmodule Techschool.Bootcamps do
     |> Repo.insert()
   end
 
+  def create_bootcamp!(attrs \\ %{}) do
+    %Bootcamp{}
+    |> Bootcamp.changeset(attrs)
+    |> Repo.insert!()
+  end
+
   @doc """
   Deletes a bootcamp.
 
