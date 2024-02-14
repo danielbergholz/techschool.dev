@@ -26,6 +26,7 @@ defmodule TechschoolWeb.Router do
 
     live "/", PageLive.Home
     live "/courses", CourseLive.Index
+    live "/bootcamps", BootcampLive.Index
   end
 
   # Other scopes may use custom stacks.
