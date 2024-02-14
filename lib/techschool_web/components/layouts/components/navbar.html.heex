@@ -3,13 +3,19 @@
     <img
       src="https://ucarecdn.com/0c601611-edbf-4c11-a03c-b24460223e5e/"
       alt="TechSchool Logo"
-      class="w-5 md:w-7"
+      class="w-6 md:w-7"
     />
-    <h1 class="font-extrabold ml-2">
+    <h1 class="font-extrabold ml-2 hidden md:block">
       TechSchool
     </h1>
   </.link>
-  <.link navigate={~p"/#{@locale}/courses"} class="font-bold">
-    <%= gettext("Courses") %>
-  </.link>
+  <div class="flex items-center justify-center">
+    <.link navigate={~p"/#{@locale}/courses"} class="font-bold">
+      <%= gettext("Courses") %>
+    </.link>
+    <p class="text-green mx-2">/</p>
+    <.link navigate={~p"/#{@locale}/bootcamps"} class="font-bold">
+      Bootcamps
+    </.link>
+  </div>
 </nav>
