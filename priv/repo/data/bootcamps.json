@@ -10,5 +10,11 @@
     "image_url": "/images/frameworks/phoenix.svg",
     "description_en": "Enter the world of Elixir and Phoenix: where speed meets reliability. Elixir's fault-tolerant design and Phoenix's high-performance framework make real-time applications a breeze. Say goodbye to bottlenecks and hello to seamless scalability. Whether it's massive data processing or interactive web experiences, Elixir and Phoenix empower you to conquer any challenge with ease",
     "description_pt": "Entre no mundo do Elixir e Phoenix: onde velocidade encontra confiabilidade. O design tolerante a falhas do Elixir e o framework de alto desempenho do Phoenix facilitam muito as aplicações em tempo real. Diga adeus aos gargalos e olá à escalabilidade perfeita. Seja para processamento de dados em massa ou experiências web interativas, Elixir e Phoenix capacitam você a superar qualquer desafio"
+  },
+  {
+    "name": "Fullstack Python and Django",
+    "image_url": "/images/frameworks/django.svg",
+    "description_en": "Learn Python and Django and unlock the full potential of web development! Python's versatility paired with Django's high-level framework makes building robust web applications a breeze. With Django's batteries-included philosophy, everything you need for efficient development is at your fingertips.",
+    "description_pt": "Aprenda Python e Django e desbloqueie todo o potencial do desenvolvimento web! A versatilidade do Python combinada com o framework de alto nível do Django torna a construção de aplicações web robustas uma tarefa fácil. Com a filosofia de batteries-included no Django, tudo o que você precisa para um desenvolvimento eficiente está ao seu alcance"
   }
 ]
