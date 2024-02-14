@@ -14,7 +14,7 @@ defmodule TechschoolWeb.BootcampLive.Index do
   @impl true
   def mount(_params, _session, socket) do
     socket
-    |> assign(:page_title, gettext("Bootcamps") <> " | TechSchool")
+    |> assign(:page_title, "Bootcamps | TechSchool")
     |> assign(
       :page_description,
       gettext(

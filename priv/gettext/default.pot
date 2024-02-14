@@ -109,3 +109,8 @@ msgstr ""
 #, elixir-autogen, elixir-format
 msgid "Programming Language"
 msgstr ""
+
+#: lib/techschool_web/live/bootcamp_live/index.ex:20
+#, elixir-autogen, elixir-format
+msgid "TechSchool offers a variety of bootcamps to help you learn the skills you need to start a new career in tech."
+msgstr ""
