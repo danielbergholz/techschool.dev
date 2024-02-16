@@ -28,5 +28,65 @@
     "language_names": "JavaScript",
     "framework_names": "",
     "tool_names": ""
+  },
+  {
+    "name": "Ruby",
+    "optional": false,
+    "image_url": "/images/languages/ruby.svg",
+    "description_en": "Ruby is a dynamic programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write",
+    "description_pt": "Ruby é uma linguagem de programação dinâmica com foco em simplicidade e produtividade. Possui uma sintaxe elegante que é natural de ler e fácil de escrever",
+    "language_names": "Ruby",
+    "framework_names": "",
+    "tool_names": ""
+  },
+  {
+    "name": "Rails",
+    "optional": false,
+    "image_url": "/images/languages/rails.svg",
+    "description_en": "Rails is a web application development framework written in the Ruby programming language. It is designed to make web applications easier by making assumptions about what every developer needs to get started",
+    "description_pt": "Rails é um framework de desenvolvimento web escrito na linguagem de programação Ruby. Ele é projetado para facilitar a programação de aplicações web, fazendo suposições sobre o que cada desenvolvedor precisa para começar",
+    "language_names": "",
+    "framework_names": "Rails",
+    "tool_names": ""
+  },
+  {
+    "name": "Python",
+    "optional": false,
+    "image_url": "/images/languages/python.svg",
+    "description_en": "Python is a high-level, interpreted programming language known for its simplicity and versatility. It is easy to learn and can be used to build web applications, analyze data, and automate tasks",
+    "description_pt": "Python é uma linguagem de programação interpretada de alto nível conhecida por sua simplicidade e versatilidade. É fácil de aprender e pode ser usada para construir aplicações web, analisar dados e automatizar tarefas",
+    "language_names": "Python",
+    "framework_names": "",
+    "tool_names": ""
+  },
+  {
+    "name": "Django",
+    "optional": false,
+    "image_url": "/images/languages/django.svg",
+    "description_en": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It is used for building web applications and APIs",
+    "description_pt": "Django é um framework web de alto nível para Python que incentiva o desenvolvimento rápido e um design limpo e pragmático. É usado para construir aplicações web e APIs",
+    "language_names": "",
+    "framework_names": "Django",
+    "tool_names": ""
+  },
+  {
+    "name": "Elixir",
+    "optional": false,
+    "image_url": "/images/languages/elixir.svg",
+    "description_en": "Elixir is a dynamic, functional language designed for building scalable and maintainable applications. It is built on top of the Erlang VM and is known for its low-latency and fault-tolerant systems",
+    "description_pt": "Elixir é uma linguagem dinâmica e funcional projetada para construir aplicações escaláveis e de fácil manutenção. É construída em cima da máquina virtual Erlang e é conhecida por seus sistemas de baixa latência e tolerantes a falhas",
+    "language_names": "Elixir",
+    "framework_names": "",
+    "tool_names": ""
+  },
+  {
+    "name": "Phoenix",
+    "optional": false,
+    "image_url": "/images/languages/phoenix.svg",
+    "description_en": "Phoenix is a web development framework written in Elixir that implements the server-side Model-View-Controller (MVC) pattern. It is known for its high performance and real-time capabilities",
+    "description_pt": "Phoenix é um framework de desenvolvimento web escrito em Elixir que implementa o padrão Model-View-Controller (MVC) no lado do servidor. É conhecido por seu alto desempenho e capacidades em tempo real",
+    "language_names": "",
+    "framework_names": "Phoenix",
+    "tool_names": ""
   }
 ]
