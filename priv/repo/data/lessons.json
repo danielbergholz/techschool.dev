@@ -1,0 +1,32 @@
+[
+  {
+    "name": "HTML",
+    "optional": false,
+    "image_url": "/images/languages/html.svg",
+    "description_en": "HTML is the standard markup language for creating Web pages",
+    "description_pt": "HTML é a linguagem de marcação padrão para criar páginas da Web",
+    "language_names": "HTML",
+    "framework_names": "",
+    "tool_names": ""
+  },
+  {
+    "name": "CSS",
+    "optional": false,
+    "image_url": "/images/languages/css.svg",
+    "description_en": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML",
+    "description_pt": "Cascading Style Sheets (CSS) é uma linguagem de estilização usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML",
+    "language_names": "CSS",
+    "framework_names": "",
+    "tool_names": ""
+  },
+  {
+    "name": "JavaScript",
+    "optional": false,
+    "image_url": "/images/languages/javascript.svg",
+    "description_en": "JavaScript is a programming language that adds dynamic functionality and complex features like interactivity and animation to web pages. Together with HTML and CSS, JavaScript forms the foundation of web development",
+    "description_pt": "JavaScript é uma linguagem de programação que adiciona funcionalidades dinâmicas complexas como interatividade e animações a páginas da web. Junto com HTML e CSS, o JavaScript forma a base do desenvolvimento web",
+    "language_names": "JavaScript",
+    "framework_names": "",
+    "tool_names": ""
+  }
+]
