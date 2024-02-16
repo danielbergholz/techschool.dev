@@ -15,92 +15,42 @@ defmodule Techschool.Helpers.ReSeed do
     "#{data_folder_path}/languages.json"
     |> File.read!()
     |> Jason.decode!(keys: :atoms)
-    |> Enum.each(&insert_language/1)
-  end
-
-  defp insert_language(language) do
-    Languages.create_language(%{
-      name: language[:name],
-      image_url: language[:image_url]
-    })
+    |> Enum.each(&Languages.create_language(&1))
   end
 
   defp seed_frameworks(data_folder_path) do
     "#{data_folder_path}/frameworks.json"
     |> File.read!()
     |> Jason.decode!(keys: :atoms)
-    |> Enum.each(&insert_framework/1)
-  end
-
-  defp insert_framework(framework) do
-    Frameworks.create_framework(%{
-      name: framework[:name],
-      image_url: framework[:image_url]
-    })
+    |> Enum.each(&Frameworks.create_framework(&1))
   end
 
   defp seed_tools(data_folder_path) do
     "#{data_folder_path}/tools.json"
     |> File.read!()
     |> Jason.decode!(keys: :atoms)
-    |> Enum.each(&insert_tool/1)
-  end
-
-  defp insert_tool(tool) do
-    Tools.create_tool(%{
-      name: tool[:name]
-    })
+    |> Enum.each(&Tools.create_tool(&1))
   end
 
   defp seed_bootcamps(data_folder_path) do
     "#{data_folder_path}/bootcamps.json"
     |> File.read!()
     |> Jason.decode!(keys: :atoms)
-    |> Enum.each(&insert_bootcamp/1)
-  end
-
-  defp insert_bootcamp(bootcamp) do
-    Bootcamps.create_bootcamp(%{
-      name: bootcamp[:name],
-      image_url: bootcamp[:image_url],
-      description_en: bootcamp[:description_en],
-      description_pt: bootcamp[:description_pt]
-    })
+    |> Enum.each(&Bootcamps.create_bootcamp(&1))
   end
 
   defp seed_lessons(data_folder_path) do
     "#{data_folder_path}/lessons.json"
     |> File.read!()
     |> Jason.decode!(keys: :atoms)
-    |> Enum.each(&insert_lesson/1)
-  end
-
-  defp insert_lesson(lesson) do
-    Lessons.create_lesson(%{
-      name: lesson[:name],
-      optional: lesson[:optional],
-      image_url: lesson[:image_url],
-      description_en: lesson[:description_en],
-      description_pt: lesson[:description_pt],
-      language_names: lesson[:language_names],
-      framework_names: lesson[:framework_names],
-      tool_names: lesson[:tool_names]
-    })
+    |> Enum.each(&Lessons.create_lesson(&1))
   end
 
   defp seed_channels(data_folder_path) do
     "#{data_folder_path}/channels.json"
     |> File.read!()
     |> Jason.decode!(keys: :atoms)
-    |> Enum.each(&insert_channel/1)
-  end
-
-  defp insert_channel(channel) do
-    Channels.create_channel(%{
-      name: channel[:name],
-      image_url: channel[:image_url],
-      youtube_channel_id: channel[:youtube_channel_id]
-    })
+    |> Enum.each(&Channels.create_channel(&1))
   end
 
   defp seed_courses(data_folder_path) do
