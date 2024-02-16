@@ -1,11 +1,14 @@
 [
   {
-    "name": "Linux"
+    "name": "Linux",
+    "image_url": "/images/tools/linux.svg"
   },
   {
-    "name": "Docker"
+    "name": "Docker",
+    "image_url": "/images/tools/docker.svg"
   },
   {
-    "name": "SQL"
+    "name": "SQL",
+    "image_url": "/images/tools/sql.svg"
   }
 ]
