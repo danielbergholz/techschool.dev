@@ -1,11 +1,12 @@
 defmodule Techschool.Helpers.ReSeed do
-  alias Techschool.{Languages, Frameworks, Channels, Courses, Tools, Bootcamps}
+  alias Techschool.{Languages, Frameworks, Channels, Courses, Tools, Bootcamps, Lessons}
 
   def call(data_folder_path \\ "priv/repo/data") do
     seed_languages(data_folder_path)
     seed_frameworks(data_folder_path)
     seed_tools(data_folder_path)
     seed_bootcamps(data_folder_path)
+    seed_lessons(data_folder_path)
     seed_channels(data_folder_path)
     seed_courses(data_folder_path)
   end
@@ -64,6 +65,26 @@ defmodule Techschool.Helpers.ReSeed do
       image_url: bootcamp[:image_url],
       description_en: bootcamp[:description_en],
       description_pt: bootcamp[:description_pt]
+    })
+  end
+
+  defp seed_lessons(data_folder_path) do
+    "#{data_folder_path}/lessons.json"
+    |> File.read!()
+    |> Jason.decode!(keys: :atoms)
+    |> Enum.each(&insert_lesson/1)
+  end
+
+  defp insert_lesson(lesson) do
+    Lessons.create_lesson(%{
+      name: lesson[:name],
+      optional: lesson[:optional],
+      image_url: lesson[:image_url],
+      description_en: lesson[:description_en],
+      description_pt: lesson[:description_pt],
+      language_names: lesson[:language_names],
+      framework_names: lesson[:framework_names],
+      tool_names: lesson[:tool_names]
     })
   end
 

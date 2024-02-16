@@ -8,6 +8,7 @@ defmodule Techschool.Helpers.ResetDb do
       Techschool.Frameworks.Framework,
       Techschool.Tools.Tool,
       Techschool.Channels.Channel,
+      Techschool.Lessons.Lesson,
       Techschool.Courses.Course,
       Techschool.Bootcamps.Bootcamp
     ]

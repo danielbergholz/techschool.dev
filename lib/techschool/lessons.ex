@@ -55,6 +55,12 @@ defmodule Techschool.Lessons do
     |> Repo.insert()
   end
 
+  def create_lesson!(attrs \\ %{}) do
+    %Lesson{}
+    |> Lesson.changeset(attrs)
+    |> Repo.insert!()
+  end
+
   @doc """
   Deletes a lesson.
 
