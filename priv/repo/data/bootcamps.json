@@ -3,18 +3,21 @@
     "name": "Fullstack Ruby on Rails",
     "image_url": "/images/frameworks/rails.svg",
     "description_en": "Ruby on Rails: the epitome of web development elegance. Loved for its simplicity and productivity, Rails empowers you to build sophisticated web applications rapidly. With its convention-over-configuration philosophy and vast ecosystem of gems, Rails streamlines complex tasks, keeping your code organized and maintainable. Whether you're a seasoned developer or just starting, Rails offers a delightful experience, accelerating your project from concept to launch",
-    "description_pt": "Ruby on Rails: o epítome da elegância do desenvolvimento web. Amado por sua simplicidade e produtividade, Rails permite que você construa rapidamente aplicações web sofisticadas. Com sua filosofia de convenção sobre configuração e vasto ecossistema de gems, Rails agiliza tarefas complexas, mantendo seu código organizado e de fácil manutenção. Seja você um desenvolvedor experiente ou apenas iniciante, Rails oferece uma experiência agradável, acelerando seu projeto desde o conceito até o lançamento"
+    "description_pt": "Ruby on Rails: o epítome da elegância do desenvolvimento web. Amado por sua simplicidade e produtividade, Rails permite que você construa rapidamente aplicações web sofisticadas. Com sua filosofia de convenção sobre configuração e vasto ecossistema de gems, Rails agiliza tarefas complexas, mantendo seu código organizado e de fácil manutenção. Seja você um desenvolvedor experiente ou apenas iniciante, Rails oferece uma experiência agradável, acelerando seu projeto desde o conceito até o lançamento",
+    "lesson_names": ["HTML", "CSS", "JavaScript"]
   },
   {
     "name": "Fullstack Elixir and Phoenix",
     "image_url": "/images/frameworks/phoenix.svg",
     "description_en": "Enter the world of Elixir and Phoenix: where speed meets reliability. Elixir's fault-tolerant design and Phoenix's high-performance framework make real-time applications a breeze. Say goodbye to bottlenecks and hello to seamless scalability. Whether it's massive data processing or interactive web experiences, Elixir and Phoenix empower you to conquer any challenge with ease",
-    "description_pt": "Entre no mundo do Elixir e Phoenix: onde velocidade encontra confiabilidade. O design tolerante a falhas do Elixir e o framework de alto desempenho do Phoenix facilitam muito as aplicações em tempo real. Diga adeus aos gargalos e olá à escalabilidade perfeita. Seja para processamento de dados em massa ou experiências web interativas, Elixir e Phoenix capacitam você a superar qualquer desafio"
+    "description_pt": "Entre no mundo do Elixir e Phoenix: onde velocidade encontra confiabilidade. O design tolerante a falhas do Elixir e o framework de alto desempenho do Phoenix facilitam muito as aplicações em tempo real. Diga adeus aos gargalos e olá à escalabilidade perfeita. Seja para processamento de dados em massa ou experiências web interativas, Elixir e Phoenix capacitam você a superar qualquer desafio",
+    "lesson_names": ["HTML", "CSS", "JavaScript"]
   },
   {
     "name": "Fullstack Python and Django",
     "image_url": "/images/frameworks/django.svg",
     "description_en": "Learn Python and Django and unlock the full potential of web development! Python's versatility paired with Django's high-level framework makes building robust web applications a breeze. With Django's batteries-included philosophy, everything you need for efficient development is at your fingertips.",
-    "description_pt": "Aprenda Python e Django e desbloqueie todo o potencial do desenvolvimento web! A versatilidade do Python combinada com o framework de alto nível do Django torna a construção de aplicações web robustas uma tarefa fácil. Com a filosofia de batteries-included no Django, tudo o que você precisa para um desenvolvimento eficiente está ao seu alcance"
+    "description_pt": "Aprenda Python e Django e desbloqueie todo o potencial do desenvolvimento web! A versatilidade do Python combinada com o framework de alto nível do Django torna a construção de aplicações web robustas uma tarefa fácil. Com a filosofia de batteries-included no Django, tudo o que você precisa para um desenvolvimento eficiente está ao seu alcance",
+    "lesson_names": ["HTML", "CSS", "JavaScript"]
   }
 ]

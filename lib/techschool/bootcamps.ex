@@ -7,6 +7,7 @@ defmodule Techschool.Bootcamps do
   alias Techschool.Repo
 
   alias Techschool.Bootcamps.Bootcamp
+  alias Techschool.Lessons
 
   @doc """
   Returns the list of bootcamps.
@@ -49,15 +50,21 @@ defmodule Techschool.Bootcamps do
       {:error, %Ecto.Changeset{}}
 
   """
-  def create_bootcamp(attrs \\ %{}) do
+  def create_bootcamp(attrs \\ %{}, opts \\ []) do
+    lesson_names = Keyword.get(opts, :lesson_names, [])
+    lessons = Lessons.get_lessons_by_name(lesson_names)
+
     %Bootcamp{}
-    |> Bootcamp.changeset(attrs)
+    |> Bootcamp.changeset(attrs, lessons: lessons)
     |> Repo.insert()
   end
 
-  def create_bootcamp!(attrs \\ %{}) do
+  def create_bootcamp!(attrs \\ %{}, opts \\ []) do
+    lesson_names = Keyword.get(opts, :lesson_names, [])
+    lessons = Lessons.get_lessons_by_name(lesson_names)
+
     %Bootcamp{}
-    |> Bootcamp.changeset(attrs)
+    |> Bootcamp.changeset(attrs, lessons: lessons)
     |> Repo.insert!()
   end
 

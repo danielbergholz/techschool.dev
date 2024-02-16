@@ -6,8 +6,8 @@ defmodule Techschool.Helpers.Seed do
     seed_languages(data_folder_path)
     seed_frameworks(data_folder_path)
     seed_tools(data_folder_path)
-    seed_bootcamps(data_folder_path)
     seed_lessons(data_folder_path)
+    seed_bootcamps(data_folder_path)
     seed_channels(data_folder_path)
     seed_courses(data_folder_path)
   end
@@ -37,7 +37,14 @@ defmodule Techschool.Helpers.Seed do
     "#{data_folder_path}/bootcamps.json"
     |> File.read!()
     |> Jason.decode!(keys: :atoms)
-    |> Enum.each(&Bootcamps.create_bootcamp!(&1))
+    |> Enum.each(&insert_bootcamp/1)
+  end
+
+  defp insert_bootcamp(bootcamp) do
+    Bootcamps.create_bootcamp!(
+      bootcamp,
+      lesson_names: bootcamp[:lesson_names]
+    )
   end
 
   defp seed_lessons(data_folder_path) do
