@@ -42,7 +42,7 @@
   {
     "name": "Rails",
     "optional": false,
-    "image_url": "/images/languages/rails.svg",
+    "image_url": "/images/frameworks/rails.svg",
     "description_en": "Rails is a web application development framework written in the Ruby programming language. It is designed to make web applications easier by making assumptions about what every developer needs to get started",
     "description_pt": "Rails é um framework de desenvolvimento web escrito na linguagem de programação Ruby. Ele é projetado para facilitar a programação de aplicações web, fazendo suposições sobre o que cada desenvolvedor precisa para começar",
     "language_names": "",
@@ -62,7 +62,7 @@
   {
     "name": "Django",
     "optional": false,
-    "image_url": "/images/languages/django.svg",
+    "image_url": "/images/frameworks/django.svg",
     "description_en": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It is used for building web applications and APIs",
     "description_pt": "Django é um framework web de alto nível para Python que incentiva o desenvolvimento rápido e um design limpo e pragmático. É usado para construir aplicações web e APIs",
     "language_names": "",
@@ -82,7 +82,7 @@
   {
     "name": "Phoenix",
     "optional": false,
-    "image_url": "/images/languages/phoenix.svg",
+    "image_url": "/images/frameworks/phoenix.svg",
     "description_en": "Phoenix is a web development framework written in Elixir that implements the server-side Model-View-Controller (MVC) pattern. It is known for its high performance and real-time capabilities",
     "description_pt": "Phoenix é um framework de desenvolvimento web escrito em Elixir que implementa o padrão Model-View-Controller (MVC) no lado do servidor. É conhecido por seu alto desempenho e capacidades em tempo real",
     "language_names": "",
