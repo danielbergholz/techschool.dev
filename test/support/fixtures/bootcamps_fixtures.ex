@@ -23,6 +23,6 @@ defmodule Techschool.BootcampsFixtures do
       })
       |> Techschool.Bootcamps.create_bootcamp()
 
-    bootcamp
+    Techschool.Bootcamps.get_bootcamp!(bootcamp.id)
   end
 end
