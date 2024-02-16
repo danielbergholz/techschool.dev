@@ -37,6 +37,12 @@ defmodule Techschool.Lessons do
   """
   def get_lesson!(id), do: Repo.get!(Lesson, id)
 
+  def get_lessons_by_name([]), do: []
+
+  def get_lessons_by_name(names) do
+    Repo.all(from lesson in Lesson, where: lesson.name in ^names)
+  end
+
   @doc """
   Creates a lesson.
 
