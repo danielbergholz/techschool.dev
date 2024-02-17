@@ -88,5 +88,35 @@
     "language_names": "",
     "framework_names": "Phoenix",
     "tool_names": ""
+  },
+  {
+    "name": "SQL",
+    "optional": false,
+    "image_url": "/images/tools/sql.svg",
+    "description_en": "SQL (Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS)",
+    "description_pt": "SQL (Structured Query Language) é uma linguagem específica de domínio usada em programação e projetada para gerenciar dados armazenados em um sistema de gerenciamento de banco de dados relacional (RDBMS)",
+    "language_names": "",
+    "framework_names": "",
+    "tool_names": "SQL"
+  },
+  {
+    "name": "Linux",
+    "optional": true,
+    "image_url": "/images/tools/linux.svg",
+    "description_en": "Learning the linux terminal is a great way to improve your programming skills. It allows you to interact with your computer in a way that is not possible with a graphical user interface",
+    "description_pt": "Aprender o terminal do linux é uma ótima maneira de melhorar suas habilidades de programação. Ele permite que você interaja com o seu computador de uma maneira que não é possível com uma interface gráfica",
+    "language_names": "",
+    "framework_names": "",
+    "tool_names": "Linux"
+  },
+  {
+    "name": "Docker",
+    "optional": true,
+    "image_url": "/images/tools/docker.svg",
+    "description_en": "Docker is a platform for developers and sysadmins to develop, deploy, and run applications with containers. The use of containers to deploy applications is called containerization",
+    "description_pt": "Docker é uma plataforma para desenvolvedores e administradores de sistemas desenvolverem, implantarem e executarem aplicações com contêineres. O uso de contêineres para implantar aplicações é chamado de containerização",
+    "language_names": "",
+    "framework_names": "",
+    "tool_names": "Docker"
   }
 ]
