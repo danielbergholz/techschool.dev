@@ -4,6 +4,7 @@ defmodule Techschool.Bootcamps.Bootcamp do
 
   schema "bootcamps" do
     field :name, :string
+    field :slug, :string, virtual: true
     field :image_url, :string
     field :description_en, :string
     field :description_pt, :string

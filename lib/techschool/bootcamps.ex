@@ -19,7 +19,9 @@ defmodule Techschool.Bootcamps do
 
   """
   def list_bootcamps do
-    Repo.all(Bootcamp)
+    Bootcamp
+    |> Repo.all()
+    |> Enum.map(&add_bootcamp_slug/1)
   end
 
   @doc """
@@ -37,6 +39,16 @@ defmodule Techschool.Bootcamps do
 
   """
   def get_bootcamp!(id), do: Repo.get!(Bootcamp, id)
+
+  def get_bootcamp_by_slug!(slug) do
+    name = String.replace(slug, "-", " ")
+
+    from(bootcamp in Bootcamp,
+      where: fragment("lower(?) LIKE ?", bootcamp.name, ^name),
+      preload: [:lessons]
+    )
+    |> Repo.one!()
+  end
 
   @doc """
   Creates a bootcamp.
@@ -82,5 +94,16 @@ defmodule Techschool.Bootcamps do
   """
   def delete_bootcamp(%Bootcamp{} = bootcamp) do
     Repo.delete(bootcamp)
+  end
+
+  defp generate_slug(name) do
+    name
+    |> String.downcase()
+    |> String.replace(~r/\s+/, "-")
+  end
+
+  defp add_bootcamp_slug(%Bootcamp{} = bootcamp) do
+    bootcamp
+    |> Map.put(:slug, generate_slug(bootcamp.name))
   end
 end
