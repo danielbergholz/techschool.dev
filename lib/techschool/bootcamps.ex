@@ -38,7 +38,7 @@ defmodule Techschool.Bootcamps do
       ** (Ecto.NoResultsError)
 
   """
-  def get_bootcamp!(id), do: Repo.get!(Bootcamp, id)
+  def get_bootcamp!(id), do: Repo.get!(Bootcamp, id) |> add_bootcamp_slug()
 
   def get_bootcamp_by_slug!(slug) do
     name = String.replace(slug, "-", " ")
