@@ -21,7 +21,7 @@ defmodule Techschool.ToolsTest do
     end
 
     test "create_tool/1 with valid data creates a tool" do
-      valid_attrs = %{name: "some name"}
+      valid_attrs = %{name: "some name", image_url: "some image_url"}
 
       assert {:ok, %Tool{} = tool} = Tools.create_tool(valid_attrs)
       assert tool.name == "some name"
