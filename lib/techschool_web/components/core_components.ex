@@ -558,12 +558,12 @@ defmodule TechschoolWeb.CoreComponents do
 
   def back(assigns) do
     ~H"""
-    <div class="mt-16">
+    <div class="mt-8">
       <.link
         navigate={@navigate}
-        class="text-sm font-semibold leading-6 text-zinc-900 hover:text-zinc-700"
+        class="flex items-center justify-center text-base font-semibold leading-6 text-white hover:text-green"
       >
-        <.icon name="hero-arrow-left-solid" class="h-3 w-3" />
+        <.icon name="hero-arrow-left-solid" class="h-3 w-3 mr-1" />
         <%= render_slot(@inner_block) %>
       </.link>
     </div>
