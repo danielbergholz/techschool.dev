@@ -30,6 +30,16 @@
     "tool_names": ""
   },
   {
+    "name": "SQL",
+    "optional": false,
+    "image_url": "/images/tools/sql.svg",
+    "description_en": "SQL (Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS)",
+    "description_pt": "SQL (Structured Query Language) é uma linguagem específica de domínio usada em programação e projetada para gerenciar dados armazenados em um sistema de gerenciamento de banco de dados relacional (RDBMS)",
+    "language_names": "",
+    "framework_names": "",
+    "tool_names": "SQL"
+  },
+  {
     "name": "Ruby",
     "optional": false,
     "image_url": "/images/languages/ruby.svg",
@@ -89,16 +99,7 @@
     "framework_names": "Phoenix",
     "tool_names": ""
   },
-  {
-    "name": "SQL",
-    "optional": false,
-    "image_url": "/images/tools/sql.svg",
-    "description_en": "SQL (Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS)",
-    "description_pt": "SQL (Structured Query Language) é uma linguagem específica de domínio usada em programação e projetada para gerenciar dados armazenados em um sistema de gerenciamento de banco de dados relacional (RDBMS)",
-    "language_names": "",
-    "framework_names": "",
-    "tool_names": "SQL"
-  },
+
   {
     "name": "Linux",
     "optional": true,
