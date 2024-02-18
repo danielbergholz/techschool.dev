@@ -26,7 +26,7 @@ msgstr ""
 msgid "Code available on"
 msgstr "Código disponível em"
 
-#: lib/techschool_web/components/layouts/components/navbar.html.heex:13
+#: lib/techschool_web/components/layouts/components/navbar.html.heex:14
 #: lib/techschool_web/live/course_live/index.ex:31
 #, elixir-autogen, elixir-format
 msgid "Courses"
@@ -114,3 +114,14 @@ msgstr "Linguagem de programação"
 #, elixir-autogen, elixir-format
 msgid "TechSchool offers a variety of bootcamps to help you learn the skills you need to start a new career in tech."
 msgstr "TechSchool oferece uma variedade de bootcamps para ajudar você a aprender as habilidades necessárias para começar uma nova carreira em tecnologia."
+
+#: lib/techschool_web/live/bootcamp_live/show.html.heex:15
+#, elixir-autogen, elixir-format
+msgid "Back"
+msgstr "Voltar"
+
+#: lib/techschool_web/live/bootcamp_live/components/lesson_card.html.heex:11
+#: lib/techschool_web/live/bootcamp_live/components/lesson_card.html.heex:11
+#, elixir-autogen, elixir-format
+msgid "optional"
+msgstr "opcional"

@@ -1,18 +1,21 @@
 <.link
-  navigate={~p"/#{@locale}/bootcamps/#{@bootcamp.slug}"}
+  navigate={@navigate}
   class="border border-gray hover:border-green rounded w-full md:w-[750px] p-4 flex flex-col sm:flex-row items-center text-center sm:text-left gap-2 sm:gap-4 md:gap-6"
   {@rest}
 >
-  <img class="w-28 md:w-auto h-auto" src={@bootcamp.image_url} alt={@bootcamp.name} />
+  <img class="w-20 md:w-28" src={@lesson.image_url} alt={@lesson.name} />
   <div>
     <h2 class="font-bold text-lg md:text-xl mb-2 md:mb-3">
-      <%= @bootcamp.name %>
+      <%= @lesson.name %>
+      <span :if={@lesson.optional} class="text-green font-thin text-base">
+        [<%= gettext("optional") %>]
+      </span>
     </h2>
     <p :if={@locale == "en"} class="text-sm md:text-base text-gray">
-      <%= @bootcamp.description_en %>
+      <%= @lesson.description_en %>
     </p>
     <p :if={@locale == "pt"} class="text-sm md:text-base text-gray">
-      <%= @bootcamp.description_pt %>
+      <%= @lesson.description_pt %>
     </p>
   </div>
 </.link>
