@@ -646,5 +646,29 @@
     "language_names": ["Python"],
     "framework_names": [],
     "tool_names": []
+  },
+  {
+    "name": "Fullstack LMS: Ruby on Rails 7, Hotwire, Tailwind, Stripe, PostgreSQL",
+    "youtube_course_id": "HDA9QiHgrsI",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/HDA9QiHgrsI/sddefault.jpg",
+    "published_at": "2024-02-06T07:00:07Z",
+    "youtube_channel_id": "UCUeZ3YgblYkMQt0wJP3OR-Q",
+    "language_names": [],
+    "framework_names": ["Rails"],
+    "tool_names": []
+  },
+  {
+    "name": "Fullstack E-Commerce: Ruby on Rails 7, Hotwire, Tailwind, Stripe, PostgreSQL",
+    "youtube_course_id": "hURUMwdCWuI",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/hURUMwdCWuI/sddefault.jpg",
+    "published_at": "2023-12-22T17:28:04Z",
+    "youtube_channel_id": "UCUeZ3YgblYkMQt0wJP3OR-Q",
+    "language_names": [],
+    "framework_names": ["Rails"],
+    "tool_names": []
   }
 ]
