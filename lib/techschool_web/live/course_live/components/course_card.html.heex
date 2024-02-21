@@ -5,7 +5,13 @@
   class="border border-gray hover:border-green rounded w-60 md:w-72 px-5 pb-5"
   {@rest}
 >
-  <img class="rounded object-cover" src={@course.image_url} alt={@course.name} />
+  <img
+    class="rounded object-cover"
+    src={@course.image_url}
+    alt={@course.name}
+    width={246}
+    height={184}
+  />
   <div class="flex justify-between items-center text-left">
     <div>
       <div class="font-bold">
@@ -15,7 +21,10 @@
         <img
           src={@course.channel.image_url}
           alt={"Flag of #{String.upcase(to_string(@course.locale))}"}
-          class="rounded-full w-6 mr-2"
+          class="rounded-full mr-2"
+          loading="lazy"
+          width={24}
+          height={24}
         />
         <div class="text-gray text-sm">
           <%= @course.channel.name %>
