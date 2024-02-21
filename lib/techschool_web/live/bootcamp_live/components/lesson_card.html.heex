@@ -3,7 +3,7 @@
   class="border border-gray hover:border-green rounded w-full md:w-[750px] p-4 flex flex-col sm:flex-row items-center text-center sm:text-left gap-2 sm:gap-4 md:gap-6"
   {@rest}
 >
-  <img class="w-20 md:w-28" src={@lesson.image_url} alt={@lesson.name} />
+  <img class="w-20 md:w-28" width="112" height="112" src={@lesson.image_url} alt={@lesson.name} />
   <div>
     <h2 class="font-bold text-lg md:text-xl mb-2 md:mb-3">
       <%= @lesson.name %>

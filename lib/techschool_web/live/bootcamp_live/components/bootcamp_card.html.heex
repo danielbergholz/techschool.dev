@@ -3,7 +3,13 @@
   class="border border-gray hover:border-green rounded w-full md:w-[750px] p-4 flex flex-col sm:flex-row items-center text-center sm:text-left gap-2 sm:gap-4 md:gap-6"
   {@rest}
 >
-  <img class="w-28 md:w-auto h-auto" src={@bootcamp.image_url} alt={@bootcamp.name} />
+  <img
+    class="w-28 md:w-auto h-auto"
+    width="128"
+    height="128"
+    src={@bootcamp.image_url}
+    alt={@bootcamp.name}
+  />
   <div>
     <h2 class="font-bold text-lg md:text-xl mb-2 md:mb-3">
       <%= @bootcamp.name %>
