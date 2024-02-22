@@ -10,5 +10,9 @@
   {
     "name": "SQL",
     "image_url": "/images/tools/sql.svg"
+  },
+  {
+    "name": "Git",
+    "image_url": "/images/tools/git.svg"
   }
 ]
