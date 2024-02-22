@@ -670,5 +670,29 @@
     "language_names": [],
     "framework_names": ["Rails"],
     "tool_names": []
+  },
+  {
+    "name": "Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git",
+    "youtube_course_id": "Uszj_k0DGsg",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/Uszj_k0DGsg/sddefault.jpg",
+    "published_at": "2021-09-30T13:25:20Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": ["Git"]
+  },
+  {
+    "name": "Git and GitHub Tutorial For Beginners | Full Course [2021]",
+    "youtube_course_id": "3fUbBnN_H2c",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/3fUbBnN_H2c/sddefault.jpg",
+    "published_at": "2021-02-28T15:00:15Z",
+    "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": ["Git"]
   }
 ]
