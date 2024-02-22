@@ -30,6 +30,16 @@
     "tool_names": ""
   },
   {
+    "name": "Git",
+    "optional": false,
+    "image_url": "/images/tools/git.svg",
+    "description_en": "Git is a distributed version control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files",
+    "description_pt": "Git é um sistema de controle de versão distribuído para rastrear mudanças no código fonte durante o desenvolvimento de software. Ele é projetado para coordenar o trabalho entre programadores, mas pode ser usado para rastrear mudanças em qualquer conjunto de arquivos",
+    "language_names": "",
+    "framework_names": "",
+    "tool_names": "Git"
+  },
+  {
     "name": "SQL",
     "optional": false,
     "image_url": "/images/tools/sql.svg",
