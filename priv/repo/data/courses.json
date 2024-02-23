@@ -768,6 +768,42 @@
     "tool_names": []
   },
   {
+    "name": "Node.js Tutorials",
+    "youtube_course_id": "PLillGF-RfqbZ2ybcoD2OaabW2P7Ws8CWu",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/fBNz5xF-Kx4/sddefault.jpg",
+    "published_at": "2019-12-23T13:13:45Z",
+    "youtube_channel_id": "UC29ju8bIPH5as8OGnQzwJyA",
+    "language_names": [],
+    "framework_names": ["Node.js"],
+    "tool_names": []
+  },
+  {
+    "name": "Node.js and Express.js - Full Course",
+    "youtube_course_id": "Oe421EPjeBE",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/Oe421EPjeBE/sddefault.jpg",
+    "published_at": "2021-04-01T12:37:58Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": [],
+    "framework_names": ["Node.js"],
+    "tool_names": []
+  },
+  {
+    "name": "Node.js Tutorials",
+    "youtube_course_id": "PLWKjhJtqVAbmGQoa3vFjeRbRADAOC9drk",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/RLtyhwFtXQA/sddefault.jpg",
+    "published_at": "2018-12-17T14:10:20Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": [],
+    "framework_names": ["Node.js"],
+    "tool_names": []
+  },
+  {
     "name": "JavaScript Tutorials",
     "youtube_course_id": "PLWKjhJtqVAbleDe3_ZA8h3AO2rXar-q2V",
     "type": "playlist",
