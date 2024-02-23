@@ -766,5 +766,65 @@
     "language_names": [],
     "framework_names": ["Next.js"],
     "tool_names": []
+  },
+  {
+    "name": "JavaScript Tutorials",
+    "youtube_course_id": "PLWKjhJtqVAbleDe3_ZA8h3AO2rXar-q2V",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/PkZNo7MFNFg/sddefault.jpg",
+    "published_at": "2018-12-07T13:47:20Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": ["JavaScript"],
+    "framework_names": [],
+    "tool_names": []
+  },
+  {
+    "name": "Learn TypeScript - Full Tutorial",
+    "youtube_course_id": "30LWjhZzg50",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/30LWjhZzg50/sddefault.jpg",
+    "published_at": "2022-11-10T16:03:31Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": ["TypeScript"],
+    "framework_names": [],
+    "tool_names": []
+  },
+  {
+    "name": "Build 25 React Projects - Tutorial",
+    "youtube_course_id": "5ZdHfJVAY-s",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/5ZdHfJVAY-s/sddefault.jpg",
+    "published_at": "2024-02-05T15:30:28Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": [],
+    "framework_names": ["React.js"],
+    "tool_names": []
+  },
+  {
+    "name": "React Course - Beginner's Tutorial for React JavaScript Library [2022]",
+    "youtube_course_id": "bMknfKXIFA8",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/bMknfKXIFA8/sddefault.jpg",
+    "published_at": "2022-01-10T14:47:57Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": [],
+    "framework_names": ["React.js"],
+    "tool_names": []
+  },
+  {
+    "name": "Next.js 13 E-Commerce Tutorial (App Router, TypeScript, Deployment, TailwindCSS, Prisma, DaisyUI)",
+    "youtube_course_id": "K4ziF0MhbLc",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/K4ziF0MhbLc/sddefault.jpg",
+    "published_at": "2023-10-05T15:26:35Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": [],
+    "framework_names": ["Next.js"],
+    "tool_names": []
   }
 ]
