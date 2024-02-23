@@ -30,6 +30,16 @@
     "tool_names": ""
   },
   {
+    "name": "TypeScript",
+    "optional": false,
+    "image_url": "/images/languages/typescript.svg",
+    "description_en": "TypeScript is a superset of JavaScript that adds static types to the language. It is designed for the development of large applications and transpiles to JavaScript",
+    "description_pt": "TypeScript é um superset do JavaScript que adiciona tipagem estática à linguagem. É projetado para o desenvolvimento de grande aplicações e transpila para JavaScript",
+    "language_names": "TypeScript",
+    "framework_names": "",
+    "tool_names": ""
+  },
+  {
     "name": "Git",
     "optional": false,
     "image_url": "/images/tools/git.svg",
@@ -48,6 +58,26 @@
     "language_names": "",
     "framework_names": "",
     "tool_names": "SQL"
+  },
+  {
+    "name": "Node.js",
+    "optional": false,
+    "image_url": "/images/frameworks/node.svg",
+    "description_en": "Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside of a web browser. It is used to build scalable backend applications",
+    "description_pt": "Node.js é um ambiente de execução de JavaScript de código aberto e multiplataforma que executa código JavaScript fora de um navegador web. É usado para construir aplicações backend escaláveis",
+    "language_names": "",
+    "framework_names": "Node.js",
+    "tool_names": ""
+  },
+  {
+    "name": "React.js",
+    "optional": false,
+    "image_url": "/images/frameworks/react.svg",
+    "description_en": "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of web or mobile applications",
+    "description_pt": "React é uma biblioteca JavaScript para construir interfaces de usuário. É mantido pelo Facebook e uma comunidade de desenvolvedores individuais e empresas. React pode ser usado como base no desenvolvimento de aplicações web ou mobile",
+    "language_names": "",
+    "framework_names": "React.js",
+    "tool_names": ""
   },
   {
     "name": "Ruby",
