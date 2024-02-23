@@ -86,6 +86,11 @@
     <priority>0.51</priority>
   </url>
   <url>
+    <loc>https://techschool.dev/en/courses?framework=node.js</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.51</priority>
+  </url>
+  <url>
     <loc>https://techschool.dev/en/courses?tool=linux</loc>
     <changefreq>weekly</changefreq>
     <priority>0.51</priority>
@@ -182,6 +187,11 @@
   </url>
   <url>
     <loc>https://techschool.dev/pt/courses?framework=phoenix</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.41</priority>
+  </url>
+  <url>
+    <loc>https://techschool.dev/pt/courses?framework=node.js</loc>
     <changefreq>weekly</changefreq>
     <priority>0.41</priority>
   </url>
