@@ -31,6 +31,11 @@
     <priority>0.64</priority>
   </url>
   <url>
+    <loc>https://techschool.dev/en/bootcamps/fullstack-javascript</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
     <loc>https://techschool.dev/en/bootcamps/fullstack-elixir-and-phoenix</loc>
     <changefreq>monthly</changefreq>
     <priority>0.64</priority>
@@ -122,6 +127,11 @@
   </url>
   <url>
     <loc>https://techschool.dev/pt/bootcamps/fullstack-ruby-on-rails</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://techschool.dev/pt/bootcamps/fullstack-javascript</loc>
     <changefreq>monthly</changefreq>
     <priority>0.51</priority>
   </url>
