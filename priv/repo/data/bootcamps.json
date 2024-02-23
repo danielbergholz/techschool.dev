@@ -17,6 +17,24 @@
     ]
   },
   {
+    "name": "Fullstack JavaScript",
+    "image_url": "/images/frameworks/node.svg",
+    "description_en": "Become a fullstack JavaScript developer and build dynamic web applications. JavaScript's versatility allows you to build for both the client and server, making you a valuable asset to any team. With Node.js, and React.js, you'll have the power to build scalable and maintainable fullstack applications",
+    "description_pt": "Seja um desenvolvedor fullstack JavaScript e construa aplicações web dinâmicas. A versatilidade do JavaScript permite que você programe tanto no frontend quanto no backend, tornando-se um dev valioso para qualquer equipe. Com Node.js e React.js, você terá o poder de construir aplicações fullstack escaláveis e de fácil manutenção",
+    "lesson_names": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Git",
+      "SQL",
+      "Node.js",
+      "React.js",
+      "Linux",
+      "Docker"
+    ]
+  },
+  {
     "name": "Fullstack Elixir and Phoenix",
     "image_url": "/images/frameworks/phoenix.svg",
     "description_en": "Enter the world of Elixir and Phoenix: where speed meets reliability. Elixir's fault-tolerant design and Phoenix's high-performance framework make real-time applications a breeze. Say goodbye to bottlenecks and hello to seamless scalability. Whether it's massive data processing or interactive web experiences, Elixir and Phoenix empower you to conquer any challenge with ease",
