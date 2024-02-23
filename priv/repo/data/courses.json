@@ -694,5 +694,77 @@
     "language_names": [],
     "framework_names": [],
     "tool_names": ["Git"]
+  },
+  {
+    "name": "Modern JavaScript From The Beginning | First 12 Hours",
+    "youtube_course_id": "BI1o2H9z9fo",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/BI1o2H9z9fo/sddefault.jpg",
+    "published_at": "2023-07-26T12:40:21Z",
+    "youtube_channel_id": "UC29ju8bIPH5as8OGnQzwJyA",
+    "language_names": ["JavaScript"],
+    "framework_names": [],
+    "tool_names": []
+  },
+  {
+    "name": "JavaScript Crash Courses",
+    "youtube_course_id": "PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/hdI2bqOjy3c/sddefault.jpg",
+    "published_at": "2017-07-25T10:22:18Z",
+    "youtube_channel_id": "UC29ju8bIPH5as8OGnQzwJyA",
+    "language_names": ["JavaScript"],
+    "framework_names": [],
+    "tool_names": []
+  },
+  {
+    "name": "TypeScript Crash Course",
+    "youtube_course_id": "BCg4U1FzODs",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/BCg4U1FzODs/sddefault.jpg",
+    "published_at": "2021-08-18T13:13:38Z",
+    "youtube_channel_id": "UC29ju8bIPH5as8OGnQzwJyA",
+    "language_names": ["TypeScript"],
+    "framework_names": [],
+    "tool_names": []
+  },
+  {
+    "name": "React JS Crash Course",
+    "youtube_course_id": "w7ejDZ8SWv8",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/w7ejDZ8SWv8/sddefault.jpg",
+    "published_at": "2021-01-18T19:01:11Z",
+    "youtube_channel_id": "UC29ju8bIPH5as8OGnQzwJyA",
+    "language_names": [],
+    "framework_names": ["React.js"],
+    "tool_names": []
+  },
+  {
+    "name": "React Projects",
+    "youtube_course_id": "PLillGF-RfqbY3c2r0htQyVbDJJoBFE6Rb",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/XuFDcZABiDQ/sddefault.jpg",
+    "published_at": "2020-06-30T20:33:50Z",
+    "youtube_channel_id": "UC29ju8bIPH5as8OGnQzwJyA",
+    "language_names": [],
+    "framework_names": ["React.js"],
+    "tool_names": []
+  },
+  {
+    "name": "Next.js 13 Crash Course | App Directory, React Server Components & More",
+    "youtube_course_id": "Y6KDk5iyrYE",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/Y6KDk5iyrYE/sddefault.jpg",
+    "published_at": "2023-04-05T17:49:23Z",
+    "youtube_channel_id": "UC29ju8bIPH5as8OGnQzwJyA",
+    "language_names": [],
+    "framework_names": ["Next.js"],
+    "tool_names": []
   }
 ]
