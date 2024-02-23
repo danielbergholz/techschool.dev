@@ -26,5 +26,9 @@
   {
     "name": "Next.js",
     "image_url": "/images/frameworks/next.svg"
+  },
+  {
+    "name": "Node.js",
+    "image_url": "/images/frameworks/node.svg"
   }
 ]
