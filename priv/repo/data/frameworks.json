@@ -30,5 +30,9 @@
   {
     "name": "Node.js",
     "image_url": "/images/frameworks/node.svg"
+  },
+  {
+    "name": "Express.js",
+    "image_url": "/images/frameworks/express.svg"
   }
 ]
