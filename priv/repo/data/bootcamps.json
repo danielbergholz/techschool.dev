@@ -35,6 +35,21 @@
     ]
   },
   {
+    "name": "React Frontend Expert",
+    "image_url": "/images/frameworks/react.svg",
+    "description_en": "Master the React ecosystem and build dynamic, fast, and interactive user interfaces. React's component-based architecture and virtual DOM make it the perfect tool to craft modern web applications",
+    "description_pt": "Masterize o ecossistema React e construa interfaces de usuário dinâmicas, rápidas e interativas. A arquitetura baseada em componentes e o DOM virtual do React o tornam a ferramenta perfeita para criar aplicações web modernas",
+    "lesson_names": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Git",
+      "React.js",
+      "Next.js"
+    ]
+  },
+  {
     "name": "Fullstack Elixir and Phoenix",
     "image_url": "/images/frameworks/phoenix.svg",
     "description_en": "Enter the world of Elixir and Phoenix: where speed meets reliability. Elixir's fault-tolerant design and Phoenix's high-performance framework make real-time applications a breeze. Say goodbye to bottlenecks and hello to seamless scalability. Whether it's massive data processing or interactive web experiences, Elixir and Phoenix empower you to conquer any challenge with ease",
