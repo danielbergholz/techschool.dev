@@ -34,5 +34,9 @@
   {
     "name": "Express.js",
     "image_url": "/images/frameworks/express.svg"
+  },
+  {
+    "name": "Remix.js",
+    "image_url": "/images/frameworks/remix.svg"
   }
 ]
