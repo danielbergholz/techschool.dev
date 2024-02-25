@@ -788,7 +788,7 @@
     "published_at": "2021-04-01T12:37:58Z",
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": [],
-    "framework_names": ["Node.js"],
+    "framework_names": ["Node.js", "Express.js"],
     "tool_names": []
   },
   {
