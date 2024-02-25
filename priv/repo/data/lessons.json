@@ -80,6 +80,16 @@
     "tool_names": ""
   },
   {
+    "name": "Next.js",
+    "optional": false,
+    "image_url": "/images/frameworks/next.svg",
+    "description_en": "Next.js is a modern React framework that enables features such as server-side rendering and static site generation",
+    "description_pt": "Next.js é um framework moderno baseado no React que permite funcionalidades como renderização no lado do servidor e geração de sites estáticos",
+    "language_names": "",
+    "framework_names": "Next.js",
+    "tool_names": ""
+  },
+  {
     "name": "Ruby",
     "optional": false,
     "image_url": "/images/languages/ruby.svg",
