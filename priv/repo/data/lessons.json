@@ -90,6 +90,16 @@
     "tool_names": ""
   },
   {
+    "name": "Remix.js",
+    "optional": true,
+    "image_url": "/images/frameworks/remix.svg",
+    "description_en": "Remix is a full stack web framework that lets you focus on the user interface and work back through web standards to deliver a fast, slick, and resilient user experience. People are gonna love using your stuff",
+    "description_pt": "Remix é um framework web full stack que permite que você se concentre na interface do usuário e trabalhe de volta através dos padrões da web para oferecer uma experiência do usuário rápida, elegante e resiliente. As pessoas vão adorar usar seus sites",
+    "language_names": "",
+    "framework_names": "Remix.js",
+    "tool_names": ""
+  },
+  {
     "name": "Ruby",
     "optional": false,
     "image_url": "/images/languages/ruby.svg",
