@@ -58,6 +58,7 @@ defmodule Techschool.Courses do
           (^tool_name == "" or
              fragment("lower(?) LIKE lower(?)", tool.name, ^"#{tool_name}")),
       preload: [:channel],
+      distinct: true,
       order_by: [desc: course.published_at],
       limit: ^limit,
       offset: ^offset
