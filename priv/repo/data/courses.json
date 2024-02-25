@@ -886,5 +886,113 @@
     "language_names": [],
     "framework_names": ["Remix.js"],
     "tool_names": []
+  },
+  {
+    "name": "Remix.run V2 Full Stack Tutorial 2023 | Crash course",
+    "youtube_course_id": "Z_33-pco_aA",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/Z_33-pco_aA/sddefault.jpg",
+    "published_at": "2023-06-23T22:27:46Z",
+    "youtube_channel_id": "UC--oQmMTiFaW3kmCwrjl9-A",
+    "language_names": [],
+    "framework_names": ["Remix.js"],
+    "tool_names": []
+  },
+  {
+    "name": "Create a Full Stack Realtime Chat Messaging App with Remix.run",
+    "youtube_course_id": "WUoXCSYiNKk",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/WUoXCSYiNKk/sddefault.jpg",
+    "published_at": "2023-07-06T10:15:07Z",
+    "youtube_channel_id": "UC--oQmMTiFaW3kmCwrjl9-A",
+    "language_names": [],
+    "framework_names": ["Remix.js"],
+    "tool_names": []
+  },
+  {
+    "name": "Building an E-Commerce Store with Remix.run, Stripe, and Sanity.io: Full Stack Tutorial",
+    "youtube_course_id": "r3n7NPlv7bs",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/r3n7NPlv7bs/sddefault.jpg",
+    "published_at": "2023-06-13T12:24:14Z",
+    "youtube_channel_id": "UC--oQmMTiFaW3kmCwrjl9-A",
+    "language_names": [],
+    "framework_names": ["Remix.js"],
+    "tool_names": []
+  },
+  {
+    "name": "Create a Personal Website / Blog using Remix.run, Tailwind.css, Hygraph and GraphQL",
+    "youtube_course_id": "5mU1dzOikGI",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/5mU1dzOikGI/sddefault.jpg",
+    "published_at": "2023-06-19T20:38:58Z",
+    "youtube_channel_id": "UC--oQmMTiFaW3kmCwrjl9-A",
+    "language_names": [],
+    "framework_names": ["Remix.js"],
+    "tool_names": []
+  },
+  {
+    "name": "Create an Airbnb Clone with Next.js 14, Kinde, Supabase, Prisma and Tailwind",
+    "youtube_course_id": "x-km17GzInE",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/x-km17GzInE/sddefault.jpg",
+    "published_at": "2024-02-19T13:08:20Z",
+    "youtube_channel_id": "UC--oQmMTiFaW3kmCwrjl9-A",
+    "language_names": [],
+    "framework_names": ["Next.js"],
+    "tool_names": []
+  },
+  {
+    "name": "Create a SaaS Application with Next.js.14, Stripe, Kinde, Prisma, Supabase and Tailwind",
+    "youtube_course_id": "5dgYg10B9p0",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/5dgYg10B9p0/sddefault.jpg",
+    "published_at": "2024-01-25T14:08:20Z",
+    "youtube_channel_id": "UC--oQmMTiFaW3kmCwrjl9-A",
+    "language_names": [],
+    "framework_names": ["Next.js"],
+    "tool_names": []
+  },
+  {
+    "name": "Create a modern and fully responsive UI/UX website with Next.js 14 and Tailwind",
+    "youtube_course_id": "pQ7tm_7S_Us",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/pQ7tm_7S_Us/sddefault.jpg",
+    "published_at": "2024-01-18T18:07:20Z",
+    "youtube_channel_id": "UC--oQmMTiFaW3kmCwrjl9-A",
+    "language_names": [],
+    "framework_names": ["Next.js"],
+    "tool_names": []
+  },
+  {
+    "name": "Build a Next.js 14 Blog | React, Sanity.io, Tailwind.css, Shadcn/Ui",
+    "youtube_course_id": "Lydgf-Hvla4",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/Lydgf-Hvla4/sddefault.jpg",
+    "published_at": "2023-12-23T15:22:30Z",
+    "youtube_channel_id": "UC--oQmMTiFaW3kmCwrjl9-A",
+    "language_names": [],
+    "framework_names": ["Next.js"],
+    "tool_names": []
+  },
+  {
+    "name": "Next.js 14 E-Commerce Website with Stripe, and Sanity.io | Full Stack Tutorial | 2023",
+    "youtube_course_id": "UnwmPuPdhFc",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/UnwmPuPdhFc/sddefault.jpg",
+    "published_at": "2023-10-27T21:45:00Z",
+    "youtube_channel_id": "UC--oQmMTiFaW3kmCwrjl9-A",
+    "language_names": [],
+    "framework_names": ["Next.js"],
+    "tool_names": []
   }
 ]
