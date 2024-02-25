@@ -862,5 +862,29 @@
     "language_names": [],
     "framework_names": ["Next.js"],
     "tool_names": []
+  },
+  {
+    "name": "Remix Movies: build a movie browser with Remix",
+    "youtube_course_id": "PLXoynULbYuEApkwAGZ7U7LmL-BDHloB0l",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/StZt-WrI2to/sddefault.jpg",
+    "published_at": "2024-01-11T03:20:39Z",
+    "youtube_channel_id": "UC_9cztXyAZCli9Cky6NWWwQ",
+    "language_names": [],
+    "framework_names": ["Remix.js"],
+    "tool_names": []
+  },
+  {
+    "name": "Trellix: build a Trello clone using Remix",
+    "youtube_course_id": "PLXoynULbYuED9b2k5LS44v9TQjfXifwNu",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/RTHzZVbTl6c/sddefault.jpg",
+    "published_at": "2023-11-15T18:42:09Z",
+    "youtube_channel_id": "UC_9cztXyAZCli9Cky6NWWwQ",
+    "language_names": [],
+    "framework_names": ["Remix.js"],
+    "tool_names": []
   }
 ]
