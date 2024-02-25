@@ -101,6 +101,36 @@
     <priority>0.51</priority>
   </url>
   <url>
+    <loc>https://techschool.dev/en/courses?framework=laravel</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://techschool.dev/en/courses?framework=phoenix</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://techschool.dev/en/courses?framework=django</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://techschool.dev/en/courses?framework=react.js</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://techschool.dev/en/courses?framework=next.js</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://techschool.dev/en/courses?framework=express.js</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.51</priority>
+  </url>
+  <url>
     <loc>https://techschool.dev/en/courses?tool=linux</loc>
     <changefreq>weekly</changefreq>
     <priority>0.51</priority>
@@ -140,7 +170,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.51</priority>
   </url>
-   <url>
+  <url>
     <loc>https://techschool.dev/pt/bootcamps/react-frontend-expert</loc>
     <changefreq>monthly</changefreq>
     <priority>0.51</priority>
@@ -202,6 +232,26 @@
   </url>
   <url>
     <loc>https://techschool.dev/pt/courses?language=elixir</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.41</priority>
+  </url>
+  <url>
+    <loc>https://techschool.dev/pt/courses?framework=laravel</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.41</priority>
+  </url>
+  <url>
+    <loc>https://techschool.dev/pt/courses?framework=react.js</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.41</priority>
+  </url>
+  <url>
+    <loc>https://techschool.dev/pt/courses?framework=next.js</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.41</priority>
+  </url>
+  <url>
+    <loc>https://techschool.dev/pt/courses?framework=express.js</loc>
     <changefreq>weekly</changefreq>
     <priority>0.41</priority>
   </url>
