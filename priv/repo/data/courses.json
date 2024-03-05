@@ -1126,5 +1126,77 @@
     "language_names": [],
     "framework_names": [],
     "tool_names": ["SQL"]
+  },
+  {
+    "name": "Learning Postgres and SQL",
+    "youtube_course_id": "PLFhQVxlaKQElBUqs2ny1y3gig_B4U4pAe",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/PXeO1vqMC_Y/sddefault.jpg",
+    "published_at": "2021-02-22T02:13:42Z",
+    "youtube_channel_id": "UCp5Nix6mJCoLkH_GqcRRp1A",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": ["SQL"]
+  },
+  {
+    "name": "Elixir Tips",
+    "youtube_course_id": "PLFhQVxlaKQEmO3gaork2WD5AY51LH3Ls0",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/ueTIy0ODzcQ/sddefault.jpg",
+    "published_at": "2021-01-25T07:26:25Z",
+    "youtube_channel_id": "UCp5Nix6mJCoLkH_GqcRRp1A",
+    "language_names": ["Elixir"],
+    "framework_names": [],
+    "tool_names": []
+  },
+  {
+    "name": "Phoenix JSON API",
+    "youtube_course_id": "PLFhQVxlaKQElunealqcW98LvCYos51gQY",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/DHwUmDrWNys/sddefault.jpg",
+    "published_at": "2021-11-20T05:10:36Z",
+    "youtube_channel_id": "UCp5Nix6mJCoLkH_GqcRRp1A",
+    "language_names": [],
+    "framework_names": ["Phoenix"],
+    "tool_names": []
+  },
+  {
+    "name": "Simple Phoenix LiveView App: Reactor",
+    "youtube_course_id": "PLFhQVxlaKQEkCAB8pks17eU2uaU4nQeyI",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/zDvruo2M68E/sddefault.jpg",
+    "published_at": "2020-01-29T19:09:23Z",
+    "youtube_channel_id": "UCp5Nix6mJCoLkH_GqcRRp1A",
+    "language_names": [],
+    "framework_names": ["Phoenix"],
+    "tool_names": []
+  },
+  {
+    "name": "Phoenix Trello clone",
+    "youtube_course_id": "PLFhQVxlaKQEmLvwCkcyqG8WY_OCIuIYhJ",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/UoE2DMLgDEY/sddefault.jpg",
+    "published_at": "2019-06-24T10:03:05Z",
+    "youtube_channel_id": "UCp5Nix6mJCoLkH_GqcRRp1A",
+    "language_names": [],
+    "framework_names": ["Phoenix"],
+    "tool_names": []
+  },
+  {
+    "name": "Elixir Testing",
+    "youtube_course_id": "PLFhQVxlaKQEkVL9w0iEn6YXvWRAhgciGO",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/KrS9vNFM_uo/sddefault.jpg",
+    "published_at": "2019-06-09T05:11:42Z",
+    "youtube_channel_id": "UCp5Nix6mJCoLkH_GqcRRp1A",
+    "language_names": ["Elixir"],
+    "framework_names": [],
+    "tool_names": []
   }
 ]
