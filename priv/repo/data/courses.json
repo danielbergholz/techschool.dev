@@ -1198,5 +1198,41 @@
     "language_names": ["Elixir"],
     "framework_names": [],
     "tool_names": []
+  },
+  {
+    "name": "CreatorPlatform.xyz: Ruby on Rails, Stimulus, Tailwind, and Stripe",
+    "youtube_course_id": "PLS6F722u-R6IJfBrIRx3a2SBkAL4vUp2p",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/uuHtuR2FFS4/sddefault.jpg",
+    "published_at": "2022-08-25T00:22:01Z",
+    "youtube_channel_id": "UCYUC-bdnQRJDhZRL2c_NKVw",
+    "language_names": [],
+    "framework_names": ["Rails"],
+    "tool_names": []
+  },
+  {
+    "name": "Ruby on Rails tutorials",
+    "youtube_course_id": "PLS6F722u-R6KiuOupokyl8Xnqrot9ukc7",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/n_5z4FDBbqI/sddefault.jpg",
+    "published_at": "2020-11-06T00:51:11Z",
+    "youtube_channel_id": "UCYUC-bdnQRJDhZRL2c_NKVw",
+    "language_names": [],
+    "framework_names": ["Rails"],
+    "tool_names": []
+  },
+  {
+    "name": "clearbnb - building a vacation rental platform with Ruby on Rails",
+    "youtube_course_id": "PLS6F722u-R6LoD3UN0EE_cKtHVG2EWn0t",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/_fBpethNY2I/sddefault.jpg",
+    "published_at": "2021-09-27T23:22:19Z",
+    "youtube_channel_id": "UCYUC-bdnQRJDhZRL2c_NKVw",
+    "language_names": [],
+    "framework_names": ["Rails"],
+    "tool_names": []
   }
 ]
