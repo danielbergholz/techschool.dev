@@ -1234,5 +1234,17 @@
     "language_names": [],
     "framework_names": ["Rails"],
     "tool_names": []
+  },
+  {
+    "name": "Angular for Beginners Course [Full Front End Tutorial with TypeScript]",
+    "youtube_course_id": "3qBXWUpoPHo",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/3qBXWUpoPHo/hqdefault.jpg",
+    "published_at": "2022-09-07",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": [],
+    "framework_names": ["Angular"],
+    "tool_names": ["TypeScript", "HTML", "CSS"]
   }
 ]
