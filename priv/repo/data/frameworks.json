@@ -38,5 +38,9 @@
   {
     "name": "Remix.js",
     "image_url": "/images/frameworks/remix.svg"
+  },
+  {
+    "name": "Angular",
+    "image_url": "/images/frameworks/angular.svg"
   }
 ]
