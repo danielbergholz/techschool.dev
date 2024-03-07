@@ -18,7 +18,58 @@
     </div>
   </div>
 </main>
-<section class="text-center container-l3 md:py-40 py-20 flex flex-col gap-8">
+<section class="text-center container-l3 md:py-14 py-12 flex flex-col items-center">
+  <h1 class="md:text-3xl text-2xl font-bold underline decoration-green mb-8">
+    Links
+  </h1>
+  <div class="flex items-center justify-center gap-4 md:flex-row flex-col">
+    <a
+      href="https://discord.gg/C4abRX5skH"
+      target="_blank"
+      rel="noreferrer"
+      class="md:text-lg text-base font-bold border border-green rounded-lg w-36 p-2 flex items-center justify-evenly"
+    >
+      <img src="/images/links/discord.svg" alt="TechSchool Discord" />
+      <p>
+        Discord
+      </p>
+    </a>
+    <a
+      href="https://github.com/danielbergholz/techschool"
+      target="_blank"
+      rel="noreferrer"
+      class="md:text-lg text-base font-bold border border-green rounded-lg w-36 p-2 flex items-center justify-evenly"
+    >
+      <img src="/images/links/github.svg" alt="TechSchool GitHub" />
+      <p>
+        GitHub
+      </p>
+    </a>
+    <a
+      href="https://github.com/sponsors/danielbergholz"
+      target="_blank"
+      rel="noreferrer"
+      class="md:text-lg text-base font-bold rounded-lg border border-green w-36 p-2 flex items-center justify-evenly"
+    >
+      <img src="/images/links/heart.svg" alt="TechSchool Analytics" />
+      <p>
+        Sponsor
+      </p>
+    </a>
+    <a
+      href="https://plausible.io/techschool.dev"
+      target="_blank"
+      rel="noreferrer"
+      class="md:text-lg text-base font-bold border border-green rounded-lg w-36 p-2 flex items-center justify-evenly"
+    >
+      <img src="/images/links/analytics.svg" alt="TechSchool Analytics" />
+      <p>
+        Analytics
+      </p>
+    </a>
+  </div>
+</section>
+<section class="text-center container-l3 pb-8 md:pb-12 flex flex-col gap-8">
   <h1 class="md:text-3xl text-2xl font-bold underline decoration-green">
     <%= gettext("Our mission") %>
   </h1>
@@ -34,4 +85,5 @@
     ) %>
   </p>
 </section>
+
 <.footer />
