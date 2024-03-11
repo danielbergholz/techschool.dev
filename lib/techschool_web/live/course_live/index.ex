@@ -54,7 +54,7 @@ defmodule TechschoolWeb.CourseLive.Index do
     |> assign(:search, get_param(params, "search"))
     |> assign(:offset, 0)
     |> assign(:has_more_courses_to_load, has_more_courses_to_load)
-    |> stream(:courses, courses, reset: true)
+    |> assign(:courses, courses)
     |> noreply()
   end
 
@@ -69,7 +69,7 @@ defmodule TechschoolWeb.CourseLive.Index do
     socket
     |> assign(:offset, offset)
     |> assign(:has_more_courses_to_load, has_more_courses_to_load)
-    |> stream(:courses, courses)
+    |> assign(:courses, courses)
     |> noreply()
   end
 

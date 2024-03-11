@@ -9,11 +9,16 @@
     selected_tool={@selected_tool}
   />
   <div class="text-center">
-    <div class="flex flex-wrap justify-center gap-8 md:gap-10" id="courses" phx-update="stream">
-      <.course_card :for={{dom_id, course} <- @streams.courses} id={dom_id} course={course} />
+    <div class="flex flex-wrap justify-center gap-8 md:gap-10" id="courses">
+      <p :if={Enum.empty?(@courses)} id="no-results">
+        No results for the given search
+      </p>
+      <.course_card :for={course <- @courses} id={"course-#{course.id}"} course={course} />
     </div>
-    <.button phx-click="load_more" class="mt-8" disabled={@has_more_courses_to_load == false}>
-      <%= gettext("Load More") %>
-    </.button>
+    <%= if !Enum.empty?(@courses) and @has_more_courses_to_load do %>
+      <.button phx-click="load_more" class="mt-8" disabled={@has_more_courses_to_load == false}>
+        <%= gettext("Load More") %>
+      </.button>
+    <% end %>
   </div>
 </section>
