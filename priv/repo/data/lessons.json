@@ -140,6 +140,26 @@
     "tool_names": ""
   },
   {
+    "name": "PHP",
+    "optional": false,
+    "image_url": "/images/languages/php.svg",
+    "description_en": "PHP is a popular general-purpose scripting language that is especially suited to web development. It is fast, flexible, and pragmatic, and powers everything from your blog to the most popular websites in the world",
+    "description_pt": "PHP é uma linguagem popular de script de propósito geral que é especialmente adequada para o desenvolvimento web. É rápida, flexível e pragmática, e alimenta desde o seu blog até os sites mais populares do mundo",
+    "language_names": "PHP",
+    "framework_names": "",
+    "tool_names": ""
+  },
+  {
+    "name": "Laravel",
+    "optional": false,
+    "image_url": "/images/frameworks/laravel.svg",
+    "description_en": "Laravel is a web application framework with expressive, elegant syntax. The foundation is already laid for you, freeing you to create without sweating the small things",
+    "description_pt": "Laravel é um framework de aplicação web com uma sintaxe expressiva e elegante. Com uma base bem estabelecida, você pode programar sem se preocupar com os pequenos detalhes",
+    "language_names": "",
+    "framework_names": "Laravel",
+    "tool_names": ""
+  },
+  {
     "name": "Elixir",
     "optional": false,
     "image_url": "/images/languages/elixir.svg",
@@ -159,7 +179,6 @@
     "framework_names": "Phoenix",
     "tool_names": ""
   },
-
   {
     "name": "Linux",
     "optional": true,
