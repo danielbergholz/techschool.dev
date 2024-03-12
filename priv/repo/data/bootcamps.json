@@ -100,5 +100,22 @@
       "Linux",
       "Docker"
     ]
+  },
+  {
+    "name": "Fullstack Java and Spring",
+    "image_url": "/images/frameworks/spring.svg",
+    "description_en": "Master Java and Spring for robust, scalable web applications. Dive deep into Spring's powerful features for dependency injection, MVC architecture, and enterprise-level solutions. Gain expertise in Java fundamentals and Spring's ecosystem to elevate your programming skills",
+    "description_pt": "Domine Java e Spring para aplicações web robustas e escaláveis. Aprofunde-se nos recursos poderosos do Spring para injeção de dependência, arquitetura MVC e soluções de nível empresarial. Adquira conhecimento em fundamentos de Java e no ecossistema do Spring para elevar suas habilidades de programação",
+    "lesson_names": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Git",
+      "SQL",
+      "Java",
+      "Spring",
+      "Linux",
+      "Docker"
+    ]
   }
 ]
