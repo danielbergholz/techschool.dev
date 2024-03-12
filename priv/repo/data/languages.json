@@ -20,6 +20,10 @@
     "image_url": "/images/languages/elixir.svg"
   },
   {
+    "name": "Gleam",
+    "image_url": "/images/languages/gleam.svg"
+  },
+  {
     "name": "Ruby",
     "image_url": "/images/languages/ruby.svg"
   },
