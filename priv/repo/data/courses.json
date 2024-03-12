@@ -1246,5 +1246,29 @@
     "language_names": [],
     "framework_names": ["Angular"],
     "tool_names": []
+  },
+  {
+    "name": "Making a Gleam web app from scratch!",
+    "youtube_course_id": "Y6wmGeL_tao",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/Y6wmGeL_tao/hqdefault.jpg",
+    "published_at": "2023-07-13T18:34:17Z",
+    "youtube_channel_id": "UC6Ijaz5K2jkH8kmLNI-cYxg",
+    "language_names": ["Gleam"],
+    "framework_names": [],
+    "tool_names": []
+  },
+  {
+    "name": "Converting a Gleam web application to use the Wisp web framework",
+    "youtube_course_id": "yVNvQZyrKx8",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/yVNvQZyrKx8/hqdefault.jpg",
+    "published_at": "2023-08-31T18:36:15Z",
+    "youtube_channel_id": "UC6Ijaz5K2jkH8kmLNI-cYxg",
+    "language_names": ["Gleam"],
+    "framework_names": [],
+    "tool_names": []
   }
 ]
