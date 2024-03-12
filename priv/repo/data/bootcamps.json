@@ -83,5 +83,22 @@
       "Linux",
       "Docker"
     ]
+  },
+  {
+    "name": "Fullstack PHP and Laravel",
+    "image_url": "/images/frameworks/laravel.svg",
+    "description_en": "Laravel is the PHP framework for web artisans. With its expressive and elegant syntax, Laravel makes it a breeze to build high-quality web applications. Whether you're a seasoned developer or just starting, Laravel is a joy to work with. Its vast ecosystem of tools and libraries, as well as its powerful abstractions, make complex tasks simple, and the process enjoyable",
+    "description_pt": "Laravel é o framework PHP para artesãos da web. Com sua sintaxe expressiva e elegante, Laravel torna a construção de aplicações web de alta qualidade uma tarefa fácil. Seja você um desenvolvedor experiente ou apenas iniciante, Laravel é um prazer para trabalhar. Seu vasto ecossistema de ferramentas e bibliotecas, bem como suas poderosas abstrações, tornam tarefas complexas simples e o processo agradável",
+    "lesson_names": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Git",
+      "SQL",
+      "PHP",
+      "Laravel",
+      "Linux",
+      "Docker"
+    ]
   }
 ]
