@@ -140,6 +140,26 @@
     "tool_names": ""
   },
   {
+    "name": "Java",
+    "optional": false,
+    "image_url": "/images/languages/java.svg",
+    "description_en": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is used for building enterprise-scale applications",
+    "description_pt": "Java é uma linguagem de programação de alto nível, baseada em classes e orientada a objetos, projetada para ter o menor número possível de dependências de implementação. É usada para construir aplicações de escala empresarial",
+    "language_names": "Java",
+    "framework_names": "",
+    "tool_names": ""
+  },
+  {
+    "name": "Spring",
+    "optional": false,
+    "image_url": "/images/frameworks/spring.svg",
+    "description_en": "Spring makes programming Java quicker, easier, and safer for everybody. Spring's focus on speed, simplicity, and productivity has made it the world's most popular Java framework",
+    "description_pt": "Spring torna a programação Java mais rápida, fácil e segura para todos. O foco do Spring em velocidade, simplicidade e produtividade o tornou o framework Java mais popular do mundo",
+    "language_names": "",
+    "framework_names": "Spring",
+    "tool_names": ""
+  },
+  {
     "name": "PHP",
     "optional": false,
     "image_url": "/images/languages/php.svg",
