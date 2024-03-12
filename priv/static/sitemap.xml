@@ -31,6 +31,11 @@
     <priority>0.64</priority>
   </url>
   <url>
+    <loc>https://techschool.dev/en/bootcamps/fullstack-java-and-spring</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
     <loc>https://techschool.dev/en/bootcamps/fullstack-php-and-laravel</loc>
     <changefreq>monthly</changefreq>
     <priority>0.64</priority>
@@ -67,6 +72,11 @@
   </url>
   <url>
     <loc>https://techschool.dev/pt/bootcamps/fullstack-ruby-on-rails</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://techschool.dev/pt/bootcamps/fullstack-java-and-spring</loc>
     <changefreq>monthly</changefreq>
     <priority>0.51</priority>
   </url>
