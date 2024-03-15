@@ -55,6 +55,7 @@ defmodule TechschoolWeb.CourseLive.Index do
     |> assign(:offset, 0)
     |> assign(:has_more_courses_to_load, has_more_courses_to_load)
     |> assign(:courses, courses)
+    |> assign(:has_courses, !Enum.empty?(courses))
     |> noreply()
   end
 
@@ -70,6 +71,7 @@ defmodule TechschoolWeb.CourseLive.Index do
     |> assign(:offset, offset)
     |> assign(:has_more_courses_to_load, has_more_courses_to_load)
     |> assign(:courses, courses)
+    |> assign(:has_courses, !Enum.empty?(courses))
     |> noreply()
   end
 
