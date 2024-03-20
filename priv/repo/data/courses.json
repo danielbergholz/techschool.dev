@@ -1270,5 +1270,17 @@
     "language_names": ["Gleam"],
     "framework_names": [],
     "tool_names": []
+  },
+  {
+    "name": "Programming for Complete Beginners",
+    "youtube_course_id": "PLBLdRr-v59vwnKvmvLtcgmAnsb2K1Ta_M",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/syfSoca5_xg/hqdefault.jpg",
+    "published_at": "2024-03-18T18:36:15Z",
+    "youtube_channel_id": "UCNJfpwGuf3D1jt5WHVx1qLw",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": []
   }
 ]
