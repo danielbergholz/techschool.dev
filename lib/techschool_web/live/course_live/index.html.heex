@@ -19,10 +19,8 @@
       </div>
     <% end %>
 
-    <%= if @has_courses and @has_more_courses_to_load do %>
-      <.button phx-click="load_more" class="mt-8" disabled={@has_more_courses_to_load == false}>
-        <%= gettext("Load More") %>
-      </.button>
-    <% end %>
+    <.button :if={@has_courses and @has_more_courses_to_load} phx-click="load_more" class="mt-8">
+      <%= gettext("Load More") %>
+    </.button>
   </div>
 </section>
