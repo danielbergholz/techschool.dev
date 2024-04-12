@@ -21,11 +21,6 @@ msgstr "Ensino de tecnologia acessível para todos"
 msgid "Actions"
 msgstr ""
 
-#: lib/techschool_web/live/page_live/components/footer.html.heex:7
-#, elixir-autogen, elixir-format
-msgid "Code available on"
-msgstr "Código disponível em"
-
 #: lib/techschool_web/components/layouts/components/navbar.html.heex:14
 #: lib/techschool_web/live/course_live/index.ex:31
 #, elixir-autogen, elixir-format
@@ -37,7 +32,7 @@ msgstr "Cursos"
 msgid "Developed by"
 msgstr "Desenvolvido por"
 
-#: lib/techschool_web/live/page_live/home.html.heex:23
+#: lib/techschool_web/live/page_live/home.html.heex:74
 #, elixir-autogen, elixir-format
 msgid "Our mission"
 msgstr "Nossa missão"
@@ -53,17 +48,17 @@ msgstr ""
 msgid "Go from zero to your first job without any financial loss"
 msgstr "Saia do zero até o primeiro emprego sem ter nenhum prejuízo financeiro"
 
-#: lib/techschool_web/live/page_live/components/translate_button.html.heex:15
+#: lib/techschool_web/live/page_live/components/translate_button.html.heex:5
 #, elixir-autogen, elixir-format
 msgid "Translate"
 msgstr "Translate"
 
-#: lib/techschool_web/live/page_live/home.html.heex:26
+#: lib/techschool_web/live/page_live/home.html.heex:77
 #, elixir-autogen, elixir-format
 msgid "TechSchool is all about making tech education accessible to everyone for free. There are tons of awesome courses online, but we don't have big bucks for marketing. So, newbies often run into the expensive courses first, making it seem like you have to shell out a ton of money."
 msgstr "O TechSchool foi criado pra tornar o ensino em tecnologia acessível pra todo mundo, de graça. Tem muitos cursos bons na internet, mas a gente não tem dinheiro infinito pra gastar em marketing. Então quem tá começando geralmente esbarra nos cursos caros primeiro, dando a impressão de que precisa gastar muito dinheiro pra entrar na área."
 
-#: lib/techschool_web/live/page_live/home.html.heex:32
+#: lib/techschool_web/live/page_live/home.html.heex:83
 #, elixir-autogen, elixir-format
 msgid "That's where TechSchool steps in. We're here to shine a light on those awesome free courses that might be flying under the radar. Our website has a bunch of courses covering different areas. The goal? Help anyone go from zero to landing their first job without breaking the bank. We want to tackle the expensive course culture and make tech education fair and equal for everyone."
 msgstr "É aí que o TechSchool entra na jogada. Estamos aqui para destacar aqueles cursos gratuitos incríveis que podem passar despercebidos. Nosso site oferece uma variedade de cursos em diferentes áreas. A meta é ajudar qualquer pessoa a sair do zero e conseguir o primeiro emprego sem gastar dinheiro. Queremos combater a cultura de bootcamps caros e tornar a educação em tecnologia justa e acessível para todos."
@@ -94,7 +89,7 @@ msgstr "Encontre os melhores cursos para aprender programação! Pesquise por no
 msgid "TechSchool is a platform for learning programming, 100% free and open source!"
 msgstr "TechSchool é uma plataforma de ensino programação, 100% gratuita e open source!"
 
-#: lib/techschool_web/live/course_live/index.html.heex:16
+#: lib/techschool_web/live/course_live/index.html.heex:22
 #, elixir-autogen, elixir-format
 msgid "Load More"
 msgstr "Carregar mais"
@@ -115,7 +110,7 @@ msgstr "Linguagem de programação"
 msgid "TechSchool offers a variety of bootcamps to help you learn the skills you need to start a new career in tech."
 msgstr "TechSchool oferece uma variedade de bootcamps para ajudar você a aprender as habilidades necessárias para começar uma nova carreira em tecnologia."
 
-#: lib/techschool_web/live/bootcamp_live/show.html.heex:15
+#: lib/techschool_web/live/bootcamp_live/show.html.heex:21
 #, elixir-autogen, elixir-format
 msgid "Back"
 msgstr "Voltar"
@@ -125,3 +120,8 @@ msgstr "Voltar"
 #, elixir-autogen, elixir-format
 msgid "optional"
 msgstr "opcional"
+
+#: lib/techschool_web/live/course_live/index.html.heex:18
+#, elixir-autogen, elixir-format
+msgid "No results for the given search"
+msgstr "Pesquisa sem resultados"
