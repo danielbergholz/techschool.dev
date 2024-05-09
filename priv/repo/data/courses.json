@@ -1389,5 +1389,31 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": ["Programming"]
+  },
+  {
+    "name": "How does the internet work? (Full Course)",
+    "youtube_course_id": "zN8YNNHcaZc",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/zN8YNNHcaZc/sddefault.jpg",
+    "published_at": "2021-08-02T13:36:10Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": ["Networking"]
+  },
+  {
+    "name": "Network Fundamentals",
+    "youtube_course_id": "PLDQaRcbiSnqF5U8ffMgZzS7fq1rHUI3Q8",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/9SIjoeE93lo/sddefault.jpg",
+    "published_at": "2018-04-22T09:17:25Z",
+    "youtube_channel_id": "UCtuXekfqj-paqsxtqVNCC2A",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": ["Networking"]
   }
 ]
