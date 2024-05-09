@@ -1415,5 +1415,18 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": ["Networking"]
+  },
+  {
+    "name": "Full Computer Science University Course - Harvard CS50 (2023)",
+    "youtube_course_id": "LfaMVlDaQ24",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/LfaMVlDaQ24/sddefault.jpg",
+    "published_at": "2023-10-24T12:43:08Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": ["Computer Science"]
   }
 ]
