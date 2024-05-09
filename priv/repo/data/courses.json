@@ -1428,5 +1428,18 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": ["Computer Science"]
+  },
+  {
+    "name": "Algorithms and Data Structures Tutorial - Full Course for Beginners",
+    "youtube_course_id": "8hly31xKli0",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/8hly31xKli0/sddefault.jpg",
+    "published_at": "2021-03-18T19:48:53Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": ["Algorithms"]
   }
 ]
