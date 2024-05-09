@@ -7,6 +7,7 @@ defmodule Techschool.Helpers.ResetDb do
       Techschool.Languages.Language,
       Techschool.Frameworks.Framework,
       Techschool.Tools.Tool,
+      Techschool.Fundamentals.Fundamental,
       Techschool.Channels.Channel,
       Techschool.Lessons.Lesson,
       Techschool.Courses.Course,

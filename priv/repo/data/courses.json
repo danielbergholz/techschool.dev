@@ -9,7 +9,8 @@
     "youtube_channel_id": "UCnmbV9eyMwIl50Ji1ObFxqg",
     "language_names": ["TypeScript"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Curso de JavaScript",
@@ -21,7 +22,8 @@
     "youtube_channel_id": "UCnmbV9eyMwIl50Ji1ObFxqg",
     "language_names": ["JavaScript"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Curso de Terminal Linux",
@@ -33,7 +35,8 @@
     "youtube_channel_id": "UCnmbV9eyMwIl50Ji1ObFxqg",
     "language_names": [],
     "framework_names": [],
-    "tool_names": ["Linux"]
+    "tool_names": ["Linux"],
+    "fundamentals_names": []
   },
   {
     "name": "Learn HTML - Full Tutorial for Beginners (2022)",
@@ -45,7 +48,8 @@
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": ["HTML"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "CSS Tutorial - Full Course for Beginners",
@@ -57,7 +61,8 @@
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": ["CSS"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Functional Programming with Elixir - Full Course",
@@ -69,7 +74,8 @@
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": ["Elixir"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "PHP Programming Language Tutorial - Full Course",
@@ -81,7 +87,8 @@
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": ["PHP"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Use PHP to Create an MVC Framework - Full Course",
@@ -93,7 +100,8 @@
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": ["PHP"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Laravel PHP Framework Tutorial - Full Course for Beginners",
@@ -105,7 +113,8 @@
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": [],
     "framework_names": ["Laravel"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "HTML for Beginners",
@@ -117,7 +126,8 @@
     "youtube_channel_id": "UCIQmhQxCvLHRr3Beku77tww",
     "language_names": ["HTML"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Build a Blog with Ruby on Rails",
@@ -129,7 +139,8 @@
     "youtube_channel_id": "UCIQmhQxCvLHRr3Beku77tww",
     "language_names": [],
     "framework_names": ["Rails"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Rails 7.1",
@@ -141,7 +152,8 @@
     "youtube_channel_id": "UCIQmhQxCvLHRr3Beku77tww",
     "language_names": [],
     "framework_names": ["Rails"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Ruby for Beginners 2023",
@@ -153,7 +165,8 @@
     "youtube_channel_id": "UCIQmhQxCvLHRr3Beku77tww",
     "language_names": ["Ruby"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Curso completo de Ruby",
@@ -165,7 +178,8 @@
     "youtube_channel_id": "UC44Mzz2-5TpyfklUCQ5NuxQ",
     "language_names": ["Ruby"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Curso de JavaScript da Onebitcode",
@@ -177,7 +191,8 @@
     "youtube_channel_id": "UC44Mzz2-5TpyfklUCQ5NuxQ",
     "language_names": ["JavaScript"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Elixir Basics",
@@ -189,7 +204,8 @@
     "youtube_channel_id": "UChbS_z6KHQiIu9et38O37eQ",
     "language_names": ["Elixir"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Elixir API: Password Authentication",
@@ -201,7 +217,8 @@
     "youtube_channel_id": "UChbS_z6KHQiIu9et38O37eQ",
     "language_names": [],
     "framework_names": ["Phoenix"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Elixir API: Testing",
@@ -213,7 +230,8 @@
     "youtube_channel_id": "UChbS_z6KHQiIu9et38O37eQ",
     "language_names": [],
     "framework_names": ["Phoenix"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Mastering Phoenix LiveView",
@@ -225,7 +243,8 @@
     "youtube_channel_id": "UChbS_z6KHQiIu9et38O37eQ",
     "language_names": [],
     "framework_names": ["Phoenix"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Maratona Java Virado no Jiraya",
@@ -237,7 +256,8 @@
     "youtube_channel_id": "UCjF0OccBT05WxsJb2zNkL4g",
     "language_names": ["Java"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Spring Boot essentials: O essencial do Spring Boot",
@@ -249,7 +269,8 @@
     "youtube_channel_id": "UCjF0OccBT05WxsJb2zNkL4g",
     "language_names": [],
     "framework_names": ["Spring"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Spring Boot Essentials 2",
@@ -261,7 +282,8 @@
     "youtube_channel_id": "UCjF0OccBT05WxsJb2zNkL4g",
     "language_names": [],
     "framework_names": ["Spring"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Spring Boot Microservices",
@@ -273,7 +295,8 @@
     "youtube_channel_id": "UCjF0OccBT05WxsJb2zNkL4g",
     "language_names": [],
     "framework_names": ["Spring"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Hands-on Elixir & OTP: Create a cryptocurrency trading bot",
@@ -285,7 +308,8 @@
     "youtube_channel_id": "UCyZar0X0FKFx1mfhSbT0AaQ",
     "language_names": ["Elixir"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Learn Ruby on Rails - Full Course (CREATE INSTAGRAM)",
@@ -297,7 +321,8 @@
     "youtube_channel_id": "UC4Rtbj695kt2PgWdrFuvzHg",
     "language_names": [],
     "framework_names": ["Rails"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Learn Ruby on Rails 7 - Full Course (CREATE LINKTREE)",
@@ -309,7 +334,8 @@
     "youtube_channel_id": "UC4Rtbj695kt2PgWdrFuvzHg",
     "language_names": [],
     "framework_names": ["Rails"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Create Youtube with Ruby on Rails Full Course",
@@ -321,7 +347,8 @@
     "youtube_channel_id": "UC4Rtbj695kt2PgWdrFuvzHg",
     "language_names": [],
     "framework_names": ["Rails"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Python Full Course",
@@ -333,7 +360,8 @@
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": ["Python"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Python Tutorial for Beginners - Full Course in 3 Hours",
@@ -345,7 +373,8 @@
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": ["Python"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Java Full Course",
@@ -357,7 +386,8 @@
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": ["Java"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Java Tutorial For Beginners 2023",
@@ -369,7 +399,8 @@
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": ["Java"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Java Functional Programming | Full Course",
@@ -381,7 +412,8 @@
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": ["Java"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Spring Boot Tutorial | Full Course 2023",
@@ -393,7 +425,8 @@
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": [],
     "framework_names": ["Spring"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Spring Security Tutorial - 2023",
@@ -405,7 +438,8 @@
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": [],
     "framework_names": ["Spring"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "SQL For Beginners Tutorial | Learn SQL in 4.2 Hours | 2021",
@@ -417,7 +451,8 @@
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": [],
     "framework_names": [],
-    "tool_names": ["SQL"]
+    "tool_names": ["SQL"],
+    "fundamentals_names": []
   },
   {
     "name": "PosgresSQL Course",
@@ -429,7 +464,8 @@
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": [],
     "framework_names": [],
-    "tool_names": ["SQL"]
+    "tool_names": ["SQL"],
+    "fundamentals_names": []
   },
   {
     "name": "Docker Tutorial for Beginners | Full Course [2021]",
@@ -441,7 +477,8 @@
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": [],
     "framework_names": [],
-    "tool_names": ["Docker"]
+    "tool_names": ["Docker"],
+    "fundamentals_names": []
   },
   {
     "name": "Linux For Beginners - Full Course",
@@ -453,7 +490,8 @@
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": [],
     "framework_names": [],
-    "tool_names": ["Linux"]
+    "tool_names": ["Linux"],
+    "fundamentals_names": []
   },
   {
     "name": "Python Django 7 Hour Course",
@@ -465,7 +503,8 @@
     "youtube_channel_id": "UC29ju8bIPH5as8OGnQzwJyA",
     "language_names": [],
     "framework_names": ["Django"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Django For Everybody - Full Python University Course",
@@ -477,7 +516,8 @@
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": [],
     "framework_names": ["Django"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Python Backend Web Development Course (with Django)",
@@ -489,7 +529,8 @@
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": [],
     "framework_names": ["Django"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Learn Django in 20 Minutes",
@@ -501,7 +542,8 @@
     "youtube_channel_id": "UC4JX40jDee_tINbkjycV4Sg",
     "language_names": [],
     "framework_names": ["Django"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Django For Beginners - Full Tutorial",
@@ -513,7 +555,8 @@
     "youtube_channel_id": "UC4JX40jDee_tINbkjycV4Sg",
     "language_names": [],
     "framework_names": ["Django"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Django Authentication & User Management - Full Tutorial",
@@ -525,7 +568,8 @@
     "youtube_channel_id": "UC4JX40jDee_tINbkjycV4Sg",
     "language_names": [],
     "framework_names": ["Django"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "OTP V2",
@@ -537,7 +581,8 @@
     "youtube_channel_id": "UCE5KlC4hhy_QlXEYPgRKvVA",
     "language_names": ["Elixir"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "LiveView and Phoenix 1.7",
@@ -549,7 +594,8 @@
     "youtube_channel_id": "UCE5KlC4hhy_QlXEYPgRKvVA",
     "language_names": [],
     "framework_names": ["Phoenix"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "How you start writing LiveView",
@@ -561,7 +607,8 @@
     "youtube_channel_id": "UCYQ3zFdm_2fiQA3zXPONvcQ",
     "language_names": [],
     "framework_names": ["Phoenix"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Magic Link Authentication in Elixir Phoenix",
@@ -573,7 +620,8 @@
     "youtube_channel_id": "UCYQ3zFdm_2fiQA3zXPONvcQ",
     "language_names": [],
     "framework_names": ["Phoenix"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Phoenix LiveView in Depth: Navigation, Lifecycle & mount vs handle_params",
@@ -585,7 +633,8 @@
     "youtube_channel_id": "UCYQ3zFdm_2fiQA3zXPONvcQ",
     "language_names": [],
     "framework_names": ["Phoenix"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Introdução à programação (usando a linguagem Ruby)",
@@ -597,7 +646,8 @@
     "youtube_channel_id": "UCSBsYBhO5FLvvSl_ChnwDdw",
     "language_names": ["Ruby"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Introdução à OO (Orientação à Objetos) usando Ruby",
@@ -609,7 +659,8 @@
     "youtube_channel_id": "UCSBsYBhO5FLvvSl_ChnwDdw",
     "language_names": ["Ruby"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Descomplicando o Docker",
@@ -621,7 +672,8 @@
     "youtube_channel_id": "UCJnKVGmXRXrH49Tvrx5X0Sw",
     "language_names": [],
     "framework_names": [],
-    "tool_names": ["Docker"]
+    "tool_names": ["Docker"],
+    "fundamentals_names": []
   },
   {
     "name": "LINUXweek",
@@ -633,7 +685,8 @@
     "youtube_channel_id": "UCJnKVGmXRXrH49Tvrx5X0Sw",
     "language_names": [],
     "framework_names": [],
-    "tool_names": ["Linux"]
+    "tool_names": ["Linux"],
+    "fundamentals_names": []
   },
   {
     "name": "Python week - 2022",
@@ -645,7 +698,8 @@
     "youtube_channel_id": "UCJnKVGmXRXrH49Tvrx5X0Sw",
     "language_names": ["Python"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Fullstack LMS: Ruby on Rails 7, Hotwire, Tailwind, Stripe, PostgreSQL",
@@ -657,7 +711,8 @@
     "youtube_channel_id": "UCUeZ3YgblYkMQt0wJP3OR-Q",
     "language_names": [],
     "framework_names": ["Rails"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Fullstack E-Commerce: Ruby on Rails 7, Hotwire, Tailwind, Stripe, PostgreSQL",
@@ -669,7 +724,8 @@
     "youtube_channel_id": "UCUeZ3YgblYkMQt0wJP3OR-Q",
     "language_names": [],
     "framework_names": ["Rails"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git",
@@ -681,7 +737,8 @@
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": [],
     "framework_names": [],
-    "tool_names": ["Git"]
+    "tool_names": ["Git"],
+    "fundamentals_names": []
   },
   {
     "name": "Git and GitHub Tutorial For Beginners | Full Course [2021]",
@@ -693,7 +750,8 @@
     "youtube_channel_id": "UC2KfmYEM4KCuA1ZurravgYw",
     "language_names": [],
     "framework_names": [],
-    "tool_names": ["Git"]
+    "tool_names": ["Git"],
+    "fundamentals_names": []
   },
   {
     "name": "Modern JavaScript From The Beginning | First 12 Hours",
@@ -705,7 +763,8 @@
     "youtube_channel_id": "UC29ju8bIPH5as8OGnQzwJyA",
     "language_names": ["JavaScript"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "JavaScript Crash Courses",
@@ -717,7 +776,8 @@
     "youtube_channel_id": "UC29ju8bIPH5as8OGnQzwJyA",
     "language_names": ["JavaScript"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "TypeScript Crash Course",
@@ -729,7 +789,8 @@
     "youtube_channel_id": "UC29ju8bIPH5as8OGnQzwJyA",
     "language_names": ["TypeScript"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "React JS Crash Course",
@@ -741,7 +802,8 @@
     "youtube_channel_id": "UC29ju8bIPH5as8OGnQzwJyA",
     "language_names": [],
     "framework_names": ["React.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "React Projects",
@@ -753,7 +815,8 @@
     "youtube_channel_id": "UC29ju8bIPH5as8OGnQzwJyA",
     "language_names": [],
     "framework_names": ["React.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Next.js 13 Crash Course | App Directory, React Server Components & More",
@@ -765,7 +828,8 @@
     "youtube_channel_id": "UC29ju8bIPH5as8OGnQzwJyA",
     "language_names": [],
     "framework_names": ["Next.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Node.js Tutorials",
@@ -777,7 +841,8 @@
     "youtube_channel_id": "UC29ju8bIPH5as8OGnQzwJyA",
     "language_names": [],
     "framework_names": ["Node.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Node.js and Express.js - Full Course",
@@ -789,7 +854,8 @@
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": [],
     "framework_names": ["Node.js", "Express.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Node.js Tutorials",
@@ -801,7 +867,8 @@
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": [],
     "framework_names": ["Node.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "JavaScript Tutorials",
@@ -813,7 +880,8 @@
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": ["JavaScript"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Learn TypeScript - Full Tutorial",
@@ -825,7 +893,8 @@
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": ["TypeScript"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Build 25 React Projects - Tutorial",
@@ -837,7 +906,8 @@
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": [],
     "framework_names": ["React.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "React Course - Beginner's Tutorial for React JavaScript Library [2022]",
@@ -849,7 +919,8 @@
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": [],
     "framework_names": ["React.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Next.js 13 E-Commerce Tutorial (App Router, TypeScript, Deployment, TailwindCSS, Prisma, DaisyUI)",
@@ -861,7 +932,8 @@
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": [],
     "framework_names": ["Next.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Remix Movies: build a movie browser with Remix",
@@ -873,7 +945,8 @@
     "youtube_channel_id": "UC_9cztXyAZCli9Cky6NWWwQ",
     "language_names": [],
     "framework_names": ["Remix.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Trellix: build a Trello clone using Remix",
@@ -885,7 +958,8 @@
     "youtube_channel_id": "UC_9cztXyAZCli9Cky6NWWwQ",
     "language_names": [],
     "framework_names": ["Remix.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Remix.run V2 Full Stack Tutorial 2023 | Crash course",
@@ -897,7 +971,8 @@
     "youtube_channel_id": "UC--oQmMTiFaW3kmCwrjl9-A",
     "language_names": [],
     "framework_names": ["Remix.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Create a Full Stack Realtime Chat Messaging App with Remix.run",
@@ -909,7 +984,8 @@
     "youtube_channel_id": "UC--oQmMTiFaW3kmCwrjl9-A",
     "language_names": [],
     "framework_names": ["Remix.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Building an E-Commerce Store with Remix.run, Stripe, and Sanity.io: Full Stack Tutorial",
@@ -921,7 +997,8 @@
     "youtube_channel_id": "UC--oQmMTiFaW3kmCwrjl9-A",
     "language_names": [],
     "framework_names": ["Remix.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Create a Personal Website / Blog using Remix.run, Tailwind.css, Hygraph and GraphQL",
@@ -933,7 +1010,8 @@
     "youtube_channel_id": "UC--oQmMTiFaW3kmCwrjl9-A",
     "language_names": [],
     "framework_names": ["Remix.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Create an Airbnb Clone with Next.js 14, Kinde, Supabase, Prisma and Tailwind",
@@ -945,7 +1023,8 @@
     "youtube_channel_id": "UC--oQmMTiFaW3kmCwrjl9-A",
     "language_names": [],
     "framework_names": ["Next.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Create a SaaS Application with Next.js.14, Stripe, Kinde, Prisma, Supabase and Tailwind",
@@ -957,7 +1036,8 @@
     "youtube_channel_id": "UC--oQmMTiFaW3kmCwrjl9-A",
     "language_names": [],
     "framework_names": ["Next.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Create a modern and fully responsive UI/UX website with Next.js 14 and Tailwind",
@@ -969,7 +1049,8 @@
     "youtube_channel_id": "UC--oQmMTiFaW3kmCwrjl9-A",
     "language_names": [],
     "framework_names": ["Next.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Build a Next.js 14 Blog | React, Sanity.io, Tailwind.css, Shadcn/Ui",
@@ -981,7 +1062,8 @@
     "youtube_channel_id": "UC--oQmMTiFaW3kmCwrjl9-A",
     "language_names": [],
     "framework_names": ["Next.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Next.js 14 E-Commerce Website with Stripe, and Sanity.io | Full Stack Tutorial | 2023",
@@ -993,7 +1075,8 @@
     "youtube_channel_id": "UC--oQmMTiFaW3kmCwrjl9-A",
     "language_names": [],
     "framework_names": ["Next.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Next.js Projects: Build a Full-stack App with Next.js, Tailwind, Radix UI, and Prisma",
@@ -1005,7 +1088,8 @@
     "youtube_channel_id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
     "language_names": [],
     "framework_names": ["Next.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Next js Tutorial for Beginners | Nextjs 13 (App Router) with TypeScript",
@@ -1017,7 +1101,8 @@
     "youtube_channel_id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
     "language_names": [],
     "framework_names": ["Next.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "React Tutorial for Beginners",
@@ -1029,7 +1114,8 @@
     "youtube_channel_id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
     "language_names": [],
     "framework_names": ["React.js"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "TypeScript Tutorial for Beginners",
@@ -1041,7 +1127,8 @@
     "youtube_channel_id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
     "language_names": ["TypeScript"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "HTML Tutorial for Beginners: HTML Crash Course",
@@ -1053,7 +1140,8 @@
     "youtube_channel_id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
     "language_names": ["HTML"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Git Tutorial for Beginners: Learn Git in 1 Hour",
@@ -1065,7 +1153,8 @@
     "youtube_channel_id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
     "language_names": [],
     "framework_names": [],
-    "tool_names": ["Git"]
+    "tool_names": ["Git"],
+    "fundamentals_names": []
   },
   {
     "name": "Java Tutorial for Beginners",
@@ -1077,7 +1166,8 @@
     "youtube_channel_id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
     "language_names": ["Java"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Python Django Tutorial for Beginners",
@@ -1089,7 +1179,8 @@
     "youtube_channel_id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
     "language_names": [],
     "framework_names": ["Django"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Docker Tutorial for Beginners",
@@ -1101,7 +1192,8 @@
     "youtube_channel_id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
     "language_names": [],
     "framework_names": [],
-    "tool_names": ["Docker"]
+    "tool_names": ["Docker"],
+    "fundamentals_names": []
   },
   {
     "name": "Python Tutorial - Python Full Course for Beginners",
@@ -1113,7 +1205,8 @@
     "youtube_channel_id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
     "language_names": ["Python"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "MySQL Tutorial for Beginners [Full Course]",
@@ -1125,7 +1218,8 @@
     "youtube_channel_id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
     "language_names": [],
     "framework_names": [],
-    "tool_names": ["SQL"]
+    "tool_names": ["SQL"],
+    "fundamentals_names": []
   },
   {
     "name": "Learning Postgres and SQL",
@@ -1137,7 +1231,8 @@
     "youtube_channel_id": "UCp5Nix6mJCoLkH_GqcRRp1A",
     "language_names": [],
     "framework_names": [],
-    "tool_names": ["SQL"]
+    "tool_names": ["SQL"],
+    "fundamentals_names": []
   },
   {
     "name": "Elixir Tips",
@@ -1149,7 +1244,8 @@
     "youtube_channel_id": "UCp5Nix6mJCoLkH_GqcRRp1A",
     "language_names": ["Elixir"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Phoenix JSON API",
@@ -1161,7 +1257,8 @@
     "youtube_channel_id": "UCp5Nix6mJCoLkH_GqcRRp1A",
     "language_names": [],
     "framework_names": ["Phoenix"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Simple Phoenix LiveView App: Reactor",
@@ -1173,7 +1270,8 @@
     "youtube_channel_id": "UCp5Nix6mJCoLkH_GqcRRp1A",
     "language_names": [],
     "framework_names": ["Phoenix"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Phoenix Trello clone",
@@ -1185,7 +1283,8 @@
     "youtube_channel_id": "UCp5Nix6mJCoLkH_GqcRRp1A",
     "language_names": [],
     "framework_names": ["Phoenix"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Elixir Testing",
@@ -1197,7 +1296,8 @@
     "youtube_channel_id": "UCp5Nix6mJCoLkH_GqcRRp1A",
     "language_names": ["Elixir"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "CreatorPlatform.xyz: Ruby on Rails, Stimulus, Tailwind, and Stripe",
@@ -1209,7 +1309,8 @@
     "youtube_channel_id": "UCYUC-bdnQRJDhZRL2c_NKVw",
     "language_names": [],
     "framework_names": ["Rails"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Ruby on Rails tutorials",
@@ -1221,7 +1322,8 @@
     "youtube_channel_id": "UCYUC-bdnQRJDhZRL2c_NKVw",
     "language_names": [],
     "framework_names": ["Rails"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "clearbnb - building a vacation rental platform with Ruby on Rails",
@@ -1233,7 +1335,8 @@
     "youtube_channel_id": "UCYUC-bdnQRJDhZRL2c_NKVw",
     "language_names": [],
     "framework_names": ["Rails"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Angular for Beginners Course [Full Front End Tutorial with TypeScript]",
@@ -1245,7 +1348,8 @@
     "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
     "language_names": [],
     "framework_names": ["Angular"],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Making a Gleam web app from scratch!",
@@ -1257,7 +1361,8 @@
     "youtube_channel_id": "UC6Ijaz5K2jkH8kmLNI-cYxg",
     "language_names": ["Gleam"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Converting a Gleam web application to use the Wisp web framework",
@@ -1269,7 +1374,8 @@
     "youtube_channel_id": "UC6Ijaz5K2jkH8kmLNI-cYxg",
     "language_names": ["Gleam"],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": []
   },
   {
     "name": "Programming for Complete Beginners",
@@ -1281,6 +1387,7 @@
     "youtube_channel_id": "UCNJfpwGuf3D1jt5WHVx1qLw",
     "language_names": [],
     "framework_names": [],
-    "tool_names": []
+    "tool_names": [],
+    "fundamentals_names": ["Programming"]
   }
 ]

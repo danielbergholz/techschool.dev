@@ -15,6 +15,9 @@ defmodule Techschool.Courses.Course do
     many_to_many :frameworks, Techschool.Frameworks.Framework, join_through: "courses_frameworks"
     many_to_many :tools, Techschool.Tools.Tool, join_through: "courses_tools"
 
+    many_to_many :fundamentals, Techschool.Fundamentals.Fundamental,
+      join_through: "courses_fundamentals"
+
     timestamps(type: :utc_datetime)
   end
 
@@ -23,6 +26,7 @@ defmodule Techschool.Courses.Course do
     languages = Keyword.get(opts, :languages, [])
     frameworks = Keyword.get(opts, :frameworks, [])
     tools = Keyword.get(opts, :tools, [])
+    fundamentals = Keyword.get(opts, :fundamentals, [])
 
     course
     |> cast(attrs, [
@@ -48,5 +52,6 @@ defmodule Techschool.Courses.Course do
     |> put_assoc(:languages, languages)
     |> put_assoc(:frameworks, frameworks)
     |> put_assoc(:tools, tools)
+    |> put_assoc(:fundamentals, fundamentals)
   end
 end
