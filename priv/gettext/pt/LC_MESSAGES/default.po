@@ -16,13 +16,13 @@ msgstr ""
 msgid "Free technology education for everyone"
 msgstr "Ensino de tecnologia acessível para todos"
 
-#: lib/techschool_web/components/core_components.ex:482
+#: lib/techschool_web/components/core_components.ex:483
 #, elixir-autogen, elixir-format
 msgid "Actions"
 msgstr ""
 
 #: lib/techschool_web/components/layouts/components/navbar.html.heex:14
-#: lib/techschool_web/live/course_live/index.ex:31
+#: lib/techschool_web/live/course_live/index.ex:34
 #, elixir-autogen, elixir-format
 msgid "Courses"
 msgstr "Cursos"
@@ -63,7 +63,7 @@ msgstr "O TechSchool foi criado pra tornar o ensino em tecnologia acessível pra
 msgid "That's where TechSchool steps in. We're here to shine a light on those awesome free courses that might be flying under the radar. Our website has a bunch of courses covering different areas. The goal? Help anyone go from zero to landing their first job without breaking the bank. We want to tackle the expensive course culture and make tech education fair and equal for everyone."
 msgstr "É aí que o TechSchool entra na jogada. Estamos aqui para destacar aqueles cursos gratuitos incríveis que podem passar despercebidos. Nosso site oferece uma variedade de cursos em diferentes áreas. A meta é ajudar qualquer pessoa a sair do zero e conseguir o primeiro emprego sem gastar dinheiro. Queremos combater a cultura de bootcamps caros e tornar a educação em tecnologia justa e acessível para todos."
 
-#: lib/techschool_web/live/course_live/components/search.html.heex:19
+#: lib/techschool_web/live/course_live/components/search.html.heex:35
 #, elixir-autogen, elixir-format
 msgid "Language"
 msgstr "Linguagem"
@@ -78,7 +78,7 @@ msgstr "Pesquisar"
 msgid "Search courses"
 msgstr "Pesquisar cursos"
 
-#: lib/techschool_web/live/course_live/index.ex:34
+#: lib/techschool_web/live/course_live/index.ex:37
 #, elixir-autogen, elixir-format
 msgid "Find the best courses to learn programming! Search by name or filter by language and framework."
 msgstr "Encontre os melhores cursos para aprender programação! Pesquise por nome ou filtre por linguagem e framework."
@@ -89,18 +89,18 @@ msgstr "Encontre os melhores cursos para aprender programação! Pesquise por no
 msgid "TechSchool is a platform for learning programming, 100% free and open source!"
 msgstr "TechSchool é uma plataforma de ensino programação, 100% gratuita e open source!"
 
-#: lib/techschool_web/live/course_live/index.html.heex:22
+#: lib/techschool_web/live/course_live/index.html.heex:24
 #, elixir-autogen, elixir-format
 msgid "Load More"
 msgstr "Carregar mais"
 
-#: lib/techschool_web/live/course_live/components/search.html.heex:43
-#: lib/techschool_web/live/course_live/components/search.html.heex:47
+#: lib/techschool_web/live/course_live/components/search.html.heex:59
+#: lib/techschool_web/live/course_live/components/search.html.heex:63
 #, elixir-autogen, elixir-format
 msgid "Tool"
 msgstr "Ferramenta"
 
-#: lib/techschool_web/live/course_live/components/search.html.heex:15
+#: lib/techschool_web/live/course_live/components/search.html.heex:31
 #, elixir-autogen, elixir-format
 msgid "Programming Language"
 msgstr "Linguagem de programação"
@@ -121,7 +121,13 @@ msgstr "Voltar"
 msgid "optional"
 msgstr "opcional"
 
-#: lib/techschool_web/live/course_live/index.html.heex:18
+#: lib/techschool_web/live/course_live/index.html.heex:20
 #, elixir-autogen, elixir-format
 msgid "No results for the given search"
 msgstr "Pesquisa sem resultados"
+
+#: lib/techschool_web/live/course_live/components/search.html.heex:15
+#: lib/techschool_web/live/course_live/components/search.html.heex:20
+#, elixir-autogen, elixir-format
+msgid "Fundamentals"
+msgstr "Fundamentos"
