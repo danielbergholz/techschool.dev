@@ -12,6 +12,22 @@
   </div>
   <div class="mt-4 flex flex-wrap justify-center gap-3">
     <select
+      aria-label={gettext("Fundamentals")}
+      name="fundamentals"
+      class="rounded-lg bg-black text-white focus:outline-none focus:ring-0 focus:border-green"
+    >
+      <option value="" selected={@selected_fundamentals == ""}>
+        <%= gettext("Fundamentals") %>
+      </option>
+      <option
+        :for={fundamentals_name <- @fundamentals_names}
+        value={fundamentals_name}
+        selected={@selected_fundamentals == String.downcase(fundamentals_name)}
+      >
+        <%= fundamentals_name %>
+      </option>
+    </select>
+    <select
       aria-label={gettext("Programming Language")}
       name="language"
       class="rounded-lg bg-black text-white focus:outline-none focus:ring-0 focus:border-green"

@@ -1,7 +1,7 @@
 defmodule TechschoolWeb.CourseLive.Index do
   use TechschoolWeb, :live_view
 
-  alias Techschool.{Languages, Frameworks, Courses, Tools}
+  alias Techschool.{Languages, Frameworks, Courses, Tools, Fundamentals}
   alias Techschool.Courses.Course
 
   @default_locale Application.compile_env(:gettext, :default_locale)
@@ -15,10 +15,12 @@ defmodule TechschoolWeb.CourseLive.Index do
   attr :language_names, :list, required: true
   attr :framework_names, :list, required: true
   attr :tool_names, :list, required: true
+  attr :fundamentals_names, :list, required: true
   attr :search, :string, required: true
   attr :selected_language, :string, required: true
   attr :selected_framework, :string, required: true
   attr :selected_tool, :string, required: true
+  attr :selected_fundamentals, :string, required: true
   def search(assigns)
 
   @impl true
@@ -26,6 +28,7 @@ defmodule TechschoolWeb.CourseLive.Index do
     language_names = Languages.list_language_names()
     framework_names = Frameworks.list_framework_names()
     tool_names = Tools.list_tool_names()
+    fundamentals_names = Fundamentals.list_fundamentals_names()
 
     socket
     |> assign(:page_title, gettext("Courses") <> " | TechSchool")
@@ -38,6 +41,7 @@ defmodule TechschoolWeb.CourseLive.Index do
     |> assign(:language_names, language_names)
     |> assign(:framework_names, framework_names)
     |> assign(:tool_names, tool_names)
+    |> assign(:fundamentals_names, fundamentals_names)
     |> ok()
   end
 
@@ -51,6 +55,7 @@ defmodule TechschoolWeb.CourseLive.Index do
     |> assign(:selected_language, get_param(params, "language"))
     |> assign(:selected_framework, get_param(params, "framework"))
     |> assign(:selected_tool, get_param(params, "tool"))
+    |> assign(:selected_fundamentals, get_param(params, "fundamentals"))
     |> assign(:search, get_param(params, "search"))
     |> assign(:offset, 0)
     |> assign(:has_more_courses_to_load, has_more_courses_to_load)
@@ -88,6 +93,7 @@ defmodule TechschoolWeb.CourseLive.Index do
       |> add_query_param(params, "framework")
       |> add_query_param(params, "language")
       |> add_query_param(params, "tool")
+      |> add_query_param(params, "fundamentals")
       |> add_query_param(params, "search")
       |> Enum.join("&")
 
