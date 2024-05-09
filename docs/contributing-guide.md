@@ -41,6 +41,19 @@ Same note as the `image_url` field from the `languages.json` file. Don't worry a
 }
 ```
 
+## Adding a new "fundamentals"
+
+- Add a new entry on the JSON file `priv/repo/data/fundamentals.json`. The file should have the following structure:
+
+```json
+{
+  "name": "Fundamentals Name", // case sensitive
+  "image_url": "path_to_the_fundamentals_svg"
+}
+```
+
+Same note for `image_url`. Don't worry about it.
+
 ## Adding a new channel
 
 - Add a new entry on the JSON file `priv/repo/data/channels.json`. The file should have the following structure:
@@ -75,7 +88,8 @@ Same note as the `image_url` field from the `languages.json` file. Don't worry a
   "youtube_channel_id": "uuid_from_youtube", // must be present inside channels.json
   "language_names": ["Programming Language Name"], // must be present inside languages.json (case sensitive)
   "framework_names": ["Framework Name"], // must be present inside frameworks.json (case sensitive)
-  "tool_names": ["Tool Name"] // must be present inside tools.json (case sensitive)
+  "tool_names": ["Tool Name"], // must be present inside tools.json (case sensitive)
+  "fundamentals_names": ["Fundamentals Name"] // must be present inside fundamentals.json (case sensitive)
 }
 ```
 
