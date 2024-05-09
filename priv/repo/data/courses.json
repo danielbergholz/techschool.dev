@@ -1441,5 +1441,31 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": ["Algorithms"]
+  },
+  {
+    "name": "Introduction to Programming and Computer Science - Full Course",
+    "youtube_course_id": "zOjov-2OZ0E",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/zOjov-2OZ0E/sddefault.jpg",
+    "published_at": "2020-04-21T13:45:02Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": ["Programming"]
+  },
+  {
+    "name": "Harvard CS50's Introduction to Programming with Python - Full University Course",
+    "youtube_course_id": "nLRL_NcnK-4",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/nLRL_NcnK-4/sddefault.jpg",
+    "published_at": "2023-05-01T13:55:40Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": ["Python"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": ["Programming"]
   }
 ]
