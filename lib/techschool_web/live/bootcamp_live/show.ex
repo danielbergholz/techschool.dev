@@ -41,6 +41,9 @@ defmodule TechschoolWeb.BootcampLive.Show do
       lesson.tool_names != "" ->
         "/#{locale}/courses?tool=#{lesson.tool_names |> String.downcase()}"
 
+      lesson.fundamentals_names != "" ->
+        "/#{locale}/courses?fundamentals=#{lesson.fundamentals_names |> String.downcase()}"
+
       true ->
         "/#{locale}/courses"
     end
