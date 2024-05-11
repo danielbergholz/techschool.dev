@@ -1,5 +1,17 @@
 [
   {
+    "name": "Fundamentals",
+    "image_url": "/images/fundamentals/programming.svg",
+    "description_en": "This is where it all begins. Learn the fundamentals of programming and computer science. Master the basics of algorithms, data structures, and networking. Whether you're a complete beginner or looking to solidify your foundation, this course will set you on the right path",
+    "description_pt": "Este é o ponto de partida. Aprenda os fundamentos da programação e ciência da computação. Domine os conceitos básicos de algoritmos, estruturas de dados e redes. Seja você um iniciante ou alguém que deseja solidificar sua base, este curso o colocará no caminho certo",
+    "lesson_names": [
+      "Computer Science",
+      "Programming",
+      "Networking",
+      "Algorithms"
+    ]
+  },
+  {
     "name": "Fullstack Elixir and Phoenix",
     "image_url": "/images/frameworks/phoenix.svg",
     "description_en": "Enter the world of Elixir and Phoenix: where speed meets reliability. Elixir's fault-tolerant design and Phoenix's high-performance framework make real-time applications a breeze. Say goodbye to bottlenecks and hello to seamless scalability. Whether it's massive data processing or interactive web experiences, Elixir and Phoenix empower you to conquer any challenge with ease",
