@@ -1,5 +1,49 @@
 [
   {
+    "name": "Computer Science",
+    "optional": false,
+    "image_url": "/images/fundamentals/computer-science.svg",
+    "description_en": "Computer science is the study of computer hardware and software and their applications in various fields. It includes the study of algorithms, data structures, and programming languages",
+    "description_pt": "Ciência da computação é o estudo do hardware e software de computadores e suas aplicações em diversos campos. Inclui o estudo de algoritmos, estruturas de dados e linguagens de programação",
+    "language_names": "",
+    "framework_names": "",
+    "tool_names": "",
+    "fundamentals_names": "Computer Science"
+  },
+  {
+    "name": "Programming",
+    "optional": false,
+    "image_url": "/images/fundamentals/programming.svg",
+    "description_en": "Programming is the process of creating a set of instructions that tell a computer how to perform a task. It is the foundation of software development and involves writing code in a programming language",
+    "description_pt": "Programação é o processo de criar um conjunto de instruções que dizem a um computador como realizar uma tarefa. É a base do desenvolvimento de software e envolve escrever código em uma linguagem de programação",
+    "language_names": "",
+    "framework_names": "",
+    "tool_names": "",
+    "fundamentals_names": "Programming"
+  },
+  {
+    "name": "Networking",
+    "optional": false,
+    "image_url": "/images/fundamentals/networking.svg",
+    "description_en": "Networking is the practice of connecting computers and other devices to share resources and information. It includes the study of network protocols, security, and the internet",
+    "description_pt": "Redes é a prática de conectar computadores e outros dispositivos para compartilhar recursos e informações. Inclui o estudo de protocolos de rede, segurança e a internet",
+    "language_names": "",
+    "framework_names": "",
+    "tool_names": "",
+    "fundamentals_names": "Networking"
+  },
+  {
+    "name": "Algorithms",
+    "optional": false,
+    "image_url": "/images/fundamentals/algorithms.svg",
+    "description_en": "Algorithms are a set of instructions for solving a problem or performing a task. They are the building blocks of computer programs and are used to manipulate data and perform operations",
+    "description_pt": "Algoritmos são um conjunto de instruções para resolver um problema ou realizar uma tarefa. Eles são os blocos de construção de programas de computador e são usados para manipular dados e realizar operações",
+    "language_names": "",
+    "framework_names": "",
+    "tool_names": "",
+    "fundamentals_names": "Algorithms"
+  },
+  {
     "name": "HTML",
     "optional": false,
     "image_url": "/images/languages/html.svg",
