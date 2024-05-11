@@ -11,6 +11,7 @@ defmodule Techschool.Lessons.Lesson do
     field :language_names, :string, default: ""
     field :framework_names, :string, default: ""
     field :tool_names, :string, default: ""
+    field :fundamentals_names, :string, default: ""
     many_to_many :bootcamps, Techschool.Bootcamps.Bootcamp, join_through: "bootcamps_lessons"
 
     timestamps(type: :utc_datetime)
@@ -27,7 +28,8 @@ defmodule Techschool.Lessons.Lesson do
       :description_pt,
       :language_names,
       :framework_names,
-      :tool_names
+      :tool_names,
+      :fundamentals_names
     ])
     |> validate_required([
       :name,

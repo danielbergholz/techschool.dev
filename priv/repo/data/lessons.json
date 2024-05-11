@@ -7,7 +7,8 @@
     "description_pt": "HTML é a linguagem de marcação padrão para criar páginas da Web",
     "language_names": "HTML",
     "framework_names": "",
-    "tool_names": ""
+    "tool_names": "",
+    "fundamentals_names": ""
   },
   {
     "name": "CSS",
@@ -17,7 +18,8 @@
     "description_pt": "Cascading Style Sheets (CSS) é uma linguagem de estilização usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML",
     "language_names": "CSS",
     "framework_names": "",
-    "tool_names": ""
+    "tool_names": "",
+    "fundamentals_names": ""
   },
   {
     "name": "JavaScript",
@@ -27,7 +29,8 @@
     "description_pt": "JavaScript é uma linguagem de programação que adiciona funcionalidades dinâmicas complexas como interatividade e animações a páginas da web. Junto com HTML e CSS, o JavaScript forma a base do desenvolvimento web",
     "language_names": "JavaScript",
     "framework_names": "",
-    "tool_names": ""
+    "tool_names": "",
+    "fundamentals_names": ""
   },
   {
     "name": "TypeScript",
@@ -37,7 +40,8 @@
     "description_pt": "TypeScript é um superset do JavaScript que adiciona tipagem estática à linguagem. É projetado para o desenvolvimento de grande aplicações e transpila para JavaScript",
     "language_names": "TypeScript",
     "framework_names": "",
-    "tool_names": ""
+    "tool_names": "",
+    "fundamentals_names": ""
   },
   {
     "name": "Git",
@@ -47,7 +51,8 @@
     "description_pt": "Git é um sistema de controle de versão distribuído para rastrear mudanças no código fonte durante o desenvolvimento de software. Ele é projetado para coordenar o trabalho entre programadores, mas pode ser usado para rastrear mudanças em qualquer conjunto de arquivos",
     "language_names": "",
     "framework_names": "",
-    "tool_names": "Git"
+    "tool_names": "Git",
+    "fundamentals_names": ""
   },
   {
     "name": "SQL",
@@ -57,7 +62,8 @@
     "description_pt": "SQL (Structured Query Language) é uma linguagem específica de domínio usada em programação e projetada para gerenciar dados armazenados em um sistema de gerenciamento de banco de dados relacional (RDBMS)",
     "language_names": "",
     "framework_names": "",
-    "tool_names": "SQL"
+    "tool_names": "SQL",
+    "fundamentals_names": ""
   },
   {
     "name": "Node.js",
@@ -67,7 +73,8 @@
     "description_pt": "Node.js é um ambiente de execução de JavaScript de código aberto e multiplataforma que executa código JavaScript fora de um navegador web. É usado para construir aplicações backend escaláveis",
     "language_names": "",
     "framework_names": "Node.js",
-    "tool_names": ""
+    "tool_names": "",
+    "fundamentals_names": ""
   },
   {
     "name": "React.js",
@@ -77,7 +84,8 @@
     "description_pt": "React é uma biblioteca JavaScript para construir interfaces de usuário. É mantido pelo Facebook e uma comunidade de desenvolvedores individuais e empresas. React pode ser usado como base no desenvolvimento de aplicações web ou mobile",
     "language_names": "",
     "framework_names": "React.js",
-    "tool_names": ""
+    "tool_names": "",
+    "fundamentals_names": ""
   },
   {
     "name": "Next.js",
@@ -87,7 +95,8 @@
     "description_pt": "Next.js é um framework moderno baseado no React que permite funcionalidades como renderização no lado do servidor e geração de sites estáticos",
     "language_names": "",
     "framework_names": "Next.js",
-    "tool_names": ""
+    "tool_names": "",
+    "fundamentals_names": ""
   },
   {
     "name": "Remix.js",
@@ -97,7 +106,8 @@
     "description_pt": "Remix é um framework web full stack que permite que você se concentre na interface do usuário e trabalhe de volta através dos padrões da web para oferecer uma experiência do usuário rápida, elegante e resiliente. As pessoas vão adorar usar seus sites",
     "language_names": "",
     "framework_names": "Remix.js",
-    "tool_names": ""
+    "tool_names": "",
+    "fundamentals_names": ""
   },
   {
     "name": "Ruby",
@@ -107,7 +117,8 @@
     "description_pt": "Ruby é uma linguagem de programação dinâmica com foco em simplicidade e produtividade. Possui uma sintaxe elegante que é natural de ler e fácil de escrever",
     "language_names": "Ruby",
     "framework_names": "",
-    "tool_names": ""
+    "tool_names": "",
+    "fundamentals_names": ""
   },
   {
     "name": "Rails",
@@ -117,7 +128,8 @@
     "description_pt": "Rails é um framework de desenvolvimento web escrito na linguagem de programação Ruby. Ele é projetado para facilitar a programação de aplicações web, fazendo suposições sobre o que cada desenvolvedor precisa para começar",
     "language_names": "",
     "framework_names": "Rails",
-    "tool_names": ""
+    "tool_names": "",
+    "fundamentals_names": ""
   },
   {
     "name": "Python",
@@ -127,7 +139,8 @@
     "description_pt": "Python é uma linguagem de programação interpretada de alto nível conhecida por sua simplicidade e versatilidade. É fácil de aprender e pode ser usada para construir aplicações web, analisar dados e automatizar tarefas",
     "language_names": "Python",
     "framework_names": "",
-    "tool_names": ""
+    "tool_names": "",
+    "fundamentals_names": ""
   },
   {
     "name": "Django",
@@ -137,7 +150,8 @@
     "description_pt": "Django é um framework web de alto nível para Python que incentiva o desenvolvimento rápido e um design limpo e pragmático. É usado para construir aplicações web e APIs",
     "language_names": "",
     "framework_names": "Django",
-    "tool_names": ""
+    "tool_names": "",
+    "fundamentals_names": ""
   },
   {
     "name": "Java",
@@ -147,7 +161,8 @@
     "description_pt": "Java é uma linguagem de programação de alto nível, baseada em classes e orientada a objetos, projetada para ter o menor número possível de dependências de implementação. É usada para construir aplicações de escala empresarial",
     "language_names": "Java",
     "framework_names": "",
-    "tool_names": ""
+    "tool_names": "",
+    "fundamentals_names": ""
   },
   {
     "name": "Spring",
@@ -157,7 +172,8 @@
     "description_pt": "Spring torna a programação Java mais rápida, fácil e segura para todos. O foco do Spring em velocidade, simplicidade e produtividade o tornou o framework Java mais popular do mundo",
     "language_names": "",
     "framework_names": "Spring",
-    "tool_names": ""
+    "tool_names": "",
+    "fundamentals_names": ""
   },
   {
     "name": "PHP",
@@ -167,7 +183,8 @@
     "description_pt": "PHP é uma linguagem popular de script de propósito geral que é especialmente adequada para o desenvolvimento web. É rápida, flexível e pragmática, e alimenta desde o seu blog até os sites mais populares do mundo",
     "language_names": "PHP",
     "framework_names": "",
-    "tool_names": ""
+    "tool_names": "",
+    "fundamentals_names": ""
   },
   {
     "name": "Laravel",
@@ -177,7 +194,8 @@
     "description_pt": "Laravel é um framework de aplicação web com uma sintaxe expressiva e elegante. Com uma base bem estabelecida, você pode programar sem se preocupar com os pequenos detalhes",
     "language_names": "",
     "framework_names": "Laravel",
-    "tool_names": ""
+    "tool_names": "",
+    "fundamentals_names": ""
   },
   {
     "name": "Elixir",
@@ -187,7 +205,8 @@
     "description_pt": "Elixir é uma linguagem dinâmica e funcional projetada para construir aplicações escaláveis e de fácil manutenção. É construída em cima da máquina virtual Erlang e é conhecida por seus sistemas de baixa latência e tolerantes a falhas",
     "language_names": "Elixir",
     "framework_names": "",
-    "tool_names": ""
+    "tool_names": "",
+    "fundamentals_names": ""
   },
   {
     "name": "Phoenix",
@@ -197,7 +216,8 @@
     "description_pt": "Phoenix é um framework de desenvolvimento web escrito em Elixir que implementa o padrão Model-View-Controller (MVC) no lado do servidor. É conhecido por seu alto desempenho e capacidades em tempo real",
     "language_names": "",
     "framework_names": "Phoenix",
-    "tool_names": ""
+    "tool_names": "",
+    "fundamentals_names": ""
   },
   {
     "name": "Linux",
@@ -207,7 +227,8 @@
     "description_pt": "Aprender o terminal do linux é uma ótima maneira de melhorar suas habilidades de programação. Ele permite que você interaja com o seu computador de uma maneira que não é possível com uma interface gráfica",
     "language_names": "",
     "framework_names": "",
-    "tool_names": "Linux"
+    "tool_names": "Linux",
+    "fundamentals_names": ""
   },
   {
     "name": "Docker",
@@ -217,6 +238,7 @@
     "description_pt": "Docker é uma plataforma para desenvolvedores e administradores de sistemas desenvolverem, implantarem e executarem aplicações com contêineres. O uso de contêineres para implantar aplicações é chamado de containerização",
     "language_names": "",
     "framework_names": "",
-    "tool_names": "Docker"
+    "tool_names": "Docker",
+    "fundamentals_names": ""
   }
 ]
