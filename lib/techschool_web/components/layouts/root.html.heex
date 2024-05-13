@@ -14,7 +14,9 @@
           gettext("TechSchool is a platform for learning programming, 100% free and open source!")
       }
     />
+    <meta property="og:site_name" content="TechSchool" />
     <meta property="og:title" content={assigns[:page_title] || "TechSchool"} />
+    <meta property="twitter:title" content={assigns[:page_title] || "TechSchool"} />
     <meta
       property="og:description"
       content={
@@ -22,9 +24,18 @@
           gettext("TechSchool is a platform for learning programming, 100% free and open source!")
       }
     />
+    <meta
+      property="twitter:description"
+      content={
+        assigns[:page_description] ||
+          gettext("TechSchool is a platform for learning programming, 100% free and open source!")
+      }
+    />
     <meta property="og:image" content="https://techschool.dev/images/logo.png" />
+    <meta property="twitter:image" content="https://techschool.dev/images/logo.png" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={"https://techschool.dev" <> @conn.request_path} />
+    <meta name="twitter:card" content="summary" />
     <link rel="canonical" href={"https://techschool.dev" <> @conn.request_path} />
     <link phx-track-static rel="stylesheet" href={~p"/assets/app.css"} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
