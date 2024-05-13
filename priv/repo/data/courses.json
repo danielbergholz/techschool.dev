@@ -351,6 +351,19 @@
     "fundamentals_names": []
   },
   {
+    "name": "Learn Ruby on Rails 7 - Full Course (Reddit clone)",
+    "youtube_course_id": "Fb_EaLkuYbk",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/Fb_EaLkuYbk/sddefault.jpg",
+    "published_at": "2024-04-08T16:15:09Z",
+    "youtube_channel_id": "UC4Rtbj695kt2PgWdrFuvzHg",
+    "language_names": [],
+    "framework_names": ["Rails"],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
     "name": "Python Full Course",
     "youtube_course_id": "LzYNWme1W6Q",
     "type": "video",
