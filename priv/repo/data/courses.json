@@ -1545,5 +1545,31 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Elixir Getting Started Guide",
+    "youtube_course_id": "PL2Rv8vpZJz4yHG7n-IsY-Na402GBu-UMW",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/S_YmABGLgsU/sddefault.jpg",
+    "published_at": "2024-04-29T17:39:55Z",
+    "youtube_channel_id": "UChbS_z6KHQiIu9et38O37eQ",
+    "language_names": ["Elixir"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Lets learn the Phoenix Router: a comprehensive reference",
+    "youtube_course_id": "RJ_jGHeFz5E",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/RJ_jGHeFz5E/sddefault.jpg",
+    "published_at": "2024-02-12T13:53:08Z",
+    "youtube_channel_id": "UCYQ3zFdm_2fiQA3zXPONvcQ",
+    "language_names": [],
+    "framework_names": ["Phoenix"],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
