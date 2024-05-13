@@ -1467,5 +1467,31 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": ["Programming"]
+  },
+  {
+    "name": "How To Build A Shopify Store",
+    "youtube_course_id": "PL1BMWTNEcBErSUL2j9r1NWN5ozenOmS3-",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/rkF4pufcv9Y/sddefault.jpg",
+    "published_at": "2022-08-29T14:55:08Z",
+    "youtube_channel_id": "UC7geKfz2-IH0rsgRBtHTm0g",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": ["Shopify"],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Shopify Tutorial For Beginners",
+    "youtube_course_id": "T2tagxLhlv4",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/T2tagxLhlv4/sddefault.jpg",
+    "published_at": "2023-03-11T22:30:03Z",
+    "youtube_channel_id": "UC-JHxwWL4-WoqyQIYsBvTbA",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": ["Shopify"],
+    "fundamentals_names": []
   }
 ]
