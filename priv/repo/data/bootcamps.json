@@ -129,5 +129,12 @@
       "Linux",
       "Docker"
     ]
+  },
+  {
+    "name": "Shopify Development",
+    "image_url": "/images/tools/shopify.svg",
+    "description_en": "Start your journey as a Shopify developer and build custom e-commerce solutions. Learn how to create themes, apps, and plugins to enhance the Shopify experience for merchants and customers. With Shopify's powerful APIs and Liquid templating language, you'll have the tools to create unique and engaging online stores",
+    "description_pt": "Comece sua jornada como desenvolvedor Shopify e construa soluções de e-commerce personalizadas. Aprenda a criar temas, aplicativos e plugins para aprimorar a experiência do Shopify para comerciantes e clientes. Com as poderosas APIs do Shopify e a linguagem de template Liquid, você terá as ferramentas para criar lojas online únicas e envolventes",
+    "lesson_names": ["Shopify", "Liquid"]
   }
 ]
