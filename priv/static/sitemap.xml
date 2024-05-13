@@ -66,6 +66,11 @@
     <priority>0.64</priority>
   </url>
   <url>
+    <loc>https://techschool.dev/en/bootcamps/shopify-development</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
     <loc>https://techschool.dev/pt/courses</loc>
     <changefreq>daily</changefreq>
     <priority>0.64</priority>
@@ -112,6 +117,11 @@
   </url>
   <url>
     <loc>https://techschool.dev/pt/bootcamps/fullstack-python-and-django</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://techschool.dev/pt/bootcamps/shopify-development</loc>
     <changefreq>monthly</changefreq>
     <priority>0.51</priority>
   </url>
