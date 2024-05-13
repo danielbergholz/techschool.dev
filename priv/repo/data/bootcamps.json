@@ -12,23 +12,6 @@
     ]
   },
   {
-    "name": "Fullstack Elixir and Phoenix",
-    "image_url": "/images/frameworks/phoenix.svg",
-    "description_en": "Enter the world of Elixir and Phoenix: where speed meets reliability. Elixir's fault-tolerant design and Phoenix's high-performance framework make real-time applications a breeze. Say goodbye to bottlenecks and hello to seamless scalability. Whether it's massive data processing or interactive web experiences, Elixir and Phoenix empower you to conquer any challenge with ease",
-    "description_pt": "Entre no mundo do Elixir e Phoenix: onde velocidade encontra confiabilidade. O design tolerante a falhas do Elixir e o framework de alto desempenho do Phoenix facilitam muito as aplicações em tempo real. Diga adeus aos gargalos e olá à escalabilidade perfeita. Seja para processamento de dados em massa ou experiências web interativas, Elixir e Phoenix capacitam você a superar qualquer desafio",
-    "lesson_names": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Git",
-      "SQL",
-      "Elixir",
-      "Phoenix",
-      "Linux",
-      "Docker"
-    ]
-  },
-  {
     "name": "Fullstack JavaScript",
     "image_url": "/images/languages/javascript.svg",
     "description_en": "Become a fullstack JavaScript developer and build dynamic web applications. JavaScript's versatility allows you to build for both the client and server, making you a valuable asset to any team. With Node.js, and React.js, you'll have the power to build scalable and maintainable fullstack applications",
@@ -60,6 +43,23 @@
       "React.js",
       "Next.js",
       "Remix.js"
+    ]
+  },
+  {
+    "name": "Fullstack Elixir and Phoenix",
+    "image_url": "/images/frameworks/phoenix.svg",
+    "description_en": "Enter the world of Elixir and Phoenix: where speed meets reliability. Elixir's fault-tolerant design and Phoenix's high-performance framework make real-time applications a breeze. Say goodbye to bottlenecks and hello to seamless scalability. Whether it's massive data processing or interactive web experiences, Elixir and Phoenix empower you to conquer any challenge with ease",
+    "description_pt": "Entre no mundo do Elixir e Phoenix: onde velocidade encontra confiabilidade. O design tolerante a falhas do Elixir e o framework de alto desempenho do Phoenix facilitam muito as aplicações em tempo real. Diga adeus aos gargalos e olá à escalabilidade perfeita. Seja para processamento de dados em massa ou experiências web interativas, Elixir e Phoenix capacitam você a superar qualquer desafio",
+    "lesson_names": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Git",
+      "SQL",
+      "Elixir",
+      "Phoenix",
+      "Linux",
+      "Docker"
     ]
   },
   {
