@@ -38,5 +38,9 @@
   {
     "name": "PHP",
     "image_url": "/images/languages/php.svg"
+  },
+  {
+    "name": "Liquid",
+    "image_url": "/images/languages/liquid.svg"
   }
 ]
