@@ -1584,5 +1584,18 @@
     "framework_names": ["Phoenix"],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Java + DSA + Interview Preparation Course",
+    "youtube_course_id": "PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/rZ41y93P2Qo/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCVLdFTYGBOx_XHYIv_sHrVY9shRw",
+    "published_at": "2023-12-30",
+    "youtube_channel_id": "UCBGOUQHNNtNGcGzVq5rIXjw",
+    "language_names": ["Java"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
