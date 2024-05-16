@@ -84,7 +84,7 @@ Same note for `image_url`. Don't worry about it.
   "type": "playlist", // "playlist" or "video"
   "locale": "en", // "en" or "pt"
   "image_url": "url_from_thumbnail",
-  "published_at": "published_at_date", // ISO 8601 format, example: "2022-06-16" (YYYY-MM-DD)
+  "published_at": "published_at_date", // ISO 8601 format, example: "2022-06-16T00:00:00Z" (YYYY-MM-DD + "T" + HH:MM:SS + "Z")
   "youtube_channel_id": "uuid_from_youtube", // must be present inside channels.json
   "language_names": ["Programming Language Name"], // must be present inside languages.json (case sensitive)
   "framework_names": ["Framework Name"], // must be present inside frameworks.json (case sensitive)
