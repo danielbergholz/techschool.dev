@@ -42,5 +42,9 @@
   {
     "name": "Liquid",
     "image_url": "/images/languages/liquid.svg"
+  },
+  {
+    "name": "Golang",
+    "image_url": ""
   }
 ]

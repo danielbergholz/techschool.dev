@@ -1597,5 +1597,18 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Aprenda GO",
+    "youtube_course_id": "PLCKpcjBB_VlBsxJ9IseNxFllf-UFEXOdg",
+    "type": "playlist",
+    "locale": "pt",
+    "image_url": "https://i.ytimg.com/vi/WiGU_ZB-u0w/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDIIfvWT-syEsGkP6FqA3p-oDSVdQ",
+    "published_at": "2020-09-06",
+    "youtube_channel_id": "UCxD5EE0H7qOhRr0tIVsOZPQ",
+    "language_names": ["Golang"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
