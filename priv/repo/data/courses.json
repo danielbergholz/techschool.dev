@@ -1610,5 +1610,18 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Estruturas de Dados",
+    "youtube_course_id": "PLndfcZyvAqbofQl2kLLdeWWjCcPlOPnrW",
+    "type": "playlist",
+    "locale": "pt",
+    "image_url": "https://i.ytimg.com/vi/0hT3EKGhbpI/sddefault.jpg",
+    "published_at": "2020-11-27T00:40:29Z",
+    "youtube_channel_id": "UCzdbMD-Ah5ZMLMOyoZI3V2g",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": ["Algorithms"]
   }
 ]
