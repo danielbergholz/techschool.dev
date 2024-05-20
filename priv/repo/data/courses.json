@@ -1623,5 +1623,18 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": ["Algorithms"]
+  },
+  {
+    "name": "C for Beginners",
+    "youtube_course_id": "PL9IEJIKnBJjG5H0ylFAzpzs9gSmW_eICB",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/SC8uWXmDJs4/hqdefault.jpg",
+    "published_at": "2018-09-26T00:40:29Z",
+    "youtube_channel_id": "UCwd5VFu4KoJNjkWJZMFJGHQ",
+    "language_names": ["C"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
