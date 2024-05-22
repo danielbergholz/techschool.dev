@@ -40,3 +40,5 @@ npm-debug.log
 *.db-*
 
 .DS_Store
+
+.env
