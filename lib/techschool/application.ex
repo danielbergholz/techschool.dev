@@ -22,7 +22,8 @@ defmodule Techschool.Application do
       # Start a worker by calling: Techschool.Worker.start_link(arg)
       # {Techschool.Worker, arg},
       # Start to serve requests, typically the last entry
-      TechschoolWeb.Endpoint
+      TechschoolWeb.Endpoint,
+      {Cachex, name: :techschool_cache}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
