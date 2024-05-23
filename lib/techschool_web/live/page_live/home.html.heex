@@ -85,5 +85,29 @@
     ) %>
   </p>
 </section>
+<section
+  :if={length(@github_contributors) > 0}
+  class="text-center container-l3 pb-8 md:pb-12 flex flex-col gap-8"
+>
+  <h1 class="md:text-3xl text-2xl underline font-bold decoration-green">
+    <%= gettext("Huge thanks to our contributors") %> 🚀
+  </h1>
+  <div class="flex flex-wrap justify-center gap-4">
+    <a
+      :for={contributor <- @github_contributors}
+      href={contributor["html_url"]}
+      target="_blank"
+      rel="noreferrer"
+    >
+      <img
+        src={contributor["avatar_url"]}
+        alt={contributor["login"]}
+        class="w-12 md:w-14 h-12 md:h-14 rounded-full"
+        width="56"
+        height="56"
+      />
+    </a>
+  </div>
+</section>
 
 <.footer />

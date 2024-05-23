@@ -1,6 +1,8 @@
 defmodule TechschoolWeb.PageLive.Home do
   use TechschoolWeb, :live_view
 
+  alias Techschool.GitHub
+
   embed_templates "components/*"
 
   attr :inverse_locale, :string, required: true
@@ -16,6 +18,7 @@ defmodule TechschoolWeb.PageLive.Home do
   @impl true
   def mount(_params, _session, socket) do
     socket
+    |> assign(:github_contributors, GitHub.get_contributors())
     |> assign(:page_title, "TechSchool")
     |> ok()
   end
