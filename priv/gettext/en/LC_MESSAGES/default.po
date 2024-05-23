@@ -84,7 +84,8 @@ msgid "Find the best courses to learn programming! Search by name or filter by l
 msgstr ""
 
 #: lib/techschool_web/components/layouts/root.html.heex:14
-#: lib/techschool_web/components/layouts/root.html.heex:22
+#: lib/techschool_web/components/layouts/root.html.heex:24
+#: lib/techschool_web/components/layouts/root.html.heex:31
 #, elixir-autogen, elixir-format
 msgid "TechSchool is a platform for learning programming, 100% free and open source!"
 msgstr ""
@@ -130,4 +131,9 @@ msgstr ""
 #: lib/techschool_web/live/course_live/components/search.html.heex:20
 #, elixir-autogen, elixir-format
 msgid "Fundamentals"
+msgstr ""
+
+#: lib/techschool_web/live/page_live/home.html.heex:93
+#, elixir-autogen, elixir-format
+msgid "Huge thanks to our contributors"
 msgstr ""
