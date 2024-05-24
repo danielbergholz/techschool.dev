@@ -24,8 +24,8 @@ defmodule Techschool.Courses do
     |> Enum.map(&add_course_and_channel_urls/1)
   end
 
-  def search_courses(params, locale, opts \\ []) do
-    build_search_query(params, locale, opts)
+  def search_courses(params, locales_available, opts \\ []) do
+    build_search_query(params, locales_available, opts)
     |> Repo.all()
     |> Enum.map(&add_course_and_channel_urls/1)
   end
@@ -35,12 +35,13 @@ defmodule Techschool.Courses do
       preload: [:channel]
   end
 
-  defp build_search_query(params, locale, opts) do
+  defp build_search_query(params, locales_available, opts) do
     search = Map.get(params, "search", "")
     language_name = Map.get(params, "language", "")
     framework_name = Map.get(params, "framework", "")
     tool_name = Map.get(params, "tool", "")
     fundamentals_name = Map.get(params, "fundamentals", "")
+    user_locale = Map.get(params, "locale", "en")
     limit = Keyword.get(opts, :limit, 20)
     offset = Keyword.get(opts, :offset, 0)
 
@@ -50,7 +51,7 @@ defmodule Techschool.Courses do
       left_join: tool in assoc(course, :tools),
       left_join: fundamental in assoc(course, :fundamentals),
       where:
-        course.locale in ^locale and
+        course.locale in ^locales_available and
           (^search == "" or
              fragment("lower(?) LIKE lower(?)", course.name, ^"%#{search}%")) and
           (^language_name == "" or
@@ -63,6 +64,7 @@ defmodule Techschool.Courses do
              fragment("lower(?) LIKE lower(?)", fundamental.name, ^"#{fundamentals_name}")),
       preload: [:channel],
       distinct: true,
+      order_by: fragment("CASE WHEN locale = ? THEN 0 ELSE 1 END", ^user_locale),
       order_by: [desc: course.published_at],
       limit: ^limit,
       offset: ^offset
