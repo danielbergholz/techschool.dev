@@ -96,7 +96,7 @@ Same note for `image_url`. Don't worry about it.
 - To get the `youtube_course_id`, go to the course's page on YouTube and copy the last part of the URL. For example, for a video, if the URL is `https://www.youtube.com/watch?v=kUMe1FH4CHE`, the `youtube_course_id` is `kUMe1FH4CHE`. For a playlist, if the URL is `https://www.youtube.com/watch?v=3LPWQtvxHOk&list=PLbV6TI03ZWYWwU5p9ZBH8oJTCjgneX53u`, the `youtube_course_id` is `PLbV6TI03ZWYWwU5p9ZBH8oJTCjgneX53u`.
 - To get the `image_url`, go to the youtube channel that the course belongs to and try to find the course you want to add. Then, right-click on the course image and click on "Copy image link". Paste it on the `image_url` field
 - The `youtube_channel_id` must be present inside `channels.json`
-- The `published_at` field is the date when the course was published. You can find this information on the course's description on YouTube (after you click on it). Don't worry about the exact time, you can use just the date, like `2022-06-16` (YYYY-MM-DD).
+- The `published_at` field is the date when the course was published. You can find this information on the course's description on YouTube (after you click on it). Don't worry about the exact time, you can use just the date, like `2022-06-16T00:00:00Z` (YYYY-MM-DD + "T00:00:00Z").
 
 <p align="center">
   <img src="./assets/copy_published_at.png" width="250" title="Copy channel ID" alt="Copy channel ID">
