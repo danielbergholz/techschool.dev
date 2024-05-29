@@ -42,5 +42,9 @@
   {
     "name": "Angular",
     "image_url": "/images/frameworks/angular.svg"
+  },
+  {
+    "name": "Godot",
+    "image_url": "/images/frameworks/godot.svg"
   }
 ]
