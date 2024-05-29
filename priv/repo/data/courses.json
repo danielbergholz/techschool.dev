@@ -1636,5 +1636,31 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "How to program in Godot - GDScript Tutorial",
+    "youtube_course_id": "e1zJS31tr88",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/e1zJS31tr88/sddefault.jpg",
+    "published_at": "2024-05-12T20:00:09Z",
+    "youtube_channel_id": "UCYbK_tjZ2OrIZFBvU6CCMiA",
+    "language_names": [],
+    "framework_names": ["Godot"],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "How to make a Video Game - Godot Beginner Tutorial",
+    "youtube_course_id": "LOhfqjmasi0",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/LOhfqjmasi0/sddefault.jpg",
+    "published_at": "2024-04-28T20:00:06Z",
+    "youtube_channel_id": "UCYbK_tjZ2OrIZFBvU6CCMiA",
+    "language_names": [],
+    "framework_names": ["Godot"],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
