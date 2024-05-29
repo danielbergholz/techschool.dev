@@ -1662,5 +1662,18 @@
     "framework_names": ["Godot"],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Your First 2D GAME From Zero with GODOT 4! Vampire Survivor Style",
+    "youtube_course_id": "GwCiGixlqiU",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/GwCiGixlqiU/sddefault.jpg",
+    "published_at": "2023-12-26T16:27:01Z",
+    "youtube_channel_id": "UCxboW7x0jZqFdvMdCFKTMsQ",
+    "language_names": [],
+    "framework_names": ["Godot"],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
