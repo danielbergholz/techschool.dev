@@ -32,7 +32,7 @@ msgstr ""
 msgid "Developed by"
 msgstr ""
 
-#: lib/techschool_web/live/page_live/home.html.heex:74
+#: lib/techschool_web/live/page_live/home.html.heex:102
 #, elixir-autogen, elixir-format
 msgid "Our mission"
 msgstr ""
@@ -53,12 +53,12 @@ msgstr ""
 msgid "Translate"
 msgstr ""
 
-#: lib/techschool_web/live/page_live/home.html.heex:77
+#: lib/techschool_web/live/page_live/home.html.heex:105
 #, elixir-autogen, elixir-format
 msgid "TechSchool is all about making tech education accessible to everyone for free. There are tons of awesome courses online, but we don't have big bucks for marketing. So, newbies often run into the expensive courses first, making it seem like you have to shell out a ton of money."
 msgstr ""
 
-#: lib/techschool_web/live/page_live/home.html.heex:83
+#: lib/techschool_web/live/page_live/home.html.heex:111
 #, elixir-autogen, elixir-format
 msgid "That's where TechSchool steps in. We're here to shine a light on those awesome free courses that might be flying under the radar. Our website has a bunch of courses covering different areas. The goal? Help anyone go from zero to landing their first job without breaking the bank. We want to tackle the expensive course culture and make tech education fair and equal for everyone."
 msgstr ""
@@ -116,8 +116,8 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
-#: lib/techschool_web/live/bootcamp_live/components/lesson_card.html.heex:11
-#: lib/techschool_web/live/bootcamp_live/components/lesson_card.html.heex:11
+#: lib/techschool_web/live/bootcamp_live/components/lesson_card.html.heex:18
+#: lib/techschool_web/live/bootcamp_live/components/lesson_card.html.heex:18
 #, elixir-autogen, elixir-format
 msgid "optional"
 msgstr ""
@@ -133,7 +133,12 @@ msgstr ""
 msgid "Fundamentals"
 msgstr ""
 
-#: lib/techschool_web/live/page_live/home.html.heex:93
+#: lib/techschool_web/live/page_live/home.html.heex:121
 #, elixir-autogen, elixir-format
 msgid "Huge thanks to our contributors"
+msgstr ""
+
+#: lib/techschool_web/live/page_live/home.html.heex:146
+#, elixir-autogen, elixir-format
+msgid "Add course to TechSchool"
 msgstr ""
