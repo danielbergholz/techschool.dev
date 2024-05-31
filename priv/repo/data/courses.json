@@ -1675,5 +1675,44 @@
     "framework_names": ["Godot"],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Ruby Tutorials for Beginners",
+    "youtube_course_id": "PL3mtAHT_eRex2wgl-cYdKcYoYcLNK7J8A",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/3PohVjMxOl0/sddefault.jpg",
+    "published_at": "2023-10-16T01:37:10Z",
+    "youtube_channel_id": "UCRQv-3VvPT9mArF5RfrlpKQ",
+    "language_names": ["Ruby"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Intro Ruby on Rails 7 For Beginners Tutorial Series",
+    "youtube_course_id": "PL3mtAHT_eRezB9fnoIcKS4vYFjm23vddb",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/TlgSp2XPCY4/sddefault.jpg",
+    "published_at": "2022-01-31T09:10:15Z",
+    "youtube_channel_id": "UCRQv-3VvPT9mArF5RfrlpKQ",
+    "language_names": [],
+    "framework_names": ["Rails"],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "React on Rails",
+    "youtube_course_id": "PL3mtAHT_eRewtt6HPMHFB4TMxkxiEfp9N",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/nKybfmmO7JU/sddefault.jpg",
+    "published_at": "2023-08-28T01:24:13Z",
+    "youtube_channel_id": "UCRQv-3VvPT9mArF5RfrlpKQ",
+    "language_names": [],
+    "framework_names": ["React.js", "Rails"],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
