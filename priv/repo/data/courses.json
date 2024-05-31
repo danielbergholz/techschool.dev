@@ -1714,5 +1714,31 @@
     "framework_names": ["React.js", "Rails"],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Just Enough Hotwire for Rails Developers",
+    "youtube_course_id": "PLdTytUiloS16epXsqHswpCUMND_rksjr4",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/csvaYIaBYpw/sddefault.jpg",
+    "published_at": "2021-11-12T11:05:36Z",
+    "youtube_channel_id": "UCyr6ZTmztFW3FB4qG_97FoA",
+    "language_names": [],
+    "framework_names": ["Rails"],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Rails API",
+    "youtube_course_id": "PLdTytUiloS14Ncm2egAwyh2gLPe_aaNF4",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/nrYg7ldwOzM/sddefault.jpg",
+    "published_at": "2023-04-10T20:35:25Z",
+    "youtube_channel_id": "UCyr6ZTmztFW3FB4qG_97FoA",
+    "language_names": [],
+    "framework_names": ["Rails"],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
