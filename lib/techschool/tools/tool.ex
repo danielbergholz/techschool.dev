@@ -6,6 +6,7 @@ defmodule Techschool.Tools.Tool do
     field :name, :string
     field :image_url, :string
     many_to_many :courses, Techschool.Courses.Course, join_through: "courses_tools"
+    many_to_many :platforms, Techschool.Platforms.Platform, join_through: "platforms_tools"
 
     timestamps(type: :utc_datetime)
   end
