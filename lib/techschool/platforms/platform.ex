@@ -9,6 +9,8 @@ defmodule Techschool.Platforms.Platform do
     field :description_pt, :string
     field :image_url, :string
 
+    many_to_many :languages, Techschool.Languages.Language, join_through: "platforms_languages"
+
     timestamps(type: :utc_datetime)
   end
 
