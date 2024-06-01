@@ -6,6 +6,7 @@ defmodule Techschool.Platforms do
   import Ecto.Query, warn: false
   alias Techschool.Repo
 
+  alias Techschool.{Languages, Frameworks, Tools, Fundamentals}
   alias Techschool.Platforms.Platform
 
   @doc """
@@ -49,10 +50,46 @@ defmodule Techschool.Platforms do
       {:error, %Ecto.Changeset{}}
 
   """
-  def create_platform(attrs \\ %{}) do
+  def create_platform(attrs \\ %{}, opts \\ []) do
+    language_names = Keyword.get(opts, :language_names, [])
+    framework_names = Keyword.get(opts, :framework_names, [])
+    tool_names = Keyword.get(opts, :tool_names, [])
+    fundamentals_names = Keyword.get(opts, :fundamentals_names, [])
+
+    languages = Languages.get_languages_by_name(language_names)
+    frameworks = Frameworks.get_frameworks_by_name(framework_names)
+    tools = Tools.get_tools_by_name(tool_names)
+    fundamentals = Fundamentals.get_fundamentals_by_name(fundamentals_names)
+
     %Platform{}
-    |> Platform.changeset(attrs)
+    |> Platform.changeset(attrs,
+      languages: languages,
+      frameworks: frameworks,
+      tools: tools,
+      fundamentals: fundamentals
+    )
     |> Repo.insert()
+  end
+
+  def create_platform!(attrs \\ %{}, opts \\ []) do
+    language_names = Keyword.get(opts, :language_names, [])
+    framework_names = Keyword.get(opts, :framework_names, [])
+    tool_names = Keyword.get(opts, :tool_names, [])
+    fundamentals_names = Keyword.get(opts, :fundamentals_names, [])
+
+    languages = Languages.get_languages_by_name(language_names)
+    frameworks = Frameworks.get_frameworks_by_name(framework_names)
+    tools = Tools.get_tools_by_name(tool_names)
+    fundamentals = Fundamentals.get_fundamentals_by_name(fundamentals_names)
+
+    %Platform{}
+    |> Platform.changeset(attrs,
+      languages: languages,
+      frameworks: frameworks,
+      tools: tools,
+      fundamentals: fundamentals
+    )
+    |> Repo.insert!()
   end
 
   @doc """
