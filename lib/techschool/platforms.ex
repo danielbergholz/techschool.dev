@@ -22,6 +22,37 @@ defmodule Techschool.Platforms do
     Repo.all(Platform)
   end
 
+  def search_platforms, do: list_platforms()
+
+  def search_platforms(params) do
+    search = Map.get(params, "search", "")
+    language_name = Map.get(params, "language", "")
+    framework_name = Map.get(params, "framework", "")
+    tool_name = Map.get(params, "tool", "")
+    fundamentals_name = Map.get(params, "fundamentals", "")
+
+    from(platform in Platform,
+      left_join: language in assoc(platform, :languages),
+      left_join: framework in assoc(platform, :frameworks),
+      left_join: tool in assoc(platform, :tools),
+      left_join: fundamental in assoc(platform, :fundamentals),
+      where:
+        (^search == "" or
+           fragment("lower(?) LIKE lower(?)", platform.name, ^"%#{search}%")) and
+          (^language_name == "" or
+             fragment("lower(?) LIKE lower(?)", language.name, ^"#{language_name}")) and
+          (^framework_name == "" or
+             fragment("lower(?) LIKE lower(?)", framework.name, ^"#{framework_name}")) and
+          (^tool_name == "" or
+             fragment("lower(?) LIKE lower(?)", tool.name, ^"#{tool_name}")) and
+          (^fundamentals_name == "" or
+             fragment("lower(?) LIKE lower(?)", fundamental.name, ^"#{fundamentals_name}")),
+      order_by: [desc: platform.inserted_at],
+      distinct: true
+    )
+    |> Repo.all()
+  end
+
   @doc """
   Gets a single platform.
 
