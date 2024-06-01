@@ -1,0 +1,16 @@
+<a
+  href={@platform.url}
+  target="_blank"
+  rel="noopener"
+  class="border border-gray hover:border-green rounded w-64 md:w-72 px-5 pb-5 text-center flex flex-col items-center justify-center"
+  {@rest}
+>
+  <img
+    class="rounded object-contain shrink-0 h-32"
+    src={@platform.image_url}
+    alt={@platform.name}
+    loading="lazy"
+  />
+  <p :if={@locale == "en"}><%= @platform.description_en %></p>
+  <p :if={@locale == "pt"}><%= @platform.description_pt %></p>
+</a>
