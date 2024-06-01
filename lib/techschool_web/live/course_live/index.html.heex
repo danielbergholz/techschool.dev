@@ -11,17 +11,30 @@
     selected_fundamentals={@selected_fundamentals}
   />
   <div class="text-center">
+    <%= if @has_platforms do %>
+      <h1 class="text-2xl underline font-bold decoration-green mb-5">
+        Websites
+      </h1>
+      <div class="flex flex-wrap justify-center gap-8 md:gap-10 mb-8 md:mb-12">
+        <.platform_card :for={platform <- @platforms} platform={platform} locale={@locale} />
+      </div>
+    <% end %>
+
     <%= if @has_courses do %>
+      <h1 class="text-2xl underline font-bold decoration-green mb-5">
+        Videos
+      </h1>
       <div class="flex flex-wrap justify-center gap-8 md:gap-10" id="courses" phx-update="stream">
         <.course_card :for={{dom_id, course} <- @streams.courses} id={dom_id} course={course} />
       </div>
-    <% else %>
-      <div class="flex flex-wrap justify-center gap-8 md:gap-10">
-        <p><%= gettext("No results for the given search") %></p>
-      </div>
     <% end %>
+
     <.button :if={@has_courses and @has_more_courses_to_load} phx-click="load_more" class="mt-8">
       <%= gettext("Load More") %>
     </.button>
+
+    <div :if={@no_results} class="flex flex-wrap justify-center gap-8 md:gap-10">
+      <p><%= gettext("No results for the given search") %></p>
+    </div>
   </div>
 </section>

@@ -1,8 +1,9 @@
 defmodule TechschoolWeb.CourseLive.Index do
   use TechschoolWeb, :live_view
 
-  alias Techschool.{Languages, Frameworks, Courses, Tools, Fundamentals}
+  alias Techschool.{Languages, Frameworks, Courses, Platforms, Tools, Fundamentals}
   alias Techschool.Courses.Course
+  alias Techschool.Platforms.Platform
 
   @default_locale Application.compile_env(:gettext, :default_locale)
 
@@ -11,6 +12,11 @@ defmodule TechschoolWeb.CourseLive.Index do
   attr :course, Course, required: true
   attr :rest, :global, doc: "the arbitrary HTML attributes to add to the container"
   def course_card(assigns)
+
+  attr :platform, Platform, required: true
+  attr :locale, :string, required: true
+  attr :rest, :global, doc: "the arbitrary HTML attributes to add to the container"
+  def platform_card(assigns)
 
   attr :language_names, :list, required: true
   attr :framework_names, :list, required: true
@@ -48,7 +54,11 @@ defmodule TechschoolWeb.CourseLive.Index do
   @impl true
   def handle_params(params, _url, socket) do
     courses = Courses.search_courses(params, search_locale(socket))
+    platforms = Platforms.search_platforms(params)
 
+    has_courses = !Enum.empty?(courses)
+    has_platforms = !Enum.empty?(platforms)
+    no_results = !has_courses && !has_platforms
     has_more_courses_to_load = length(courses) == 20
 
     socket
@@ -59,7 +69,10 @@ defmodule TechschoolWeb.CourseLive.Index do
     |> assign(:search, get_param(params, "search"))
     |> assign(:offset, 0)
     |> assign(:has_more_courses_to_load, has_more_courses_to_load)
-    |> assign(:has_courses, !Enum.empty?(courses))
+    |> assign(:has_courses, has_courses)
+    |> assign(:has_platforms, has_platforms)
+    |> assign(:no_results, no_results)
+    |> assign(:platforms, platforms)
     |> stream(:courses, courses, reset: true)
     |> noreply()
   end
