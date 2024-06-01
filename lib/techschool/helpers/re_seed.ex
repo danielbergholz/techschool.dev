@@ -4,6 +4,7 @@ defmodule Techschool.Helpers.ReSeed do
     Frameworks,
     Channels,
     Courses,
+    Platforms,
     Fundamentals,
     Tools,
     Bootcamps,
@@ -19,6 +20,7 @@ defmodule Techschool.Helpers.ReSeed do
     seed_bootcamps(data_folder_path)
     seed_channels(data_folder_path)
     seed_courses(data_folder_path)
+    seed_platforms(data_folder_path)
   end
 
   defp seed_languages(data_folder_path) do
@@ -92,6 +94,23 @@ defmodule Techschool.Helpers.ReSeed do
       framework_names: course[:framework_names],
       tool_names: course[:tool_names],
       fundamentals_names: course[:fundamentals_names]
+    )
+  end
+
+  defp seed_platforms(data_folder_path) do
+    "#{data_folder_path}/platforms.json"
+    |> File.read!()
+    |> Jason.decode!(keys: :atoms)
+    |> Enum.each(&insert_platform/1)
+  end
+
+  defp insert_platform(platform) do
+    Platforms.create_platform(
+      platform,
+      language_names: platform[:language_names],
+      framework_names: platform[:framework_names],
+      tool_names: platform[:tool_names],
+      fundamentals_names: platform[:fundamentals_names]
     )
   end
 end

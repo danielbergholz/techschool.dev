@@ -11,6 +11,7 @@ defmodule Techschool.Helpers.ResetDb do
       Techschool.Channels.Channel,
       Techschool.Lessons.Lesson,
       Techschool.Courses.Course,
+      Techschool.Platforms.Platform,
       Techschool.Bootcamps.Bootcamp
     ]
 
