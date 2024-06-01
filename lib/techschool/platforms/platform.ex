@@ -11,6 +11,9 @@ defmodule Techschool.Platforms.Platform do
 
     many_to_many :languages, Techschool.Languages.Language, join_through: "platforms_languages"
 
+    many_to_many :frameworks, Techschool.Frameworks.Framework,
+      join_through: "platforms_frameworks"
+
     timestamps(type: :utc_datetime)
   end
 
