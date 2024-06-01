@@ -24,6 +24,6 @@ defmodule Techschool.PlatformsFixtures do
       })
       |> Techschool.Platforms.create_platform()
 
-    platform
+    Techschool.Platforms.get_platform!(platform.id)
   end
 end
