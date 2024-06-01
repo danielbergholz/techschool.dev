@@ -16,6 +16,9 @@ defmodule Techschool.Platforms.Platform do
 
     many_to_many :tools, Techschool.Tools.Tool, join_through: "platforms_tools"
 
+    many_to_many :fundamentals, Techschool.Fundamentals.Fundamental,
+      join_through: "platforms_fundamentals"
+
     timestamps(type: :utc_datetime)
   end
 
