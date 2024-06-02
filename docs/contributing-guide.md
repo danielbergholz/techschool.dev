@@ -12,7 +12,7 @@ We love our contributors! Here's how you can contribute:
 ```json
 {
   "name": "Programming Language Name", // case sensitive
-  "image_url": "path_to_the_language_svg"
+  "image_url": "path_to_the_language_svg" // should be inside priv/static/images/languages
 }
 ```
 
@@ -25,7 +25,7 @@ If you don't want to manually add an SVG for the `image_url` field, don't worry 
 ```json
 {
   "name": "Framework Name", // case sensitive
-  "image_url": "path_to_the_framework_svg"
+  "image_url": "path_to_the_framework_svg" // should be inside priv/static/images/frameworks
 }
 ```
 
@@ -37,7 +37,8 @@ Same note as the `image_url` field from the `languages.json` file. Don't worry a
 
 ```json
 {
-  "name": "Tool Name" // case sensitive
+  "name": "Tool Name", // case sensitive
+  "image_url": "path_to_the_tool_svg" // should be inside priv/static/images/tools
 }
 ```
 
@@ -48,7 +49,7 @@ Same note as the `image_url` field from the `languages.json` file. Don't worry a
 ```json
 {
   "name": "Fundamentals Name", // case sensitive
-  "image_url": "path_to_the_fundamentals_svg"
+  "image_url": "path_to_the_fundamentals_svg" // should be inside priv/static/images/fundamentals
 }
 ```
 
@@ -60,7 +61,7 @@ Same note for `image_url`. Don't worry about it.
 
 ```json
 {
-  "name": "Channel Name",
+  "name": "Channel Name", // case sensitive
   "image_url": "url_from_the_channel_image",
   "youtube_channel_id": "uuid_from_youtube"
 }
@@ -79,7 +80,7 @@ Same note for `image_url`. Don't worry about it.
 
 ```json
 {
-  "name": "Course Name",
+  "name": "Course Name", // case sensitive
   "youtube_course_id": "uuid_from_youtube",
   "type": "playlist", // "playlist" or "video"
   "locale": "en", // "en" or "pt"
@@ -107,6 +108,28 @@ Same note for `image_url`. Don't worry about it.
 The programming language, framework and tool for the course must be exactly what is being taught in the course. If the course is only about Rails, `framework_names` should be `["Rails"]` but `language_names` and `tool_names` should be empty. If the course is about Ruby, `language_names` should be `["Ruby"]` and `framework_names` and `tool_names` should be empty.
 
 You should only add multiple languages/frameworks if the course teaches multiple languages/frameworks. For example: If there is a "complete web development" course that teaches HTML, CSS, JavaScript, SQL, Ruby, Rails and React, then `language_names` should be `["HTML", "CSS", "JavaScript", "Ruby"]`, `framework_names` should be `["Rails", "React.js"]` and `tool_names` should be `["SQL"]`.
+
+## Adding a new website
+
+- If you want to add an external platform/website like FreeCodeCamp or The Odin Project, add a new entry on the JSON file `priv/repo/data/platforms.json`. The file should have the following structure:
+
+```json
+{
+  "name": "Website Name", // case sensitive
+  "description_en": "English description",
+  "description_pt": "Brazilian Portuguese description",
+  "url": "https://example.com/",
+  "image_url": "path_to_the_website_svg", // should be inside priv/static/images/platforms
+  "language_names": ["Programming Language Name"], // must be present inside languages.json (case sensitive)
+  "framework_names": ["Framework Name"], // must be present inside frameworks.json (case sensitive)
+  "tool_names": ["Tool Name"], // must be present inside tools.json (case sensitive)
+  "fundamentals_names": ["Fundamentals Name"] // must be present inside fundamentals.json (case sensitive)
+}
+```
+
+### Important note
+
+Currently, only websites that offer completely free content should be added. If a website includes a paid version or subscription, it will not be added. The goal is to only promote free resources for learning.
 
 ## FAQ
 
