@@ -1,8 +1,8 @@
 [
   {
     "name": "FreeCodeCamp",
-    "description_en": "FreeCodeCamp is a non-profit organization that make learning web development accessible to anyone",
-    "description_pt": "FreeCodeCamp é uma organização sem fins lucrativos que torna o aprendizado de desenvolvimento web acessível a todos",
+    "description_en": "is a non-profit organization that make learning web development accessible to anyone",
+    "description_pt": "é uma organização sem fins lucrativos que torna o aprendizado de desenvolvimento web acessível a todos",
     "url": "https://www.freecodecamp.org/",
     "image_url": "/images/platforms/freecodecamp.svg",
     "language_names": ["HTML", "CSS", "JavaScript", "Python"],
@@ -12,8 +12,8 @@
   },
   {
     "name": "The Odin Project",
-    "description_en": "The Odin Project provides a free open source coding curriculum that can be taken entirely online",
-    "description_pt": "The Odin Project fornece um currículo gratuito e open source de programação que pode ser feito 100% online",
+    "description_en": "provides a free open source coding curriculum that can be taken entirely online",
+    "description_pt": "fornece um currículo gratuito e open source de programação que pode ser feito 100% online",
     "url": "https://www.theodinproject.com/",
     "image_url": "/images/platforms/theodinproject.svg",
     "language_names": ["HTML", "CSS", "JavaScript", "Ruby"],
@@ -23,13 +23,24 @@
   },
   {
     "name": "Elixir School",
-    "description_en": "Elixir School is the premier destination for people looking to learn and master the Elixir programming language",
-    "description_pt": "Elixir School é o principal destino para pessoas que desejam aprender e dominar a linguagem de programação Elixir",
+    "description_en": "is the premier destination for people looking to learn and master the Elixir programming language",
+    "description_pt": "é o principal destino para pessoas que desejam aprender e dominar a linguagem de programação Elixir",
     "url": "https://elixirschool.com/",
     "image_url": "/images/platforms/elixirschool.svg",
     "language_names": ["Elixir"],
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Full Stack Open",
+    "description_en": "is a free JavaScript course organized by the University of Helsinki in collaboration with top-notch Finnish companies",
+    "description_pt": "é um curso de JavaScript gratuito organizado pela Universidade de Helsinque em colaboração com empresas finlandesas de ponta",
+    "url": "https://fullstackopen.com/en/",
+    "image_url": "/images/platforms/fullstackopen.svg",
+    "language_names": ["JavaScript", "TypeScript"],
+    "framework_names": ["Node.js", "Express.js", "React.js"],
+    "tool_names": ["SQL"],
+    "fundamentals_names": ["Networking"]
   }
 ]

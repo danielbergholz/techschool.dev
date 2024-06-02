@@ -6,11 +6,18 @@
   {@rest}
 >
   <img
-    class="rounded object-contain shrink-0 h-32"
+    class="rounded object-contain shrink-0 h-32 px-4"
     src={@platform.image_url}
     alt={@platform.name}
     loading="lazy"
   />
-  <p :if={@locale == "en"}><%= @platform.description_en %></p>
-  <p :if={@locale == "pt"}><%= @platform.description_pt %></p>
+  <p :if={@locale == "en"}>
+    <span class="text-green font-bold"><%= @platform.name %></span>
+    <span :if={@locale == "en"}>
+      <%= @platform.description_en %>
+    </span>
+    <span :if={@locale == "pt"}>
+      <%= @platform.description_pt %>
+    </span>
+  </p>
 </a>
