@@ -12,7 +12,7 @@ defmodule Techschool.BootcampsFixtures do
   @doc """
   Generate a bootcamp.
   """
-  def bootcamp_fixture(attrs \\ %{}) do
+  def bootcamp_fixture(attrs \\ %{}, opts \\ []) do
     {:ok, bootcamp} =
       attrs
       |> Enum.into(%{
@@ -21,7 +21,7 @@ defmodule Techschool.BootcampsFixtures do
         image_url: "some image_url",
         name: unique_bootcamp_name()
       })
-      |> Techschool.Bootcamps.create_bootcamp()
+      |> Techschool.Bootcamps.create_bootcamp(opts)
 
     Techschool.Bootcamps.get_bootcamp!(bootcamp.id)
   end
