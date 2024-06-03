@@ -6,21 +6,28 @@ defmodule Techschool.GitHub do
   @base_url "https://api.github.com"
 
   def get_contributors() do
-    url = "#{@base_url}/repos/danielbergholz/techschool.dev/contributors"
+    if Application.get_env(:techschool, :mix_env) == :test do
+      []
+    else
+      case Cachex.get(:techschool_cache, "github_contributors") do
+        # Cache miss
+        {:ok, nil} ->
+          contributors =
+            fetch_contributors("#{@base_url}/repos/danielbergholz/techschool.dev/contributors")
 
-    case Cachex.get(:techschool_cache, "github_contributors") do
-      # Cache miss
-      {:ok, nil} ->
-        contributors = fetch_contributors(url)
-        Cachex.put(:techschool_cache, "github_contributors", contributors, ttl: :timer.hours(24))
-        contributors
+          Cachex.put(:techschool_cache, "github_contributors", contributors,
+            ttl: :timer.hours(24)
+          )
 
-      # Cache hit
-      {:ok, contributors} ->
-        contributors
+          contributors
 
-      {:error, _} ->
-        []
+        # Cache hit
+        {:ok, contributors} ->
+          contributors
+
+        {:error, _} ->
+          []
+      end
     end
   end
 
