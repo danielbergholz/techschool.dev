@@ -1,16 +1,16 @@
 # The Tech Stack
 
-This is a [Phoenix](https://www.phoenixframework.org/) project bootstrapped with [SQLite3](https://hexdocs.pm/ecto_sqlite3/Ecto.Adapters.SQLite3.html) and [Tailwind CSS](https://tailwindcss.com/).
+This is a [Phoenix](https://www.phoenixframework.org/) project bootstrapped with [SQLite3](https://hexdocs.pm/ecto_sqlite3/Ecto.Adapters.SQLite3.html).
 
 ## Running TechSchool locally
 
 - Install [Elixir](https://elixir-lang.org/install.html)
 - Install [Phoenix](https://hexdocs.pm/phoenix/installation.html)
-- Run `mix setup` to install and setup dependencies
-- Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+- Run `mix setup` to install dependencies and seed the database
+- Start the Phoenix server with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 - Now you can visit [`localhost:4000`](http://localhost:4000) from your browser
 
-If you just want to seed the database with courses, run `mix run priv/repo/seeds.exs` or `mix ecto.reset` to drop the database, re-run the migrations and seed the database.
+If you just want to seed the database with courses, run `mix seed` or `mix ecto.reset` to drop the database, re-run the migrations and seed the database.
 
 This is all it takes to get a complete replica of TechSchool running on your local machine, including all the courses and channels! We are using a bunch of json files from `priv/repo/data` to seed the database, which is SQLite3, so you don't need to install any extra software like docker or postgres. Pretty neat, huh?
 
