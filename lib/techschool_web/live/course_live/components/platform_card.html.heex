@@ -11,7 +11,7 @@
     alt={@platform.name}
     loading="lazy"
   />
-  <p :if={@locale == "en"}>
+  <p>
     <span class="text-green font-bold"><%= @platform.name %></span>
     <span :if={@locale == "en"}>
       <%= @platform.description_en %>
