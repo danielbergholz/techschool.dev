@@ -114,15 +114,17 @@
   </p>
 </section>
 <section
-  :if={length(@github_contributors) > 0}
   class="text-center container-l3 pb-8 md:pb-12 flex flex-col gap-8"
 >
-  <h1 class="md:text-3xl text-2xl underline font-bold decoration-green">
+  <h1 :if={@github_contributors.ok? and length(@github_contributors.result) > 0} class="md:text-3xl text-2xl underline font-bold decoration-green">
     <%= gettext("Huge thanks to our contributors") %> 🚀
   </h1>
-  <div class="flex flex-wrap justify-center gap-4">
+  <div 
+    :if={@github_contributors.ok? and length(@github_contributors.result) > 0}
+    class="flex flex-wrap justify-center gap-4"
+  >
     <a
-      :for={contributor <- @github_contributors}
+      :for={contributor <- @github_contributors.result}
       href={contributor["html_url"]}
       target="_blank"
       rel="noreferrer"
