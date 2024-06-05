@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]  # adapt branch for project
 
 jobs:
-  formatter:
+  format_and_test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -61,6 +61,9 @@ jobs:
 
     - name: Install dependencies
       run: mix deps.get
+
+    - name: Compiles without warnings
+      run: mix compile --warnings-as-errors
 
     - name: Check Formatting
       run: mix format --check-formatted
