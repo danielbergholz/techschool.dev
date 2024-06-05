@@ -1,4 +1,4 @@
-name: Formatter
+name: Format and Test
 
 on:
   push:
@@ -33,6 +33,18 @@ jobs:
         key: ${{ runner.os }}-mix-${{ env.cache-name }}-${{ hashFiles('**/mix.lock') }}
         restore-keys: |
           ${{ runner.os }}-mix-${{ env.cache-name }}-
+
+    - name: Cache compiled build
+      id: cache-build
+      uses: actions/cache@v3
+      env:
+        cache-name: cache-compiled-build
+      with:
+        path: _build
+        key: ${{ runner.os }}-mix-${{ env.cache-name }}-${{ hashFiles('**/mix.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-mix-${{ env.cache-name }}-
+          ${{ runner.os }}-mix-
 
     # Step: Conditionally bust the cache when job is re-run.
     # Sometimes, we may have issues with incremental builds that are fixed by
