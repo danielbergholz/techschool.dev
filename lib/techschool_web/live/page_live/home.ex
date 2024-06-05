@@ -18,7 +18,9 @@ defmodule TechschoolWeb.PageLive.Home do
   @impl true
   def mount(_params, _session, socket) do
     socket
-    |> assign_async(:github_contributors, fn -> {:ok, %{github_contributors: GitHub.get_contributors()}} end)
+    |> assign_async(:github_contributors, fn ->
+      {:ok, %{github_contributors: GitHub.get_contributors()}}
+    end)
     |> assign(:page_title, "TechSchool")
     |> ok()
   end
