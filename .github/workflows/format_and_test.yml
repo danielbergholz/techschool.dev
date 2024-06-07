@@ -2,71 +2,71 @@ name: Format and Test
 
 on:
   push:
-    branches: [ "main" ]  # adapt branch for project
+    branches: ["main"] # adapt branch for project
   pull_request:
-    branches: [ "main" ]  # adapt branch for project
+    branches: ["main"] # adapt branch for project
 
 jobs:
   format_and_test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        otp: ['26']
-        elixir: ['1.16']
+        otp: ["26"]
+        elixir: ["1.16"]
     steps:
-    - name: Set up Elixir
-      uses: erlef/setup-beam@v1
-      with:
-        otp-version: ${{matrix.otp}}
-        elixir-version: ${{matrix.elixir}}
+      - name: Set up Elixir
+        uses: erlef/setup-beam@v1
+        with:
+          otp-version: ${{matrix.otp}}
+          elixir-version: ${{matrix.elixir}}
 
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Cache deps
-      id: cache-deps
-      uses: actions/cache@v3
-      env:
-        cache-name: cache-elixir-deps
-      with:
-        path: deps
-        key: ${{ runner.os }}-mix-${{ env.cache-name }}-${{ hashFiles('**/mix.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-mix-${{ env.cache-name }}-
+      - name: Cache deps
+        id: cache-deps
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-elixir-deps
+        with:
+          path: deps
+          key: ${{ runner.os }}-mix-${{ env.cache-name }}-${{ hashFiles('**/mix.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-mix-${{ env.cache-name }}-
 
-    - name: Cache compiled build
-      id: cache-build
-      uses: actions/cache@v3
-      env:
-        cache-name: cache-compiled-build
-      with:
-        path: _build
-        key: ${{ runner.os }}-mix-${{ env.cache-name }}-${{ hashFiles('**/mix.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-mix-${{ env.cache-name }}-
-          ${{ runner.os }}-mix-
+      - name: Cache compiled build
+        id: cache-build
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-compiled-build
+        with:
+          path: _build
+          key: ${{ runner.os }}-mix-${{ env.cache-name }}-${{ hashFiles('**/mix.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-mix-${{ env.cache-name }}-
+            ${{ runner.os }}-mix-
 
-    # Step: Conditionally bust the cache when job is re-run.
-    # Sometimes, we may have issues with incremental builds that are fixed by
-    # doing a full recompile. In order to not waste dev time on such trivial
-    # issues (while also reaping the time savings of incremental builds for
-    # *most* day-to-day development), force a full recompile only on builds
-    # that are retried.
-    - name: Clean to rule out incremental build as a source of flakiness
-      if: github.run_attempt != '1'
-      run: |
-        mix deps.clean --all
-        mix clean
-      shell: sh
+      # Step: Conditionally bust the cache when job is re-run.
+      # Sometimes, we may have issues with incremental builds that are fixed by
+      # doing a full recompile. In order to not waste dev time on such trivial
+      # issues (while also reaping the time savings of incremental builds for
+      # *most* day-to-day development), force a full recompile only on builds
+      # that are retried.
+      - name: Clean to rule out incremental build as a source of flakiness
+        if: github.run_attempt != '1'
+        run: |
+          mix deps.clean --all
+          mix clean
+        shell: sh
 
-    - name: Install dependencies
-      run: mix deps.get
+      - name: Install dependencies
+        run: mix deps.get
 
-    - name: Compiles without warnings
-      run: mix compile --warnings-as-errors
+      - name: Compiles without warnings
+        run: mix compile --warnings-as-errors
 
-    - name: Check Formatting
-      run: mix format --check-formatted
+      - name: Check Formatting
+        run: mix format --check-formatted
 
-    - name: Run tests
-      run: mix test
+      - name: Run tests
+        run: mix test
