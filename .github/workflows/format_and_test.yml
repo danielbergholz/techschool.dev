@@ -23,6 +23,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Install SQLite
+        run: sudo apt-get install sqlite3 libsqlite3-dev
+
       - name: Cache deps
         id: cache-deps
         uses: actions/cache@v3
