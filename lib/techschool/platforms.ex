@@ -47,7 +47,7 @@ defmodule Techschool.Platforms do
              fragment("lower(?) LIKE lower(?)", tool.name, ^"#{tool_name}")) and
           (^fundamentals_name == "" or
              fragment("lower(?) LIKE lower(?)", fundamental.name, ^"#{fundamentals_name}")),
-      order_by: [desc: platform.inserted_at],
+      order_by: [asc: platform.inserted_at],
       distinct: true
     )
     |> Repo.all()
