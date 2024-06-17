@@ -13,10 +13,10 @@ defmodule TechschoolWeb.CourseLiveTest do
       platform = platform_fixture()
 
       for locale <- SetLocale.get_available_locales() do
-        description_variant = "description_#{locale}"
-        {:ok, _index_live, html} = live(conn, "/#{locale}/courses")
-        description = Map.get(platform, String.to_atom(description_variant))
-        assert html =~ description
+        description_variant = "description_#{locale}" |> String.to_atom()
+        {:ok, _index_live, html} = live(conn, ~p"/#{locale}/courses")
+        platform_description = Map.get(platform, description_variant)
+        assert html =~ platform_description
         assert html =~ course.name
         assert html =~ platform.name
       end

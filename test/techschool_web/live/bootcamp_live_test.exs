@@ -5,6 +5,8 @@ defmodule TechschoolWeb.BootcampLiveTest do
   import Techschool.BootcampsFixtures
   import Techschool.LessonsFixtures
 
+  alias TechschoolWeb.Plugs.SetLocale
+
   describe "GET /:locale/bootcamps" do
     test "lists all bootcamps", %{conn: conn} do
       bootcamp = bootcamp_fixture()
@@ -19,9 +21,13 @@ defmodule TechschoolWeb.BootcampLiveTest do
       lesson = lesson_fixture()
       bootcamp = bootcamp_fixture(lesson_names: [lesson.name])
 
-      assert {:ok, _bootcamp_live, html} = live(conn, ~p"/en/bootcamps/#{bootcamp.slug}")
-      assert html =~ bootcamp.name
-      assert html =~ lesson.description_en
+      for locale <- SetLocale.get_available_locales() do
+        description_variant = "description_#{locale}" |> String.to_atom()
+        {:ok, _bootcamp_live, html} = live(conn, ~p"/#{locale}/bootcamps/#{bootcamp.slug}")
+        bootcamp_description = Map.get(bootcamp, description_variant)
+        assert html =~ bootcamp.name
+        assert html =~ bootcamp_description
+      end
     end
   end
 end
