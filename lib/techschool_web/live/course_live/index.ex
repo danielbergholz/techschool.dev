@@ -68,6 +68,7 @@ defmodule TechschoolWeb.CourseLive.Index do
     |> assign(:selected_tool, get_param(params, "tool"))
     |> assign(:selected_fundamentals, get_param(params, "fundamentals"))
     |> assign(:search, get_param(params, "search"))
+    |> assign(:filter_params, params)
     |> assign(:offset, 0)
     |> assign(:has_more_courses_to_load, has_more_courses_to_load)
     |> assign(:has_courses, has_courses)
@@ -80,11 +81,12 @@ defmodule TechschoolWeb.CourseLive.Index do
   end
 
   @impl true
-  def handle_event("load_more", params, socket) do
+  def handle_event("load_more", _params, socket) do
     offset = socket.assigns.offset + 20
+    filter_params = socket.assigns.filter_params
 
-    course_count = Courses.count_courses(params, search_locale(socket))
-    courses = Courses.search_courses(params, search_locale(socket), offset: offset)
+    course_count = Courses.count_courses(filter_params, search_locale(socket))
+    courses = Courses.search_courses(filter_params, search_locale(socket), offset: offset)
 
     has_more_courses_to_load = more_courses_to_load?(courses, course_count, offset)
 
