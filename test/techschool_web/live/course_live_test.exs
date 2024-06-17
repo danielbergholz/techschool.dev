@@ -4,15 +4,22 @@ defmodule TechschoolWeb.CourseLiveTest do
   import Phoenix.LiveViewTest
   import Techschool.{CoursesFixtures, ChannelsFixtures, PlatformsFixtures}
 
+  alias TechschoolWeb.Plugs.SetLocale
+
   describe "GET /:locale/courses" do
     test "lists all courses and platforms", %{conn: conn} do
       channel = channel_fixture()
       course = course_fixture(channel.youtube_channel_id)
       platform = platform_fixture()
 
-      assert {:ok, _index_live, html} = live(conn, ~p"/en/courses")
-      assert html =~ course.name
-      assert html =~ platform.name
+      for locale <- SetLocale.get_available_locales() do
+        description_variant = "description_#{locale}"
+        {:ok, _index_live, html} = live(conn, "/#{locale}/courses")
+        description = Map.get(platform, String.to_atom(description_variant))
+        assert html =~ description
+        assert html =~ course.name
+        assert html =~ platform.name
+      end
     end
   end
 

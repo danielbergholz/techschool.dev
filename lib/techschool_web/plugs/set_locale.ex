@@ -38,6 +38,8 @@ defmodule TechschoolWeb.Plugs.SetLocale do
     |> check_locale
   end
 
+  def get_available_locales, do: @available_locales
+
   defp check_locale(locale) when locale in @available_locales, do: locale
   defp check_locale(_), do: nil
 end
