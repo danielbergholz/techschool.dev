@@ -7,12 +7,12 @@ defmodule TechschoolWeb.CourseLiveTest do
   alias TechschoolWeb.Plugs.SetLocale
 
   describe "GET /:locale/courses" do
-    test "lists all courses and platforms", %{conn: conn} do
-      channel = channel_fixture()
-      course = course_fixture(channel.youtube_channel_id)
-      platform = platform_fixture()
-
-      for locale <- SetLocale.get_available_locales() do
+    for locale <- SetLocale.get_available_locales() do
+      @tag locale: locale
+      test "lists all courses and platforms for #{locale} locale", %{conn: conn, locale: locale} do
+        channel = channel_fixture()
+        course = course_fixture(channel.youtube_channel_id)
+        platform = platform_fixture()
         description_variant = "description_#{locale}" |> String.to_atom()
         {:ok, _index_live, html} = live(conn, ~p"/#{locale}/courses")
         platform_description = Map.get(platform, description_variant)

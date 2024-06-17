@@ -17,11 +17,11 @@ defmodule TechschoolWeb.BootcampLiveTest do
   end
 
   describe "GET /:locale/bootcamps/:slug" do
-    test "lists all lessons from a bootcamp", %{conn: conn} do
-      lesson = lesson_fixture()
-      bootcamp = bootcamp_fixture(lesson_names: [lesson.name])
-
-      for locale <- SetLocale.get_available_locales() do
+    for locale <- SetLocale.get_available_locales() do
+      @tag locale: locale
+      test "lists all lessons from a bootcamp for #{locale} locale", %{conn: conn, locale: locale} do
+        lesson = lesson_fixture()
+        bootcamp = bootcamp_fixture(lesson_names: [lesson.name])
         description_variant = "description_#{locale}" |> String.to_atom()
         {:ok, _bootcamp_live, html} = live(conn, ~p"/#{locale}/bootcamps/#{bootcamp.slug}")
         bootcamp_description = Map.get(bootcamp, description_variant)
