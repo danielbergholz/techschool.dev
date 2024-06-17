@@ -30,6 +30,16 @@ defmodule Techschool.Courses do
     |> Enum.map(&add_course_and_channel_urls/1)
   end
 
+  def count_courses(params, locales_available, opts \\ []) do
+    opts =
+      opts
+      |> Keyword.put(:limit, -1)
+      |> Keyword.put(:offset, 0)
+
+    build_search_query(params, locales_available, opts)
+    |> Repo.aggregate(:count, :id)
+  end
+
   defp build_search_query do
     from course in Course,
       preload: [:channel]

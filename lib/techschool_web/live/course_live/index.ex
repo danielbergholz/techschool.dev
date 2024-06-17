@@ -53,13 +53,14 @@ defmodule TechschoolWeb.CourseLive.Index do
 
   @impl true
   def handle_params(params, _url, socket) do
+    course_count = Courses.count_courses(params, search_locale(socket))
     courses = Courses.search_courses(params, search_locale(socket))
     platforms = Platforms.search_platforms(params)
 
     has_courses = !Enum.empty?(courses)
     has_platforms = !Enum.empty?(platforms)
     no_results = !has_courses && !has_platforms
-    has_more_courses_to_load = length(courses) == 20
+    has_more_courses_to_load = more_courses_to_load?(courses, course_count, 0)
 
     socket
     |> assign(:selected_language, get_param(params, "language"))
@@ -74,6 +75,7 @@ defmodule TechschoolWeb.CourseLive.Index do
     |> assign(:no_results, no_results)
     |> assign(:platforms, platforms)
     |> stream(:courses, courses, reset: true)
+    |> assign(:course_count, course_count)
     |> noreply()
   end
 
@@ -81,9 +83,10 @@ defmodule TechschoolWeb.CourseLive.Index do
   def handle_event("load_more", params, socket) do
     offset = socket.assigns.offset + 20
 
+    course_count = Courses.count_courses(params, search_locale(socket))
     courses = Courses.search_courses(params, search_locale(socket), offset: offset)
 
-    has_more_courses_to_load = length(courses) == 20
+    has_more_courses_to_load = more_courses_to_load?(courses, course_count, offset)
 
     socket
     |> assign(:offset, offset)
@@ -135,4 +138,8 @@ defmodule TechschoolWeb.CourseLive.Index do
   end
 
   defp search_locale(_), do: [@default_locale]
+
+  defp more_courses_to_load?(courses, course_count, offset) do
+    length(courses) + offset < course_count
+  end
 end
