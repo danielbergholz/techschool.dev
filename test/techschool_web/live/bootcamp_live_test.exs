@@ -2,10 +2,7 @@ defmodule TechschoolWeb.BootcampLiveTest do
   use TechschoolWeb.ConnCase
 
   import Phoenix.LiveViewTest
-  import Techschool.BootcampsFixtures
-  import Techschool.LessonsFixtures
-
-  alias TechschoolWeb.Plugs.SetLocale
+  import Techschool.{BootcampsFixtures, LessonsFixtures, Locale}
 
   describe "GET /:locale/bootcamps" do
     test "lists all bootcamps", %{conn: conn} do
@@ -17,7 +14,7 @@ defmodule TechschoolWeb.BootcampLiveTest do
   end
 
   describe "GET /:locale/bootcamps/:slug" do
-    for locale <- SetLocale.get_available_locales() do
+    for locale <- get_available_locales() do
       @tag locale: locale
       test "lists all lessons from a bootcamp for #{locale} locale", %{conn: conn, locale: locale} do
         lesson = lesson_fixture()

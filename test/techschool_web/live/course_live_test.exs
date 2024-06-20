@@ -2,12 +2,10 @@ defmodule TechschoolWeb.CourseLiveTest do
   use TechschoolWeb.ConnCase
 
   import Phoenix.LiveViewTest
-  import Techschool.{CoursesFixtures, ChannelsFixtures, PlatformsFixtures}
-
-  alias TechschoolWeb.Plugs.SetLocale
+  import Techschool.{CoursesFixtures, ChannelsFixtures, PlatformsFixtures, Locale}
 
   describe "GET /:locale/courses" do
-    for locale <- SetLocale.get_available_locales() do
+    for locale <- get_available_locales() do
       @tag locale: locale
       test "lists all courses and platforms for #{locale} locale", %{conn: conn, locale: locale} do
         channel = channel_fixture()

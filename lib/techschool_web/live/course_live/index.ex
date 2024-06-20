@@ -1,11 +1,11 @@
 defmodule TechschoolWeb.CourseLive.Index do
   use TechschoolWeb, :live_view
 
-  alias Techschool.{Languages, Frameworks, Courses, Platforms, Tools, Fundamentals}
+  alias Techschool.{Languages, Frameworks, Courses, Platforms, Tools, Fundamentals, Locale}
   alias Techschool.Courses.Course
   alias Techschool.Platforms.Platform
 
-  @default_locale Application.compile_env(:gettext, :default_locale)
+  @default_locale Locale.get_default_locale()
 
   embed_templates "components/*"
 

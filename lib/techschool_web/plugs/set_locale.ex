@@ -12,8 +12,8 @@ defmodule TechschoolWeb.Plugs.SetLocale do
   """
   import Plug.Conn
 
-  @default_locale Application.compile_env(:gettext, :default_locale)
-  @available_locales Gettext.known_locales(TechschoolWeb.Gettext)
+  @default_locale Techschool.Locale.get_default_locale()
+  @available_locales Techschool.Locale.get_available_locales()
   @one_year 365 * 24 * 60 * 60
 
   def init(_opts), do: nil
@@ -37,8 +37,6 @@ defmodule TechschoolWeb.Plugs.SetLocale do
     (conn.params["locale"] || conn.cookies["locale"])
     |> check_locale
   end
-
-  def get_available_locales, do: @available_locales
 
   defp check_locale(locale) when locale in @available_locales, do: locale
   defp check_locale(_), do: nil
