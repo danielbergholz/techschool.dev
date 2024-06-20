@@ -23,10 +23,14 @@ defmodule Techschool.Courses.Course do
 
   @doc false
   def changeset(course, attrs, opts \\ []) do
-    languages = Keyword.get(opts, :languages, [])
-    frameworks = Keyword.get(opts, :frameworks, [])
-    tools = Keyword.get(opts, :tools, [])
-    fundamentals = Keyword.get(opts, :fundamentals, [])
+    {:ok, opts} =
+      opts
+      |> Keyword.validate(
+        languages: [],
+        frameworks: [],
+        tools: [],
+        fundamentals: []
+      )
 
     course
     |> cast(attrs, [
@@ -49,9 +53,9 @@ defmodule Techschool.Courses.Course do
     ])
     |> foreign_key_constraint(:channel_id)
     |> unique_constraint(:youtube_course_id)
-    |> put_assoc(:languages, languages)
-    |> put_assoc(:frameworks, frameworks)
-    |> put_assoc(:tools, tools)
-    |> put_assoc(:fundamentals, fundamentals)
+    |> put_assoc(:languages, opts[:languages])
+    |> put_assoc(:frameworks, opts[:frameworks])
+    |> put_assoc(:tools, opts[:tools])
+    |> put_assoc(:fundamentals, opts[:fundamentals])
   end
 end

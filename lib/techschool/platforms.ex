@@ -82,15 +82,19 @@ defmodule Techschool.Platforms do
 
   """
   def create_platform(attrs \\ %{}, opts \\ []) do
-    language_names = Keyword.get(opts, :language_names, [])
-    framework_names = Keyword.get(opts, :framework_names, [])
-    tool_names = Keyword.get(opts, :tool_names, [])
-    fundamentals_names = Keyword.get(opts, :fundamentals_names, [])
+    {:ok, opts} =
+      opts
+      |> Keyword.validate(
+        language_names: [],
+        framework_names: [],
+        tool_names: [],
+        fundamentals_names: []
+      )
 
-    languages = Languages.get_languages_by_name(language_names)
-    frameworks = Frameworks.get_frameworks_by_name(framework_names)
-    tools = Tools.get_tools_by_name(tool_names)
-    fundamentals = Fundamentals.get_fundamentals_by_name(fundamentals_names)
+    languages = Languages.get_languages_by_name(opts[:language_names])
+    frameworks = Frameworks.get_frameworks_by_name(opts[:framework_names])
+    tools = Tools.get_tools_by_name(opts[:tool_names])
+    fundamentals = Fundamentals.get_fundamentals_by_name(opts[:fundamentals_names])
 
     %Platform{}
     |> Platform.changeset(attrs,
@@ -103,15 +107,19 @@ defmodule Techschool.Platforms do
   end
 
   def create_platform!(attrs \\ %{}, opts \\ []) do
-    language_names = Keyword.get(opts, :language_names, [])
-    framework_names = Keyword.get(opts, :framework_names, [])
-    tool_names = Keyword.get(opts, :tool_names, [])
-    fundamentals_names = Keyword.get(opts, :fundamentals_names, [])
+    {:ok, opts} =
+      opts
+      |> Keyword.validate(
+        language_names: [],
+        framework_names: [],
+        tool_names: [],
+        fundamentals_names: []
+      )
 
-    languages = Languages.get_languages_by_name(language_names)
-    frameworks = Frameworks.get_frameworks_by_name(framework_names)
-    tools = Tools.get_tools_by_name(tool_names)
-    fundamentals = Fundamentals.get_fundamentals_by_name(fundamentals_names)
+    languages = Languages.get_languages_by_name(opts[:language_names])
+    frameworks = Frameworks.get_frameworks_by_name(opts[:framework_names])
+    tools = Tools.get_tools_by_name(opts[:tool_names])
+    fundamentals = Fundamentals.get_fundamentals_by_name(opts[:fundamentals_names])
 
     %Platform{}
     |> Platform.changeset(attrs,

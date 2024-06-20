@@ -24,18 +24,22 @@ defmodule Techschool.Platforms.Platform do
 
   @doc false
   def changeset(platform, attrs, opts \\ []) do
-    languages = Keyword.get(opts, :languages, [])
-    frameworks = Keyword.get(opts, :frameworks, [])
-    tools = Keyword.get(opts, :tools, [])
-    fundamentals = Keyword.get(opts, :fundamentals, [])
+    {:ok, opts} =
+      opts
+      |> Keyword.validate(
+        languages: [],
+        frameworks: [],
+        tools: [],
+        fundamentals: []
+      )
 
     platform
     |> cast(attrs, [:name, :description_en, :description_pt, :image_url, :url])
     |> validate_required([:name, :description_en, :description_pt, :image_url, :url])
     |> unique_constraint(:name)
-    |> put_assoc(:languages, languages)
-    |> put_assoc(:frameworks, frameworks)
-    |> put_assoc(:tools, tools)
-    |> put_assoc(:fundamentals, fundamentals)
+    |> put_assoc(:languages, opts[:languages])
+    |> put_assoc(:frameworks, opts[:frameworks])
+    |> put_assoc(:tools, opts[:tools])
+    |> put_assoc(:fundamentals, opts[:fundamentals])
   end
 end

@@ -52,8 +52,8 @@ defmodule Techschool.Courses do
     tool_name = Map.get(params, "tool", "")
     fundamentals_name = Map.get(params, "fundamentals", "")
     user_locale = Map.get(params, "locale", "en")
-    limit = Keyword.get(opts, :limit, 20)
-    offset = Keyword.get(opts, :offset, 0)
+
+    {:ok, opts} = Keyword.validate(opts, limit: 20, offset: 0)
 
     from course in Course,
       left_join: language in assoc(course, :languages),
@@ -76,8 +76,8 @@ defmodule Techschool.Courses do
       distinct: true,
       order_by: fragment("CASE WHEN locale = ? THEN 0 ELSE 1 END", ^user_locale),
       order_by: [desc: course.published_at],
-      limit: ^limit,
-      offset: ^offset
+      limit: ^opts[:limit],
+      offset: ^opts[:offset]
   end
 
   @doc """
@@ -113,16 +113,20 @@ defmodule Techschool.Courses do
 
   """
   def create_course(youtube_channel_id, attrs \\ %{}, opts \\ []) do
-    language_names = Keyword.get(opts, :language_names, [])
-    framework_names = Keyword.get(opts, :framework_names, [])
-    tool_names = Keyword.get(opts, :tool_names, [])
-    fundamentals_names = Keyword.get(opts, :fundamentals_names, [])
+    {:ok, opts} =
+      opts
+      |> Keyword.validate(
+        language_names: [],
+        framework_names: [],
+        tool_names: [],
+        fundamentals_names: []
+      )
 
     channel = Channels.get_channel_by_youtube_channel_id(youtube_channel_id)
-    languages = Languages.get_languages_by_name(language_names)
-    frameworks = Frameworks.get_frameworks_by_name(framework_names)
-    tools = Tools.get_tools_by_name(tool_names)
-    fundamentals = Fundamentals.get_fundamentals_by_name(fundamentals_names)
+    languages = Languages.get_languages_by_name(opts[:language_names])
+    frameworks = Frameworks.get_frameworks_by_name(opts[:framework_names])
+    tools = Tools.get_tools_by_name(opts[:tool_names])
+    fundamentals = Fundamentals.get_fundamentals_by_name(opts[:fundamentals_names])
 
     channel
     |> Ecto.build_assoc(:courses)
@@ -136,16 +140,20 @@ defmodule Techschool.Courses do
   end
 
   def create_course!(youtube_channel_id, attrs \\ %{}, opts \\ []) do
-    language_names = Keyword.get(opts, :language_names, [])
-    framework_names = Keyword.get(opts, :framework_names, [])
-    tool_names = Keyword.get(opts, :tool_names, [])
-    fundamentals_names = Keyword.get(opts, :fundamentals_names, [])
+    {:ok, opts} =
+      opts
+      |> Keyword.validate(
+        language_names: [],
+        framework_names: [],
+        tool_names: [],
+        fundamentals_names: []
+      )
 
     channel = Channels.get_channel_by_youtube_channel_id(youtube_channel_id)
-    languages = Languages.get_languages_by_name(language_names)
-    frameworks = Frameworks.get_frameworks_by_name(framework_names)
-    tools = Tools.get_tools_by_name(tool_names)
-    fundamentals = Fundamentals.get_fundamentals_by_name(fundamentals_names)
+    languages = Languages.get_languages_by_name(opts[:language_names])
+    frameworks = Frameworks.get_frameworks_by_name(opts[:framework_names])
+    tools = Tools.get_tools_by_name(opts[:tool_names])
+    fundamentals = Fundamentals.get_fundamentals_by_name(opts[:fundamentals_names])
 
     channel
     |> Ecto.build_assoc(:courses)
