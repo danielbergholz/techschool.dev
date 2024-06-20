@@ -22,6 +22,28 @@
     "fundamentals_names": ["Programming", "Algorithms"]
   },
   {
+    "name": "Exercism",
+    "description_en": "is a platform that offers code practice and mentorship on 70 programming languages",
+    "description_pt": "é uma plataforma que oferece prática de código e mentoria em 70 linguagens de programação",
+    "url": "https://exercism.org/",
+    "image_url": "/images/platforms/exercism.svg",
+    "language_names": [
+      "JavaScript",
+      "Python",
+      "Ruby",
+      "Elixir",
+      "TypeScript",
+      "PHP",
+      "Java",
+      "Gleam",
+      "Golang",
+      "C"
+    ],
+    "framework_names": [],
+    "tool_names": ["SQL"],
+    "fundamentals_names": ["Programming", "Algorithms"]
+  },
+  {
     "name": "Elixir School",
     "description_en": "is the premier destination for people looking to learn and master the Elixir programming language",
     "description_pt": "é o principal destino para pessoas que desejam aprender e dominar a linguagem de programação Elixir",
