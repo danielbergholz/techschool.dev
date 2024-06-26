@@ -1740,5 +1740,18 @@
     "framework_names": ["Rails"],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Learn SQL Super Fast - Tutorial from absolute scratch",
+    "youtube_course_id": "ipIw-Fp3LBs",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/ipIw-Fp3LBs/sddefault.jpg",
+    "published_at": "2024-06-26T15:12:38Z",
+    "youtube_channel_id": "UClb90NQQcskPUGDIXsQEz5Q",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": ["SQL"],
+    "fundamentals_names": []
   }
 ]
