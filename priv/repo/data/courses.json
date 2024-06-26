@@ -1753,5 +1753,44 @@
     "framework_names": [],
     "tool_names": ["SQL"],
     "fundamentals_names": []
+  },
+  {
+    "name": "Alquimia Stone - Formação Gratuita em Elixir",
+    "youtube_course_id": "PLv3nyCBtlWP8I9rknIrfcJWrO05yEzknD",
+    "type": "playlist",
+    "locale": "pt",
+    "image_url": "https://i.ytimg.com/vi/WRGvPgCHMfI/sddefault.jpg",
+    "published_at": "2021-11-17T18:32:32Z",
+    "youtube_channel_id": "UC_SSEiyb7PCd5Bzqf35SWdg",
+    "language_names": ["Elixir"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Elixir Programming Introduction - Complete Tutorial",
+    "youtube_course_id": "-lgtb-YSUWE",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/-lgtb-YSUWE/sddefault.jpg",
+    "published_at": "2023-12-04T16:38:31Z",
+    "youtube_channel_id": "UCZUyPT9DkJWmS_DzdOi7RIA",
+    "language_names": ["Elixir"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Intro to Elixir",
+    "youtube_course_id": "PLJbE2Yu2zumA-p21bEQB6nsYABAO-HtF2",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/GQVXyjYX1zA/sddefault.jpg",
+    "published_at": "2019-04-17T01:16:55Z",
+    "youtube_channel_id": "UCYqCZOwHbnPwyjawKfE21wg",
+    "language_names": ["Elixir"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
