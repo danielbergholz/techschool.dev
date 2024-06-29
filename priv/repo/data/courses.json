@@ -1792,5 +1792,18 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Elixir crash course",
+    "youtube_course_id": "PLbV6TI03ZWYVQEC_Txq_cV0Uy_s16b0d3",
+    "type": "playlist",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/Q0Z1jqv6LW0/sddefault.jpg",
+    "published_at": "2024-06-23T16:14:16Z",
+    "youtube_channel_id": "UCnmbV9eyMwIl50Ji1ObFxqg",
+    "language_names": ["Elixir"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
