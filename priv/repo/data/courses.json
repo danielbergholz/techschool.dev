@@ -1805,5 +1805,18 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Learn Go Programming by Building 11 Projects - Full Course",
+    "youtube_course_id": "jFfo23yIWac",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/jFfo23yIWac/sddefault.jpg",
+    "published_at": "2022-03-22T00:00:00Z",
+    "youtube_channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+    "language_names": ["Golang"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
