@@ -1,3 +1,5 @@
 #!/bin/sh
+set -eu
+
 cd -P -- "$(dirname -- "$0")"
 exec ./techschool eval Techschool.Release.migrate
