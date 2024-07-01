@@ -1818,5 +1818,18 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Phoenix Framework REST API Crash Course - Introduction + Full Elixir API Tutorial",
+    "youtube_course_id": "9xaN44PNxps",
+    "type": "video",
+    "locale": "en",
+    "image_url": "https://i.ytimg.com/vi/9xaN44PNxps/sddefault.jpg",
+    "published_at": "2023-12-06T16:22:39Z",
+    "youtube_channel_id": "UCZUyPT9DkJWmS_DzdOi7RIA",
+    "language_names": [],
+    "framework_names": ["Phoenix"],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
