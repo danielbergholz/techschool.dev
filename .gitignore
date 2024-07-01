@@ -42,3 +42,5 @@ npm-debug.log
 .DS_Store
 
 .env
+
+.elixir_ls/
