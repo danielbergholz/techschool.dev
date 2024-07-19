@@ -1,9 +1,10 @@
 defmodule TechschoolWeb.CourseLive.Index do
   use TechschoolWeb, :live_view
 
-  alias Techschool.{Languages, Frameworks, Courses, Platforms, Tools, Fundamentals, Locale}
   alias Techschool.Courses.Course
+  alias Techschool.{Courses, Frameworks, Fundamentals, Languages, Locale, Platforms, Tools}
   alias Techschool.Platforms.Platform
+  alias TechschoolWeb.OnlineUsersCounter
 
   @default_locale Locale.get_default_locale()
 
@@ -31,6 +32,12 @@ defmodule TechschoolWeb.CourseLive.Index do
 
   @impl true
   def mount(_params, _session, socket) do
+    if connected?(socket) do
+      Phoenix.PubSub.subscribe(Techschool.PubSub, OnlineUsersCounter.online_users_topic())
+
+      OnlineUsersCounter.track_online_user()
+    end
+
     language_names = Languages.list_language_names()
     framework_names = Frameworks.list_framework_names()
     tool_names = Tools.list_tool_names()
@@ -48,6 +55,7 @@ defmodule TechschoolWeb.CourseLive.Index do
     |> assign(:framework_names, framework_names)
     |> assign(:tool_names, tool_names)
     |> assign(:fundamentals_names, fundamentals_names)
+    |> assign(:online_users_count, 0)
     |> ok()
   end
 
@@ -103,6 +111,11 @@ defmodule TechschoolWeb.CourseLive.Index do
     socket
     |> push_patch(to: build_url(socket, params))
     |> noreply()
+  end
+
+  @impl true
+  def handle_info(%Phoenix.Socket.Broadcast{} = _event, socket) do
+    {:noreply, assign(socket, :online_users_count, OnlineUsersCounter.get_online_users_count())}
   end
 
   defp build_url(%{assigns: %{locale: locale}}, params) do
