@@ -9,6 +9,8 @@ defmodule TechschoolWeb.OnlineUsersCounter do
 
   @online_users_topic "online_users_topic"
 
+  def online_users_topic, do: @online_users_topic
+
   def track_online_user do
     {:ok, _ref} =
       case Presence.track(
@@ -21,7 +23,7 @@ defmodule TechschoolWeb.OnlineUsersCounter do
           {:ok, ref}
 
         _ ->
-          Logger.warning("Not possible to track a online user")
+          Logger.warning("Not possible to track online user")
       end
   end
 
