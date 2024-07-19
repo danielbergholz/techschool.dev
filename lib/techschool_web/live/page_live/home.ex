@@ -19,7 +19,7 @@ defmodule TechschoolWeb.PageLive.Home do
   @impl true
   def mount(_params, _session, socket) do
     if connected?(socket) do
-      Phoenix.PubSub.subscribe(Techschool.PubSub, "online_users")
+      Phoenix.PubSub.subscribe(Techschool.PubSub, OnlineUsersCounter.online_users_topic())
 
       OnlineUsersCounter.track_online_user()
     end
@@ -29,12 +29,12 @@ defmodule TechschoolWeb.PageLive.Home do
       {:ok, %{github_contributors: GitHub.get_contributors()}}
     end)
     |> assign(:page_title, "TechSchool")
-    |> assign(:online_users, 0)
+    |> assign(:online_users_count, 0)
     |> ok()
   end
 
   @impl true
   def handle_info(%Phoenix.Socket.Broadcast{} = _event, socket) do
-    {:noreply, assign(socket, :online_users, OnlineUsersCounter.get_online_users_count())}
+    {:noreply, assign(socket, :online_users_count, OnlineUsersCounter.get_online_users_count())}
   end
 end
