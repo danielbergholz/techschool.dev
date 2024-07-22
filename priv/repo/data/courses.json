@@ -1768,6 +1768,19 @@
     "fundamentals_names": []
   },
   {
+    "name": "Aprenda com quem não sabe",
+    "youtube_course_id": "PLr4c053wuXU-YY4GmqUM3y_uauspsmO0O",
+    "type": "playlist",
+    "locale": "pt",
+    "image_url": "https://i.ytimg.com/vi/XHxRv0f2MEY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC4xmzsMXWPUJKS88lT_4tDgsqalw",
+    "published_at": "2021-12-06T00:00:00Z",
+    "youtube_channel_id": "UCoMS25HuclMfa6IQJNcvh2w",
+    "language_names": ["Elixir"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
     "name": "Elixir Programming Introduction - Complete Tutorial",
     "youtube_course_id": "-lgtb-YSUWE",
     "type": "video",
