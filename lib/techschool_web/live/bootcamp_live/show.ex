@@ -3,6 +3,7 @@ defmodule TechschoolWeb.BootcampLive.Show do
 
   alias Techschool.Bootcamps
   alias Techschool.Lessons.Lesson
+  alias TechschoolWeb.OnlineUsersCounter
 
   embed_templates "components/*"
 
@@ -14,6 +15,12 @@ defmodule TechschoolWeb.BootcampLive.Show do
 
   @impl true
   def mount(params, _session, socket) do
+    if connected?(socket) do
+      Phoenix.PubSub.subscribe(Techschool.PubSub, OnlineUsersCounter.online_users_topic())
+
+      OnlineUsersCounter.track_online_user()
+    end
+
     bootcamp = Bootcamps.get_bootcamp_by_slug!(params["slug"])
     locale = socket.assigns.locale
 
@@ -28,6 +35,13 @@ defmodule TechschoolWeb.BootcampLive.Show do
     )
     |> assign(:bootcamp, bootcamp)
     |> ok()
+  end
+
+  @impl true
+  def handle_info(%Phoenix.Socket.Broadcast{} = _event, socket) do
+    socket
+    |> assign(:online_users_count, OnlineUsersCounter.get_online_users_count())
+    |> noreply()
   end
 
   def build_lesson_url(locale, lesson) do

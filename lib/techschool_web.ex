@@ -89,6 +89,7 @@ defmodule TechschoolWeb do
       import Phoenix.HTML
       # Core UI components and translation
       import TechschoolWeb.CoreComponents
+      import TechschoolWeb.OnlineUsers
       import TechschoolWeb.Gettext
 
       # Shortcut for generating JS commands

@@ -23,7 +23,8 @@ defmodule Techschool.Application do
       # {Techschool.Worker, arg},
       # Start to serve requests, typically the last entry
       TechschoolWeb.Endpoint,
-      {Cachex, name: :techschool_cache}
+      {Cachex, name: :techschool_cache},
+      TechschoolWeb.Presence
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
