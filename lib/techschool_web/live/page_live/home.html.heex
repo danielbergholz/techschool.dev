@@ -8,8 +8,10 @@
         <h2 class="text-gray mt-2 md:text-lg text-base">
           <%= gettext("Go from zero to your first job without any financial loss") %>
         </h2>
-        <.show_online_users count={@online_users_count} />
-        <.translate_button inverse_locale={inverse_locale(@locale)} />
+        <div class="flex flex-col md:flex-row items-center mt-4 gap-4 ">
+          <.translate_button inverse_locale={inverse_locale(@locale)} />
+          <.show_online_users count={@online_users_count} />
+        </div>
       </div>
       <img
         src="https://ucarecdn.com/50caadda-a024-4fce-a168-0e463f695f93/"
