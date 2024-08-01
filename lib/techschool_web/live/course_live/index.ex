@@ -115,7 +115,9 @@ defmodule TechschoolWeb.CourseLive.Index do
 
   @impl true
   def handle_info(%Phoenix.Socket.Broadcast{} = _event, socket) do
-    {:noreply, assign(socket, :online_users_count, OnlineUsersCounter.get_online_users_count())}
+    socket
+    |> assign(:online_users_count, OnlineUsersCounter.get_online_users_count())
+    |> noreply()
   end
 
   defp build_url(%{assigns: %{locale: locale}}, params) do
