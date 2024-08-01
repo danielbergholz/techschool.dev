@@ -12,7 +12,7 @@ defmodule TechschoolWeb.OnlineUsers do
     ~H"""
     <div
       id="online_users_count"
-      class="mt-2 relative inline-flex"
+      class="relative inline-flex"
       aria-label="Number of online users using TechSchool"
     >
       <p class="px-4 py-2 font-semibold text-sm rounded-md text-green bg-slate-800">
