@@ -1,5 +1,5 @@
 <main>
-  <div class="bg-pattern bg-cover">
+  <section class="bg-pattern bg-cover" aria-label="Hero section for TechSchool">
     <div class="container-l2 md:gap-5 gap-8 md:py-60 py-32 flex items-center justify-evenly flex-col md:flex-row md:text-left text-center">
       <div>
         <h1 class="md:text-3xl text-2xl font-bold">
@@ -17,138 +17,146 @@
         class="md:w-[220px] md:h-[160px] w-[180px] h-[132px]"
       />
     </div>
-  </div>
+  </section>
+  <section
+    class="text-center container-l3 md:py-14 py-12 flex flex-col items-center"
+    aria-label="Social media links for TechSchool"
+  >
+    <h1 class="md:text-3xl text-2xl font-bold underline decoration-green mb-8">
+      Links
+    </h1>
+    <div class="flex items-center justify-center gap-4 md:flex-row flex-col">
+      <a
+        href="https://discord.gg/C4abRX5skH"
+        target="_blank"
+        rel="noreferrer"
+        class="md:text-lg text-base font-bold border border-green rounded-lg w-36 p-2 flex items-center justify-evenly"
+      >
+        <img
+          src="/images/links/discord.svg"
+          alt="TechSchool Discord"
+          width="35"
+          height="35"
+          class="shrink-0"
+          loading="lazy"
+        />
+        <p>
+          Discord
+        </p>
+      </a>
+      <a
+        href="https://github.com/danielbergholz/techschool"
+        target="_blank"
+        rel="noreferrer"
+        class="md:text-lg text-base font-bold border border-green rounded-lg w-36 p-2 flex items-center justify-evenly"
+      >
+        <img
+          src="/images/links/github.svg"
+          alt="TechSchool GitHub"
+          width="35"
+          height="35"
+          class="shrink-0"
+          loading="lazy"
+        />
+        <p>
+          GitHub
+        </p>
+      </a>
+      <a
+        href="https://github.com/sponsors/danielbergholz"
+        target="_blank"
+        rel="noreferrer"
+        class="md:text-lg text-base font-bold rounded-lg border border-green w-36 p-2 flex items-center justify-evenly"
+      >
+        <img
+          src="/images/links/heart.svg"
+          alt="TechSchool Analytics"
+          width="35"
+          height="35"
+          class="shrink-0"
+          loading="lazy"
+        />
+        <p>
+          Sponsor
+        </p>
+      </a>
+      <a
+        href="https://plausible.io/techschool.dev"
+        target="_blank"
+        rel="noreferrer"
+        class="md:text-lg text-base font-bold border border-green rounded-lg w-36 p-2 flex items-center justify-evenly"
+      >
+        <img
+          src="/images/links/analytics.svg"
+          alt="TechSchool Analytics"
+          width="35"
+          height="35"
+          class="shrink-0"
+          loading="lazy"
+        />
+        <p>
+          Analytics
+        </p>
+      </a>
+    </div>
+  </section>
+  <section
+    class="text-center container-l3 pb-8 md:pb-12 flex flex-col gap-8"
+    aria-label="TechSchool mission"
+  >
+    <h1 class="md:text-3xl text-2xl font-bold underline decoration-green">
+      <%= gettext("Our mission") %>
+    </h1>
+    <p class="md:text-lg text-base">
+      <%= gettext(
+        "TechSchool is all about making tech education accessible to everyone for free. There are tons of awesome courses online, but we don't have big bucks for marketing. So, newbies often run into the expensive courses first, making it seem like you have to shell out a ton of money."
+      ) %>
+    </p>
+
+    <p class="md:text-lg text-base">
+      <%= gettext(
+        "That's where TechSchool steps in. We're here to shine a light on those awesome free courses that might be flying under the radar. Our website has a bunch of courses covering different areas. The goal? Help anyone go from zero to landing their first job without breaking the bank. We want to tackle the expensive course culture and make tech education fair and equal for everyone."
+      ) %>
+    </p>
+  </section>
+  <section
+    class="text-center container-l3 pb-8 md:pb-12 flex flex-col gap-8"
+    aria-label="TechSchool contributors"
+  >
+    <h1
+      :if={@github_contributors.ok? and length(@github_contributors.result) > 0}
+      class="md:text-3xl text-2xl underline font-bold decoration-green"
+    >
+      <%= gettext("Huge thanks to our contributors") %> 🚀
+    </h1>
+    <div
+      :if={@github_contributors.ok? and length(@github_contributors.result) > 0}
+      class="flex flex-wrap justify-center gap-4"
+    >
+      <a
+        :for={contributor <- @github_contributors.result}
+        href={contributor["html_url"]}
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          src={contributor["avatar_url"]}
+          alt={contributor["login"]}
+          loading="lazy"
+          class="w-12 md:w-14 h-12 md:h-14 rounded-full"
+          width="56"
+          height="56"
+        />
+      </a>
+    </div>
+    <a
+      href="https://github.com/danielbergholz/techschool.dev/blob/main/docs/contributing-guide.md"
+      target="_blank"
+      rel="noreferrer"
+      class="pt-4"
+    >
+      <.button><%= gettext("Add course to TechSchool") %></.button>
+    </a>
+  </section>
 </main>
-<section class="text-center container-l3 md:py-14 py-12 flex flex-col items-center">
-  <h1 class="md:text-3xl text-2xl font-bold underline decoration-green mb-8">
-    Links
-  </h1>
-  <div class="flex items-center justify-center gap-4 md:flex-row flex-col">
-    <a
-      href="https://discord.gg/C4abRX5skH"
-      target="_blank"
-      rel="noreferrer"
-      class="md:text-lg text-base font-bold border border-green rounded-lg w-36 p-2 flex items-center justify-evenly"
-    >
-      <img
-        src="/images/links/discord.svg"
-        alt="TechSchool Discord"
-        width="35"
-        height="35"
-        class="shrink-0"
-        loading="lazy"
-      />
-      <p>
-        Discord
-      </p>
-    </a>
-    <a
-      href="https://github.com/danielbergholz/techschool"
-      target="_blank"
-      rel="noreferrer"
-      class="md:text-lg text-base font-bold border border-green rounded-lg w-36 p-2 flex items-center justify-evenly"
-    >
-      <img
-        src="/images/links/github.svg"
-        alt="TechSchool GitHub"
-        width="35"
-        height="35"
-        class="shrink-0"
-        loading="lazy"
-      />
-      <p>
-        GitHub
-      </p>
-    </a>
-    <a
-      href="https://github.com/sponsors/danielbergholz"
-      target="_blank"
-      rel="noreferrer"
-      class="md:text-lg text-base font-bold rounded-lg border border-green w-36 p-2 flex items-center justify-evenly"
-    >
-      <img
-        src="/images/links/heart.svg"
-        alt="TechSchool Analytics"
-        width="35"
-        height="35"
-        class="shrink-0"
-        loading="lazy"
-      />
-      <p>
-        Sponsor
-      </p>
-    </a>
-    <a
-      href="https://plausible.io/techschool.dev"
-      target="_blank"
-      rel="noreferrer"
-      class="md:text-lg text-base font-bold border border-green rounded-lg w-36 p-2 flex items-center justify-evenly"
-    >
-      <img
-        src="/images/links/analytics.svg"
-        alt="TechSchool Analytics"
-        width="35"
-        height="35"
-        class="shrink-0"
-        loading="lazy"
-      />
-      <p>
-        Analytics
-      </p>
-    </a>
-  </div>
-</section>
-<section class="text-center container-l3 pb-8 md:pb-12 flex flex-col gap-8">
-  <h1 class="md:text-3xl text-2xl font-bold underline decoration-green">
-    <%= gettext("Our mission") %>
-  </h1>
-  <p class="md:text-lg text-base">
-    <%= gettext(
-      "TechSchool is all about making tech education accessible to everyone for free. There are tons of awesome courses online, but we don't have big bucks for marketing. So, newbies often run into the expensive courses first, making it seem like you have to shell out a ton of money."
-    ) %>
-  </p>
-
-  <p class="md:text-lg text-base">
-    <%= gettext(
-      "That's where TechSchool steps in. We're here to shine a light on those awesome free courses that might be flying under the radar. Our website has a bunch of courses covering different areas. The goal? Help anyone go from zero to landing their first job without breaking the bank. We want to tackle the expensive course culture and make tech education fair and equal for everyone."
-    ) %>
-  </p>
-</section>
-<section class="text-center container-l3 pb-8 md:pb-12 flex flex-col gap-8">
-  <h1
-    :if={@github_contributors.ok? and length(@github_contributors.result) > 0}
-    class="md:text-3xl text-2xl underline font-bold decoration-green"
-  >
-    <%= gettext("Huge thanks to our contributors") %> 🚀
-  </h1>
-  <div
-    :if={@github_contributors.ok? and length(@github_contributors.result) > 0}
-    class="flex flex-wrap justify-center gap-4"
-  >
-    <a
-      :for={contributor <- @github_contributors.result}
-      href={contributor["html_url"]}
-      target="_blank"
-      rel="noreferrer"
-    >
-      <img
-        src={contributor["avatar_url"]}
-        alt={contributor["login"]}
-        loading="lazy"
-        class="w-12 md:w-14 h-12 md:h-14 rounded-full"
-        width="56"
-        height="56"
-      />
-    </a>
-  </div>
-  <a
-    href="https://github.com/danielbergholz/techschool.dev/blob/main/docs/contributing-guide.md"
-    target="_blank"
-    rel="noreferrer"
-    class="pt-4"
-  >
-    <.button><%= gettext("Add course to TechSchool") %></.button>
-  </a>
-</section>
-
 <.footer />
