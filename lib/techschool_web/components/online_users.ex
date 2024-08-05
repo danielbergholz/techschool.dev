@@ -7,13 +7,25 @@ defmodule TechschoolWeb.OnlineUsers do
 
   attr :count, :integer, required: true
 
-  def show_online_users(%{count: 0} = assigns), do: ~H""
+  def show_online_users(%{count: 0} = assigns) do
+    ~H"""
+    <div
+      id="online_users_count"
+      class="relative inline-flex opacity-75"
+      aria-label="Number of online users using TechSchool"
+    >
+      <p class="px-4 py-2 font-semibold text-sm rounded-md text-green bg-slate-800">
+        1 <%= gettext("user") %> online
+      </p>
+    </div>
+    """
+  end
 
   def show_online_users(assigns) do
     ~H"""
     <div
       id="online_users_count"
-      class="relative inline-flex"
+      class="relative inline-flex opacity-100 transition-opacity duration-300"
       aria-label="Number of online users using TechSchool"
     >
       <p class="px-4 py-2 font-semibold text-sm rounded-md text-green bg-slate-800">
