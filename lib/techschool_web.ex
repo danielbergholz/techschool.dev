@@ -43,7 +43,7 @@ defmodule TechschoolWeb do
         layouts: [html: TechschoolWeb.Layouts]
 
       import Plug.Conn
-      import TechschoolWeb.Gettext
+      use Gettext, backend: TechschoolWeb.Gettext
 
       unquote(verified_routes())
     end
@@ -90,7 +90,7 @@ defmodule TechschoolWeb do
       # Core UI components and translation
       import TechschoolWeb.CoreComponents
       import TechschoolWeb.OnlineUsers
-      import TechschoolWeb.Gettext
+      use Gettext, backend: TechschoolWeb.Gettext
 
       # Shortcut for generating JS commands
       alias Phoenix.LiveView.JS

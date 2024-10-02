@@ -17,7 +17,7 @@ defmodule TechschoolWeb.CoreComponents do
   use Phoenix.Component
 
   alias Phoenix.LiveView.JS
-  import TechschoolWeb.Gettext
+  use Gettext, backend: TechschoolWeb.Gettext
 
   @doc """
   Renders a modal.
