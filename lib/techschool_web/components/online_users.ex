@@ -3,7 +3,7 @@ defmodule TechschoolWeb.OnlineUsers do
   Component to show the count of online users.
   """
   use Phoenix.Component
-  import TechschoolWeb.Gettext
+  use Gettext, backend: TechschoolWeb.Gettext
 
   attr :count, :integer, required: true
 
