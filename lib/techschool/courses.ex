@@ -6,7 +6,7 @@ defmodule Techschool.Courses do
   import Ecto.Query, warn: false
   alias Techschool.Repo
 
-  alias Techschool.{Channels, Languages, Frameworks, Tools, Fundamentals}
+  alias Techschool.{Channels, Languages, Frameworks, Tools, Fundamentals, Locale}
   alias Techschool.Courses.Course
 
   @doc """
@@ -42,7 +42,8 @@ defmodule Techschool.Courses do
 
   defp build_search_query do
     from course in Course,
-      preload: [:channel]
+      join: channel in assoc(course, :channel),
+      preload: [channel: channel]
   end
 
   defp build_search_query(params, locales_available, opts) do
@@ -51,33 +52,63 @@ defmodule Techschool.Courses do
     framework_name = Map.get(params, "framework", "")
     tool_name = Map.get(params, "tool", "")
     fundamentals_name = Map.get(params, "fundamentals", "")
-    user_locale = Map.get(params, "locale", "en")
+    user_locale = Map.get(params, "locale", Locale.get_default_locale())
 
     {:ok, opts} = Keyword.validate(opts, limit: 20, offset: 0)
 
-    from course in Course,
-      left_join: language in assoc(course, :languages),
-      left_join: framework in assoc(course, :frameworks),
-      left_join: tool in assoc(course, :tools),
-      left_join: fundamental in assoc(course, :fundamentals),
-      where:
-        course.locale in ^locales_available and
-          (^search == "" or
-             fragment("lower(?) LIKE lower(?)", course.name, ^"%#{search}%")) and
-          (^language_name == "" or
-             fragment("lower(?) LIKE lower(?)", language.name, ^"#{language_name}")) and
-          (^framework_name == "" or
-             fragment("lower(?) LIKE lower(?)", framework.name, ^"#{framework_name}")) and
-          (^tool_name == "" or
-             fragment("lower(?) LIKE lower(?)", tool.name, ^"#{tool_name}")) and
-          (^fundamentals_name == "" or
-             fragment("lower(?) LIKE lower(?)", fundamental.name, ^"#{fundamentals_name}")),
-      preload: [:channel],
-      distinct: true,
-      order_by: fragment("CASE WHEN locale = ? THEN 0 ELSE 1 END", ^user_locale),
-      order_by: [desc: course.published_at],
-      limit: ^opts[:limit],
-      offset: ^opts[:offset]
+    # Base query with channel join
+    query =
+      from course in Course,
+        join: channel in assoc(course, :channel),
+        preload: [channel: channel],
+        where:
+          course.locale in ^locales_available and
+            (^search == "" or
+               fragment("lower(?) LIKE lower(?)", course.name, ^"%#{search}%")),
+        distinct: true,
+        order_by: fragment("CASE WHEN locale = ? THEN 0 ELSE 1 END", ^user_locale),
+        order_by: [desc: course.published_at],
+        limit: ^opts[:limit],
+        offset: ^opts[:offset]
+
+    # Add joins conditionally
+    query =
+      if language_name != "" do
+        from q in query,
+          join: language in assoc(q, :languages),
+          on: fragment("lower(?) LIKE lower(?)", language.name, ^"#{language_name}")
+      else
+        query
+      end
+
+    query =
+      if framework_name != "" do
+        from q in query,
+          join: framework in assoc(q, :frameworks),
+          on: fragment("lower(?) LIKE lower(?)", framework.name, ^"#{framework_name}")
+      else
+        query
+      end
+
+    query =
+      if tool_name != "" do
+        from q in query,
+          join: tool in assoc(q, :tools),
+          on: fragment("lower(?) LIKE lower(?)", tool.name, ^"#{tool_name}")
+      else
+        query
+      end
+
+    query =
+      if fundamentals_name != "" do
+        from q in query,
+          join: fundamental in assoc(q, :fundamentals),
+          on: fragment("lower(?) LIKE lower(?)", fundamental.name, ^"#{fundamentals_name}")
+      else
+        query
+      end
+
+    query
   end
 
   @doc """

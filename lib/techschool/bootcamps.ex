@@ -45,7 +45,8 @@ defmodule Techschool.Bootcamps do
 
     from(bootcamp in Bootcamp,
       where: fragment("lower(?) LIKE ?", bootcamp.name, ^name),
-      preload: [:lessons]
+      left_join: lessons in assoc(bootcamp, :lessons),
+      preload: [lessons: lessons]
     )
     |> Repo.one!()
   end

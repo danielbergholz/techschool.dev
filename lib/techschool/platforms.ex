@@ -31,25 +31,53 @@ defmodule Techschool.Platforms do
     tool_name = Map.get(params, "tool", "")
     fundamentals_name = Map.get(params, "fundamentals", "")
 
-    from(platform in Platform,
-      left_join: language in assoc(platform, :languages),
-      left_join: framework in assoc(platform, :frameworks),
-      left_join: tool in assoc(platform, :tools),
-      left_join: fundamental in assoc(platform, :fundamentals),
-      where:
-        (^search == "" or
-           fragment("lower(?) LIKE lower(?)", platform.name, ^"%#{search}%")) and
-          (^language_name == "" or
-             fragment("lower(?) LIKE lower(?)", language.name, ^"#{language_name}")) and
-          (^framework_name == "" or
-             fragment("lower(?) LIKE lower(?)", framework.name, ^"#{framework_name}")) and
-          (^tool_name == "" or
-             fragment("lower(?) LIKE lower(?)", tool.name, ^"#{tool_name}")) and
-          (^fundamentals_name == "" or
-             fragment("lower(?) LIKE lower(?)", fundamental.name, ^"#{fundamentals_name}")),
-      order_by: [asc: platform.inserted_at],
-      distinct: true
-    )
+    # Base query
+    query =
+      from platform in Platform,
+        where:
+          ^search == "" or
+            fragment("lower(?) LIKE lower(?)", platform.name, ^"%#{search}%"),
+        order_by: [asc: platform.inserted_at],
+        distinct: true
+
+    # Add joins conditionally
+    query =
+      if language_name != "" do
+        from q in query,
+          join: language in assoc(q, :languages),
+          on: fragment("lower(?) LIKE lower(?)", language.name, ^"#{language_name}")
+      else
+        query
+      end
+
+    query =
+      if framework_name != "" do
+        from q in query,
+          join: framework in assoc(q, :frameworks),
+          on: fragment("lower(?) LIKE lower(?)", framework.name, ^"#{framework_name}")
+      else
+        query
+      end
+
+    query =
+      if tool_name != "" do
+        from q in query,
+          join: tool in assoc(q, :tools),
+          on: fragment("lower(?) LIKE lower(?)", tool.name, ^"#{tool_name}")
+      else
+        query
+      end
+
+    query =
+      if fundamentals_name != "" do
+        from q in query,
+          join: fundamental in assoc(q, :fundamentals),
+          on: fragment("lower(?) LIKE lower(?)", fundamental.name, ^"#{fundamentals_name}")
+      else
+        query
+      end
+
+    query
     |> Repo.all()
   end
 
