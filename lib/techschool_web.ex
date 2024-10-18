@@ -89,6 +89,7 @@ defmodule TechschoolWeb do
       import Phoenix.HTML
       # Core UI components and translation
       import TechschoolWeb.CoreComponents
+      import TechschoolWeb.SharedComponents
       import TechschoolWeb.OnlineUsers
       use Gettext, backend: TechschoolWeb.Gettext
 
