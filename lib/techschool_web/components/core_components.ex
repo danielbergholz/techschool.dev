@@ -230,7 +230,7 @@ defmodule TechschoolWeb.CoreComponents do
     <button
       type={@type}
       class={[
-        "phx-submit-loading:opacity-75 rounded-lg bg-green py-2 px-3",
+        "phx-submit-loading:opacity-75 hover:opacity-75 transition-opacity rounded-lg bg-green py-2 px-3",
         "text-sm font-semibold leading-6 text-black disabled:bg-gray disabled:opacity-30",
         @class
       ]}
