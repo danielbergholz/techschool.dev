@@ -12,11 +12,11 @@ We love our contributors! Here's how you can contribute:
 ```json
 {
   "name": "Programming Language Name", // case sensitive
-  "image_url": "path_to_the_language_svg" // should be inside priv/static/images/languages
+  "icon_name": "Programming Language Name (lowercase)" // case sensitive
 }
 ```
 
-If you don't want to manually add an SVG for the `image_url` field, don't worry about it. I'll take care of it. Just add the language name.
+The `icon_name` will be used to render the `custom_icon` component inside `lib/techschool_web/components/shared_components.ex`. You can just add the lowercase name of the language and it will work. For example, if the language is `"Ruby"`, the `icon_name` should be `"ruby"`.
 
 ## Adding a new framework
 
@@ -25,11 +25,11 @@ If you don't want to manually add an SVG for the `image_url` field, don't worry 
 ```json
 {
   "name": "Framework Name", // case sensitive
-  "image_url": "path_to_the_framework_svg" // should be inside priv/static/images/frameworks
+  "icon_name": "Framework Name (lowercase)" // case sensitive
 }
 ```
 
-Same note as the `image_url` field from the `languages.json` file. Don't worry about it.
+Same note for the `icon_name` field. If the framework is `"Rails"`, the `icon_name` should be `"rails"`.
 
 ## Adding a new tool
 
@@ -38,9 +38,11 @@ Same note as the `image_url` field from the `languages.json` file. Don't worry a
 ```json
 {
   "name": "Tool Name", // case sensitive
-  "image_url": "path_to_the_tool_svg" // should be inside priv/static/images/tools
+  "icon_name": "Tool Name (lowercase)" // case sensitive
 }
 ```
+
+Same note for the `icon_name` field. If the tool is `"Docker"`, the `icon_name` should be `"docker"`.
 
 ## Adding a new "fundamentals"
 
@@ -49,11 +51,11 @@ Same note as the `image_url` field from the `languages.json` file. Don't worry a
 ```json
 {
   "name": "Fundamentals Name", // case sensitive
-  "image_url": "path_to_the_fundamentals_svg" // should be inside priv/static/images/fundamentals
+  "icon_name": "Fundamentals Name (lowercase)" // case sensitive
 }
 ```
 
-Same note for `image_url`. Don't worry about it.
+Same note for the `icon_name` field. If the fundamental is `"Computer Science"`, the `icon_name` should be `"computer-science"`.
 
 ## Adding a new channel
 
