@@ -8,7 +8,7 @@ defmodule Techschool.BootcampsTest do
 
     import Techschool.BootcampsFixtures
 
-    @invalid_attrs %{name: nil, image_url: nil, description_en: nil, description_pt: nil}
+    @invalid_attrs %{name: nil, icon_name: nil, description_en: nil, description_pt: nil}
 
     test "list_bootcamps/0 returns all bootcamps" do
       bootcamp = bootcamp_fixture()
@@ -23,14 +23,14 @@ defmodule Techschool.BootcampsTest do
     test "create_bootcamp/1 with valid data creates a bootcamp" do
       valid_attrs = %{
         name: "some name",
-        image_url: "some image_url",
+        icon_name: "some icon_name",
         description_en: "some description_en",
         description_pt: "some description_pt"
       }
 
       assert {:ok, %Bootcamp{} = bootcamp} = Bootcamps.create_bootcamp(valid_attrs)
       assert bootcamp.name == "some name"
-      assert bootcamp.image_url == "some image_url"
+      assert bootcamp.icon_name == "some icon_name"
       assert bootcamp.description_en == "some description_en"
       assert bootcamp.description_pt == "some description_pt"
     end

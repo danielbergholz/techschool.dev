@@ -1,22 +1,22 @@
 [
   {
     "name": "Linux",
-    "image_url": "/images/tools/linux.svg"
+    "icon_name": "linux"
   },
   {
     "name": "Docker",
-    "image_url": "/images/tools/docker.svg"
+    "icon_name": "docker"
   },
   {
     "name": "SQL",
-    "image_url": "/images/tools/sql.svg"
+    "icon_name": "sql"
   },
   {
     "name": "Git",
-    "image_url": "/images/tools/git.svg"
+    "icon_name": "git"
   },
   {
     "name": "Shopify",
-    "image_url": "/images/tools/shopify.svg"
+    "icon_name": "shopify"
   }
 ]

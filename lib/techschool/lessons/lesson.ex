@@ -5,7 +5,7 @@ defmodule Techschool.Lessons.Lesson do
   schema "lessons" do
     field :name, :string
     field :optional, :boolean, default: false
-    field :image_url, :string
+    field :icon_name, :string
     field :description_en, :string
     field :description_pt, :string
     field :language_names, :string, default: ""
@@ -22,7 +22,7 @@ defmodule Techschool.Lessons.Lesson do
     lesson
     |> cast(attrs, [
       :name,
-      :image_url,
+      :icon_name,
       :optional,
       :description_en,
       :description_pt,
@@ -33,7 +33,7 @@ defmodule Techschool.Lessons.Lesson do
     ])
     |> validate_required([
       :name,
-      :image_url,
+      :icon_name,
       :optional,
       :description_en,
       :description_pt

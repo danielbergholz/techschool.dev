@@ -8,7 +8,7 @@ defmodule Techschool.FundamentalsTest do
 
     import Techschool.FundamentalsFixtures
 
-    @invalid_attrs %{name: nil, image_url: nil}
+    @invalid_attrs %{name: nil, icon_name: nil}
 
     test "list_fundamentals/0 returns all fundamentals" do
       fundamental = fundamental_fixture()
@@ -23,12 +23,12 @@ defmodule Techschool.FundamentalsTest do
     test "create_fundamental/1 with valid data creates a fundamental" do
       valid_attrs = %{
         name: "some name",
-        image_url: "some image_url"
+        icon_name: "some icon_name"
       }
 
       assert {:ok, %Fundamental{} = fundamental} = Fundamentals.create_fundamental(valid_attrs)
       assert fundamental.name == "some name"
-      assert fundamental.image_url == "some image_url"
+      assert fundamental.icon_name == "some icon_name"
     end
 
     test "create_fundamental/1 with invalid data returns error changeset" do

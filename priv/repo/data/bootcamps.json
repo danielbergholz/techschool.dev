@@ -1,7 +1,7 @@
 [
   {
     "name": "Fundamentals",
-    "image_url": "/images/fundamentals/programming.svg",
+    "icon_name": "programming",
     "description_en": "This is where it all begins. Learn the fundamentals of programming and computer science. Master the basics of algorithms, data structures, and networking. Whether you're a complete beginner or looking to solidify your foundation, this course will set you on the right path",
     "description_pt": "Este é o ponto de partida. Aprenda os fundamentos da programação e ciência da computação. Domine os conceitos básicos de algoritmos, estruturas de dados e redes. Seja você um iniciante ou alguém que deseja solidificar sua base, este curso o colocará no caminho certo",
     "lesson_names": [
@@ -13,7 +13,7 @@
   },
   {
     "name": "Fullstack JavaScript",
-    "image_url": "/images/languages/javascript.svg",
+    "icon_name": "javascript",
     "description_en": "Become a fullstack JavaScript developer and build dynamic web applications. JavaScript's versatility allows you to build for both the client and server, making you a valuable asset to any team. With Node.js, and React.js, you'll have the power to build scalable and maintainable fullstack applications",
     "description_pt": "Seja um desenvolvedor fullstack JavaScript e construa aplicações web dinâmicas. A versatilidade do JavaScript permite que você programe tanto no frontend quanto no backend, tornando-se um dev valioso para qualquer equipe. Com Node.js e React.js, você terá o poder de construir aplicações fullstack escaláveis e de fácil manutenção",
     "lesson_names": [
@@ -31,7 +31,7 @@
   },
   {
     "name": "React Frontend Expert",
-    "image_url": "/images/frameworks/react.svg",
+    "icon_name": "react",
     "description_en": "Master the React ecosystem and build dynamic, fast, and interactive user interfaces. React's component-based architecture and virtual DOM make it the perfect tool to craft modern web applications",
     "description_pt": "Masterize o ecossistema React e construa interfaces de usuário dinâmicas, rápidas e interativas. A arquitetura baseada em componentes e o DOM virtual do React o tornam a ferramenta perfeita para criar aplicações web modernas",
     "lesson_names": [
@@ -47,7 +47,7 @@
   },
   {
     "name": "Fullstack Elixir and Phoenix",
-    "image_url": "/images/frameworks/phoenix.svg",
+    "icon_name": "phoenix",
     "description_en": "Enter the world of Elixir and Phoenix: where speed meets reliability. Elixir's fault-tolerant design and Phoenix's high-performance framework make real-time applications a breeze. Say goodbye to bottlenecks and hello to seamless scalability. Whether it's massive data processing or interactive web experiences, Elixir and Phoenix empower you to conquer any challenge with ease",
     "description_pt": "Entre no mundo do Elixir e Phoenix: onde velocidade encontra confiabilidade. O design tolerante a falhas do Elixir e o framework de alto desempenho do Phoenix facilitam muito as aplicações em tempo real. Diga adeus aos gargalos e olá à escalabilidade perfeita. Seja para processamento de dados em massa ou experiências web interativas, Elixir e Phoenix capacitam você a superar qualquer desafio",
     "lesson_names": [
@@ -64,7 +64,7 @@
   },
   {
     "name": "Fullstack Ruby on Rails",
-    "image_url": "/images/frameworks/rails.svg",
+    "icon_name": "rails",
     "description_en": "Ruby on Rails: the epitome of web development elegance. Loved for its simplicity and productivity, Rails empowers you to build sophisticated web applications rapidly. With its convention-over-configuration philosophy and vast ecosystem of gems, Rails streamlines complex tasks, keeping your code organized and maintainable. Whether you're a seasoned developer or just starting, Rails offers a delightful experience, accelerating your project from concept to launch",
     "description_pt": "Ruby on Rails: o epítome da elegância do desenvolvimento web. Amado por sua simplicidade e produtividade, Rails permite que você construa rapidamente aplicações web sofisticadas. Com sua filosofia de convenção sobre configuração e vasto ecossistema de gems, Rails agiliza tarefas complexas, mantendo seu código organizado e de fácil manutenção. Seja você um desenvolvedor experiente ou apenas iniciante, Rails oferece uma experiência agradável, acelerando seu projeto desde o conceito até o lançamento",
     "lesson_names": [
@@ -81,7 +81,7 @@
   },
   {
     "name": "Fullstack Python and Django",
-    "image_url": "/images/frameworks/django.svg",
+    "icon_name": "django",
     "description_en": "Learn Python and Django and unlock the full potential of web development! Python's versatility paired with Django's high-level framework makes building robust web applications a breeze. With Django's batteries-included philosophy, everything you need for efficient development is at your fingertips.",
     "description_pt": "Aprenda Python e Django e desbloqueie todo o potencial do desenvolvimento web! A versatilidade do Python combinada com o framework de alto nível do Django torna a construção de aplicações web robustas uma tarefa fácil. Com a filosofia de batteries-included no Django, tudo o que você precisa para um desenvolvimento eficiente está ao seu alcance",
     "lesson_names": [
@@ -98,7 +98,7 @@
   },
   {
     "name": "Fullstack PHP and Laravel",
-    "image_url": "/images/frameworks/laravel.svg",
+    "icon_name": "laravel",
     "description_en": "Laravel is the PHP framework for web artisans. With its expressive and elegant syntax, Laravel makes it a breeze to build high-quality web applications. Whether you're a seasoned developer or just starting, Laravel is a joy to work with. Its vast ecosystem of tools and libraries, as well as its powerful abstractions, make complex tasks simple, and the process enjoyable",
     "description_pt": "Laravel é o framework PHP para artesãos da web. Com sua sintaxe expressiva e elegante, Laravel torna a construção de aplicações web de alta qualidade uma tarefa fácil. Seja você um desenvolvedor experiente ou apenas iniciante, Laravel é um prazer para trabalhar. Seu vasto ecossistema de ferramentas e bibliotecas, bem como suas poderosas abstrações, tornam tarefas complexas simples e o processo agradável",
     "lesson_names": [
@@ -115,7 +115,7 @@
   },
   {
     "name": "Fullstack Java and Spring",
-    "image_url": "/images/frameworks/spring.svg",
+    "icon_name": "spring",
     "description_en": "Master Java and Spring for robust, scalable web applications. Dive deep into Spring's powerful features for dependency injection, MVC architecture, and enterprise-level solutions. Gain expertise in Java fundamentals and Spring's ecosystem to elevate your programming skills",
     "description_pt": "Domine Java e Spring para aplicações web robustas e escaláveis. Aprofunde-se nos recursos poderosos do Spring para injeção de dependência, arquitetura MVC e soluções de nível empresarial. Adquira conhecimento em fundamentos de Java e no ecossistema do Spring para elevar suas habilidades de programação",
     "lesson_names": [
@@ -132,7 +132,7 @@
   },
   {
     "name": "Shopify Development",
-    "image_url": "/images/tools/shopify.svg",
+    "icon_name": "shopify",
     "description_en": "Start your journey as a Shopify developer and build custom e-commerce solutions. Learn how to create themes, apps, and plugins to enhance the Shopify experience for merchants and customers. With Shopify's powerful APIs and Liquid templating language, you'll have the tools to create unique and engaging online stores",
     "description_pt": "Comece sua jornada como desenvolvedor Shopify e construa soluções de e-commerce personalizadas. Aprenda a criar temas, aplicativos e plugins para aprimorar a experiência do Shopify para comerciantes e clientes. Com as poderosas APIs do Shopify e a linguagem de template Liquid, você terá as ferramentas para criar lojas online únicas e envolventes",
     "lesson_names": ["HTML", "CSS", "JavaScript", "Shopify", "Liquid"]

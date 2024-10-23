@@ -16,7 +16,7 @@ defmodule Techschool.LanguagesFixtures do
     {:ok, language} =
       attrs
       |> Enum.into(%{
-        image_url: "some image_url",
+        icon_name: "some icon_name",
         name: unique_language_name()
       })
       |> Techschool.Languages.create_language()

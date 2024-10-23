@@ -1,18 +1,18 @@
 [
   {
     "name": "Programming",
-    "image_url": "/images/fundamentals/programming.svg"
+    "icon_name": "programming"
   },
   {
     "name": "Computer Science",
-    "image_url": "/images/fundamentals/computer-science.svg"
+    "icon_name": "computer-science"
   },
   {
     "name": "Networking",
-    "image_url": "/images/fundamentals/networking.svg"
+    "icon_name": "networking"
   },
   {
     "name": "Algorithms",
-    "image_url": "/images/fundamentals/algorithms.svg"
+    "icon_name": "algorithms"
   }
 ]

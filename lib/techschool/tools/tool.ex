@@ -4,7 +4,7 @@ defmodule Techschool.Tools.Tool do
 
   schema "tools" do
     field :name, :string
-    field :image_url, :string
+    field :icon_name, :string
     many_to_many :courses, Techschool.Courses.Course, join_through: "courses_tools"
     many_to_many :platforms, Techschool.Platforms.Platform, join_through: "platforms_tools"
 
@@ -14,8 +14,8 @@ defmodule Techschool.Tools.Tool do
   @doc false
   def changeset(tool, attrs) do
     tool
-    |> cast(attrs, [:name, :image_url])
-    |> validate_required([:name, :image_url])
+    |> cast(attrs, [:name, :icon_name])
+    |> validate_required([:name, :icon_name])
     |> unique_constraint(:name)
   end
 end

@@ -8,7 +8,7 @@ defmodule Techschool.LanguagesTest do
 
     import Techschool.LanguagesFixtures
 
-    @invalid_attrs %{name: nil, image_url: 999}
+    @invalid_attrs %{name: nil, icon_name: 999}
 
     test "list_languages/0 returns all languages" do
       language = language_fixture()
@@ -23,12 +23,12 @@ defmodule Techschool.LanguagesTest do
     test "create_language/1 with valid data creates a language" do
       valid_attrs = %{
         name: "some name",
-        image_url: "some image_url"
+        icon_name: "some icon_name"
       }
 
       assert {:ok, %Language{} = language} = Languages.create_language(valid_attrs)
       assert language.name == "some name"
-      assert language.image_url == "some image_url"
+      assert language.icon_name == "some icon_name"
     end
 
     test "create_language/1 with invalid data returns error changeset" do

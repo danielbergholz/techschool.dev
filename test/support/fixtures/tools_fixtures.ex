@@ -17,7 +17,7 @@ defmodule Techschool.ToolsFixtures do
       attrs
       |> Enum.into(%{
         name: unique_tool_name(),
-        image_url: "some image_url"
+        icon_name: "some icon_name"
       })
       |> Techschool.Tools.create_tool()
 

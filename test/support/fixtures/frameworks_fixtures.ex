@@ -16,7 +16,7 @@ defmodule Techschool.FrameworksFixtures do
     {:ok, framework} =
       attrs
       |> Enum.into(%{
-        image_url: "some image_url",
+        icon_name: "some icon_name",
         name: unique_framework_name()
       })
       |> Techschool.Frameworks.create_framework()

@@ -2,7 +2,7 @@
   {
     "name": "Computer Science",
     "optional": false,
-    "image_url": "/images/fundamentals/computer-science.svg",
+    "icon_name": "computer-science",
     "description_en": "Computer science is the study of computer hardware and software and their applications in various fields. It includes the study of algorithms, data structures, and programming languages",
     "description_pt": "Ciência da computação é o estudo do hardware e software de computadores e suas aplicações em diversos campos. Inclui o estudo de algoritmos, estruturas de dados e linguagens de programação",
     "language_names": "",
@@ -13,7 +13,7 @@
   {
     "name": "Programming",
     "optional": false,
-    "image_url": "/images/fundamentals/programming.svg",
+    "icon_name": "programming",
     "description_en": "Programming is the process of creating a set of instructions that tell a computer how to perform a task. It is the foundation of software development and involves writing code in a programming language",
     "description_pt": "Programação é o processo de criar um conjunto de instruções que dizem a um computador como realizar uma tarefa. É a base do desenvolvimento de software e envolve escrever código em uma linguagem de programação",
     "language_names": "",
@@ -24,7 +24,7 @@
   {
     "name": "Networking",
     "optional": false,
-    "image_url": "/images/fundamentals/networking.svg",
+    "icon_name": "networking",
     "description_en": "Networking is the practice of connecting computers and other devices to share resources and information. It includes the study of network protocols, security, and the internet",
     "description_pt": "Redes é a prática de conectar computadores e outros dispositivos para compartilhar recursos e informações. Inclui o estudo de protocolos de rede, segurança e a internet",
     "language_names": "",
@@ -35,7 +35,7 @@
   {
     "name": "Algorithms",
     "optional": false,
-    "image_url": "/images/fundamentals/algorithms.svg",
+    "icon_name": "algorithms",
     "description_en": "Algorithms are a set of instructions for solving a problem or performing a task. They are the building blocks of computer programs and are used to manipulate data and perform operations",
     "description_pt": "Algoritmos são um conjunto de instruções para resolver um problema ou realizar uma tarefa. Eles são os blocos de construção de programas de computador e são usados para manipular dados e realizar operações",
     "language_names": "",
@@ -46,7 +46,7 @@
   {
     "name": "HTML",
     "optional": false,
-    "image_url": "/images/languages/html.svg",
+    "icon_name": "html",
     "description_en": "HTML is the standard markup language for creating Web pages",
     "description_pt": "HTML é a linguagem de marcação padrão para criar páginas da Web",
     "language_names": "HTML",
@@ -57,7 +57,7 @@
   {
     "name": "CSS",
     "optional": false,
-    "image_url": "/images/languages/css.svg",
+    "icon_name": "css",
     "description_en": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML",
     "description_pt": "Cascading Style Sheets (CSS) é uma linguagem de estilização usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML",
     "language_names": "CSS",
@@ -68,7 +68,7 @@
   {
     "name": "JavaScript",
     "optional": false,
-    "image_url": "/images/languages/javascript.svg",
+    "icon_name": "javascript",
     "description_en": "JavaScript is a programming language that adds dynamic functionality and complex features like interactivity and animation to web pages. Together with HTML and CSS, JavaScript forms the foundation of web development",
     "description_pt": "JavaScript é uma linguagem de programação que adiciona funcionalidades dinâmicas complexas como interatividade e animações a páginas da web. Junto com HTML e CSS, o JavaScript forma a base do desenvolvimento web",
     "language_names": "JavaScript",
@@ -79,7 +79,7 @@
   {
     "name": "TypeScript",
     "optional": false,
-    "image_url": "/images/languages/typescript.svg",
+    "icon_name": "typescript",
     "description_en": "TypeScript is a superset of JavaScript that adds static types to the language. It is designed for the development of large applications and transpiles to JavaScript",
     "description_pt": "TypeScript é um superset do JavaScript que adiciona tipagem estática à linguagem. É projetado para o desenvolvimento de grande aplicações e transpila para JavaScript",
     "language_names": "TypeScript",
@@ -90,7 +90,7 @@
   {
     "name": "Git",
     "optional": false,
-    "image_url": "/images/tools/git.svg",
+    "icon_name": "git",
     "description_en": "Git is a distributed version control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files",
     "description_pt": "Git é um sistema de controle de versão distribuído para rastrear mudanças no código fonte durante o desenvolvimento de software. Ele é projetado para coordenar o trabalho entre programadores, mas pode ser usado para rastrear mudanças em qualquer conjunto de arquivos",
     "language_names": "",
@@ -101,7 +101,7 @@
   {
     "name": "SQL",
     "optional": false,
-    "image_url": "/images/tools/sql.svg",
+    "icon_name": "sql",
     "description_en": "SQL (Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS)",
     "description_pt": "SQL (Structured Query Language) é uma linguagem específica de domínio usada em programação e projetada para gerenciar dados armazenados em um sistema de gerenciamento de banco de dados relacional (RDBMS)",
     "language_names": "",
@@ -112,7 +112,7 @@
   {
     "name": "Node.js",
     "optional": false,
-    "image_url": "/images/frameworks/node.svg",
+    "icon_name": "node",
     "description_en": "Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside of a web browser. It is used to build scalable backend applications",
     "description_pt": "Node.js é um ambiente de execução de JavaScript de código aberto e multiplataforma que executa código JavaScript fora de um navegador web. É usado para construir aplicações backend escaláveis",
     "language_names": "",
@@ -123,7 +123,7 @@
   {
     "name": "React.js",
     "optional": false,
-    "image_url": "/images/frameworks/react.svg",
+    "icon_name": "react",
     "description_en": "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of web or mobile applications",
     "description_pt": "React é uma biblioteca JavaScript para construir interfaces de usuário. É mantido pelo Facebook e uma comunidade de desenvolvedores individuais e empresas. React pode ser usado como base no desenvolvimento de aplicações web ou mobile",
     "language_names": "",
@@ -134,7 +134,7 @@
   {
     "name": "Next.js",
     "optional": false,
-    "image_url": "/images/frameworks/next.svg",
+    "icon_name": "next",
     "description_en": "Next.js is a modern React framework that enables features such as server-side rendering and static site generation",
     "description_pt": "Next.js é um framework moderno baseado no React que permite funcionalidades como renderização no lado do servidor e geração de sites estáticos",
     "language_names": "",
@@ -145,7 +145,7 @@
   {
     "name": "Remix.js",
     "optional": true,
-    "image_url": "/images/frameworks/remix.svg",
+    "icon_name": "remix",
     "description_en": "Remix is a full stack web framework that lets you focus on the user interface and work back through web standards to deliver a fast, slick, and resilient user experience. People are gonna love using your stuff",
     "description_pt": "Remix é um framework web full stack que permite que você se concentre na interface do usuário e trabalhe de volta através dos padrões da web para oferecer uma experiência do usuário rápida, elegante e resiliente. As pessoas vão adorar usar seus sites",
     "language_names": "",
@@ -156,7 +156,7 @@
   {
     "name": "Ruby",
     "optional": false,
-    "image_url": "/images/languages/ruby.svg",
+    "icon_name": "ruby",
     "description_en": "Ruby is a dynamic programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write",
     "description_pt": "Ruby é uma linguagem de programação dinâmica com foco em simplicidade e produtividade. Possui uma sintaxe elegante que é natural de ler e fácil de escrever",
     "language_names": "Ruby",
@@ -167,7 +167,7 @@
   {
     "name": "Rails",
     "optional": false,
-    "image_url": "/images/frameworks/rails.svg",
+    "icon_name": "rails",
     "description_en": "Rails is a web application development framework written in the Ruby programming language. It is designed to make web applications easier by making assumptions about what every developer needs to get started",
     "description_pt": "Rails é um framework de desenvolvimento web escrito na linguagem de programação Ruby. Ele é projetado para facilitar a programação de aplicações web, fazendo suposições sobre o que cada desenvolvedor precisa para começar",
     "language_names": "",
@@ -178,7 +178,7 @@
   {
     "name": "Python",
     "optional": false,
-    "image_url": "/images/languages/python.svg",
+    "icon_name": "python",
     "description_en": "Python is a high-level, interpreted programming language known for its simplicity and versatility. It is easy to learn and can be used to build web applications, analyze data, and automate tasks",
     "description_pt": "Python é uma linguagem de programação interpretada de alto nível conhecida por sua simplicidade e versatilidade. É fácil de aprender e pode ser usada para construir aplicações web, analisar dados e automatizar tarefas",
     "language_names": "Python",
@@ -189,7 +189,7 @@
   {
     "name": "Django",
     "optional": false,
-    "image_url": "/images/frameworks/django.svg",
+    "icon_name": "django",
     "description_en": "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It is used for building web applications and APIs",
     "description_pt": "Django é um framework web de alto nível para Python que incentiva o desenvolvimento rápido e um design limpo e pragmático. É usado para construir aplicações web e APIs",
     "language_names": "",
@@ -200,7 +200,7 @@
   {
     "name": "Java",
     "optional": false,
-    "image_url": "/images/languages/java.svg",
+    "icon_name": "java",
     "description_en": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is used for building enterprise-scale applications",
     "description_pt": "Java é uma linguagem de programação de alto nível, baseada em classes e orientada a objetos, projetada para ter o menor número possível de dependências de implementação. É usada para construir aplicações de escala empresarial",
     "language_names": "Java",
@@ -211,7 +211,7 @@
   {
     "name": "Spring",
     "optional": false,
-    "image_url": "/images/frameworks/spring.svg",
+    "icon_name": "spring",
     "description_en": "Spring makes programming Java quicker, easier, and safer for everybody. Spring's focus on speed, simplicity, and productivity has made it the world's most popular Java framework",
     "description_pt": "Spring torna a programação Java mais rápida, fácil e segura para todos. O foco do Spring em velocidade, simplicidade e produtividade o tornou o framework Java mais popular do mundo",
     "language_names": "",
@@ -222,7 +222,7 @@
   {
     "name": "PHP",
     "optional": false,
-    "image_url": "/images/languages/php.svg",
+    "icon_name": "php",
     "description_en": "PHP is a popular general-purpose scripting language that is especially suited to web development. It is fast, flexible, and pragmatic, and powers everything from your blog to the most popular websites in the world",
     "description_pt": "PHP é uma linguagem popular de script de propósito geral que é especialmente adequada para o desenvolvimento web. É rápida, flexível e pragmática, e alimenta desde o seu blog até os sites mais populares do mundo",
     "language_names": "PHP",
@@ -233,7 +233,7 @@
   {
     "name": "Laravel",
     "optional": false,
-    "image_url": "/images/frameworks/laravel.svg",
+    "icon_name": "laravel",
     "description_en": "Laravel is a web application framework with expressive, elegant syntax. The foundation is already laid for you, freeing you to create without sweating the small things",
     "description_pt": "Laravel é um framework de aplicação web com uma sintaxe expressiva e elegante. Com uma base bem estabelecida, você pode programar sem se preocupar com os pequenos detalhes",
     "language_names": "",
@@ -244,7 +244,7 @@
   {
     "name": "Elixir",
     "optional": false,
-    "image_url": "/images/languages/elixir.svg",
+    "icon_name": "elixir",
     "description_en": "Elixir is a dynamic, functional language designed for building scalable and maintainable applications. It is built on top of the Erlang VM and is known for its low-latency and fault-tolerant systems",
     "description_pt": "Elixir é uma linguagem dinâmica e funcional projetada para construir aplicações escaláveis e de fácil manutenção. É construída em cima da máquina virtual Erlang e é conhecida por seus sistemas de baixa latência e tolerantes a falhas",
     "language_names": "Elixir",
@@ -255,7 +255,7 @@
   {
     "name": "Phoenix",
     "optional": false,
-    "image_url": "/images/frameworks/phoenix.svg",
+    "icon_name": "phoenix",
     "description_en": "Phoenix is a web development framework written in Elixir that implements the server-side Model-View-Controller (MVC) pattern. It is known for its high performance and real-time capabilities",
     "description_pt": "Phoenix é um framework de desenvolvimento web escrito em Elixir que implementa o padrão Model-View-Controller (MVC) no lado do servidor. É conhecido por seu alto desempenho e capacidades em tempo real",
     "language_names": "",
@@ -266,7 +266,7 @@
   {
     "name": "Linux",
     "optional": true,
-    "image_url": "/images/tools/linux.svg",
+    "icon_name": "linux",
     "description_en": "Learning the linux terminal is a great way to improve your programming skills. It allows you to interact with your computer in a way that is not possible with a graphical user interface",
     "description_pt": "Aprender o terminal do linux é uma ótima maneira de melhorar suas habilidades de programação. Ele permite que você interaja com o seu computador de uma maneira que não é possível com uma interface gráfica",
     "language_names": "",
@@ -277,7 +277,7 @@
   {
     "name": "Docker",
     "optional": true,
-    "image_url": "/images/tools/docker.svg",
+    "icon_name": "docker",
     "description_en": "Docker is a platform for developers and sysadmins to develop, deploy, and run applications with containers. The use of containers to deploy applications is called containerization",
     "description_pt": "Docker é uma plataforma para desenvolvedores e administradores de sistemas desenvolverem, implantarem e executarem aplicações com contêineres. O uso de contêineres para implantar aplicações é chamado de containerização",
     "language_names": "",
@@ -288,7 +288,7 @@
   {
     "name": "Shopify",
     "optional": false,
-    "image_url": "/images/tools/shopify.svg",
+    "icon_name": "shopify",
     "description_en": "Shopify is a complete commerce platform that lets anyone start, manage, and grow a business. You can use Shopify to build an online store, manage sales, market to customers, and accept payments in digital and physical locations.",
     "description_pt": "Shopify é uma plataforma de e-commerce completa que permite qualquer pessoa iniciar, gerenciar e expandir um negócio. Você pode usar o Shopify para construir uma loja online, gerenciar vendas, fazer marketing e aceitar pagamentos em locais digitais e físicos.",
     "language_names": "",
@@ -299,7 +299,7 @@
   {
     "name": "Liquid",
     "optional": false,
-    "image_url": "/images/languages/liquid.svg",
+    "icon_name": "liquid",
     "description_en": "Liquid is an open-source template language created by Shopify and written in Ruby. It is the backbone of Shopify themes and is used to load dynamic content on storefronts",
     "description_pt": "Liquid é uma linguagem de template open-source criada pelo Shopify e escrita em Ruby. Ela é a base por trás dos temas do Shopify e é usada para carregar conteúdo dinâmico nas lojas online",
     "language_names": "Liquid",

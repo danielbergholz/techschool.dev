@@ -6,7 +6,7 @@ defmodule Techschool.LessonsJSONTest do
     types: %{
       name: :string,
       optional: :boolean,
-      image_url: :string,
+      icon_name: :string,
       description_en: :string,
       description_pt: :string,
       language_names: :string,
@@ -14,7 +14,7 @@ defmodule Techschool.LessonsJSONTest do
       tool_names: :string,
       fundamentals_names: :string
     },
-    required: [:name, :optional, :image_url, :description_en, :description_pt]
+    required: [:name, :optional, :icon_name, :description_en, :description_pt]
 
   setup_all do
     {:ok, lessons: get_json()}

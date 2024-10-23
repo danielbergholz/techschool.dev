@@ -1,54 +1,54 @@
 [
   {
     "name": "HTML",
-    "image_url": "/images/languages/html.svg"
+    "icon_name": "html"
   },
   {
     "name": "CSS",
-    "image_url": "/images/languages/css.svg"
+    "icon_name": "css"
   },
   {
     "name": "JavaScript",
-    "image_url": "/images/languages/javascript.svg"
+    "icon_name": "javascript"
   },
   {
     "name": "TypeScript",
-    "image_url": "/images/languages/typescript.svg"
+    "icon_name": "typescript"
   },
   {
     "name": "Elixir",
-    "image_url": "/images/languages/elixir.svg"
+    "icon_name": "elixir"
   },
   {
     "name": "Gleam",
-    "image_url": "/images/languages/gleam.svg"
+    "icon_name": "gleam"
   },
   {
     "name": "Ruby",
-    "image_url": "/images/languages/ruby.svg"
+    "icon_name": "ruby"
   },
   {
     "name": "Python",
-    "image_url": "/images/languages/python.svg"
+    "icon_name": "python"
   },
   {
     "name": "Java",
-    "image_url": "/images/languages/java.svg"
+    "icon_name": "java"
   },
   {
     "name": "PHP",
-    "image_url": "/images/languages/php.svg"
+    "icon_name": "php"
   },
   {
     "name": "Liquid",
-    "image_url": "/images/languages/liquid.svg"
+    "icon_name": "liquid"
   },
   {
     "name": "Golang",
-    "image_url": "/images/languages/golang.svg"
+    "icon_name": "golang"
   },
   {
     "name": "C",
-    "image_url": "/images/languages/c.svg"
+    "icon_name": "c"
   }
 ]

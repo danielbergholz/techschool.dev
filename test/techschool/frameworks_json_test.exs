@@ -3,7 +3,7 @@ defmodule Techschool.FrameworksJSONTest do
 
   use Techschool.JSONValidator,
     path: "priv/repo/data/frameworks.json",
-    types: %{name: :string, image_url: :string},
+    types: %{name: :string, icon_name: :string},
     required: [:name]
 
   setup_all do

@@ -5,9 +5,9 @@ defmodule Techschool.ToolsJSONTest do
     path: "priv/repo/data/tools.json",
     types: %{
       name: :string,
-      image_url: :string
+      icon_name: :string
     },
-    required: [:name, :image_url]
+    required: [:name, :icon_name]
 
   setup_all do
     {:ok, tools: get_json()}

@@ -18,7 +18,7 @@ defmodule Techschool.BootcampsFixtures do
       |> Enum.into(%{
         description_en: "some description_en",
         description_pt: "some description_pt",
-        image_url: "some image_url",
+        icon_name: "some icon_name",
         name: unique_bootcamp_name()
       })
       |> Techschool.Bootcamps.create_bootcamp(opts)

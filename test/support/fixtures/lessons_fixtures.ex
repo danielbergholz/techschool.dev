@@ -19,7 +19,7 @@ defmodule Techschool.LessonsFixtures do
         description_en: "some description_en",
         description_pt: "some description_pt",
         framework_names: "some framework_names",
-        image_url: "some image_url",
+        icon_name: "some icon_name",
         language_names: "some language_names",
         name: unique_lesson_name(),
         optional: true,

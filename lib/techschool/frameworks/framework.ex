@@ -4,7 +4,7 @@ defmodule Techschool.Frameworks.Framework do
 
   schema "frameworks" do
     field :name, :string
-    field :image_url, :string
+    field :icon_name, :string
     many_to_many :courses, Techschool.Courses.Course, join_through: "courses_frameworks"
     many_to_many :platforms, Techschool.Platforms.Platform, join_through: "platforms_frameworks"
 
@@ -14,8 +14,8 @@ defmodule Techschool.Frameworks.Framework do
   @doc false
   def changeset(framework, attrs) do
     framework
-    |> cast(attrs, [:name, :image_url])
-    |> validate_required([:name])
+    |> cast(attrs, [:name, :icon_name])
+    |> validate_required([:name, :icon_name])
     |> unique_constraint(:name)
   end
 end

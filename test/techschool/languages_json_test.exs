@@ -5,7 +5,7 @@ defmodule Techschool.LanguagesJSONTest do
     path: "priv/repo/data/languages.json",
     types: %{
       name: :string,
-      image_url: :string
+      icon_name: :string
     },
     required: [:name]
 

@@ -5,7 +5,7 @@ defmodule Techschool.Bootcamps.Bootcamp do
   schema "bootcamps" do
     field :name, :string
     field :slug, :string, virtual: true
-    field :image_url, :string
+    field :icon_name, :string
     field :description_en, :string
     field :description_pt, :string
     many_to_many :lessons, Techschool.Lessons.Lesson, join_through: "bootcamps_lessons"
@@ -18,8 +18,8 @@ defmodule Techschool.Bootcamps.Bootcamp do
     lessons = Keyword.get(opts, :lessons, [])
 
     bootcamp
-    |> cast(attrs, [:name, :image_url, :description_en, :description_pt])
-    |> validate_required([:name, :image_url, :description_en, :description_pt])
+    |> cast(attrs, [:name, :icon_name, :description_en, :description_pt])
+    |> validate_required([:name, :icon_name, :description_en, :description_pt])
     |> unique_constraint(:name)
     |> put_assoc(:lessons, lessons)
   end

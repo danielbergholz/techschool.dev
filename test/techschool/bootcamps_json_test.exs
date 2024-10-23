@@ -5,12 +5,12 @@ defmodule Techschool.BootcampsJSONTest do
     path: "priv/repo/data/bootcamps.json",
     types: %{
       name: :string,
-      image_url: :string,
+      icon_name: :string,
       description_en: :string,
       description_pt: :string,
       lesson_names: {:array, :string}
     },
-    required: [:name, :image_url, :description_en, :description_pt]
+    required: [:name, :icon_name, :description_en, :description_pt]
 
   setup_all do
     {:ok, bootcamps: get_json()}

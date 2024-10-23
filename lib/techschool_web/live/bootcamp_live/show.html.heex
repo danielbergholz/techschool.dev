@@ -3,13 +3,11 @@
   aria-label={"Lessons from the '#{@bootcamp.name}' bootcamp"}
 >
   <div class="flex flex-col items-center mb-6">
-    <img
-      class="w-36 md:w-44 h-auto"
-      width="176"
-      height="176"
-      src={@bootcamp.image_url}
-      alt={@bootcamp.name}
+    <.custom_icon
+      name={@bootcamp.icon_name}
+      class="w-36 md:w-44 h-36 md:h-44 shrink-0 object-contain"
     />
+
     <h1 class="text-xl md:text-2xl font-bold mt-2 text-center"><%= @bootcamp.name %></h1>
   </div>
   <div class="flex flex-col justify-center gap-6 md:gap-8">

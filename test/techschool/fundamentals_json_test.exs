@@ -5,9 +5,9 @@ defmodule Techschool.FundamentalsJSONTest do
     path: "priv/repo/data/fundamentals.json",
     types: %{
       name: :string,
-      image_url: :string
+      icon_name: :string
     },
-    required: [:name, :image_url]
+    required: [:name, :icon_name]
 
   setup_all do
     {:ok, fundamentals: get_json()}

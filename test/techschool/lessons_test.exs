@@ -11,7 +11,7 @@ defmodule Techschool.LessonsTest do
     @invalid_attrs %{
       name: nil,
       optional: nil,
-      image_url: nil,
+      icon_name: nil,
       description_en: nil,
       description_pt: nil,
       language_names: nil,
@@ -33,7 +33,7 @@ defmodule Techschool.LessonsTest do
       valid_attrs = %{
         name: "some name",
         optional: true,
-        image_url: "some image_url",
+        icon_name: "some icon_name",
         description_en: "some description_en",
         description_pt: "some description_pt",
         language_names: "some language_names",
@@ -44,7 +44,7 @@ defmodule Techschool.LessonsTest do
       assert {:ok, %Lesson{} = lesson} = Lessons.create_lesson(valid_attrs)
       assert lesson.name == "some name"
       assert lesson.optional == true
-      assert lesson.image_url == "some image_url"
+      assert lesson.icon_name == "some icon_name"
       assert lesson.description_en == "some description_en"
       assert lesson.description_pt == "some description_pt"
       assert lesson.language_names == "some language_names"
