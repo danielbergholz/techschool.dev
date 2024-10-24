@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="csrf-token" content={get_csrf_token()} />
+
     <.live_title>
       <%= assigns[:page_title] || "TechSchool" %>
     </.live_title>
@@ -11,33 +12,43 @@
       name="description"
       content={
         assigns[:page_description] ||
-          gettext("TechSchool is a platform for learning programming, 100% free and open source!")
+          gettext(
+            "TechSchool is a free and open-source platform where anyone can dive into programming and start learning today!"
+          )
       }
     />
+
     <meta property="og:site_name" content="TechSchool" />
     <meta property="og:title" content={assigns[:page_title] || "TechSchool"} />
-    <meta property="twitter:title" content={assigns[:page_title] || "TechSchool"} />
+    <meta property="og:image" content="https://techschool.dev/images/og.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={"https://techschool.dev" <> @conn.request_path} />
     <meta
       property="og:description"
       content={
         assigns[:page_description] ||
-          gettext("TechSchool is a platform for learning programming, 100% free and open source!")
+          gettext(
+            "TechSchool is a free and open-source platform where anyone can dive into programming and start learning today!"
+          )
       }
     />
+
+    <meta name="twitter:title" content={assigns[:page_title] || "TechSchool"} />
+    <meta name="twitter:image" content="https://techschool.dev/images/og.png" />
+    <meta name="twitter:image:width" content="1200" />
+    <meta name="twitter:image:height" content="630" />
+    <meta name="twitter:creator" content="@danielbergholz" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta
-      property="twitter:description"
+      name="twitter:description"
       content={
         assigns[:page_description] ||
-          gettext("TechSchool is a platform for learning programming, 100% free and open source!")
+          gettext(
+            "TechSchool is a free and open-source platform where anyone can dive into programming and start learning today!"
+          )
       }
     />
-    <meta property="og:image" content="https://techschool.dev/images/og.png" />
-    <meta property="twitter:image" content="https://techschool.dev/images/og.png" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content={"https://techschool.dev" <> @conn.request_path} />
-    <meta name="twitter:card" content="summary" />
-    <link rel="canonical" href={"https://techschool.dev" <> @conn.request_path} />
-    <link phx-track-static rel="stylesheet" href={~p"/assets/app.css"} />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -57,6 +68,9 @@
         rel="stylesheet"
       />
     </noscript>
+
+    <link rel="canonical" href={"https://techschool.dev" <> @conn.request_path} />
+    <link phx-track-static rel="stylesheet" href={~p"/assets/app.css"} />
     <script defer data-domain="techschool.dev" src="https://plausible.io/js/script.js">
     </script>
     <script defer phx-track-static type="text/javascript" src={~p"/assets/app.js"}>
