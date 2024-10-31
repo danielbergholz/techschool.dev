@@ -38,7 +38,10 @@ defmodule Techschool.Channels do
   def get_channel!(id), do: Repo.get!(Channel, id) |> add_channel_url()
 
   def get_channel_by_youtube_channel_id(youtube_channel_id) do
-    Repo.get_by!(Channel, youtube_channel_id: youtube_channel_id) |> add_channel_url()
+    case Repo.get_by(Channel, youtube_channel_id: youtube_channel_id) do
+      nil -> nil
+      channel -> add_channel_url(channel)
+    end
   end
 
   def add_channel_url(%Channel{} = channel) do
