@@ -12,7 +12,7 @@ This is a [Phoenix](https://www.phoenixframework.org/) project bootstrapped with
 
 If you just want to seed the database with courses, run `mix seed` or `mix ecto.reset` to drop the database, re-run the migrations and seed the database.
 
-This is all it takes to get a complete replica of TechSchool running on your local machine, including all the courses and channels! We are using a bunch of json files from `priv/repo/data` to seed the database, which is SQLite3, so you don't need to install any extra software like docker or postgres. Pretty neat, huh?
+This is all it takes to get a replica of TechSchool running on your local machine, including courses and channels! We are using a bunch of json files from `priv/repo/data` to seed the database, which is SQLite3, so you don't need to install any extra software like docker or postgres. Pretty neat, huh?
 
 ## Learn more
 

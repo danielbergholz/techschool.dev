@@ -1,4 +1,4 @@
-defmodule Techschool.Helpers.Seed do
+defmodule Techschool.Helpers.SeedLocal do
   alias Techschool.{
     Languages,
     Frameworks,
@@ -8,8 +8,7 @@ defmodule Techschool.Helpers.Seed do
     Tools,
     Fundamentals,
     Bootcamps,
-    Lessons,
-    YouTube
+    Lessons
   }
 
   def call(data_folder_path \\ "priv/repo/data") do
@@ -20,7 +19,8 @@ defmodule Techschool.Helpers.Seed do
     seed_fundamentals!(data_folder_path)
     seed_lessons!(data_folder_path)
     seed_bootcamps!(data_folder_path)
-    seed_courses_and_channels!(data_folder_path)
+    seed_channels!(data_folder_path)
+    seed_courses!(data_folder_path)
     seed_platforms!(data_folder_path)
   end
 
@@ -73,50 +73,29 @@ defmodule Techschool.Helpers.Seed do
     |> Enum.each(&Lessons.create_lesson!(&1))
   end
 
-  defp seed_courses_and_channels!(data_folder_path) do
-    "#{data_folder_path}/courses.json"
+  defp seed_channels!(data_folder_path) do
+    "#{data_folder_path}/channels_local.json"
     |> File.read!()
     |> Jason.decode!(keys: :atoms)
-    |> Enum.each(&fetch_and_create_course!/1)
+    |> Enum.each(&Channels.create_channel!(&1))
   end
 
-  defp fetch_and_create_course!(course) do
-    course_from_youtube =
-      YouTube.fetch_course(course)
+  defp seed_courses!(data_folder_path) do
+    "#{data_folder_path}/courses_local.json"
+    |> File.read!()
+    |> Jason.decode!(keys: :atoms)
+    |> Enum.each(&insert_course!/1)
+  end
 
-    fetch_and_create_channel!(course_from_youtube["channelId"])
-
-    formatted_course = %{
-      name: course_from_youtube["title"],
-      image_url: course_from_youtube["thumbnails"]["standard"]["url"],
-      locale: course[:locale],
-      type: course[:type],
-      published_at: course_from_youtube["publishedAt"],
-      youtube_course_id: course[:youtube_course_id]
-    }
-
+  defp insert_course!(course) do
     Courses.create_course!(
-      course_from_youtube["channelId"],
-      formatted_course,
+      course[:youtube_channel_id],
+      course,
       language_names: course[:language_names],
       framework_names: course[:framework_names],
       tool_names: course[:tool_names],
       fundamentals_names: course[:fundamentals_names]
     )
-  end
-
-  defp fetch_and_create_channel!(channel_id) do
-    with nil <- Channels.get_channel_by_youtube_channel_id(channel_id) do
-      channel_from_youtube = YouTube.fetch_channel(channel_id)
-
-      formatted_channel = %{
-        name: channel_from_youtube["title"],
-        image_url: channel_from_youtube["thumbnails"]["default"]["url"],
-        youtube_channel_id: channel_id
-      }
-
-      Channels.create_channel!(formatted_channel)
-    end
   end
 
   defp seed_platforms!(data_folder_path) do

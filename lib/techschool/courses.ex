@@ -131,6 +131,18 @@ defmodule Techschool.Courses do
     |> add_course_and_channel_urls()
   end
 
+  def get_course_by_youtube_course_id(youtube_course_id) do
+    case Repo.get_by(Course, youtube_course_id: youtube_course_id) do
+      nil ->
+        nil
+
+      course ->
+        course
+        |> Repo.preload(:channel)
+        |> add_course_and_channel_urls()
+    end
+  end
+
   @doc """
   Creates a course and associates it with a channel.
 

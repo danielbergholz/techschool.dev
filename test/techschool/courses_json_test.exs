@@ -8,8 +8,6 @@ defmodule Techschool.CoursesJSONTest do
       youtube_course_id: :string,
       type: :string,
       locale: :string,
-      image_url: :string,
-      published_at: :string,
       language_names: {:array, :string},
       framework_names: {:array, :string},
       tool_names: {:array, :string},
@@ -17,10 +15,8 @@ defmodule Techschool.CoursesJSONTest do
     },
     required: [
       :name,
-      :image_url,
       :locale,
       :type,
-      :published_at,
       :youtube_course_id
     ]
 

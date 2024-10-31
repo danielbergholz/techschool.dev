@@ -9,4 +9,4 @@
 #
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
-Techschool.Helpers.Seed.call()
+Techschool.Helpers.SeedLocal.call()
