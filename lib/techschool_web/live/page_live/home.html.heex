@@ -8,9 +8,16 @@
         <h2 class="text-gray mt-2 md:text-lg text-base">
           <%= gettext("Go from zero to your first job without any financial loss") %>
         </h2>
+
         <div class="flex flex-col md:flex-row items-center mt-4 gap-4 ">
           <.translate_button inverse_locale={inverse_locale(@locale)} />
           <.show_online_users count={@online_users_count} />
+          <p
+            :if={@last_updated}
+            class="px-4 py-2 font-semibold text-sm rounded-md bg-slate-800 w-max"
+          >
+            <%= @last_updated %>
+          </p>
         </div>
       </div>
       <img

@@ -21,7 +21,7 @@ msgstr ""
 msgid "Actions"
 msgstr ""
 
-#: lib/techschool_web/components/layouts/components/navbar.html.heex:14
+#: lib/techschool_web/components/layouts/components/navbar.html.heex:10
 #: lib/techschool_web/live/course_live/index.ex:47
 #, elixir-autogen, elixir-format
 msgid "Courses"
@@ -32,7 +32,7 @@ msgstr ""
 msgid "Developed by"
 msgstr ""
 
-#: lib/techschool_web/live/page_live/home.html.heex:110
+#: lib/techschool_web/live/page_live/home.html.heex:92
 #, elixir-autogen, elixir-format
 msgid "Our mission"
 msgstr ""
@@ -53,12 +53,12 @@ msgstr ""
 msgid "Translate"
 msgstr "Traduzir"
 
-#: lib/techschool_web/live/page_live/home.html.heex:113
+#: lib/techschool_web/live/page_live/home.html.heex:95
 #, elixir-autogen, elixir-format
 msgid "TechSchool is all about making tech education accessible to everyone for free. There are tons of awesome courses online, but we don't have big bucks for marketing. So, newbies often run into the expensive courses first, making it seem like you have to shell out a ton of money."
 msgstr ""
 
-#: lib/techschool_web/live/page_live/home.html.heex:119
+#: lib/techschool_web/live/page_live/home.html.heex:101
 #, elixir-autogen, elixir-format
 msgid "That's where TechSchool steps in. We're here to shine a light on those awesome free courses that might be flying under the radar. Our website has a bunch of courses covering different areas. The goal? Help anyone go from zero to landing their first job without breaking the bank. We want to tackle the expensive course culture and make tech education fair and equal for everyone."
 msgstr ""
@@ -83,13 +83,6 @@ msgstr ""
 msgid "Find the best courses to learn programming! Search by name or filter by language and framework."
 msgstr ""
 
-#: lib/techschool_web/components/layouts/root.html.heex:14
-#: lib/techschool_web/components/layouts/root.html.heex:24
-#: lib/techschool_web/components/layouts/root.html.heex:31
-#, elixir-autogen, elixir-format
-msgid "TechSchool is a platform for learning programming, 100% free and open source!"
-msgstr ""
-
 #: lib/techschool_web/live/course_live/index.html.heex:33
 #, elixir-autogen, elixir-format
 msgid "Load More"
@@ -111,13 +104,13 @@ msgstr ""
 msgid "TechSchool offers a variety of bootcamps to help you learn the skills you need to start a new career in tech."
 msgstr ""
 
-#: lib/techschool_web/live/bootcamp_live/show.html.heex:24
+#: lib/techschool_web/live/bootcamp_live/show.html.heex:22
 #, elixir-autogen, elixir-format
 msgid "Back"
 msgstr ""
 
-#: lib/techschool_web/live/bootcamp_live/components/lesson_card.html.heex:18
-#: lib/techschool_web/live/bootcamp_live/components/lesson_card.html.heex:18
+#: lib/techschool_web/live/bootcamp_live/components/lesson_card.html.heex:15
+#: lib/techschool_web/live/bootcamp_live/components/lesson_card.html.heex:15
 #, elixir-autogen, elixir-format
 msgid "optional"
 msgstr ""
@@ -133,17 +126,65 @@ msgstr ""
 msgid "Fundamentals"
 msgstr ""
 
-#: lib/techschool_web/live/page_live/home.html.heex:132
+#: lib/techschool_web/live/page_live/home.html.heex:114
 #, elixir-autogen, elixir-format
 msgid "Huge thanks to our contributors"
 msgstr ""
 
-#: lib/techschool_web/live/page_live/home.html.heex:160
+#: lib/techschool_web/live/page_live/home.html.heex:142
 #, elixir-autogen, elixir-format
 msgid "Add course to TechSchool"
 msgstr ""
 
-#: lib/techschool_web/components/online_users.ex:20
+#: lib/techschool_web/components/online_users.ex:18
+#: lib/techschool_web/components/online_users.ex:32
 #, elixir-autogen, elixir-format
 msgid "user"
+msgstr ""
+
+#: lib/techschool/helpers/time.ex:8
+#, elixir-autogen, elixir-format
+msgid "%{time} %{unit} ago"
+msgstr ""
+
+#: lib/techschool/courses.ex:214
+#, elixir-autogen, elixir-format
+msgid "Last updated: "
+msgstr ""
+
+#: lib/techschool_web/components/layouts/root.html.heex:15
+#: lib/techschool_web/components/layouts/root.html.heex:30
+#: lib/techschool_web/components/layouts/root.html.heex:46
+#, elixir-autogen, elixir-format
+msgid "TechSchool is a free and open-source platform where anyone can dive into programming and start learning today!"
+msgstr ""
+
+#: lib/techschool/helpers/time.ex:29
+#, elixir-autogen, elixir-format
+msgid "day"
+msgstr ""
+
+#: lib/techschool/helpers/time.ex:25
+#, elixir-autogen, elixir-format
+msgid "hour"
+msgstr ""
+
+#: lib/techschool/helpers/time.ex:21
+#, elixir-autogen, elixir-format
+msgid "minute"
+msgstr ""
+
+#: lib/techschool/helpers/time.ex:36
+#, elixir-autogen, elixir-format
+msgid "month"
+msgstr ""
+
+#: lib/techschool/helpers/time.ex:39
+#, elixir-autogen, elixir-format
+msgid "months"
+msgstr ""
+
+#: lib/techschool/helpers/time.ex:17
+#, elixir-autogen, elixir-format
+msgid "second"
 msgstr ""

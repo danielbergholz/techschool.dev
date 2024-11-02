@@ -2,11 +2,11 @@ defmodule Techschool.Courses do
   @moduledoc """
   The Courses context.
   """
+  use Gettext, backend: TechschoolWeb.Gettext
 
   import Ecto.Query, warn: false
-  alias Techschool.Repo
 
-  alias Techschool.{Channels, Languages, Frameworks, Tools, Fundamentals, Locale}
+  alias Techschool.{Channels, Languages, Frameworks, Tools, Fundamentals, Locale, Helpers, Repo}
   alias Techschool.Courses.Course
 
   @doc """
@@ -207,6 +207,16 @@ defmodule Techschool.Courses do
       fundamentals: fundamentals
     )
     |> Repo.insert!()
+  end
+
+  def last_updated do
+    with %Course{inserted_at: inserted_at} <- last_course() do
+      Helpers.Time.format_time_ago(inserted_at, prefix: gettext("Last updated: "))
+    end
+  end
+
+  def last_course do
+    Repo.one(from c in Course, order_by: [desc: c.inserted_at], limit: 1)
   end
 
   @doc """

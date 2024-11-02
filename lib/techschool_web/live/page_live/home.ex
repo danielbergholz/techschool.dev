@@ -1,7 +1,7 @@
 defmodule TechschoolWeb.PageLive.Home do
   use TechschoolWeb, :live_view
 
-  alias Techschool.GitHub
+  alias Techschool.{GitHub, Courses}
   alias TechschoolWeb.OnlineUsersCounter
 
   embed_templates "components/*"
@@ -20,16 +20,16 @@ defmodule TechschoolWeb.PageLive.Home do
   def mount(_params, _session, socket) do
     if connected?(socket) do
       Phoenix.PubSub.subscribe(Techschool.PubSub, OnlineUsersCounter.online_users_topic())
-
       OnlineUsersCounter.track_online_user()
     end
 
     socket
+    |> assign(:page_title, "TechSchool")
+    |> assign(:online_users_count, 0)
+    |> assign(:last_updated, Courses.last_updated())
     |> assign_async(:github_contributors, fn ->
       {:ok, %{github_contributors: GitHub.get_contributors()}}
     end)
-    |> assign(:page_title, "TechSchool")
-    |> assign(:online_users_count, 0)
     |> ok()
   end
 
