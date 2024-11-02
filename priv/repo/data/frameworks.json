@@ -40,6 +40,10 @@
     "icon_name": "remix"
   },
   {
+    "name": "React Router",
+    "icon_name": "react-router"
+  },
+  {
     "name": "Angular",
     "icon_name": "angular"
   },
