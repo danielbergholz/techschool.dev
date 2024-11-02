@@ -7,10 +7,6 @@ defmodule Techschool.Helpers.ResetDb do
     reset_courses = Keyword.get(opts, :reset_courses, false)
 
     tables = [
-      Techschool.Languages.Language,
-      Techschool.Frameworks.Framework,
-      Techschool.Tools.Tool,
-      Techschool.Fundamentals.Fundamental,
       Techschool.Lessons.Lesson,
       Techschool.Bootcamps.Bootcamp,
       Techschool.Platforms.Platform
@@ -20,6 +16,10 @@ defmodule Techschool.Helpers.ResetDb do
       if reset_courses do
         tables ++
           [
+            Techschool.Languages.Language,
+            Techschool.Frameworks.Framework,
+            Techschool.Tools.Tool,
+            Techschool.Fundamentals.Fundamental,
             Techschool.Courses.Course,
             Techschool.Channels.Channel
           ]
