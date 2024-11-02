@@ -132,24 +132,24 @@
     "fundamentals_names": ""
   },
   {
-    "name": "Next.js",
+    "name": "React Router",
     "optional": false,
+    "icon_name": "react-router",
+    "description_en": "React Router is a flexible library for managing routes in React apps, supporting server rendering, static site generation, and optimized data loading for modern SPAs",
+    "description_pt": "O React Router é uma biblioteca flexível para gerenciar rotas em aplicativos React, com suporte para renderização no servidor, geração de sites estáticos e carregamento otimizado de dados para SPAs modernas",
+    "language_names": "",
+    "framework_names": "React Router",
+    "tool_names": "",
+    "fundamentals_names": ""
+  },
+  {
+    "name": "Next.js",
+    "optional": true,
     "icon_name": "next",
     "description_en": "Next.js is a modern React framework that enables features such as server-side rendering and static site generation",
     "description_pt": "Next.js é um framework moderno baseado no React que permite funcionalidades como renderização no lado do servidor e geração de sites estáticos",
     "language_names": "",
     "framework_names": "Next.js",
-    "tool_names": "",
-    "fundamentals_names": ""
-  },
-  {
-    "name": "Remix.js",
-    "optional": true,
-    "icon_name": "remix",
-    "description_en": "Remix is a full stack web framework that lets you focus on the user interface and work back through web standards to deliver a fast, slick, and resilient user experience. People are gonna love using your stuff",
-    "description_pt": "Remix é um framework web full stack que permite que você se concentre na interface do usuário e trabalhe de volta através dos padrões da web para oferecer uma experiência do usuário rápida, elegante e resiliente. As pessoas vão adorar usar seus sites",
-    "language_names": "",
-    "framework_names": "Remix.js",
     "tool_names": "",
     "fundamentals_names": ""
   },
