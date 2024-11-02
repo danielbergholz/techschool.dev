@@ -9,7 +9,7 @@ We love our contributors! Here's how you can contribute:
 
 - Add a new entry on the JSON file `priv/repo/data/languages.json`. The file should have the following structure:
 
-```json
+```jsonc
 {
   "name": "Programming Language Name", // case sensitive
   "icon_name": "Programming Language Name (lowercase)" // case sensitive
@@ -22,7 +22,7 @@ The `icon_name` will be used to render the `custom_icon` component inside `lib/t
 
 - Add a new entry on the JSON file `priv/repo/data/frameworks.json`. The file should have the following structure:
 
-```json
+```jsonc
 {
   "name": "Framework Name", // case sensitive
   "icon_name": "Framework Name (lowercase)" // case sensitive
@@ -35,7 +35,7 @@ Same note for the `icon_name` field. If the framework is `"Rails"`, the `icon_na
 
 - Add a new entry on the JSON file `priv/repo/data/tools.json`. The file should have the following structure:
 
-```json
+```jsonc
 {
   "name": "Tool Name", // case sensitive
   "icon_name": "Tool Name (lowercase)" // case sensitive
@@ -48,7 +48,7 @@ Same note for the `icon_name` field. If the tool is `"Docker"`, the `icon_name` 
 
 - Add a new entry on the JSON file `priv/repo/data/fundamentals.json`. The file should have the following structure:
 
-```json
+```jsonc
 {
   "name": "Fundamentals Name", // case sensitive
   "icon_name": "Fundamentals Name (lowercase)" // case sensitive
@@ -61,7 +61,7 @@ Same note for the `icon_name` field. If the fundamental is `"Computer Science"`,
 
 - Add a new entry on the JSON file `priv/repo/data/courses.json`. The file should have the following structure:
 
-```json
+```jsonc
 {
   "name": "Course Name", // case sensitive
   "youtube_course_id": "uuid_from_youtube",
@@ -86,7 +86,7 @@ You should only add multiple languages/frameworks if the course teaches multiple
 
 - If you want to add an external platform/website like FreeCodeCamp or The Odin Project, add a new entry on the JSON file `priv/repo/data/platforms.json`. The file should have the following structure:
 
-```json
+```jsonc
 {
   "name": "Website Name", // case sensitive
   "description_en": "English description",
