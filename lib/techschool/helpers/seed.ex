@@ -103,6 +103,8 @@ defmodule Techschool.Helpers.Seed do
       tool_names: course[:tool_names],
       fundamentals_names: course[:fundamentals_names]
     )
+
+    IO.inspect("Created course: #{formatted_course[:name]}")
   end
 
   defp fetch_and_create_channel!(channel_id) do
@@ -116,6 +118,8 @@ defmodule Techschool.Helpers.Seed do
       }
 
       Channels.create_channel!(formatted_channel)
+
+      IO.inspect("Created channel: #{formatted_channel[:name]}")
     end
   end
 

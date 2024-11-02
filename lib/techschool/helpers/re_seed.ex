@@ -104,6 +104,8 @@ defmodule Techschool.Helpers.ReSeed do
         tool_names: course[:tool_names],
         fundamentals_names: course[:fundamentals_names]
       )
+
+      IO.inspect("Created course: #{formatted_course[:name]}")
     end
   end
 
@@ -118,6 +120,8 @@ defmodule Techschool.Helpers.ReSeed do
       }
 
       Channels.create_channel(formatted_channel)
+
+      IO.inspect("Created channel: #{formatted_channel[:name]}")
     end
   end
 
