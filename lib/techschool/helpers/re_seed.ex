@@ -13,6 +13,7 @@ defmodule Techschool.Helpers.ReSeed do
   }
 
   def call(data_folder_path \\ "priv/repo/data") do
+    Techschool.Helpers.ResetDb.call(reset_courses: false)
     seed_languages(data_folder_path)
     seed_frameworks(data_folder_path)
     seed_tools(data_folder_path)
