@@ -1418,5 +1418,35 @@
     "framework_names": ["Phoenix"],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "React Router - Complete Tutorial",
+    "youtube_course_id": "oTIJunBa6MA",
+    "type": "video",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["React Router"],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Learn React Router v6 - Full Course",
+    "youtube_course_id": "SMq1IQRweDc",
+    "type": "video",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["React Router"],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "React Router in Depth",
+    "youtube_course_id": "PL4cUxeGkcC9iVKmtNuCeIswnQ97in2GGf",
+    "type": "playlist",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["React Router"],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
