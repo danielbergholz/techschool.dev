@@ -75,5 +75,16 @@
     "framework_names": ["Phoenix"],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Run Elixir",
+    "description_en": "Learn Elixir from scratch with a quick and interactive guide",
+    "description_pt": "Aprenda Elixir do zero com um guia rápido e interativo",
+    "url": "https://runelixir.com/",
+    "image_url": "/images/platforms/runelixir.webp",
+    "language_names": ["Elixir"],
+    "framework_names": ["Phoenix"],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
