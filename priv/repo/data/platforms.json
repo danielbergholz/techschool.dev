@@ -70,7 +70,7 @@
     "description_en": "Learn how to use Phoenix LiveView with no prior Elixir or Phoenix knowledge",
     "description_pt": "Aprenda como usar Phoenix LiveView sem conhecimento prévio em Elixir ou Phoenix",
     "url": "https://adopt-liveview.lubien.dev/en",
-    "image_url": "/images/platforms/adopt-liveview.png",
+    "image_url": "/images/platforms/adopt-liveview.webp",
     "language_names": [],
     "framework_names": ["Phoenix"],
     "tool_names": [],
