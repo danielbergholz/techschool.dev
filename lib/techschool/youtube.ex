@@ -3,10 +3,13 @@ defmodule Techschool.YouTube do
   Youtube API client
   """
 
+  alias Techschool.Courses
+
   @base_url "https://www.googleapis.com/youtube/v3"
 
-  def fetch_course(%{youtube_course_id: id, type: type}) do
+  def fetch_course(%{youtube_course_id: id}) do
     api_key = System.get_env("YOUTUBE_API_KEY")
+    type = Courses.course_type(id)
     video_url = "#{@base_url}/#{type}s?part=snippet&key=#{api_key}&id=#{id}"
 
     case Req.get(video_url) do
