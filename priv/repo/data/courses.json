@@ -1448,5 +1448,115 @@
     "framework_names": ["React Router"],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Elixir Anti-Patterns Guide",
+    "youtube_course_id": "PL2Rv8vpZJz4wcCuUgs1tBaUKnIBuo-ohn",
+    "type": "playlist",
+    "locale": "en",
+    "language_names": ["Elixir"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Elixir Meta-programming Guide",
+    "youtube_course_id": "PL2Rv8vpZJz4y-v8a6t1U6IJ0IupswsP1F",
+    "type": "playlist",
+    "locale": "en",
+    "language_names": ["Elixir"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Linux for Programmers",
+    "youtube_course_id": "PLzMcBGfZo4-nUIIMsz040W_X-03QH5c5h",
+    "type": "playlist",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": ["Linux"],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Linux For Beginners Series",
+    "youtube_course_id": "PLTnRtjQN5iea6LlzIpcX5M4Av4JBPEiHm",
+    "type": "playlist",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": ["Linux"],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Complete Docker Course - From BEGINNER to PRO!",
+    "youtube_course_id": "RqTEHSBrYFw",
+    "type": "video",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": ["Docker"],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Docker Crash Course for Absolute Beginners",
+    "youtube_course_id": "pg19Z8LL06w",
+    "type": "video",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": ["Docker"],
+    "fundamentals_names": []
+  },
+  {
+    "name": "30 Days to Learn Laravel - Complete 8 Hour Course",
+    "youtube_course_id": "SqTdHCTWqks",
+    "type": "video",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["Laravel"],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "The Complete TALL Stack Tutorial",
+    "youtube_course_id": "Ul3sfSDEt9U",
+    "type": "video",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["Laravel"],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Laravel 11 in 11 hours - Laravel for Beginners Full Course",
+    "youtube_course_id": "0M84Nk7iWkA",
+    "type": "video",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["Laravel"],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "PHP For Beginners - Complete Laracasts Course",
+    "youtube_course_id": "fw5ObX8P6as",
+    "type": "video",
+    "locale": "en",
+    "language_names": ["PHP"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "PHP Full Course for non-haters",
+    "youtube_course_id": "zZ6vybT1HQs",
+    "type": "video",
+    "locale": "en",
+    "language_names": ["PHP"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
