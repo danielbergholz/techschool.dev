@@ -1402,5 +1402,32 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Data Structures and Algorithms",
+    "youtube_course_id": "PLBZBJbE_rGRV8D7XZ08LK6z-4zPoWzu5H",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": ["Algorithms"]
+  },
+  {
+    "name": "MIT 6.006 Introduction to Algorithms, Spring 2020",
+    "youtube_course_id": "PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": ["Algorithms"]
+  },
+  {
+    "name": "Data Structures and Algorithms for Beginners",
+    "youtube_course_id": "BBpAmxU_NQo",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": ["Algorithms"]
   }
 ]
