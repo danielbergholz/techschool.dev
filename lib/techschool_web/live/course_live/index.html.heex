@@ -25,7 +25,12 @@
         Videos
       </h1>
       <div class="flex flex-wrap justify-center gap-8 md:gap-10" id="courses" phx-update="stream">
-        <.course_card :for={{dom_id, course} <- @streams.courses} id={dom_id} course={course} />
+        <.course_card
+          :for={{dom_id, course} <- @streams.courses}
+          id={dom_id}
+          course={course}
+          new={course.id in @last_courses_ids}
+        />
       </div>
     <% end %>
 

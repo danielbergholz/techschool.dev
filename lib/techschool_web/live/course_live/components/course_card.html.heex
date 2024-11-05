@@ -15,22 +15,28 @@
   />
   <div class="flex justify-between items-center text-left gap-1">
     <div>
-      <div class="font-bold">
+      <h1 class="font-bold">
         <%= @course.name %>
-      </div>
-      <div class="mt-2 flex items-center">
+      </h1>
+      <div class="mt-2 flex items-center gap-2">
         <img
           src={@course.channel.image_url}
           alt={@course.channel.name}
-          class="rounded-full mr-2"
+          class="rounded-full"
           loading="lazy"
           width="24"
           height="24"
           onerror="this.style.display='none'"
         />
-        <div class="text-gray text-sm">
+        <p class="text-gray text-sm">
           <%= @course.channel.name %>
-        </div>
+        </p>
+        <p
+          :if={@new}
+          class="uppercase text-xs border font-bold border-yellow-400 rounded text-yellow-400 px-1"
+        >
+          <%= gettext("new") %>
+        </p>
       </div>
     </div>
     <p :if={@course.locale == :pt} class="text-2xl">🇧🇷</p>

@@ -11,6 +11,7 @@ defmodule TechschoolWeb.CourseLive.Index do
   embed_templates "components/*"
 
   attr :course, Course, required: true
+  attr :new, :boolean, default: false
   attr :rest, :global, doc: "the arbitrary HTML attributes to add to the container"
   def course_card(assigns)
 
@@ -38,10 +39,13 @@ defmodule TechschoolWeb.CourseLive.Index do
       OnlineUsersCounter.track_online_user()
     end
 
+    # filters
     language_names = Languages.list_language_names()
     framework_names = Frameworks.list_framework_names()
     tool_names = Tools.list_tool_names()
     fundamentals_names = Fundamentals.list_fundamentals_names()
+
+    last_courses_ids = Courses.last_courses_ids()
 
     socket
     |> assign(:page_title, gettext("Courses") <> " | TechSchool")
@@ -55,6 +59,7 @@ defmodule TechschoolWeb.CourseLive.Index do
     |> assign(:framework_names, framework_names)
     |> assign(:tool_names, tool_names)
     |> assign(:fundamentals_names, fundamentals_names)
+    |> assign(:last_courses_ids, last_courses_ids)
     |> assign(:online_users_count, 0)
     |> ok()
   end

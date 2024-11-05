@@ -219,6 +219,11 @@ defmodule Techschool.Courses do
     Repo.one(from c in Course, order_by: [desc: c.inserted_at], limit: 1)
   end
 
+  def last_courses_ids(limit \\ 20) do
+    Repo.all(from c in Course, order_by: [desc: c.inserted_at], limit: ^limit)
+    |> Enum.map(& &1.id)
+  end
+
   @doc """
   Deletes a course.
 
