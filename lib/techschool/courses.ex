@@ -213,11 +213,8 @@ defmodule Techschool.Courses do
 
   def course_type(youtube_course_id) do
     case youtube_course_id do
-      "PL" <> _ ->
-        :playlist
-
-      _ ->
-        :video
+      "PL" <> _rest -> :playlist
+      _ -> :video
     end
   end
 
