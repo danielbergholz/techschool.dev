@@ -91,7 +91,6 @@ defmodule Techschool.Helpers.ReSeed do
         name: course_from_youtube["title"],
         image_url: course_from_youtube["thumbnails"]["standard"]["url"],
         locale: course[:locale],
-        type: course[:type],
         published_at: course_from_youtube["publishedAt"],
         youtube_course_id: course[:youtube_course_id]
       }

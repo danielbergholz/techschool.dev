@@ -15,7 +15,7 @@ That's where Tech School steps in. We're here to shine a light on those awesome 
 
 ## Huge thanks to our contributors :heart:
 
-Made with [contrib.rocks](https://contrib.rocks).
+Made with [contrib.rocks](https://contrib.rocks)
 
 <a href="https://github.com/danielbergholz/techschool.dev/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=danielbergholz/techschool.dev" />

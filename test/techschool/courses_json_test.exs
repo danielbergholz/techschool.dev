@@ -6,7 +6,6 @@ defmodule Techschool.CoursesJSONTest do
     types: %{
       name: :string,
       youtube_course_id: :string,
-      type: :string,
       locale: :string,
       language_names: {:array, :string},
       framework_names: {:array, :string},
@@ -16,7 +15,6 @@ defmodule Techschool.CoursesJSONTest do
     required: [
       :name,
       :locale,
-      :type,
       :youtube_course_id
     ]
 

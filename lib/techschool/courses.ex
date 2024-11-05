@@ -173,6 +173,7 @@ defmodule Techschool.Courses do
 
     channel
     |> Ecto.build_assoc(:courses)
+    |> Map.put(:type, course_type(attrs.youtube_course_id))
     |> Course.changeset(attrs,
       languages: languages,
       frameworks: frameworks,
@@ -200,6 +201,7 @@ defmodule Techschool.Courses do
 
     channel
     |> Ecto.build_assoc(:courses)
+    |> Map.put(:type, course_type(attrs.youtube_course_id))
     |> Course.changeset(attrs,
       languages: languages,
       frameworks: frameworks,
@@ -207,6 +209,16 @@ defmodule Techschool.Courses do
       fundamentals: fundamentals
     )
     |> Repo.insert!()
+  end
+
+  def course_type(youtube_course_id) do
+    case youtube_course_id do
+      "PL" <> _ ->
+        :playlist
+
+      _ ->
+        :video
+    end
   end
 
   def last_updated do

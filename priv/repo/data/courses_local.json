@@ -2,7 +2,6 @@
   {
     "name": "Curso de TypeScript",
     "youtube_course_id": "PLbV6TI03ZWYWwU5p9ZBH8oJTCjgneX53u",
-    "type": "playlist",
     "locale": "pt",
     "image_url": "https://i.ytimg.com/vi/3LPWQtvxHOk/sddefault.jpg",
     "published_at": "2022-06-16T21:25:09Z",
@@ -15,7 +14,6 @@
   {
     "name": "Curso de JavaScript",
     "youtube_course_id": "PLbV6TI03ZWYVP6EByYoUxZJeZaqitHi9r",
-    "type": "playlist",
     "locale": "pt",
     "image_url": "https://i.ytimg.com/vi/pL9nX6Ac2Lc/sddefault.jpg",
     "published_at": "2020-04-04T23:19:26Z",
@@ -28,7 +26,6 @@
   {
     "name": "Curso de Terminal Linux",
     "youtube_course_id": "PLbV6TI03ZWYXXwbP2TNTbviUaFh6YqqVt",
-    "type": "playlist",
     "locale": "pt",
     "image_url": "https://i.ytimg.com/vi/VRR3V42EdSg/sddefault.jpg",
     "published_at": "2020-02-05T17:34:31Z",
@@ -41,7 +38,6 @@
   {
     "name": "Learn HTML - Full Tutorial for Beginners (2022)",
     "youtube_course_id": "kUMe1FH4CHE",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/kUMe1FH4CHE/sddefault.jpg",
     "published_at": "2022-03-08T16:34:38Z",
@@ -54,7 +50,6 @@
   {
     "name": "CSS Tutorial - Full Course for Beginners",
     "youtube_course_id": "OXGznpKZ_sA",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/OXGznpKZ_sA/sddefault.jpg",
     "published_at": "2022-08-30T13:55:14Z",
@@ -67,7 +62,6 @@
   {
     "name": "Functional Programming with Elixir - Full Course",
     "youtube_course_id": "IiIgm_yaoOA",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/IiIgm_yaoOA/sddefault.jpg",
     "published_at": "2023-05-10T14:07:21Z",
@@ -80,7 +74,6 @@
   {
     "name": "PHP Programming Language Tutorial - Full Course",
     "youtube_course_id": "OK_JCtrrv-c",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/OK_JCtrrv-c/sddefault.jpg",
     "published_at": "2018-06-20T18:49:27Z",
@@ -93,7 +86,6 @@
   {
     "name": "Use PHP to Create an MVC Framework - Full Course",
     "youtube_course_id": "6ERdu4k62wI",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/6ERdu4k62wI/sddefault.jpg",
     "published_at": "2020-10-22T18:03:09Z",
@@ -106,7 +98,6 @@
   {
     "name": "Laravel PHP Framework Tutorial - Full Course for Beginners",
     "youtube_course_id": "ImtZ5yENzgE",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/ImtZ5yENzgE/sddefault.jpg",
     "published_at": "2019-05-07T12:39:04Z",
@@ -119,7 +110,6 @@
   {
     "name": "HTML for Beginners",
     "youtube_course_id": "PLm8ctt9NhMNUU-g3I9RWml0jMYAnDgMdl",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/cV0RbfwntGs/sddefault.jpg",
     "published_at": "2023-11-02T13:14:40Z",
@@ -132,7 +122,6 @@
   {
     "name": "Build a Blog with Ruby on Rails",
     "youtube_course_id": "PLm8ctt9NhMNWD939gE728i13W999EFS0n",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/i2rTiEhQzig/sddefault.jpg",
     "published_at": "2023-04-03T20:20:58Z",
@@ -145,7 +134,6 @@
   {
     "name": "Rails 7.1",
     "youtube_course_id": "PLm8ctt9NhMNVZU4EjeqOjSpxkjFphW5yC",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/Hb9WtQf9K60/sddefault.jpg",
     "published_at": "2023-09-13T17:09:57Z",
@@ -158,7 +146,6 @@
   {
     "name": "Ruby for Beginners 2023",
     "youtube_course_id": "PLm8ctt9NhMNXP7FODFNrQhB6Dg-z_XqTd",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/Nzd_BASEE8Q/sddefault.jpg",
     "published_at": "2023-03-13T17:20:49Z",
@@ -171,7 +158,6 @@
   {
     "name": "Curso completo de Ruby",
     "youtube_course_id": "PLdDT8if5attEOcQGPHLNIfnSFiJHhGDOZ",
-    "type": "playlist",
     "locale": "pt",
     "image_url": "https://i.ytimg.com/vi/2js9Q_BMD-8/sddefault.jpg",
     "published_at": "2018-07-20T22:05:32Z",
@@ -184,7 +170,6 @@
   {
     "name": "Curso de JavaScript da Onebitcode",
     "youtube_course_id": "PLdDT8if5attF2jr06amvcfXOqI4LG4nd4",
-    "type": "playlist",
     "locale": "pt",
     "image_url": "https://i.ytimg.com/vi/O8T_wlotoRE/sddefault.jpg",
     "published_at": "2023-09-27T18:55:20Z",
@@ -197,7 +182,6 @@
   {
     "name": "Elixir Basics",
     "youtube_course_id": "PL2Rv8vpZJz4w7Sm9STyZvoY0JAKUk_JOB",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/O5b8GWAAjqs/sddefault.jpg",
     "published_at": "2022-08-13T23:54:49Z",
@@ -210,7 +194,6 @@
   {
     "name": "Elixir API: Password Authentication",
     "youtube_course_id": "PL2Rv8vpZJz4zM3Go3X-dda478p-6xrmEl",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/LGY_eILc8Ks/sddefault.jpg",
     "published_at": "2022-11-16T21:30:32Z",
@@ -223,7 +206,6 @@
   {
     "name": "Elixir API: Testing",
     "youtube_course_id": "PL2Rv8vpZJz4xGWPUWVfSTciCvmk8ot_zs",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/RZLuB4vGPJI/sddefault.jpg",
     "published_at": "2023-03-21T21:07:22Z",
@@ -236,7 +218,6 @@
   {
     "name": "Mastering Phoenix LiveView",
     "youtube_course_id": "PL2Rv8vpZJz4x1Svv79WdT0Da42kWt_hQ0",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/OMKugMwRrko/sddefault.jpg",
     "published_at": "2023-07-17T21:51:59Z",
@@ -249,7 +230,6 @@
   {
     "name": "Maratona Java Virado no Jiraya",
     "youtube_course_id": "PL62G310vn6nFIsOCC0H-C2infYgwm8SWW",
-    "type": "playlist",
     "locale": "pt",
     "image_url": "https://i.ytimg.com/vi/VKjFuX91G5Q/sddefault.jpg",
     "published_at": "2020-12-29T20:13:46Z",
@@ -262,7 +242,6 @@
   {
     "name": "Spring Boot essentials: O essencial do Spring Boot",
     "youtube_course_id": "PL62G310vn6nF3gssjqfCKLpTK2sZJ_a_1",
-    "type": "playlist",
     "locale": "pt",
     "image_url": "https://i.ytimg.com/vi/R-F-UcDo_5I/sddefault.jpg",
     "published_at": "2017-07-14T21:16:40Z",
@@ -275,7 +254,6 @@
   {
     "name": "Spring Boot Essentials 2",
     "youtube_course_id": "PL62G310vn6nFBIxp6ZwGnm8xMcGE3VA5H",
-    "type": "playlist",
     "locale": "pt",
     "image_url": "https://i.ytimg.com/vi/bCzsSXE4Jzg/sddefault.jpg",
     "published_at": "2020-11-19T03:07:09Z",
@@ -288,7 +266,6 @@
   {
     "name": "Spring Boot Microservices",
     "youtube_course_id": "PL62G310vn6nH_iMQoPMhIlK_ey1npyUUl",
-    "type": "playlist",
     "locale": "pt",
     "image_url": "https://i.ytimg.com/vi/vxeMnM15gsI/sddefault.jpg",
     "published_at": "2019-03-09T23:00:47Z",
@@ -301,7 +278,6 @@
   {
     "name": "Hands-on Elixir & OTP: Create a cryptocurrency trading bot",
     "youtube_course_id": "PLxsE19GnjC5Nv1CbeKOiS5YqGqw35aZFJ",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/gUM1vwcLgRE/sddefault.jpg",
     "published_at": "2020-06-12T21:09:38Z",
@@ -314,7 +290,6 @@
   {
     "name": "Learn Ruby on Rails - Full Course (CREATE INSTAGRAM)",
     "youtube_course_id": "DhxLOC-9kW0",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/DhxLOC-9kW0/sddefault.jpg",
     "published_at": "2022-12-25T22:34:06Z",
@@ -327,7 +302,6 @@
   {
     "name": "Learn Ruby on Rails 7 - Full Course (CREATE LINKTREE)",
     "youtube_course_id": "Ei4Aa6RJTyo",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/Ei4Aa6RJTyo/sddefault.jpg",
     "published_at": "2024-01-16T17:36:07Z",
@@ -340,7 +314,6 @@
   {
     "name": "Create Youtube with Ruby on Rails Full Course",
     "youtube_course_id": "F-eI4MXnyPA",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/F-eI4MXnyPA/sddefault.jpg",
     "published_at": "2023-07-15T19:30:08Z",
@@ -353,7 +326,6 @@
   {
     "name": "Learn Ruby on Rails 7 - Full Course (Reddit clone)",
     "youtube_course_id": "Fb_EaLkuYbk",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/Fb_EaLkuYbk/sddefault.jpg",
     "published_at": "2024-04-08T16:15:09Z",
@@ -366,7 +338,6 @@
   {
     "name": "Python Full Course",
     "youtube_course_id": "LzYNWme1W6Q",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/LzYNWme1W6Q/sddefault.jpg",
     "published_at": "2020-10-12T13:53:01Z",
@@ -379,7 +350,6 @@
   {
     "name": "Python Tutorial for Beginners - Full Course in 3 Hours",
     "youtube_course_id": "mJEpimi_tFo",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/mJEpimi_tFo/sddefault.jpg",
     "published_at": "2020-11-17T14:25:24Z",
@@ -392,7 +362,6 @@
   {
     "name": "Java Full Course",
     "youtube_course_id": "Qgl81fPcLc8",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/Qgl81fPcLc8/sddefault.jpg",
     "published_at": "2020-09-09T14:02:52Z",
@@ -405,7 +374,6 @@
   {
     "name": "Java Tutorial For Beginners 2023",
     "youtube_course_id": "j9VNCI9Xo80",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/j9VNCI9Xo80/sddefault.jpg",
     "published_at": "2022-10-24T13:00:26Z",
@@ -418,7 +386,6 @@
   {
     "name": "Java Functional Programming | Full Course",
     "youtube_course_id": "VRpHdSFWGPs",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/VRpHdSFWGPs/sddefault.jpg",
     "published_at": "2020-02-04T23:53:11Z",
@@ -431,7 +398,6 @@
   {
     "name": "Spring Boot Tutorial | Full Course 2023",
     "youtube_course_id": "9SGDpanrc8U",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/9SGDpanrc8U/sddefault.jpg",
     "published_at": "2021-01-10T14:24:30Z",
@@ -444,7 +410,6 @@
   {
     "name": "Spring Security Tutorial - 2023",
     "youtube_course_id": "b9O9NI-RJ3o",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/b9O9NI-RJ3o/sddefault.jpg",
     "published_at": "2022-12-06T13:00:09Z",
@@ -457,7 +422,6 @@
   {
     "name": "SQL For Beginners Tutorial | Learn SQL in 4.2 Hours | 2021",
     "youtube_course_id": "5hzZtqCNQKk",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/5hzZtqCNQKk/sddefault.jpg",
     "published_at": "2021-01-31T14:00:12Z",
@@ -470,7 +434,6 @@
   {
     "name": "PosgresSQL Course",
     "youtube_course_id": "PLwvrYc43l1MxAEOI_KwGe8l42uJxMoKeS",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/XQ_6G0iCyMQ/sddefault.jpg",
     "published_at": "2019-03-13T09:58:07Z",
@@ -483,7 +446,6 @@
   {
     "name": "Docker Tutorial for Beginners | Full Course [2021]",
     "youtube_course_id": "p28piYY_wv8",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/p28piYY_wv8/sddefault.jpg",
     "published_at": "2020-10-24T16:52:13Z",
@@ -496,7 +458,6 @@
   {
     "name": "Linux For Beginners - Full Course",
     "youtube_course_id": "pkZEKIXe3u4",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/pkZEKIXe3u4/sddefault.jpg",
     "published_at": "2023-12-04T13:10:49Z",
@@ -509,7 +470,6 @@
   {
     "name": "Python Django 7 Hour Course",
     "youtube_course_id": "PtQiiknWUcI",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/PtQiiknWUcI/sddefault.jpg",
     "published_at": "2021-09-29T14:00:10Z",
@@ -522,7 +482,6 @@
   {
     "name": "Django For Everybody - Full Python University Course",
     "youtube_course_id": "o0XbHvKxw7Y",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/o0XbHvKxw7Y/sddefault.jpg",
     "published_at": "2021-09-20T13:37:57Z",
@@ -535,7 +494,6 @@
   {
     "name": "Python Backend Web Development Course (with Django)",
     "youtube_course_id": "jBzwzrDvZ18",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/jBzwzrDvZ18/sddefault.jpg",
     "published_at": "2021-07-01T16:51:03Z",
@@ -548,7 +506,6 @@
   {
     "name": "Learn Django in 20 Minutes",
     "youtube_course_id": "nGIg40xs9e4",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/nGIg40xs9e4/sddefault.jpg",
     "published_at": "2023-07-29T13:00:38Z",
@@ -561,7 +518,6 @@
   {
     "name": "Django For Beginners - Full Tutorial",
     "youtube_course_id": "sm1mokevMWk",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/sm1mokevMWk/sddefault.jpg",
     "published_at": "2021-03-21T15:00:16Z",
@@ -574,7 +530,6 @@
   {
     "name": "Django Authentication & User Management - Full Tutorial",
     "youtube_course_id": "WuyKxdLcw3w",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/WuyKxdLcw3w/sddefault.jpg",
     "published_at": "2022-03-28T15:00:18Z",
@@ -587,7 +542,6 @@
   {
     "name": "OTP V2",
     "youtube_course_id": "PLKBMoE8mCkXghS-YhV8Uw7yyzbePqqDIV",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/KTVQtATxivQ/sddefault.jpg",
     "published_at": "2023-06-07T18:46:29Z",
@@ -600,7 +554,6 @@
   {
     "name": "LiveView and Phoenix 1.7",
     "youtube_course_id": "PLKBMoE8mCkXgWXVaHxqPdo20WkZKwFw6r",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/FUvFpSp9FMg/sddefault.jpg",
     "published_at": "2023-02-25T15:26:15Z",
@@ -613,7 +566,6 @@
   {
     "name": "How you start writing LiveView",
     "youtube_course_id": "GsOcNO0NlHU",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/GsOcNO0NlHU/sddefault.jpg",
     "published_at": "2024-01-15T11:42:17Z",
@@ -626,7 +578,6 @@
   {
     "name": "Magic Link Authentication in Elixir Phoenix",
     "youtube_course_id": "eM8vl7pgRJM",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/eM8vl7pgRJM/sddefault.jpg",
     "published_at": "2023-12-28T17:13:24Z",
@@ -639,7 +590,6 @@
   {
     "name": "Phoenix LiveView in Depth: Navigation, Lifecycle & mount vs handle_params",
     "youtube_course_id": "HaK9N-kqSXU",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/HaK9N-kqSXU/sddefault.jpg",
     "published_at": "2024-01-08T22:06:02Z",
@@ -652,7 +602,6 @@
   {
     "name": "Introdução à programação (usando a linguagem Ruby)",
     "youtube_course_id": "F_cQSB3l0W0",
-    "type": "video",
     "locale": "pt",
     "image_url": "https://i.ytimg.com/vi/F_cQSB3l0W0/sddefault.jpg",
     "published_at": "2023-12-01T09:15:25Z",
@@ -665,7 +614,6 @@
   {
     "name": "Introdução à OO (Orientação à Objetos) usando Ruby",
     "youtube_course_id": "R_tpnjR1s1U",
-    "type": "video",
     "locale": "pt",
     "image_url": "https://i.ytimg.com/vi/R_tpnjR1s1U/sddefault.jpg",
     "published_at": "2023-12-05T06:15:52Z",
@@ -678,7 +626,6 @@
   {
     "name": "Descomplicando o Docker",
     "youtube_course_id": "PLf-O3X2-mxDn1VpyU2q3fuI6YYeIWp5rR",
-    "type": "playlist",
     "locale": "pt",
     "image_url": "https://i.ytimg.com/vi/Wm99C_f7Kxw/sddefault.jpg",
     "published_at": "2022-06-20T12:55:53Z",
@@ -691,7 +638,6 @@
   {
     "name": "LINUXweek",
     "youtube_course_id": "PLf-O3X2-mxDnl7LhhjhEgbo2etWKkJ0GV",
-    "type": "playlist",
     "locale": "pt",
     "image_url": "https://i.ytimg.com/vi/zGE4UxYndrk/sddefault.jpg",
     "published_at": "2020-08-04T02:34:17Z",
@@ -704,7 +650,6 @@
   {
     "name": "Python week - 2022",
     "youtube_course_id": "PLf-O3X2-mxDlfAv8IOfic1sHArdwrrkgh",
-    "type": "playlist",
     "locale": "pt",
     "image_url": "https://i.ytimg.com/vi/NqUC-G_Pu-o/sddefault.jpg",
     "published_at": "2022-04-30T11:20:17Z",
@@ -717,7 +662,6 @@
   {
     "name": "Fullstack LMS: Ruby on Rails 7, Hotwire, Tailwind, Stripe, PostgreSQL",
     "youtube_course_id": "HDA9QiHgrsI",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/HDA9QiHgrsI/sddefault.jpg",
     "published_at": "2024-02-06T07:00:07Z",
@@ -730,7 +674,6 @@
   {
     "name": "Fullstack E-Commerce: Ruby on Rails 7, Hotwire, Tailwind, Stripe, PostgreSQL",
     "youtube_course_id": "hURUMwdCWuI",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/hURUMwdCWuI/sddefault.jpg",
     "published_at": "2023-12-22T17:28:04Z",
@@ -743,7 +686,6 @@
   {
     "name": "Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git",
     "youtube_course_id": "Uszj_k0DGsg",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/Uszj_k0DGsg/sddefault.jpg",
     "published_at": "2021-09-30T13:25:20Z",
@@ -756,7 +698,6 @@
   {
     "name": "Git and GitHub Tutorial For Beginners | Full Course [2021]",
     "youtube_course_id": "3fUbBnN_H2c",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/3fUbBnN_H2c/sddefault.jpg",
     "published_at": "2021-02-28T15:00:15Z",
@@ -769,7 +710,6 @@
   {
     "name": "Modern JavaScript From The Beginning | First 12 Hours",
     "youtube_course_id": "BI1o2H9z9fo",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/BI1o2H9z9fo/sddefault.jpg",
     "published_at": "2023-07-26T12:40:21Z",
@@ -782,7 +722,6 @@
   {
     "name": "JavaScript Crash Courses",
     "youtube_course_id": "PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/hdI2bqOjy3c/sddefault.jpg",
     "published_at": "2017-07-25T10:22:18Z",
@@ -795,7 +734,6 @@
   {
     "name": "TypeScript Crash Course",
     "youtube_course_id": "BCg4U1FzODs",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/BCg4U1FzODs/sddefault.jpg",
     "published_at": "2021-08-18T13:13:38Z",
@@ -808,7 +746,6 @@
   {
     "name": "React JS Crash Course",
     "youtube_course_id": "w7ejDZ8SWv8",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/w7ejDZ8SWv8/sddefault.jpg",
     "published_at": "2021-01-18T19:01:11Z",
@@ -821,7 +758,6 @@
   {
     "name": "React Projects",
     "youtube_course_id": "PLillGF-RfqbY3c2r0htQyVbDJJoBFE6Rb",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/XuFDcZABiDQ/sddefault.jpg",
     "published_at": "2020-06-30T20:33:50Z",
@@ -834,7 +770,6 @@
   {
     "name": "Next.js 13 Crash Course | App Directory, React Server Components & More",
     "youtube_course_id": "Y6KDk5iyrYE",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/Y6KDk5iyrYE/sddefault.jpg",
     "published_at": "2023-04-05T17:49:23Z",
@@ -847,7 +782,6 @@
   {
     "name": "Node.js Tutorials",
     "youtube_course_id": "PLillGF-RfqbZ2ybcoD2OaabW2P7Ws8CWu",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/fBNz5xF-Kx4/sddefault.jpg",
     "published_at": "2019-12-23T13:13:45Z",
@@ -860,7 +794,6 @@
   {
     "name": "Node.js and Express.js - Full Course",
     "youtube_course_id": "Oe421EPjeBE",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/Oe421EPjeBE/sddefault.jpg",
     "published_at": "2021-04-01T12:37:58Z",
@@ -873,7 +806,6 @@
   {
     "name": "Node.js Tutorials",
     "youtube_course_id": "PLWKjhJtqVAbmGQoa3vFjeRbRADAOC9drk",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/RLtyhwFtXQA/sddefault.jpg",
     "published_at": "2018-12-17T14:10:20Z",
@@ -886,7 +818,6 @@
   {
     "name": "JavaScript Tutorials",
     "youtube_course_id": "PLWKjhJtqVAbleDe3_ZA8h3AO2rXar-q2V",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/PkZNo7MFNFg/sddefault.jpg",
     "published_at": "2018-12-07T13:47:20Z",
@@ -899,7 +830,6 @@
   {
     "name": "Learn TypeScript - Full Tutorial",
     "youtube_course_id": "30LWjhZzg50",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/30LWjhZzg50/sddefault.jpg",
     "published_at": "2022-11-10T16:03:31Z",
@@ -912,7 +842,6 @@
   {
     "name": "Build 25 React Projects - Tutorial",
     "youtube_course_id": "5ZdHfJVAY-s",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/5ZdHfJVAY-s/sddefault.jpg",
     "published_at": "2024-02-05T15:30:28Z",
@@ -925,7 +854,6 @@
   {
     "name": "React Course - Beginner's Tutorial for React JavaScript Library [2022]",
     "youtube_course_id": "bMknfKXIFA8",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/bMknfKXIFA8/sddefault.jpg",
     "published_at": "2022-01-10T14:47:57Z",
@@ -938,7 +866,6 @@
   {
     "name": "Next.js 13 E-Commerce Tutorial (App Router, TypeScript, Deployment, TailwindCSS, Prisma, DaisyUI)",
     "youtube_course_id": "K4ziF0MhbLc",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/K4ziF0MhbLc/sddefault.jpg",
     "published_at": "2023-10-05T15:26:35Z",
@@ -951,7 +878,6 @@
   {
     "name": "Remix Movies: build a movie browser with Remix",
     "youtube_course_id": "PLXoynULbYuEApkwAGZ7U7LmL-BDHloB0l",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/StZt-WrI2to/sddefault.jpg",
     "published_at": "2024-01-11T03:20:39Z",
@@ -964,7 +890,6 @@
   {
     "name": "Trellix: build a Trello clone using Remix",
     "youtube_course_id": "PLXoynULbYuED9b2k5LS44v9TQjfXifwNu",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/RTHzZVbTl6c/sddefault.jpg",
     "published_at": "2023-11-15T18:42:09Z",
@@ -977,7 +902,6 @@
   {
     "name": "Remix.run V2 Full Stack Tutorial 2023 | Crash course",
     "youtube_course_id": "Z_33-pco_aA",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/Z_33-pco_aA/sddefault.jpg",
     "published_at": "2023-06-23T22:27:46Z",
@@ -990,7 +914,6 @@
   {
     "name": "Create a Full Stack Realtime Chat Messaging App with Remix.run",
     "youtube_course_id": "WUoXCSYiNKk",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/WUoXCSYiNKk/sddefault.jpg",
     "published_at": "2023-07-06T10:15:07Z",
@@ -1003,7 +926,6 @@
   {
     "name": "Building an E-Commerce Store with Remix.run, Stripe, and Sanity.io: Full Stack Tutorial",
     "youtube_course_id": "r3n7NPlv7bs",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/r3n7NPlv7bs/sddefault.jpg",
     "published_at": "2023-06-13T12:24:14Z",
@@ -1016,7 +938,6 @@
   {
     "name": "Create a Personal Website / Blog using Remix.run, Tailwind.css, Hygraph and GraphQL",
     "youtube_course_id": "5mU1dzOikGI",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/5mU1dzOikGI/sddefault.jpg",
     "published_at": "2023-06-19T20:38:58Z",
@@ -1029,7 +950,6 @@
   {
     "name": "Create an Airbnb Clone with Next.js 14, Kinde, Supabase, Prisma and Tailwind",
     "youtube_course_id": "x-km17GzInE",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/x-km17GzInE/sddefault.jpg",
     "published_at": "2024-02-19T13:08:20Z",
@@ -1042,7 +962,6 @@
   {
     "name": "Create a SaaS Application with Next.js.14, Stripe, Kinde, Prisma, Supabase and Tailwind",
     "youtube_course_id": "5dgYg10B9p0",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/5dgYg10B9p0/sddefault.jpg",
     "published_at": "2024-01-25T14:08:20Z",
@@ -1055,7 +974,6 @@
   {
     "name": "Create a modern and fully responsive UI/UX website with Next.js 14 and Tailwind",
     "youtube_course_id": "pQ7tm_7S_Us",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/pQ7tm_7S_Us/sddefault.jpg",
     "published_at": "2024-01-18T18:07:20Z",
@@ -1068,7 +986,6 @@
   {
     "name": "Build a Next.js 14 Blog | React, Sanity.io, Tailwind.css, Shadcn/Ui",
     "youtube_course_id": "Lydgf-Hvla4",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/Lydgf-Hvla4/sddefault.jpg",
     "published_at": "2023-12-23T15:22:30Z",
@@ -1081,7 +998,6 @@
   {
     "name": "Next.js 14 E-Commerce Website with Stripe, and Sanity.io | Full Stack Tutorial | 2023",
     "youtube_course_id": "UnwmPuPdhFc",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/UnwmPuPdhFc/sddefault.jpg",
     "published_at": "2023-10-27T21:45:00Z",
@@ -1094,7 +1010,6 @@
   {
     "name": "Next.js Projects: Build a Full-stack App with Next.js, Tailwind, Radix UI, and Prisma",
     "youtube_course_id": "J9sfR6HN6BY",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/J9sfR6HN6BY/sddefault.jpg",
     "published_at": "2023-10-10T13:00:08Z",
@@ -1107,7 +1022,6 @@
   {
     "name": "Next js Tutorial for Beginners | Nextjs 13 (App Router) with TypeScript",
     "youtube_course_id": "ZVnjOPwW4ZA",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/ZVnjOPwW4ZA/sddefault.jpg",
     "published_at": "2023-09-11T13:00:10Z",
@@ -1120,7 +1034,6 @@
   {
     "name": "React Tutorial for Beginners",
     "youtube_course_id": "SqcY0GlETPk",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/SqcY0GlETPk/sddefault.jpg",
     "published_at": "2023-03-12T08:00:07Z",
@@ -1133,7 +1046,6 @@
   {
     "name": "TypeScript Tutorial for Beginners",
     "youtube_course_id": "d56mG7DezGs",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/d56mG7DezGs/sddefault.jpg",
     "published_at": "2022-05-23T13:00:18Z",
@@ -1146,7 +1058,6 @@
   {
     "name": "HTML Tutorial for Beginners: HTML Crash Course",
     "youtube_course_id": "qz0aGYrrlhU",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/qz0aGYrrlhU/sddefault.jpg",
     "published_at": "2021-01-11T14:30:10Z",
@@ -1159,7 +1070,6 @@
   {
     "name": "Git Tutorial for Beginners: Learn Git in 1 Hour",
     "youtube_course_id": "8JJ101D3knE",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/8JJ101D3knE/sddefault.jpg",
     "published_at": "2020-09-15T12:45:00Z",
@@ -1172,7 +1082,6 @@
   {
     "name": "Java Tutorial for Beginners",
     "youtube_course_id": "eIrMbAQSU34",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/eIrMbAQSU34/sddefault.jpg",
     "published_at": "2019-07-15T16:00:12Z",
@@ -1185,7 +1094,6 @@
   {
     "name": "Python Django Tutorial for Beginners",
     "youtube_course_id": "rHux0gMZ3Eg",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/rHux0gMZ3Eg/sddefault.jpg",
     "published_at": "2021-06-28T14:00:31Z",
@@ -1198,7 +1106,6 @@
   {
     "name": "Docker Tutorial for Beginners",
     "youtube_course_id": "pTFZFxd4hOI",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/pTFZFxd4hOI/sddefault.jpg",
     "published_at": "2021-03-30T15:14:41Z",
@@ -1211,7 +1118,6 @@
   {
     "name": "Python Tutorial - Python Full Course for Beginners",
     "youtube_course_id": "_uQrJ0TkZlc",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/_uQrJ0TkZlc/sddefault.jpg",
     "published_at": "2019-02-18T15:00:08Z",
@@ -1224,7 +1130,6 @@
   {
     "name": "MySQL Tutorial for Beginners [Full Course]",
     "youtube_course_id": "7S_tz1z_5bA",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/7S_tz1z_5bA/sddefault.jpg",
     "published_at": "2019-03-20T00:50:32Z",
@@ -1237,7 +1142,6 @@
   {
     "name": "Learning Postgres and SQL",
     "youtube_course_id": "PLFhQVxlaKQElBUqs2ny1y3gig_B4U4pAe",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/PXeO1vqMC_Y/sddefault.jpg",
     "published_at": "2021-02-22T02:13:42Z",
@@ -1250,7 +1154,6 @@
   {
     "name": "Elixir Tips",
     "youtube_course_id": "PLFhQVxlaKQEmO3gaork2WD5AY51LH3Ls0",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/ueTIy0ODzcQ/sddefault.jpg",
     "published_at": "2021-01-25T07:26:25Z",
@@ -1263,7 +1166,6 @@
   {
     "name": "Phoenix JSON API",
     "youtube_course_id": "PLFhQVxlaKQElunealqcW98LvCYos51gQY",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/DHwUmDrWNys/sddefault.jpg",
     "published_at": "2021-11-20T05:10:36Z",
@@ -1276,7 +1178,6 @@
   {
     "name": "Simple Phoenix LiveView App: Reactor",
     "youtube_course_id": "PLFhQVxlaKQEkCAB8pks17eU2uaU4nQeyI",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/zDvruo2M68E/sddefault.jpg",
     "published_at": "2020-01-29T19:09:23Z",
@@ -1289,7 +1190,6 @@
   {
     "name": "Phoenix Trello clone",
     "youtube_course_id": "PLFhQVxlaKQEmLvwCkcyqG8WY_OCIuIYhJ",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/UoE2DMLgDEY/sddefault.jpg",
     "published_at": "2019-06-24T10:03:05Z",
@@ -1302,7 +1202,6 @@
   {
     "name": "Elixir Testing",
     "youtube_course_id": "PLFhQVxlaKQEkVL9w0iEn6YXvWRAhgciGO",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/KrS9vNFM_uo/sddefault.jpg",
     "published_at": "2019-06-09T05:11:42Z",
@@ -1315,7 +1214,6 @@
   {
     "name": "CreatorPlatform.xyz: Ruby on Rails, Stimulus, Tailwind, and Stripe",
     "youtube_course_id": "PLS6F722u-R6IJfBrIRx3a2SBkAL4vUp2p",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/uuHtuR2FFS4/sddefault.jpg",
     "published_at": "2022-08-25T00:22:01Z",
@@ -1328,7 +1226,6 @@
   {
     "name": "Ruby on Rails tutorials",
     "youtube_course_id": "PLS6F722u-R6KiuOupokyl8Xnqrot9ukc7",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/n_5z4FDBbqI/sddefault.jpg",
     "published_at": "2020-11-06T00:51:11Z",
@@ -1341,7 +1238,6 @@
   {
     "name": "clearbnb - building a vacation rental platform with Ruby on Rails",
     "youtube_course_id": "PLS6F722u-R6LoD3UN0EE_cKtHVG2EWn0t",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/_fBpethNY2I/sddefault.jpg",
     "published_at": "2021-09-27T23:22:19Z",
@@ -1354,7 +1250,6 @@
   {
     "name": "Angular for Beginners Course [Full Front End Tutorial with TypeScript]",
     "youtube_course_id": "3qBXWUpoPHo",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/3qBXWUpoPHo/hqdefault.jpg",
     "published_at": "2022-09-07T13:15:25Z",
@@ -1367,7 +1262,6 @@
   {
     "name": "Making a Gleam web app from scratch!",
     "youtube_course_id": "Y6wmGeL_tao",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/Y6wmGeL_tao/hqdefault.jpg",
     "published_at": "2023-07-13T18:34:17Z",
@@ -1380,7 +1274,6 @@
   {
     "name": "Converting a Gleam web application to use the Wisp web framework",
     "youtube_course_id": "yVNvQZyrKx8",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/yVNvQZyrKx8/hqdefault.jpg",
     "published_at": "2023-08-31T18:36:15Z",
@@ -1393,7 +1286,6 @@
   {
     "name": "Programming for Complete Beginners",
     "youtube_course_id": "PLBLdRr-v59vwnKvmvLtcgmAnsb2K1Ta_M",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/syfSoca5_xg/hqdefault.jpg",
     "published_at": "2024-03-18T18:36:15Z",
@@ -1406,7 +1298,6 @@
   {
     "name": "How does the internet work? (Full Course)",
     "youtube_course_id": "zN8YNNHcaZc",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/zN8YNNHcaZc/sddefault.jpg",
     "published_at": "2021-08-02T13:36:10Z",
@@ -1419,7 +1310,6 @@
   {
     "name": "Network Fundamentals",
     "youtube_course_id": "PLDQaRcbiSnqF5U8ffMgZzS7fq1rHUI3Q8",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/9SIjoeE93lo/sddefault.jpg",
     "published_at": "2018-04-22T09:17:25Z",
@@ -1432,7 +1322,6 @@
   {
     "name": "Full Computer Science University Course - Harvard CS50 (2023)",
     "youtube_course_id": "LfaMVlDaQ24",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/LfaMVlDaQ24/sddefault.jpg",
     "published_at": "2023-10-24T12:43:08Z",
@@ -1445,7 +1334,6 @@
   {
     "name": "Algorithms and Data Structures Tutorial - Full Course for Beginners",
     "youtube_course_id": "8hly31xKli0",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/8hly31xKli0/sddefault.jpg",
     "published_at": "2021-03-18T19:48:53Z",
@@ -1458,7 +1346,6 @@
   {
     "name": "Introduction to Programming and Computer Science - Full Course",
     "youtube_course_id": "zOjov-2OZ0E",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/zOjov-2OZ0E/sddefault.jpg",
     "published_at": "2020-04-21T13:45:02Z",
@@ -1471,7 +1358,6 @@
   {
     "name": "Harvard CS50's Introduction to Programming with Python - Full University Course",
     "youtube_course_id": "nLRL_NcnK-4",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/nLRL_NcnK-4/sddefault.jpg",
     "published_at": "2023-05-01T13:55:40Z",
@@ -1484,7 +1370,6 @@
   {
     "name": "How To Build A Shopify Store",
     "youtube_course_id": "PL1BMWTNEcBErSUL2j9r1NWN5ozenOmS3-",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/rkF4pufcv9Y/sddefault.jpg",
     "published_at": "2022-08-29T14:55:08Z",
@@ -1497,7 +1382,6 @@
   {
     "name": "Shopify Tutorial For Beginners",
     "youtube_course_id": "T2tagxLhlv4",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/T2tagxLhlv4/sddefault.jpg",
     "published_at": "2023-03-11T22:30:03Z",
@@ -1510,7 +1394,6 @@
   {
     "name": "Getting started with Shopify theme development (liquid)",
     "youtube_course_id": "PL-LRDpVN2fZCZdGt6N2g7Ykl0lRFXFE7H",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/QTtXmARDG-Y/sddefault.jpg",
     "published_at": "2023-01-20T00:01:07Z",
@@ -1523,7 +1406,6 @@
   {
     "name": "Shopify Theme Development",
     "youtube_course_id": "PLYVBnfl51EctveY0iWOrk91TS2RevjpWU",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/QlIjcm613Z4/sddefault.jpg",
     "published_at": "2021-08-14T02:21:23Z",
@@ -1536,7 +1418,6 @@
   {
     "name": "Shopify Coding 101 for Store Owners & Designers - HTML, CSS, Liquid & More",
     "youtube_course_id": "5z2D7dLmhfk",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/5z2D7dLmhfk/sddefault.jpg",
     "published_at": "2023-06-20T15:59:49Z",
@@ -1549,7 +1430,6 @@
   {
     "name": "Shopify Liquid Coding",
     "youtube_course_id": "PL_pshehRlH0IavAqxOYW7rP9bWBMx0mVY",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/mxUSrhnbehA/sddefault.jpg",
     "published_at": "2022-06-19T16:04:41Z",
@@ -1562,7 +1442,6 @@
   {
     "name": "Elixir Getting Started Guide",
     "youtube_course_id": "PL2Rv8vpZJz4yHG7n-IsY-Na402GBu-UMW",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/S_YmABGLgsU/sddefault.jpg",
     "published_at": "2024-04-29T17:39:55Z",
@@ -1575,7 +1454,6 @@
   {
     "name": "Lets learn the Phoenix Router: a comprehensive reference",
     "youtube_course_id": "RJ_jGHeFz5E",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/RJ_jGHeFz5E/sddefault.jpg",
     "published_at": "2024-02-12T13:53:08Z",
@@ -1588,7 +1466,6 @@
   {
     "name": "Java + DSA + Interview Preparation Course",
     "youtube_course_id": "PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/rZ41y93P2Qo/sddefault.jpg",
     "published_at": "2021-07-30T12:45:17Z",
@@ -1601,7 +1478,6 @@
   {
     "name": "Aprenda GO",
     "youtube_course_id": "PLCKpcjBB_VlBsxJ9IseNxFllf-UFEXOdg",
-    "type": "playlist",
     "locale": "pt",
     "image_url": "https://i.ytimg.com/vi/WiGU_ZB-u0w/sddefault.jpg",
     "published_at": "2020-05-01T20:21:13Z",
@@ -1614,7 +1490,6 @@
   {
     "name": "Estruturas de Dados",
     "youtube_course_id": "PLndfcZyvAqbofQl2kLLdeWWjCcPlOPnrW",
-    "type": "playlist",
     "locale": "pt",
     "image_url": "https://i.ytimg.com/vi/0hT3EKGhbpI/sddefault.jpg",
     "published_at": "2020-11-27T00:40:29Z",
@@ -1627,7 +1502,6 @@
   {
     "name": "C for Beginners",
     "youtube_course_id": "PL9IEJIKnBJjG5H0ylFAzpzs9gSmW_eICB",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/SC8uWXmDJs4/hqdefault.jpg",
     "published_at": "2018-09-26T00:40:29Z",
@@ -1640,7 +1514,6 @@
   {
     "name": "How to program in Godot - GDScript Tutorial",
     "youtube_course_id": "e1zJS31tr88",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/e1zJS31tr88/sddefault.jpg",
     "published_at": "2024-05-12T20:00:09Z",
@@ -1653,7 +1526,6 @@
   {
     "name": "How to make a Video Game - Godot Beginner Tutorial",
     "youtube_course_id": "LOhfqjmasi0",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/LOhfqjmasi0/sddefault.jpg",
     "published_at": "2024-04-28T20:00:06Z",
@@ -1666,7 +1538,6 @@
   {
     "name": "Your First 2D GAME From Zero with GODOT 4! Vampire Survivor Style",
     "youtube_course_id": "GwCiGixlqiU",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/GwCiGixlqiU/sddefault.jpg",
     "published_at": "2023-12-26T16:27:01Z",
@@ -1679,7 +1550,6 @@
   {
     "name": "Ruby Tutorials for Beginners",
     "youtube_course_id": "PL3mtAHT_eRex2wgl-cYdKcYoYcLNK7J8A",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/3PohVjMxOl0/sddefault.jpg",
     "published_at": "2023-10-16T01:37:10Z",
@@ -1692,7 +1562,6 @@
   {
     "name": "Intro Ruby on Rails 7 For Beginners Tutorial Series",
     "youtube_course_id": "PL3mtAHT_eRezB9fnoIcKS4vYFjm23vddb",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/TlgSp2XPCY4/sddefault.jpg",
     "published_at": "2022-01-31T09:10:15Z",
@@ -1705,7 +1574,6 @@
   {
     "name": "React on Rails",
     "youtube_course_id": "PL3mtAHT_eRewtt6HPMHFB4TMxkxiEfp9N",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/nKybfmmO7JU/sddefault.jpg",
     "published_at": "2023-08-28T01:24:13Z",
@@ -1718,7 +1586,6 @@
   {
     "name": "Just Enough Hotwire for Rails Developers",
     "youtube_course_id": "PLdTytUiloS16epXsqHswpCUMND_rksjr4",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/csvaYIaBYpw/sddefault.jpg",
     "published_at": "2021-11-12T11:05:36Z",
@@ -1731,7 +1598,6 @@
   {
     "name": "Rails API",
     "youtube_course_id": "PLdTytUiloS14Ncm2egAwyh2gLPe_aaNF4",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/nrYg7ldwOzM/sddefault.jpg",
     "published_at": "2023-04-10T20:35:25Z",
@@ -1744,7 +1610,6 @@
   {
     "name": "Learn SQL Super Fast - Tutorial from absolute scratch",
     "youtube_course_id": "ipIw-Fp3LBs",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/ipIw-Fp3LBs/sddefault.jpg",
     "published_at": "2024-06-26T15:12:38Z",
@@ -1757,7 +1622,6 @@
   {
     "name": "Alquimia Stone - Formação Gratuita em Elixir",
     "youtube_course_id": "PLv3nyCBtlWP8I9rknIrfcJWrO05yEzknD",
-    "type": "playlist",
     "locale": "pt",
     "image_url": "https://i.ytimg.com/vi/WRGvPgCHMfI/sddefault.jpg",
     "published_at": "2021-11-17T18:32:32Z",
@@ -1770,7 +1634,6 @@
   {
     "name": "Aprenda com quem não sabe",
     "youtube_course_id": "PLr4c053wuXU-YY4GmqUM3y_uauspsmO0O",
-    "type": "playlist",
     "locale": "pt",
     "image_url": "https://i.ytimg.com/vi/XHxRv0f2MEY/sddefault.jpg",
     "published_at": "2021-12-06T00:00:00Z",
@@ -1783,7 +1646,6 @@
   {
     "name": "Elixir Programming Introduction - Complete Tutorial",
     "youtube_course_id": "-lgtb-YSUWE",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/-lgtb-YSUWE/sddefault.jpg",
     "published_at": "2023-12-04T16:38:31Z",
@@ -1796,7 +1658,6 @@
   {
     "name": "Intro to Elixir",
     "youtube_course_id": "PLJbE2Yu2zumA-p21bEQB6nsYABAO-HtF2",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/GQVXyjYX1zA/sddefault.jpg",
     "published_at": "2019-04-17T01:16:55Z",
@@ -1809,7 +1670,6 @@
   {
     "name": "Elixir crash course",
     "youtube_course_id": "PLbV6TI03ZWYVQEC_Txq_cV0Uy_s16b0d3",
-    "type": "playlist",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/Q0Z1jqv6LW0/sddefault.jpg",
     "published_at": "2024-06-23T16:14:16Z",
@@ -1822,7 +1682,6 @@
   {
     "name": "Learn Go Programming by Building 11 Projects - Full Course",
     "youtube_course_id": "jFfo23yIWac",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/jFfo23yIWac/sddefault.jpg",
     "published_at": "2022-03-22T00:00:00Z",
@@ -1835,7 +1694,6 @@
   {
     "name": "Phoenix Framework REST API Crash Course - Introduction + Full Elixir API Tutorial",
     "youtube_course_id": "9xaN44PNxps",
-    "type": "video",
     "locale": "en",
     "image_url": "https://i.ytimg.com/vi/9xaN44PNxps/sddefault.jpg",
     "published_at": "2023-12-06T16:22:39Z",

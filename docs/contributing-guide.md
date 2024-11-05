@@ -5,67 +5,14 @@ We love our contributors! Here's how you can contribute:
 - [Open an issue](https://github.com/danielbergholz/techschool.dev/issues) if you believe you've encountered a bug.
 - Make a [pull request](https://github.com/danielbergholz/techschool.dev/pull) to add new features/make quality-of-life improvements/fix bugs.
 
-## Adding a new programming language
-
-- Add a new entry on the JSON file `priv/repo/data/languages.json`. The file should have the following structure:
-
-```jsonc
-{
-  "name": "Programming Language Name", // case sensitive
-  "icon_name": "Programming Language Name (lowercase)" // case sensitive
-}
-```
-
-The `icon_name` will be used to render the `custom_icon` component inside `lib/techschool_web/components/shared_components.ex`. You can just add the lowercase name of the language and it will work. For example, if the language is `"Ruby"`, the `icon_name` should be `"ruby"`.
-
-## Adding a new framework
-
-- Add a new entry on the JSON file `priv/repo/data/frameworks.json`. The file should have the following structure:
-
-```jsonc
-{
-  "name": "Framework Name", // case sensitive
-  "icon_name": "Framework Name (lowercase)" // case sensitive
-}
-```
-
-Same note for the `icon_name` field. If the framework is `"Rails"`, the `icon_name` should be `"rails"`.
-
-## Adding a new tool
-
-- Add a new entry on the JSON file `priv/repo/data/tools.json`. The file should have the following structure:
-
-```jsonc
-{
-  "name": "Tool Name", // case sensitive
-  "icon_name": "Tool Name (lowercase)" // case sensitive
-}
-```
-
-Same note for the `icon_name` field. If the tool is `"Docker"`, the `icon_name` should be `"docker"`.
-
-## Adding a new "fundamentals"
-
-- Add a new entry on the JSON file `priv/repo/data/fundamentals.json`. The file should have the following structure:
-
-```jsonc
-{
-  "name": "Fundamentals Name", // case sensitive
-  "icon_name": "Fundamentals Name (lowercase)" // case sensitive
-}
-```
-
-Same note for the `icon_name` field. If the fundamental is `"Computer Science"`, the `icon_name` should be `"computer-science"`.
-
 ## Adding a new course
 
 - Add a new entry on the JSON file `priv/repo/data/courses.json`. The file should have the following structure:
 
 ```jsonc
 {
-  "name": "Course Name", // case sensitive
-  "youtube_course_id": "uuid_from_youtube",
-  "type": "playlist", // "playlist" or "video"
+  "name": "Course Name",
+  "youtube_course_id": "id_from_youtube",
   "locale": "en", // "en" or "pt"
   "language_names": ["Programming Language Name"], // must be present inside languages.json (case sensitive)
   "framework_names": ["Framework Name"], // must be present inside frameworks.json (case sensitive)

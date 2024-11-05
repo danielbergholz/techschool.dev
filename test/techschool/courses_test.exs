@@ -19,7 +19,6 @@ defmodule Techschool.CoursesTest do
 
     @invalid_attrs %{
       name: nil,
-      type: nil,
       locale: nil,
       image_url: nil,
       published_at: nil,
@@ -44,7 +43,6 @@ defmodule Techschool.CoursesTest do
     } do
       valid_attrs = %{
         name: "some name",
-        type: :video,
         locale: :en,
         image_url: "some image_url",
         published_at: ~U[2024-01-05 17:44:00Z],
@@ -55,7 +53,6 @@ defmodule Techschool.CoursesTest do
                Courses.create_course(youtube_channel_id, valid_attrs)
 
       assert course.name == "some name"
-      assert course.type == :video
       assert course.locale == :en
       assert course.image_url == "some image_url"
       assert course.published_at == ~U[2024-01-05 17:44:00Z]
@@ -73,6 +70,14 @@ defmodule Techschool.CoursesTest do
       course = course_fixture(youtube_channel_id)
       assert {:ok, %Course{}} = Courses.delete_course(course)
       assert_raise Ecto.NoResultsError, fn -> Courses.get_course!(course.id) end
+    end
+
+    test "course_type/1 returns :playlist for a valid playlist ID" do
+      assert Courses.course_type("PLbV6TI03ZWYVQEC_Txq_cV0Uy_s16b0d3") == :playlist
+    end
+
+    test "course_type/1 returns :video for a valid video ID" do
+      assert Courses.course_type("9xaN44PNxps") == :video
     end
   end
 end

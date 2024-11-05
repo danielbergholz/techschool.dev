@@ -23,8 +23,7 @@ defmodule Techschool.CoursesFixtures do
           image_url: "some image_url",
           locale: :en,
           name: "some name",
-          published_at: ~U[2024-01-05 17:44:00Z],
-          type: :video
+          published_at: ~U[2024-01-05 17:44:00Z]
         })
       )
 
