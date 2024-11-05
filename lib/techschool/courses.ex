@@ -211,12 +211,8 @@ defmodule Techschool.Courses do
     |> Repo.insert!()
   end
 
-  def course_type(youtube_course_id) do
-    case youtube_course_id do
-      "PL" <> _rest -> :playlist
-      _ -> :video
-    end
-  end
+  def course_type("PL" <> _rest), do: :playlist
+  def course_type(_youtube_course_id), do: :video
 
   def last_updated do
     with %Course{inserted_at: inserted_at} <- last_course() do
