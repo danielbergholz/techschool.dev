@@ -22,7 +22,7 @@ msgid "Actions"
 msgstr ""
 
 #: lib/techschool_web/components/layouts/components/navbar.html.heex:10
-#: lib/techschool_web/live/course_live/index.ex:47
+#: lib/techschool_web/live/course_live/index.ex:51
 #, elixir-autogen, elixir-format
 msgid "Courses"
 msgstr ""
@@ -32,7 +32,7 @@ msgstr ""
 msgid "Developed by"
 msgstr ""
 
-#: lib/techschool_web/live/page_live/home.html.heex:92
+#: lib/techschool_web/live/page_live/home.html.heex:89
 #, elixir-autogen, elixir-format
 msgid "Our mission"
 msgstr ""
@@ -53,12 +53,12 @@ msgstr ""
 msgid "Translate"
 msgstr "Traduzir"
 
-#: lib/techschool_web/live/page_live/home.html.heex:95
+#: lib/techschool_web/live/page_live/home.html.heex:92
 #, elixir-autogen, elixir-format
 msgid "TechSchool is all about making tech education accessible to everyone for free. There are tons of awesome courses online, but we don't have big bucks for marketing. So, newbies often run into the expensive courses first, making it seem like you have to shell out a ton of money."
 msgstr ""
 
-#: lib/techschool_web/live/page_live/home.html.heex:101
+#: lib/techschool_web/live/page_live/home.html.heex:98
 #, elixir-autogen, elixir-format
 msgid "That's where TechSchool steps in. We're here to shine a light on those awesome free courses that might be flying under the radar. Our website has a bunch of courses covering different areas. The goal? Help anyone go from zero to landing their first job without breaking the bank. We want to tackle the expensive course culture and make tech education fair and equal for everyone."
 msgstr ""
@@ -78,12 +78,12 @@ msgstr ""
 msgid "Search courses"
 msgstr ""
 
-#: lib/techschool_web/live/course_live/index.ex:50
+#: lib/techschool_web/live/course_live/index.ex:54
 #, elixir-autogen, elixir-format
 msgid "Find the best courses to learn programming! Search by name or filter by language and framework."
 msgstr ""
 
-#: lib/techschool_web/live/course_live/index.html.heex:33
+#: lib/techschool_web/live/course_live/index.html.heex:38
 #, elixir-autogen, elixir-format
 msgid "Load More"
 msgstr ""
@@ -115,7 +115,7 @@ msgstr ""
 msgid "optional"
 msgstr ""
 
-#: lib/techschool_web/live/course_live/index.html.heex:37
+#: lib/techschool_web/live/course_live/index.html.heex:42
 #, elixir-autogen, elixir-format
 msgid "No results for the given search"
 msgstr ""
@@ -126,12 +126,12 @@ msgstr ""
 msgid "Fundamentals"
 msgstr ""
 
-#: lib/techschool_web/live/page_live/home.html.heex:114
+#: lib/techschool_web/live/page_live/home.html.heex:111
 #, elixir-autogen, elixir-format
 msgid "Huge thanks to our contributors"
 msgstr ""
 
-#: lib/techschool_web/live/page_live/home.html.heex:142
+#: lib/techschool_web/live/page_live/home.html.heex:139
 #, elixir-autogen, elixir-format
 msgid "Add course to TechSchool"
 msgstr ""
@@ -147,7 +147,7 @@ msgstr ""
 msgid "%{time} %{unit} ago"
 msgstr ""
 
-#: lib/techschool/courses.ex:214
+#: lib/techschool/courses.ex:223
 #, elixir-autogen, elixir-format
 msgid "Last updated: "
 msgstr ""
@@ -187,4 +187,9 @@ msgstr ""
 #: lib/techschool/helpers/time.ex:17
 #, elixir-autogen, elixir-format
 msgid "second"
+msgstr ""
+
+#: lib/techschool_web/live/course_live/components/course_card.html.heex:38
+#, elixir-autogen, elixir-format
+msgid "new"
 msgstr ""
