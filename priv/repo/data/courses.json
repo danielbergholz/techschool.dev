@@ -1447,5 +1447,23 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Full HTTP Networking Course - Fetch and REST APIs in JavaScript",
+    "youtube_course_id": "2JYT5f2isg4",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": ["Networking"]
+  },
+  {
+    "name": "Networking Fundamentals",
+    "youtube_course_id": "PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": ["Networking"]
   }
 ]
