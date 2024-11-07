@@ -1465,5 +1465,41 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": ["Networking"]
+  },
+  {
+    "name": "Node.js Crash Course",
+    "youtube_course_id": "32M1al-Y6Ag",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["Node.js"],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Node.js Full Course for Beginners | Complete All-in-One Tutorial | 7 Hours",
+    "youtube_course_id": "f2EqECiTBL8",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["Node.js"],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Node.js Tutorial for Beginners | CRASH COURSE",
+    "youtube_course_id": "gyQyk80_upM",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["Node.js"],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Express JS Full Course",
+    "youtube_course_id": "nH9E25nkk3I",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["Express.js"],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
