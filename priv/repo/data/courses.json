@@ -1429,5 +1429,23 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": ["Algorithms"]
+  },
+  {
+    "name": "Elixir: A Comprehensive Introduction",
+    "youtube_course_id": "PL2Rv8vpZJz4yFKklhZAAaKCcM1z6WQ_K-",
+    "locale": "en",
+    "language_names": ["Elixir"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Functional Programming With Elixir",
+    "youtube_course_id": "PLYwEjF73cpLm7ER-veWSaFxbGrKqP-3li",
+    "locale": "en",
+    "language_names": ["Elixir"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
