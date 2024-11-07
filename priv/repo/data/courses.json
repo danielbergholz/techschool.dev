@@ -1501,5 +1501,32 @@
     "framework_names": ["Express.js"],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "HTML & CSS Full Course - Zero to Hero",
+    "youtube_course_id": "70T2GMDKl6M",
+    "locale": "en",
+    "language_names": ["HTML", "CSS"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "HTML & CSS for Beginners | FREE MEGA COURSE (7+ Hours!)",
+    "youtube_course_id": "iG2jotQo9NI",
+    "locale": "en",
+    "language_names": ["HTML", "CSS"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Mastering HTML & CSS: Build 15 Professional Projects in 15 Hours 2023",
+    "youtube_course_id": "bWACo_pvKxg",
+    "locale": "en",
+    "language_names": ["HTML", "CSS"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
