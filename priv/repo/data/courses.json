@@ -1528,5 +1528,41 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Rails 8: The Demo",
+    "youtube_course_id": "X_Hw9P1iZfQ",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["Rails"],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Full Stack Ruby on Rails Development Bootcamp",
+    "youtube_course_id": "PL6SEI86zExmsdxwsyEQcFpF9DWmvttPPu",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["Rails"],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Intro to Ruby on Rails 7 - Beginner to intermediate",
+    "youtube_course_id": "PLR8BLHNyVZDU3V5h76Qwfl3nKTdjBDv29",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["Rails"],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Ruby Tutorial For Beginners",
+    "youtube_course_id": "PLS1QulWo1RIbNBXZAeVbkkHEj9zsEbXQK",
+    "locale": "en",
+    "language_names": ["Ruby"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
