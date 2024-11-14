@@ -44,5 +44,3 @@ npm-debug.log
 .env
 
 .elixir_ls/
-
-.tool-versions

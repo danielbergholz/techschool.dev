@@ -4,8 +4,9 @@ This is a [Phoenix](https://www.phoenixframework.org/) project bootstrapped with
 
 ## Running TechSchool locally
 
-- Install [Elixir](https://elixir-lang.org/install.html)
-- Install [Phoenix](https://hexdocs.pm/phoenix/installation.html)
+- Install [Elixir and Erlang](https://elixir-lang.org/install.html)
+  - I recommend using [asdf](https://asdf-vm.com/) to manage your Elixir and Erlang versions
+  - Simply run `asdf install` in the project root to install the correct versions
 - Run `mix setup` to install dependencies and seed the database
 - Start the Phoenix server with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 - Now you can visit [`localhost:4000`](http://localhost:4000) from your browser
