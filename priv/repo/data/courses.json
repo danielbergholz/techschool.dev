@@ -1573,5 +1573,23 @@
     "framework_names": ["Phoenix"],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "TypeScript Full Course - From Beginner to Advanced",
+    "youtube_course_id": "iJkaAJUzeWQ",
+    "locale": "en",
+    "language_names": ["TypeScript"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Learn TypeScript - Full Course for Beginners",
+    "youtube_course_id": "SpwzRDUQ1GI",
+    "locale": "en",
+    "language_names": ["TypeScript"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
