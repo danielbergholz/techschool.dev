@@ -1564,5 +1564,14 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Phoenix crash course",
+    "youtube_course_id": "PLbV6TI03ZWYXKCJePfD8G34hyWdW_WLFk",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["Phoenix"],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
