@@ -1609,5 +1609,41 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Go Programming - Golang Course with Bonus Projects",
+    "youtube_course_id": "un6ZyFkqFKo",
+    "locale": "en",
+    "language_names": ["Golang"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Learn GO Fast: Full Tutorial",
+    "youtube_course_id": "8uiZC0l4Ajw",
+    "locale": "en",
+    "language_names": ["Golang"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Let's go with golang",
+    "youtube_course_id": "PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa",
+    "locale": "en",
+    "language_names": ["Golang"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Full Golang Tutorial - Learn Go by Building a TodoList App",
+    "youtube_course_id": "XCZWyN9ZbEQ",
+    "locale": "en",
+    "language_names": ["Golang"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
