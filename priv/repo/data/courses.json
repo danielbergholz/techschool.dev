@@ -1591,5 +1591,23 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Python Full Course for Beginners",
+    "youtube_course_id": "TzhjDhFjr8E",
+    "locale": "en",
+    "language_names": ["Python"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Python RIGHT NOW!!",
+    "youtube_course_id": "PLIhvC56v63ILPDA2DQBv0IKzqsWTZxCkp",
+    "locale": "en",
+    "language_names": ["Python"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
