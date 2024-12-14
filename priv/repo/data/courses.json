@@ -1645,5 +1645,14 @@
     "framework_names": [],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Rails 8 Unpacked with Typecraft",
+    "youtube_course_id": "PLHFP2OPUpCebdA4-xR07SPpoBWVERkHR6",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["Rails"],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
