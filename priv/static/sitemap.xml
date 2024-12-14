@@ -56,6 +56,11 @@
     <priority>0.64</priority>
   </url>
   <url>
+    <loc>https://techschool.dev/en/bootcamps/node-backend-expert</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
     <loc>https://techschool.dev/en/bootcamps/fullstack-elixir-and-phoenix</loc>
     <changefreq>monthly</changefreq>
     <priority>0.64</priority>
@@ -109,6 +114,11 @@
     <loc>https://techschool.dev/pt/bootcamps/react-frontend-expert</loc>
     <changefreq>monthly</changefreq>
     <priority>0.51</priority>
+  </url>
+  <url>
+    <loc>https://techschool.dev/pt/bootcamps/node-backend-expert</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.64</priority>
   </url>
   <url>
     <loc>https://techschool.dev/pt/bootcamps/fullstack-elixir-and-phoenix</loc>

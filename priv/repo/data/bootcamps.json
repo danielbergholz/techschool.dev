@@ -46,6 +46,22 @@
     ]
   },
   {
+    "name": "Node Backend Expert",
+    "icon_name": "node",
+    "description_en": "Master Node.js and build scalable, high-performance backends. Node.js's event-driven architecture and non-blocking I/O make it ideal for real-time applications. Whether you're building APIs, microservices, or fullstack applications, Node.js empowers you to deliver data-intensive, high-traffic solutions",
+    "description_pt": "Masterize o Node.js e construa backends escaláveis e de alto desempenho. A arquitetura orientada a eventos e I/O não bloqueante do Node.js o tornam ideal para aplicações em tempo real. Se você está construindo APIs, microsserviços ou aplicações fullstack, o Node.js capacita você a entregar soluções intensivas em dados e de alto tráfego",
+    "lesson_names": [
+      "JavaScript",
+      "TypeScript",
+      "Git",
+      "SQL",
+      "Express.js",
+      "Nest.js",
+      "Linux",
+      "Docker"
+    ]
+  },
+  {
     "name": "Fullstack Elixir and Phoenix",
     "icon_name": "phoenix",
     "description_en": "Enter the world of Elixir and Phoenix: where speed meets reliability. Elixir's fault-tolerant design and Phoenix's high-performance framework make real-time applications a breeze. Say goodbye to bottlenecks and hello to seamless scalability. Whether it's massive data processing or interactive web experiences, Elixir and Phoenix empower you to conquer any challenge with ease",
