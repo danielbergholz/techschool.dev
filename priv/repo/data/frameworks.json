@@ -36,6 +36,10 @@
     "icon_name": "express"
   },
   {
+    "name": "Nest.js",
+    "icon_name": "nest"
+  },
+  {
     "name": "Remix.js",
     "icon_name": "remix"
   },
