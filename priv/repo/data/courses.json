@@ -1654,5 +1654,32 @@
     "framework_names": ["Rails"],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "Nest.js Crash Course",
+    "youtube_course_id": "PL4cUxeGkcC9g8YFseGdkyj9RH9kVs_cMr",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["Nest.js"],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "[In-Depth] Nest.JS Tutorials",
+    "youtube_course_id": "PL_cUvD4qzbkw-phjGK2qq0nQiG6gw1cKK",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["Nest.js"],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "NestJS Full Course 2024",
+    "youtube_course_id": "PLhnVDNT5zYN_PfPXedWpMy_UTeYNExbfR",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["Nest.js"],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
