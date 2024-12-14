@@ -121,6 +121,17 @@
     "fundamentals_names": ""
   },
   {
+    "name": "Express.js",
+    "optional": false,
+    "icon_name": "express",
+    "description_en": "Express.js is a fast, unopinionated, minimalist web framework for Node.js. It is designed for building web applications and APIs",
+    "description_pt": "Express.js é um framework web rápido, sem opiniões e minimalista para Node.js. É projetado para construir aplicações web e APIs",
+    "language_names": "",
+    "framework_names": "Express.js",
+    "tool_names": "",
+    "fundamentals_names": ""
+  },
+  {
     "name": "React.js",
     "optional": false,
     "icon_name": "react",
@@ -139,6 +150,17 @@
     "description_pt": "O React Router é uma biblioteca flexível para gerenciar rotas em aplicativos React, com suporte para renderização no servidor, geração de sites estáticos e carregamento otimizado de dados para SPAs modernas",
     "language_names": "",
     "framework_names": "React Router",
+    "tool_names": "",
+    "fundamentals_names": ""
+  },
+  {
+    "name": "Nest.js",
+    "optional": true,
+    "icon_name": "nest",
+    "description_en": "Nest.js is a progressive Node.js framework for building efficient, reliable, and scalable server-side applications. It uses TypeScript and is heavily inspired by Angular",
+    "description_pt": "Nest.js é um framework Node.js progressivo para construir aplicações eficientes, confiáveis e escaláveis no lado do servidor. Ele usa TypeScript e é fortemente inspirado pelo Angular",
+    "language_names": "",
+    "framework_names": "Nest.js",
     "tool_names": "",
     "fundamentals_names": ""
   },
