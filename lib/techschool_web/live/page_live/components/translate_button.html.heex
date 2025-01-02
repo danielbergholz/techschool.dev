@@ -2,6 +2,6 @@
   <.link href={"/#{@inverse_locale}"} class="gradient-item px-1 md:px-2 items-center">
     <span :if={@inverse_locale == "pt"} class="text-3xl">🇧🇷</span>
     <span :if={@inverse_locale == "en"} class="text-3xl">🇺🇸</span>
-    <p class="font-bold ml-1 md:ml-2"><%= gettext("Translate") %></p>
+    <p class="font-bold ml-1 md:ml-2">{gettext("Translate")}</p>
   </.link>
 </div>

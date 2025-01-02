@@ -6,7 +6,7 @@
     <meta name="csrf-token" content={get_csrf_token()} />
 
     <.live_title>
-      <%= assigns[:page_title] || "TechSchool" %>
+      {assigns[:page_title] || "TechSchool"}
     </.live_title>
     <meta
       name="description"
@@ -77,6 +77,6 @@
     </script>
   </head>
   <body class="antialiased">
-    <%= @inner_content %>
+    {@inner_content}
   </body>
 </html>

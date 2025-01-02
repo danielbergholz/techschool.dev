@@ -10,16 +10,16 @@
 
   <div>
     <h2 class="font-bold text-lg md:text-xl mb-2 md:mb-3">
-      <%= @lesson.name %>
+      {@lesson.name}
       <span :if={@lesson.optional} class="text-green font-thin text-base">
-        [<%= gettext("optional") %>]
+        [{gettext("optional")}]
       </span>
     </h2>
     <p :if={@locale == "en"} class="text-sm md:text-base text-gray">
-      <%= @lesson.description_en %>
+      {@lesson.description_en}
     </p>
     <p :if={@locale == "pt"} class="text-sm md:text-base text-gray">
-      <%= @lesson.description_pt %>
+      {@lesson.description_pt}
     </p>
   </div>
 </.link>
