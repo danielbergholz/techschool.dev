@@ -10,13 +10,13 @@
 
   <div>
     <h2 class="font-bold text-lg md:text-xl mb-2 md:mb-3">
-      <%= @bootcamp.name %>
+      {@bootcamp.name}
     </h2>
     <p :if={@locale == "en"} class="text-sm md:text-base text-gray">
-      <%= @bootcamp.description_en %>
+      {@bootcamp.description_en}
     </p>
     <p :if={@locale == "pt"} class="text-sm md:text-base text-gray">
-      <%= @bootcamp.description_pt %>
+      {@bootcamp.description_pt}
     </p>
   </div>
 </.link>

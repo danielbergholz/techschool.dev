@@ -8,7 +8,7 @@
       class="rounded-lg bg-black text-white w-full md:w-2/5 focus:outline-none focus:ring-0 focus:border-green"
       value={@search}
     />
-    <.button type="submit" class="ml-3"><%= gettext("Search") %></.button>
+    <.button type="submit" class="ml-3">{gettext("Search")}</.button>
   </div>
   <div class="mt-4 flex flex-wrap justify-center gap-3">
     <select
@@ -17,14 +17,14 @@
       class="rounded-lg bg-black text-white focus:outline-none focus:ring-0 focus:border-green"
     >
       <option value="" selected={@selected_fundamentals == ""}>
-        <%= gettext("Fundamentals") %>
+        {gettext("Fundamentals")}
       </option>
       <option
         :for={fundamentals_name <- @fundamentals_names}
         value={fundamentals_name}
         selected={@selected_fundamentals == String.downcase(fundamentals_name)}
       >
-        <%= fundamentals_name %>
+        {fundamentals_name}
       </option>
     </select>
     <select
@@ -32,13 +32,13 @@
       name="language"
       class="rounded-lg bg-black text-white focus:outline-none focus:ring-0 focus:border-green"
     >
-      <option value="" selected={@selected_language == ""}><%= gettext("Language") %></option>
+      <option value="" selected={@selected_language == ""}>{gettext("Language")}</option>
       <option
         :for={language_name <- @language_names}
         value={language_name}
         selected={@selected_language == String.downcase(language_name)}
       >
-        <%= language_name %>
+        {language_name}
       </option>
     </select>
     <select
@@ -52,7 +52,7 @@
         value={framework_name}
         selected={@selected_framework == String.downcase(framework_name)}
       >
-        <%= framework_name %>
+        {framework_name}
       </option>
     </select>
     <select
@@ -60,13 +60,13 @@
       name="tool"
       class="rounded-lg bg-black text-white focus:outline-none focus:ring-0 focus:border-green"
     >
-      <option value="" selected={@selected_tool == ""}><%= gettext("Tool") %></option>
+      <option value="" selected={@selected_tool == ""}>{gettext("Tool")}</option>
       <option
         :for={tool_name <- @tool_names}
         value={tool_name}
         selected={@selected_tool == String.downcase(tool_name)}
       >
-        <%= tool_name %>
+        {tool_name}
       </option>
     </select>
   </div>

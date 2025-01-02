@@ -11,12 +11,12 @@
     alt={@platform.name}
   />
   <p>
-    <span class="text-green font-bold"><%= @platform.name %></span>
+    <span class="text-green font-bold">{@platform.name}</span>
     <span :if={@locale == "en"}>
-      <%= @platform.description_en %>
+      {@platform.description_en}
     </span>
     <span :if={@locale == "pt"}>
-      <%= @platform.description_pt %>
+      {@platform.description_pt}
     </span>
   </p>
 </a>

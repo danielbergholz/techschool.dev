@@ -8,7 +8,7 @@
       class="w-36 md:w-44 h-36 md:h-44 shrink-0 object-contain"
     />
 
-    <h1 class="text-xl md:text-2xl font-bold mt-2 text-center"><%= @bootcamp.name %></h1>
+    <h1 class="text-xl md:text-2xl font-bold mt-2 text-center">{@bootcamp.name}</h1>
   </div>
   <div class="flex flex-col justify-center gap-6 md:gap-8">
     <.lesson_card
@@ -19,6 +19,6 @@
     />
   </div>
   <.back navigate={~p"/#{@locale}/bootcamps"}>
-    <%= gettext("Back") %>
+    {gettext("Back")}
   </.back>
 </section>
