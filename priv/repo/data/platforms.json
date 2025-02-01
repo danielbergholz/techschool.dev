@@ -86,5 +86,16 @@
     "framework_names": ["Phoenix"],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "BigBinary Academy",
+    "description_en": "Learn by actual coding in an interactive environment using BigBinary Academy",
+    "description_pt": "Aprenda codificando em um ambiente interativo usando a BigBinary Academy",
+    "url": "https://courses.bigbinaryacademy.com/",
+    "image_url": "/images/platforms/bigbinary_academy.webp",
+    "language_names": ["HTML", "CSS", "JavaScript", "Ruby", "Python"],
+    "framework_names": ["Rails", "React.js"],
+    "tool_names": ["Git", "SQL"],
+    "fundamentals_names": ["Algorithms"]
   }
 ]
