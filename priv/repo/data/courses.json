@@ -1053,15 +1053,6 @@
     "fundamentals_names": []
   },
   {
-    "name": "Shopify Theme Development",
-    "youtube_course_id": "PLYVBnfl51EctveY0iWOrk91TS2RevjpWU",
-    "locale": "en",
-    "language_names": ["Liquid"],
-    "framework_names": [],
-    "tool_names": [],
-    "fundamentals_names": []
-  },
-  {
     "name": "Shopify Coding 101 for Store Owners & Designers - HTML, CSS, Liquid & More",
     "youtube_course_id": "5z2D7dLmhfk",
     "locale": "en",
@@ -1679,6 +1670,33 @@
     "locale": "en",
     "language_names": [],
     "framework_names": ["Nest.js"],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Phoenix App from Scratch",
+    "youtube_course_id": "PL31bV6MaFAPllC8JP0vaRKrVm5kj7c1vc",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": ["Phoenix"],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Distributed File Storage In Go - Full Course",
+    "youtube_course_id": "IoY6bE--A54",
+    "locale": "en",
+    "language_names": ["Golang"],
+    "framework_names": [],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Simple Redis Server From Scratch In Golang - FULL PROJECT",
+    "youtube_course_id": "LMrxfWB6sbQ",
+    "locale": "en",
+    "language_names": ["Golang"],
+    "framework_names": [],
     "tool_names": [],
     "fundamentals_names": []
   }
