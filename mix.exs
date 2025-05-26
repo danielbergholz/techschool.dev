@@ -60,7 +60,8 @@ defmodule Techschool.MixProject do
       {:bandit, "~> 1.2"},
       {:req, "~> 0.5.0"},
       {:cachex, "~> 4.0"},
-      {:credo, "~> 1.7", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
+      {:tidewave, "~> 0.1", only: :dev}
     ]
   end
 
