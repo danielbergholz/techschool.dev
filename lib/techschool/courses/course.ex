@@ -10,6 +10,7 @@ defmodule Techschool.Courses.Course do
     field :image_url, :string
     field :published_at, :utc_datetime
     field :youtube_course_id, :string
+    field :view_count, :integer, default: 0
     belongs_to :channel, Techschool.Channels.Channel
     many_to_many :languages, Techschool.Languages.Language, join_through: "courses_languages"
     many_to_many :frameworks, Techschool.Frameworks.Framework, join_through: "courses_frameworks"
@@ -40,7 +41,8 @@ defmodule Techschool.Courses.Course do
       :type,
       :published_at,
       :youtube_course_id,
-      :channel_id
+      :channel_id,
+      :view_count
     ])
     |> validate_required([
       :name,
@@ -57,5 +59,14 @@ defmodule Techschool.Courses.Course do
     |> put_assoc(:frameworks, opts[:frameworks])
     |> put_assoc(:tools, opts[:tools])
     |> put_assoc(:fundamentals, opts[:fundamentals])
+  end
+
+  @doc """
+  Simple changeset for updating view count without associations.
+  """
+  def view_count_changeset(course, attrs) do
+    course
+    |> cast(attrs, [:view_count])
+    |> validate_required([:view_count])
   end
 end

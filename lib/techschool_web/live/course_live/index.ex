@@ -119,6 +119,15 @@ defmodule TechschoolWeb.CourseLive.Index do
   end
 
   @impl true
+  def handle_event("course_clicked", %{"course_id" => course_id}, socket) do
+    {:ok, updated_course} = Courses.increment_view_count(course_id)
+
+    socket
+    |> stream_insert(:courses, updated_course)
+    |> noreply()
+  end
+
+  @impl true
   def handle_info(%Phoenix.Socket.Broadcast{} = _event, socket) do
     socket
     |> assign(:online_users_count, OnlineUsersCounter.get_online_users_count())

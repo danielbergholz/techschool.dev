@@ -1,8 +1,9 @@
 <a
   href={@course.url}
   target="_blank"
-  rel="noopener"
-  class="border border-gray hover:border-green rounded w-64 md:w-72 px-5 pb-5"
+  phx-click="course_clicked"
+  phx-value-course_id={@course.id}
+  class="border border-gray hover:border-green rounded w-64 md:w-72 px-5 pb-5 cursor-pointer"
   {@rest}
 >
   <img
@@ -36,6 +37,12 @@
           class="uppercase text-xs border font-bold border-yellow-400 rounded text-yellow-400 px-1"
         >
           {gettext("new")}
+        </p>
+      </div>
+      <div :if={@course.view_count > 0} class="mt-2 flex items-center gap-2">
+        <.icon name="hero-eye-solid" class="text-gray" />
+        <p class="text-gray text-sm">
+          {@course.view_count} views
         </p>
       </div>
     </div>

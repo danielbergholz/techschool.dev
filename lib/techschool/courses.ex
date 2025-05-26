@@ -245,6 +245,24 @@ defmodule Techschool.Courses do
     Repo.delete(course)
   end
 
+  def increment_view_count(course_id) when is_integer(course_id) or is_binary(course_id) do
+    # Atomic increment operation to avoid race conditions
+    # Using update_all with inc: ensures the increment happens atomically in the database
+    case Repo.update_all(
+           from(c in Course, where: c.id == ^course_id),
+           inc: [view_count: 1]
+         ) do
+      {1, _} ->
+        # Successfully updated one course, now fetch the updated course
+        course = get_course!(course_id)
+        {:ok, course}
+
+      {0, _} ->
+        # No courses were updated (course not found)
+        {:error, :not_found}
+    end
+  end
+
   defp add_course_and_channel_urls(%Course{} = course) do
     course
     |> Map.put(:url, generate_url(course))
