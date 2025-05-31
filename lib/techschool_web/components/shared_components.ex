@@ -8,6 +8,10 @@ defmodule TechschoolWeb.SharedComponents do
   attr :rest, :global, doc: "the arbitrary HTML attributes to add to the svg"
 
   def custom_icon(assigns) do
+    # Generate unique ID for gradient elements to avoid duplicates
+    unique_id = :crypto.strong_rand_bytes(4) |> Base.url_encode64() |> String.slice(0, 8)
+    assigns = assign(assigns, :unique_id, unique_id)
+
     case assigns[:name] do
       "github" ->
         ~H"""
@@ -165,37 +169,37 @@ defmodule TechschoolWeb.SharedComponents do
           {@rest}
         >
           <path
-            fill="url(#elixir-gradient-a)"
+            fill={"url(#elixir-gradient-a-#{@unique_id})"}
             fill-rule="evenodd"
             d="M64.4.5C36.7 13.9 1.9 83.4 30.9 113.9c26.8 33.5 85.4 1.3 68.4-40.5-21.5-36-35-37.9-34.9-72.9"
             clip-rule="evenodd"
           /><path
-            fill="url(#elixir-gradient-b)"
+            fill={"url(#elixir-gradient-b-#{@unique_id})"}
             fill-rule="evenodd"
             d="M64.4.2C36.8 13.6 1.9 82.9 31 113.5c10.7 12.4 28 16.5 37.7 9.1 26.4-18.8 7.4-53.1 10.4-78.5C68.1 33.9 64.2 11.3 64.4.2"
             clip-rule="evenodd"
           /><path
-            fill="url(#elixir-gradient-c)"
+            fill={"url(#elixir-gradient-c-#{@unique_id})"}
             fill-rule="evenodd"
             d="M56.7 4.3c-22.3 15.9-28.2 75-24.1 94.2 8.2 48.1 75.2 28.3 69.6-16.5-6-29.2-48.8-39.2-45.5-77.7"
             clip-rule="evenodd"
           /><path
-            fill="url(#elixir-gradient-d)"
+            fill={"url(#elixir-gradient-d-#{@unique_id})"}
             fill-rule="evenodd"
             d="M78.8 49.8c10.4 13.4 12.7 22.6 6.8 27.9-27.7 19.4-61.3 7.4-54-37.3C22.1 63 4.5 96.8 43.3 101.6c20.8 3.6 54 2 58.9-16.1-.2-15.9-10.8-22.9-23.4-35.7"
             clip-rule="evenodd"
           /><path
-            fill="url(#elixir-gradient-e)"
+            fill={"url(#elixir-gradient-e-#{@unique_id})"}
             fill-rule="evenodd"
             d="M38.1 36.4c-2.9 21.2 35.1 77.9 58.3 71-17.7 35.6-56.9-21.2-64-41.7 1.5-11 2.2-16.4 5.7-29.3"
             clip-rule="evenodd"
           /><path
-            fill="url(#elixir-gradient-f)"
+            fill={"url(#elixir-gradient-f-#{@unique_id})"}
             fill-rule="evenodd"
             d="M60.4 49.7c.8 7.9 3.9 20.5 0 28.8S38.7 102 43.6 115.3c11.4 24.8 37.1-4.4 36.9-19 1.1-11.8-6.6-38.7-1.8-52.5L76.5 41l-13.6-4c-2.2 3.2-3 7.5-2.5 12.7"
             clip-rule="evenodd"
           /><path
-            fill="url(#elixir-gradient-g)"
+            fill={"url(#elixir-gradient-g-#{@unique_id})"}
             fill-rule="evenodd"
             d="M65.3 10.8C36 27.4 48 53.4 49.3 81.6l19.1-55.4c-1.4-5.7-2.3-9.5-3.1-15.4"
             clip-rule="evenodd"
@@ -219,7 +223,7 @@ defmodule TechschoolWeb.SharedComponents do
           />
           <defs>
             <linearGradient
-              id="elixir-gradient-a"
+              id={"elixir-gradient-a-#{@unique_id}"}
               x1="62.346"
               x2="57.915"
               y1="9.889"
@@ -229,7 +233,7 @@ defmodule TechschoolWeb.SharedComponents do
               <stop stop-color="#D9D8DC" /><stop offset="1" stop-color="#fff" stop-opacity=".385" />
             </linearGradient>
             <linearGradient
-              id="elixir-gradient-b"
+              id={"elixir-gradient-b-#{@unique_id}"}
               x1="60.564"
               x2="14.266"
               y1="8.011"
@@ -239,7 +243,7 @@ defmodule TechschoolWeb.SharedComponents do
               <stop stop-color="#8D67AF" stop-opacity=".672" /><stop offset="1" stop-color="#9F8DAF" />
             </linearGradient>
             <linearGradient
-              id="elixir-gradient-c"
+              id={"elixir-gradient-c-#{@unique_id}"}
               x1="66.961"
               x2="66.961"
               y1="42.694"
@@ -253,7 +257,7 @@ defmodule TechschoolWeb.SharedComponents do
               />
             </linearGradient>
             <linearGradient
-              id="elixir-gradient-d"
+              id={"elixir-gradient-d-#{@unique_id}"}
               x1="36.706"
               x2="57.578"
               y1="45.001"
@@ -267,7 +271,7 @@ defmodule TechschoolWeb.SharedComponents do
               />
             </linearGradient>
             <linearGradient
-              id="elixir-gradient-e"
+              id={"elixir-gradient-e-#{@unique_id}"}
               x1="83.509"
               x2="26.302"
               y1="116.063"
@@ -281,7 +285,7 @@ defmodule TechschoolWeb.SharedComponents do
               />
             </linearGradient>
             <linearGradient
-              id="elixir-gradient-f"
+              id={"elixir-gradient-f-#{@unique_id}"}
               x1="69.249"
               x2="29.034"
               y1="41.855"
@@ -295,7 +299,7 @@ defmodule TechschoolWeb.SharedComponents do
               />
             </linearGradient>
             <linearGradient
-              id="elixir-gradient-g"
+              id={"elixir-gradient-g-#{@unique_id}"}
               x1="75.727"
               x2="47.772"
               y1="56.889"
@@ -474,15 +478,15 @@ defmodule TechschoolWeb.SharedComponents do
           {@rest}
         >
           <path
-            fill="url(#python-gradient-a)"
+            fill={"url(#python-gradient-a-#{@unique_id})"}
             d="M68.718 0C34.052 0 36.217 15.034 36.217 15.034l.038 15.574h33.082v4.677H23.115S.932 32.769.932 67.748s19.362 33.738 19.362 33.738h11.555V85.255s-.622-19.362 19.053-19.362h32.811s18.435.298 18.435-17.816V18.125S104.947 0 68.718 0m-18.24 10.473a5.946 5.946 0 0 1 5.95 5.952 5.946 5.946 0 0 1-5.95 5.951 5.946 5.946 0 0 1-5.953-5.951 5.946 5.946 0 0 1 5.952-5.952"
           /><path
-            fill="url(#python-gradient-b)"
+            fill={"url(#python-gradient-b-#{@unique_id})"}
             d="M69.703 135.846c34.667 0 32.502-15.033 32.502-15.033l-.039-15.575H69.085v-4.676h46.221s22.183 2.516 22.183-32.463-19.362-33.74-19.362-33.74h-11.555v16.233s.623 19.362-19.053 19.362H54.708s-18.435-.298-18.435 17.816v29.951s-2.799 18.125 33.43 18.125m18.241-10.473a5.946 5.946 0 0 1-5.951-5.952 5.946 5.946 0 0 1 5.951-5.951 5.946 5.946 0 0 1 5.952 5.951 5.946 5.946 0 0 1-5.952 5.952"
           />
           <defs>
             <linearGradient
-              id="python-gradient-a"
+              id={"python-gradient-a-#{@unique_id}"}
               x1="14.055"
               x2="81.579"
               y1="11.874"
@@ -492,7 +496,7 @@ defmodule TechschoolWeb.SharedComponents do
               <stop stop-color="#387EB8" /><stop offset="1" stop-color="#366994" />
             </linearGradient>
             <linearGradient
-              id="python-gradient-b"
+              id={"python-gradient-b-#{@unique_id}"}
               x1="55.593"
               x2="128.113"
               y1="54.973"

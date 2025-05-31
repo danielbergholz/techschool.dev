@@ -21,11 +21,6 @@ defmodule TechschoolWeb.Components.Layouts.NavbarLive do
   end
 
   @impl true
-  def handle_info(%Phoenix.Socket.Broadcast{} = _event, socket) do
-    {:noreply, assign(socket, :online_users_count, OnlineUsersCounter.get_online_users_count())}
-  end
-
-  @impl true
   def render(assigns) do
     ~H"""
     <nav class="text-xl md:text-2xl container-l1 flex justify-between items-center py-3 md:py-4">
