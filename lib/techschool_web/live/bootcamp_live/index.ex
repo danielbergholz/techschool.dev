@@ -3,7 +3,6 @@ defmodule TechschoolWeb.BootcampLive.Index do
 
   alias Techschool.Bootcamps
   alias Techschool.Bootcamps.Bootcamp
-  alias TechschoolWeb.OnlineUsersCounter
 
   embed_templates "components/*"
 
@@ -14,12 +13,6 @@ defmodule TechschoolWeb.BootcampLive.Index do
 
   @impl true
   def mount(_params, _session, socket) do
-    if connected?(socket) do
-      Phoenix.PubSub.subscribe(Techschool.PubSub, OnlineUsersCounter.online_users_topic())
-
-      OnlineUsersCounter.track_online_user()
-    end
-
     socket
     |> assign(:page_title, "Bootcamps | TechSchool")
     |> assign(
@@ -28,15 +21,7 @@ defmodule TechschoolWeb.BootcampLive.Index do
         "TechSchool offers a variety of bootcamps to help you learn the skills you need to start a new career in tech."
       )
     )
-    |> assign(:online_users_count, 0)
     |> stream(:bootcamps, Bootcamps.list_bootcamps(), reset: true)
     |> ok()
-  end
-
-  @impl true
-  def handle_info(%Phoenix.Socket.Broadcast{} = _event, socket) do
-    socket
-    |> assign(:online_users_count, OnlineUsersCounter.get_online_users_count())
-    |> noreply()
   end
 end

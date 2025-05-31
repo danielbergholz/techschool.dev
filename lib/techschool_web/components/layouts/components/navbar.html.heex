@@ -6,6 +6,7 @@
     </h1>
   </.link>
   <div class="flex items-center justify-center">
+    <.show_online_users count={@online_users_count} class="mr-3 md:mr-6" />
     <.link navigate={~p"/#{@locale}/courses"} class="font-bold hover:underline decoration-green">
       {gettext("Courses")}
     </.link>

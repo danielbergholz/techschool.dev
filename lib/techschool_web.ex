@@ -55,6 +55,7 @@ defmodule TechschoolWeb do
         layout: {TechschoolWeb.Layouts, :app}
 
       on_mount TechschoolWeb.Hooks.RestoreLocale
+      on_mount {TechschoolWeb.Hooks.OnlineUsersCounter, :default}
       unquote(html_helpers())
 
       def ok(socket), do: {:ok, socket}

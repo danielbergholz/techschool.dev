@@ -1,5 +1,5 @@
 <header>
-  <.navbar locale={@locale} />
+  <.navbar locale={@locale} online_users_count={assigns[:online_users_count] || 1} />
 </header>
 <main>
   <.flash_group flash={@flash} />
