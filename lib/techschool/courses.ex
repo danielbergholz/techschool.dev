@@ -283,32 +283,23 @@ defmodule Techschool.Courses do
     query = """
     SELECT
       (SELECT COUNT(*) FROM courses) as total_courses,
-      (SELECT COUNT(*) FROM platforms) as total_platforms,
       (SELECT COUNT(*) FROM bootcamps) as total_bootcamps,
-      (SELECT COUNT(*) FROM lessons) as total_lessons,
-      (SELECT COALESCE(SUM(view_count), 0) FROM courses) as total_views,
-      (SELECT COUNT(DISTINCT channel_id) FROM courses) as total_channels
+      (SELECT COALESCE(SUM(view_count), 0) FROM courses) as total_views
     """
 
     case Repo.query(query) do
-      {:ok, %{rows: [[courses, platforms, bootcamps, lessons, views, channels]]}} ->
+      {:ok, %{rows: [[courses, bootcamps, views]]}} ->
         %{
           total_courses: courses,
-          total_platforms: platforms,
           total_bootcamps: bootcamps,
-          total_lessons: lessons,
-          total_views: views,
-          total_channels: channels
+          total_views: views
         }
 
       _ ->
         %{
           total_courses: 0,
-          total_platforms: 0,
           total_bootcamps: 0,
-          total_lessons: 0,
-          total_views: 0,
-          total_channels: 0
+          total_views: 0
         }
     end
   end
