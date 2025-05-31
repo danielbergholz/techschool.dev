@@ -263,6 +263,56 @@ defmodule Techschool.Courses do
     end
   end
 
+  @doc """
+  Returns platform statistics including courses, platforms, bootcamps, lessons, views, and channels.
+
+  ## Examples
+
+      iex> get_platform_stats()
+      %{
+        total_courses: 100,
+        total_platforms: 5,
+        total_bootcamps: 10,
+        total_lessons: 200,
+        total_views: 15000,
+        total_channels: 50
+      }
+
+  """
+  def get_platform_stats do
+    query = """
+    SELECT
+      (SELECT COUNT(*) FROM courses) as total_courses,
+      (SELECT COUNT(*) FROM platforms) as total_platforms,
+      (SELECT COUNT(*) FROM bootcamps) as total_bootcamps,
+      (SELECT COUNT(*) FROM lessons) as total_lessons,
+      (SELECT COALESCE(SUM(view_count), 0) FROM courses) as total_views,
+      (SELECT COUNT(DISTINCT channel_id) FROM courses) as total_channels
+    """
+
+    case Repo.query(query) do
+      {:ok, %{rows: [[courses, platforms, bootcamps, lessons, views, channels]]}} ->
+        %{
+          total_courses: courses,
+          total_platforms: platforms,
+          total_bootcamps: bootcamps,
+          total_lessons: lessons,
+          total_views: views,
+          total_channels: channels
+        }
+
+      _ ->
+        %{
+          total_courses: 0,
+          total_platforms: 0,
+          total_bootcamps: 0,
+          total_lessons: 0,
+          total_views: 0,
+          total_channels: 0
+        }
+    end
+  end
+
   defp add_course_and_channel_urls(%Course{} = course) do
     course
     |> Map.put(:url, generate_url(course))

@@ -23,6 +23,7 @@ msgstr ""
 
 #: lib/techschool_web/components/layouts/components/navbar.html.heex:10
 #: lib/techschool_web/live/course_live/index.ex:51
+#: lib/techschool_web/live/page_live/home.html.heex:114
 #, elixir-autogen, elixir-format
 msgid "Courses"
 msgstr "Cursos"
@@ -126,12 +127,12 @@ msgstr "Pesquisa sem resultados"
 msgid "Fundamentals"
 msgstr "Fundamentos"
 
-#: lib/techschool_web/live/page_live/home.html.heex:111
+#: lib/techschool_web/live/page_live/home.html.heex:153
 #, elixir-autogen, elixir-format
 msgid "Huge thanks to our contributors"
 msgstr "Agradecimento aos contribuidores"
 
-#: lib/techschool_web/live/page_live/home.html.heex:139
+#: lib/techschool_web/live/page_live/home.html.heex:181
 #, elixir-autogen, elixir-format
 msgid "Add course to TechSchool"
 msgstr "Adicionar curso no TechSchool"
@@ -147,7 +148,7 @@ msgstr "usuário"
 msgid "%{time} %{unit} ago"
 msgstr "%{time} %{unit} atrás"
 
-#: lib/techschool/courses.ex:223
+#: lib/techschool/courses.ex:219
 #, elixir-autogen, elixir-format
 msgid "Last updated: "
 msgstr "Última atualização: "
@@ -189,7 +190,37 @@ msgstr "meses"
 msgid "second"
 msgstr "segundo"
 
-#: lib/techschool_web/live/course_live/components/course_card.html.heex:38
+#: lib/techschool_web/live/course_live/components/course_card.html.heex:39
 #, elixir-autogen, elixir-format
 msgid "new"
 msgstr "novo"
+
+#: lib/techschool_web/live/page_live/home.html.heex:130
+#, elixir-autogen, elixir-format
+msgid "Bootcamps"
+msgstr ""
+
+#: lib/techschool_web/live/page_live/home.html.heex:140
+#, elixir-autogen, elixir-format
+msgid "Channels"
+msgstr "Canais"
+
+#: lib/techschool_web/live/page_live/home.html.heex:134
+#, elixir-autogen, elixir-format
+msgid "Lessons"
+msgstr "Aulas"
+
+#: lib/techschool_web/live/page_live/home.html.heex:109
+#, elixir-autogen, elixir-format
+msgid "Platform Statistics"
+msgstr "Estatísticas da plataforma"
+
+#: lib/techschool_web/live/page_live/home.html.heex:124
+#, elixir-autogen, elixir-format
+msgid "Platforms"
+msgstr "Plataformas"
+
+#: lib/techschool_web/live/page_live/home.html.heex:118
+#, elixir-autogen, elixir-format
+msgid "Total Views"
+msgstr "Total de visualizações"

@@ -27,6 +27,7 @@ defmodule TechschoolWeb.PageLive.Home do
     |> assign(:page_title, "TechSchool")
     |> assign(:online_users_count, 0)
     |> assign(:last_updated, Courses.last_updated())
+    |> assign(:platform_stats, Courses.get_platform_stats())
     |> assign_async(:github_contributors, fn ->
       {:ok, %{github_contributors: GitHub.get_contributors()}}
     end)

@@ -100,6 +100,48 @@
       )}
     </p>
   </section>
+
+  <section
+    class="text-center container-l3 md:pb-14 pb-12 flex flex-col items-center"
+    aria-label="TechSchool platform statistics"
+  >
+    <h1 class="md:text-3xl text-2xl font-bold underline decoration-green mb-8">
+      {gettext("Platform Statistics")}
+    </h1>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 w-full max-w-4xl">
+      <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors">
+        <h3 class="text-2xl md:text-3xl font-bold text-green">{@platform_stats.total_courses}</h3>
+        <p class="text-gray text-sm md:text-base mt-1">{gettext("Courses")}</p>
+      </div>
+      <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors">
+        <h3 class="text-2xl md:text-3xl font-bold text-green">{@platform_stats.total_views}</h3>
+        <p class="text-gray text-sm md:text-base mt-1">{gettext("Total Views")}</p>
+      </div>
+      <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors">
+        <h3 class="text-2xl md:text-3xl font-bold text-green">
+          {@platform_stats.total_platforms}
+        </h3>
+        <p class="text-gray text-sm md:text-base mt-1">{gettext("Platforms")}</p>
+      </div>
+      <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors">
+        <h3 class="text-2xl md:text-3xl font-bold text-green">
+          {@platform_stats.total_bootcamps}
+        </h3>
+        <p class="text-gray text-sm md:text-base mt-1">{gettext("Bootcamps")}</p>
+      </div>
+      <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors">
+        <h3 class="text-2xl md:text-3xl font-bold text-green">{@platform_stats.total_lessons}</h3>
+        <p class="text-gray text-sm md:text-base mt-1">{gettext("Lessons")}</p>
+      </div>
+      <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors">
+        <h3 class="text-2xl md:text-3xl font-bold text-green">
+          {@platform_stats.total_channels}
+        </h3>
+        <p class="text-gray text-sm md:text-base mt-1">{gettext("Channels")}</p>
+      </div>
+    </div>
+  </section>
+
   <section
     class="text-center container-l3 pb-8 md:pb-12 flex flex-col gap-8"
     aria-label="TechSchool contributors"
