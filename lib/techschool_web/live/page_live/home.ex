@@ -6,6 +6,7 @@ defmodule TechschoolWeb.PageLive.Home do
   embed_templates "components/*"
 
   attr :inverse_locale, :string, required: true
+  attr :class, :string, default: ""
   def translate_button(assigns)
 
   defp inverse_locale(locale) do

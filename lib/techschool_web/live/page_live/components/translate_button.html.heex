@@ -1,4 +1,4 @@
-<div class="gradient-container items-center">
+<div class={["gradient-container items-center ", @class]}>
   <.link href={"/#{@inverse_locale}"} class="gradient-item px-1 md:px-2 items-center">
     <span :if={@inverse_locale == "pt"} class="text-3xl">🇧🇷</span>
     <span :if={@inverse_locale == "en"} class="text-3xl">🇺🇸</span>

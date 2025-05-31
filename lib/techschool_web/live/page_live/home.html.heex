@@ -60,14 +60,8 @@
 
         <.programming-languages-grid locale={@locale} />
 
-        <div class="flex flex-col md:flex-row items-center justify-center gap-4">
-          <.translate_button inverse_locale={inverse_locale(@locale)} />
-          <p
-            :if={@last_updated}
-            class="font-semibold text-sm rounded-md w-max bg-slate-800/50 backdrop-blur-sm px-3 py-1 border border-green/20"
-          >
-            {@last_updated}
-          </p>
+        <div class="flex justify-center">
+          <.translate_button inverse_locale={inverse_locale(@locale)} class="w-max" />
         </div>
       </div>
     </div>
@@ -79,7 +73,7 @@
     <h1 class="md:text-3xl text-2xl font-bold underline decoration-green mb-8">
       Links
     </h1>
-    <div class="flex items-center justify-center gap-4 md:flex-row flex-col">
+    <div class="flex flex-wrap items-center justify-center gap-4">
       <a
         href="https://discord.gg/C4abRX5skH"
         target="_blank"
@@ -156,38 +150,31 @@
     <h1 class="md:text-3xl text-2xl font-bold underline decoration-green mb-8">
       {gettext("Platform Statistics")}
     </h1>
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 w-full max-w-4xl">
-      <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors">
+    <div class="flex flex-wrap justify-center gap-6 md:gap-8 w-full max-w-4xl">
+      <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors flex-1 min-w-48">
         <h3 class="text-2xl md:text-3xl font-bold text-green">{@platform_stats.total_courses}</h3>
         <p class="text-gray text-sm md:text-base mt-1">{gettext("Courses")}</p>
       </div>
-      <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors">
-        <h3 class="text-2xl md:text-3xl font-bold text-green">{@platform_stats.total_views}</h3>
-        <p class="text-gray text-sm md:text-base mt-1">{gettext("Total Views")}</p>
-      </div>
-      <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors">
-        <h3 class="text-2xl md:text-3xl font-bold text-green">
-          {@platform_stats.total_platforms}
-        </h3>
-        <p class="text-gray text-sm md:text-base mt-1">{gettext("Platforms")}</p>
-      </div>
-      <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors">
+
+      <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors flex-1 min-w-48">
         <h3 class="text-2xl md:text-3xl font-bold text-green">
           {@platform_stats.total_bootcamps}
         </h3>
         <p class="text-gray text-sm md:text-base mt-1">{gettext("Bootcamps")}</p>
       </div>
-      <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors">
-        <h3 class="text-2xl md:text-3xl font-bold text-green">{@platform_stats.total_lessons}</h3>
-        <p class="text-gray text-sm md:text-base mt-1">{gettext("Lessons")}</p>
-      </div>
-      <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors">
-        <h3 class="text-2xl md:text-3xl font-bold text-green">
-          {@platform_stats.total_channels}
-        </h3>
-        <p class="text-gray text-sm md:text-base mt-1">{gettext("Channels")}</p>
+
+      <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors flex-1 min-w-48">
+        <h3 class="text-2xl md:text-3xl font-bold text-green">{@platform_stats.total_views}</h3>
+        <p class="text-gray text-sm md:text-base mt-1">{gettext("Total Views")}</p>
       </div>
     </div>
+
+    <p
+      :if={@last_updated}
+      class="font-semibold text-sm rounded-md w-max bg-slate-800/50 backdrop-blur-sm px-3 py-1 border border-green/20 md:mt-10 mt-8"
+    >
+      {@last_updated}
+    </p>
   </section>
 
   <section
