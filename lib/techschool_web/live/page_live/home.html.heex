@@ -1,220 +1,218 @@
-<main>
-  <section
-    class="bg-pattern bg-cover relative overflow-hidden"
-    aria-label="Hero section for TechSchool"
-  >
-    <!-- Floating Programming Icons Background -->
-    <div class="absolute inset-0 pointer-events-none">
-      <!-- Top floating icons -->
-      <div class="absolute top-16 left-1/4 animate-float-slow opacity-20">
-        <.custom_icon name="react" class="w-12 h-12 text-blue-400" />
-      </div>
-      <div class="absolute top-32 right-1/4 animate-float-delayed opacity-15">
-        <.custom_icon name="javascript" class="w-10 h-10 text-yellow-400" />
-      </div>
-      <div class="absolute top-20 left-1/2 animate-float opacity-10">
-        <.custom_icon name="python" class="w-14 h-14 text-blue-500" />
-      </div>
-      
+<section
+  class="bg-pattern bg-cover relative overflow-hidden"
+  aria-label="Hero section for TechSchool"
+>
+  <!-- Floating Programming Icons Background -->
+  <div class="absolute inset-0 pointer-events-none">
+    <!-- Top floating icons -->
+    <div class="absolute top-16 left-1/4 animate-float-slow opacity-20">
+      <.custom_icon name="react" class="w-12 h-12 text-blue-400" />
+    </div>
+    <div class="absolute top-32 right-1/4 animate-float-delayed opacity-15">
+      <.custom_icon name="javascript" class="w-10 h-10 text-yellow-400" />
+    </div>
+    <div class="absolute top-20 left-1/2 animate-float opacity-10">
+      <.custom_icon name="python" class="w-14 h-14 text-blue-500" />
+    </div>
+    
 <!-- Middle floating icons -->
-      <div class="absolute top-1/2 left-16 animate-float-delayed opacity-15">
-        <.custom_icon name="elixir" class="w-8 h-8 text-purple-400" />
-      </div>
-      <div class="absolute top-1/2 right-16 animate-float-slow opacity-20">
-        <.custom_icon name="golang" class="w-10 h-10 text-blue-400" />
-      </div>
-      
+    <div class="absolute top-1/2 left-16 animate-float-delayed opacity-15">
+      <.custom_icon name="elixir" class="w-8 h-8 text-purple-400" />
+    </div>
+    <div class="absolute top-1/2 right-16 animate-float-slow opacity-20">
+      <.custom_icon name="golang" class="w-10 h-10 text-blue-400" />
+    </div>
+    
 <!-- Bottom floating icons -->
-      <div class="absolute bottom-32 left-1/3 animate-float opacity-10">
-        <.custom_icon name="typescript" class="w-12 h-12 text-blue-600" />
-      </div>
-      <div class="absolute bottom-24 right-1/3 animate-float-delayed opacity-15">
-        <.custom_icon name="vue" class="w-8 h-8 text-green-500" />
-      </div>
-      <div class="absolute bottom-40 left-16 animate-float-slow opacity-20">
-        <.custom_icon name="css" class="w-6 h-6 text-blue-400" />
-      </div>
-      
+    <div class="absolute bottom-32 left-1/3 animate-float opacity-10">
+      <.custom_icon name="typescript" class="w-12 h-12 text-blue-600" />
+    </div>
+    <div class="absolute bottom-24 right-1/3 animate-float-delayed opacity-15">
+      <.custom_icon name="vue" class="w-8 h-8 text-green-500" />
+    </div>
+    <div class="absolute bottom-40 left-16 animate-float-slow opacity-20">
+      <.custom_icon name="css" class="w-6 h-6 text-blue-400" />
+    </div>
+    
 <!-- Additional floating icons for more depth -->
-      <div class="absolute top-40 right-16 animate-float opacity-12 sm:block hidden">
-        <.custom_icon name="algorithms" class="w-8 h-8 text-green opacity-60" />
+    <div class="absolute top-40 right-16 animate-float opacity-12 sm:block hidden">
+      <.custom_icon name="algorithms" class="w-8 h-8 text-green opacity-60" />
+    </div>
+    <div class="absolute bottom-48 left-1/2 animate-float-slow opacity-18 sm:block hidden">
+      <.custom_icon name="computer-science" class="w-6 h-6 text-blue-400 opacity-50" />
+    </div>
+    <div class="absolute top-1/3 left-11 animate-float-delayed opacity-14 sm:block hidden">
+      <.custom_icon name="programming" class="w-7 h-7 text-purple-400 opacity-40" />
+    </div>
+  </div>
+
+  <div class="container-l2 md:py-52 py-20 flex items-center justify-center text-center relative z-10">
+    <div class="space-y-8 max-w-4xl mx-auto">
+      <div>
+        <h1 class="md:text-5xl text-4xl font-bold bg-gradient-to-r from-white via-green to-blue-300 bg-clip-text text-transparent leading-tight">
+          {gettext("Free technology education for everyone")}
+        </h1>
+        <h2 class="text-gray mt-4 md:text-2xl text-xl">
+          {gettext("Go from zero to your first job without any financial loss")}
+        </h2>
       </div>
-      <div class="absolute bottom-48 left-1/2 animate-float-slow opacity-18 sm:block hidden">
-        <.custom_icon name="computer-science" class="w-6 h-6 text-blue-400 opacity-50" />
-      </div>
-      <div class="absolute top-1/3 left-11 animate-float-delayed opacity-14 sm:block hidden">
-        <.custom_icon name="programming" class="w-7 h-7 text-purple-400 opacity-40" />
+
+      <.programming-languages-grid locale={@locale} />
+
+      <div class="flex justify-center">
+        <.translate_button inverse_locale={inverse_locale(@locale)} class="w-max" />
       </div>
     </div>
-
-    <div class="container-l2 md:py-52 py-20 flex items-center justify-center text-center relative z-10">
-      <div class="space-y-8 max-w-4xl mx-auto">
-        <div>
-          <h1 class="md:text-5xl text-4xl font-bold bg-gradient-to-r from-white via-green to-blue-300 bg-clip-text text-transparent leading-tight">
-            {gettext("Free technology education for everyone")}
-          </h1>
-          <h2 class="text-gray mt-4 md:text-2xl text-xl">
-            {gettext("Go from zero to your first job without any financial loss")}
-          </h2>
-        </div>
-
-        <.programming-languages-grid locale={@locale} />
-
-        <div class="flex justify-center">
-          <.translate_button inverse_locale={inverse_locale(@locale)} class="w-max" />
-        </div>
-      </div>
-    </div>
-  </section>
-  <section
-    class="text-center container-l3 md:py-14 py-12 flex flex-col items-center"
-    aria-label="Social media links for TechSchool"
-  >
-    <h1 class="md:text-3xl text-2xl font-bold underline decoration-green mb-8">
-      Links
-    </h1>
-    <div class="flex flex-wrap items-center justify-center gap-4">
-      <a
-        href="https://discord.gg/C4abRX5skH"
-        target="_blank"
-        rel="noreferrer"
-        class="md:text-lg text-base font-bold border border-green rounded-lg w-36 p-2 flex items-center justify-evenly hover:opacity-75 transition-opacity"
-      >
-        <.custom_icon name="discord" />
-        <p>
-          Discord
-        </p>
-      </a>
-      <a
-        href="https://github.com/danielbergholz/techschool"
-        target="_blank"
-        rel="noreferrer"
-        class="md:text-lg text-base font-bold border border-green rounded-lg w-36 p-2 flex items-center justify-evenly hover:opacity-75 transition-opacity"
-      >
-        <.custom_icon name="github" />
-
-        <p>
-          GitHub
-        </p>
-      </a>
-      <a
-        href="https://github.com/sponsors/danielbergholz"
-        target="_blank"
-        rel="noreferrer"
-        class="md:text-lg text-base font-bold rounded-lg border border-green w-36 p-2 flex items-center justify-evenly hover:opacity-75 transition-opacity"
-      >
-        <.custom_icon name="heart" />
-
-        <p>
-          Sponsor
-        </p>
-      </a>
-      <a
-        href="https://plausible.io/techschool.dev"
-        target="_blank"
-        rel="noreferrer"
-        class="md:text-lg text-base font-bold border border-green rounded-lg w-36 p-2 flex items-center justify-evenly hover:opacity-75 transition-opacity"
-      >
-        <.custom_icon name="analytics" />
-
-        <p>
-          Analytics
-        </p>
-      </a>
-    </div>
-  </section>
-  <section
-    class="text-center container-l3 pb-8 md:pb-12 flex flex-col gap-8"
-    aria-label="TechSchool mission"
-  >
-    <h1 class="md:text-3xl text-2xl font-bold underline decoration-green">
-      {gettext("Our mission")}
-    </h1>
-    <p class="md:text-lg text-base">
-      {gettext(
-        "TechSchool is all about making tech education accessible to everyone for free. There are tons of awesome courses online, but we don't have big bucks for marketing. So, newbies often run into the expensive courses first, making it seem like you have to shell out a ton of money."
-      )}
-    </p>
-
-    <p class="md:text-lg text-base">
-      {gettext(
-        "That's where TechSchool steps in. We're here to shine a light on those awesome free courses that might be flying under the radar. Our website has a bunch of courses covering different areas. The goal? Help anyone go from zero to landing their first job without breaking the bank. We want to tackle the expensive course culture and make tech education fair and equal for everyone."
-      )}
-    </p>
-  </section>
-
-  <section
-    class="text-center container-l3 md:pb-14 pb-12 flex flex-col items-center"
-    aria-label="TechSchool platform statistics"
-  >
-    <h1 class="md:text-3xl text-2xl font-bold underline decoration-green mb-8">
-      {gettext("Platform Statistics")}
-    </h1>
-    <div class="flex flex-wrap justify-center gap-6 md:gap-8 w-full max-w-4xl">
-      <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors flex-1 min-w-48">
-        <h3 class="text-2xl md:text-3xl font-bold text-green">{@platform_stats.total_courses}</h3>
-        <p class="text-gray text-sm md:text-base mt-1">{gettext("Courses")}</p>
-      </div>
-
-      <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors flex-1 min-w-48">
-        <h3 class="text-2xl md:text-3xl font-bold text-green">
-          {@platform_stats.total_bootcamps}
-        </h3>
-        <p class="text-gray text-sm md:text-base mt-1">{gettext("Bootcamps")}</p>
-      </div>
-
-      <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors flex-1 min-w-48">
-        <h3 class="text-2xl md:text-3xl font-bold text-green">{@platform_stats.total_views}</h3>
-        <p class="text-gray text-sm md:text-base mt-1">{gettext("Total Views")}</p>
-      </div>
-    </div>
-
-    <p
-      :if={@last_updated}
-      class="font-semibold text-sm rounded-md w-max bg-slate-800/50 backdrop-blur-sm px-3 py-1 border border-green/20 md:mt-10 mt-8"
-    >
-      {@last_updated}
-    </p>
-  </section>
-
-  <section
-    class="text-center container-l3 pb-8 md:pb-12 flex flex-col gap-8"
-    aria-label="TechSchool contributors"
-  >
-    <h1
-      :if={@github_contributors.ok? and length(@github_contributors.result) > 0}
-      class="md:text-3xl text-2xl underline font-bold decoration-green"
-    >
-      {gettext("Huge thanks to our contributors")} 🚀
-    </h1>
-    <div
-      :if={@github_contributors.ok? and length(@github_contributors.result) > 0}
-      class="flex flex-wrap justify-center gap-4"
-    >
-      <a
-        :for={contributor <- @github_contributors.result}
-        href={contributor["html_url"]}
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img
-          src={contributor["avatar_url"]}
-          alt={contributor["login"]}
-          loading="lazy"
-          class="w-12 md:w-14 h-12 md:h-14 rounded-full"
-          width="56"
-          height="56"
-        />
-      </a>
-    </div>
+  </div>
+</section>
+<section
+  class="text-center container-l3 md:py-14 py-12 flex flex-col items-center"
+  aria-label="Social media links for TechSchool"
+>
+  <h1 class="md:text-3xl text-2xl font-bold underline decoration-green mb-8">
+    Links
+  </h1>
+  <div class="flex flex-wrap items-center justify-center gap-4">
     <a
-      href="https://github.com/danielbergholz/techschool.dev/blob/main/docs/contributing-guide.md"
+      href="https://discord.gg/C4abRX5skH"
       target="_blank"
       rel="noreferrer"
-      class="pt-4 w-max m-auto"
+      class="md:text-lg text-base font-bold border border-green rounded-lg w-36 p-2 flex items-center justify-evenly hover:opacity-75 transition-opacity"
     >
-      <.button>{gettext("Add course to TechSchool")}</.button>
+      <.custom_icon name="discord" />
+      <p>
+        Discord
+      </p>
     </a>
-  </section>
-</main>
+    <a
+      href="https://github.com/danielbergholz/techschool"
+      target="_blank"
+      rel="noreferrer"
+      class="md:text-lg text-base font-bold border border-green rounded-lg w-36 p-2 flex items-center justify-evenly hover:opacity-75 transition-opacity"
+    >
+      <.custom_icon name="github" />
+
+      <p>
+        GitHub
+      </p>
+    </a>
+    <a
+      href="https://github.com/sponsors/danielbergholz"
+      target="_blank"
+      rel="noreferrer"
+      class="md:text-lg text-base font-bold rounded-lg border border-green w-36 p-2 flex items-center justify-evenly hover:opacity-75 transition-opacity"
+    >
+      <.custom_icon name="heart" />
+
+      <p>
+        Sponsor
+      </p>
+    </a>
+    <a
+      href="https://plausible.io/techschool.dev"
+      target="_blank"
+      rel="noreferrer"
+      class="md:text-lg text-base font-bold border border-green rounded-lg w-36 p-2 flex items-center justify-evenly hover:opacity-75 transition-opacity"
+    >
+      <.custom_icon name="analytics" />
+
+      <p>
+        Analytics
+      </p>
+    </a>
+  </div>
+</section>
+<section
+  class="text-center container-l3 pb-8 md:pb-12 flex flex-col gap-8"
+  aria-label="TechSchool mission"
+>
+  <h1 class="md:text-3xl text-2xl font-bold underline decoration-green">
+    {gettext("Our mission")}
+  </h1>
+  <p class="md:text-lg text-base">
+    {gettext(
+      "TechSchool is all about making tech education accessible to everyone for free. There are tons of awesome courses online, but we don't have big bucks for marketing. So, newbies often run into the expensive courses first, making it seem like you have to shell out a ton of money."
+    )}
+  </p>
+
+  <p class="md:text-lg text-base">
+    {gettext(
+      "That's where TechSchool steps in. We're here to shine a light on those awesome free courses that might be flying under the radar. Our website has a bunch of courses covering different areas. The goal? Help anyone go from zero to landing their first job without breaking the bank. We want to tackle the expensive course culture and make tech education fair and equal for everyone."
+    )}
+  </p>
+</section>
+
+<section
+  class="text-center container-l3 md:pb-14 pb-12 flex flex-col items-center"
+  aria-label="TechSchool platform statistics"
+>
+  <h1 class="md:text-3xl text-2xl font-bold underline decoration-green mb-8">
+    {gettext("Platform Statistics")}
+  </h1>
+  <div class="flex flex-wrap justify-center gap-6 md:gap-8 w-full max-w-4xl">
+    <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors flex-1 min-w-48">
+      <h3 class="text-2xl md:text-3xl font-bold text-green">{@platform_stats.total_courses}</h3>
+      <p class="text-gray text-sm md:text-base mt-1">{gettext("Courses")}</p>
+    </div>
+
+    <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors flex-1 min-w-48">
+      <h3 class="text-2xl md:text-3xl font-bold text-green">
+        {@platform_stats.total_bootcamps}
+      </h3>
+      <p class="text-gray text-sm md:text-base mt-1">{gettext("Bootcamps")}</p>
+    </div>
+
+    <div class="bg-slate-800/50 rounded-lg p-4 md:p-6 border border-gray hover:border-green transition-colors flex-1 min-w-48">
+      <h3 class="text-2xl md:text-3xl font-bold text-green">{@platform_stats.total_views}</h3>
+      <p class="text-gray text-sm md:text-base mt-1">{gettext("Total Views")}</p>
+    </div>
+  </div>
+
+  <p
+    :if={@last_updated}
+    class="font-semibold text-sm rounded-md w-max bg-slate-800/50 backdrop-blur-sm px-3 py-1 border border-green/20 md:mt-10 mt-8"
+  >
+    {@last_updated}
+  </p>
+</section>
+
+<section
+  class="text-center container-l3 pb-8 md:pb-12 flex flex-col gap-8"
+  aria-label="TechSchool contributors"
+>
+  <h1
+    :if={@github_contributors.ok? and length(@github_contributors.result) > 0}
+    class="md:text-3xl text-2xl underline font-bold decoration-green"
+  >
+    {gettext("Huge thanks to our contributors")} 🚀
+  </h1>
+  <div
+    :if={@github_contributors.ok? and length(@github_contributors.result) > 0}
+    class="flex flex-wrap justify-center gap-4"
+  >
+    <a
+      :for={contributor <- @github_contributors.result}
+      href={contributor["html_url"]}
+      target="_blank"
+      rel="noreferrer"
+    >
+      <img
+        src={contributor["avatar_url"]}
+        alt={contributor["login"]}
+        loading="lazy"
+        class="w-12 md:w-14 h-12 md:h-14 rounded-full"
+        width="56"
+        height="56"
+      />
+    </a>
+  </div>
+  <a
+    href="https://github.com/danielbergholz/techschool.dev/blob/main/docs/contributing-guide.md"
+    target="_blank"
+    rel="noreferrer"
+    class="pt-4 w-max m-auto"
+  >
+    <.button>{gettext("Add course to TechSchool")}</.button>
+  </a>
+</section>
 <.footer />

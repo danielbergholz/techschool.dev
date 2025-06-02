@@ -15,7 +15,7 @@ defmodule TechschoolWeb.OnlineUsers do
       class={["relative inline-flex opacity-75 ", @class]}
       aria-label="Number of online users using TechSchool"
     >
-      <p class="px-4 py-2 font-semibold text-sm rounded-md text-green bg-slate-800">
+      <p class="px-2 py-1 md:px-4 md:py-2 font-semibold text-sm rounded-md text-green bg-slate-800">
         1
         <span class="md:inline hidden">
           {gettext("user")} online
@@ -32,7 +32,7 @@ defmodule TechschoolWeb.OnlineUsers do
       class={["relative inline-flex opacity-100 transition-opacity duration-300 ", @class]}
       aria-label="Number of online users using TechSchool"
     >
-      <p class="px-4 py-2 font-semibold text-sm rounded-md text-green bg-slate-800">
+      <p class="px-2 py-1 md:px-4 md:py-2 font-semibold text-sm rounded-md text-green bg-slate-800">
         {@count}
         <span class="md:inline hidden">
           {gettext("user")}{if @count == 1, do: "", else: "s"} online

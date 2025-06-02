@@ -1,5 +1,9 @@
-<header>
-  <.navbar locale={@locale} online_users_count={assigns[:online_users_count] || 1} />
+<header class="sticky top-0 z-50 bg-black">
+  <.navbar
+    page_title={@page_title}
+    locale={@locale}
+    online_users_count={assigns[:online_users_count] || 1}
+  />
 </header>
 <main>
   <.flash_group flash={@flash} />
