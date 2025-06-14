@@ -84,6 +84,12 @@ defmodule Techschool.MixProject do
         "tailwind techschool --minify",
         "esbuild techschool --minify",
         "phx.digest"
+      ],
+      check: [
+        "format --check-formatted",
+        "deps.unlock --check-unused",
+        "compile --warnings-as-errors",
+        "credo --strict"
       ]
     ]
   end
