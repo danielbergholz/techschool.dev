@@ -8,15 +8,7 @@ TechSchool.dev is a Phoenix LiveView application that curates free programming c
 
 ## Development Commands
 
-After making ANY code changes, you MUST run these commands:
-
-```bash
-mix format
-mix check
-```
-
-- `mix format` ensures consistent code formatting
-- `mix check` verifies compilation and suggests improvements
+After making any code changes, run `mix check` (verifies compilation and suggests improvements)
 
 ### Available MCPs for Development
 
