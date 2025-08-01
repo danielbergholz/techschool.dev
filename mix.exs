@@ -38,7 +38,7 @@ defmodule Techschool.MixProject do
       {:ecto_sqlite3, ">= 0.0.0"},
       {:phoenix_html, "~> 4.0"},
       {:phoenix_live_reload, "~> 1.2", only: :dev},
-      {:phoenix_live_view, "~> 1.0.1"},
+      {:phoenix_live_view, "~> 1.1.2"},
       {:floki, ">= 0.30.0", only: :test},
       {:phoenix_live_dashboard, "~> 0.8.3"},
       {:esbuild, "~> 0.8", runtime: Mix.env() == :dev},
@@ -61,7 +61,9 @@ defmodule Techschool.MixProject do
       {:req, "~> 0.5.0"},
       {:cachex, "~> 4.0"},
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
-      {:tidewave, "~> 0.1", only: :dev}
+      {:tidewave, "~> 0.1", only: :dev},
+      {:igniter, "~> 0.6", only: [:dev, :test]},
+      {:lazy_html, ">= 0.1.0", only: :test}
     ]
   end
 
