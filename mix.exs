@@ -61,7 +61,7 @@ defmodule Techschool.MixProject do
       {:req, "~> 0.5.0"},
       {:cachex, "~> 4.0"},
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
-      {:tidewave, "~> 0.1", only: :dev},
+      {:tidewave, "~> 0.3", only: :dev},
       {:igniter, "~> 0.6", only: [:dev, :test]},
       {:lazy_html, ">= 0.1.0", only: :test}
     ]

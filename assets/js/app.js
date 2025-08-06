@@ -22,12 +22,42 @@ import { Socket } from "phoenix"
 import { LiveSocket } from "phoenix_live_view"
 import topbar from "../vendor/topbar"
 
+// Hooks for LiveView
+let Hooks = {}
+
+// Infinite Scroll Hook
+Hooks.InfiniteScroll = {
+  mounted() {
+    this.observer = new IntersectionObserver(
+      (entries) => {
+        const entry = entries[0]
+        if (entry.isIntersecting) {
+          this.pushEvent("infinite_scroll", {})
+        }
+      },
+      {
+        root: null,
+        rootMargin: "100px", // Trigger 100px before the element comes into view
+        threshold: 0.1
+      }
+    )
+    this.observer.observe(this.el)
+  },
+  
+  destroyed() {
+    if (this.observer) {
+      this.observer.disconnect()
+    }
+  }
+}
+
 let csrfToken = document
   .querySelector("meta[name='csrf-token']")
   .getAttribute("content")
 let liveSocket = new LiveSocket("/live", Socket, {
   longPollFallbackMs: 2500,
-  params: { _csrf_token: csrfToken }
+  params: { _csrf_token: csrfToken },
+  hooks: Hooks
 })
 
 // Show progress bar on live navigation and form submits

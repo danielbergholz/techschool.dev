@@ -88,20 +88,12 @@ defmodule TechschoolWeb.CourseLive.Index do
 
   @impl true
   def handle_event("load_more", _params, socket) do
-    offset = socket.assigns.offset + 20
-    filter_params = socket.assigns.filter_params
+    load_more_courses(socket)
+  end
 
-    course_count = Courses.count_courses(filter_params, search_locale(socket))
-    courses = Courses.search_courses(filter_params, search_locale(socket), offset: offset)
-
-    has_more_courses_to_load = more_courses_to_load?(courses, course_count, offset)
-
-    socket
-    |> assign(:offset, offset)
-    |> assign(:has_more_courses_to_load, has_more_courses_to_load)
-    |> assign(:has_courses, !Enum.empty?(courses))
-    |> stream(:courses, courses)
-    |> noreply()
+  @impl true
+  def handle_event("infinite_scroll", _params, socket) do
+    load_more_courses(socket)
   end
 
   @impl true
@@ -158,5 +150,22 @@ defmodule TechschoolWeb.CourseLive.Index do
 
   defp more_courses_to_load?(courses, course_count, offset) do
     length(courses) + offset < course_count
+  end
+
+  defp load_more_courses(socket) do
+    offset = socket.assigns.offset + 20
+    filter_params = socket.assigns.filter_params
+
+    course_count = Courses.count_courses(filter_params, search_locale(socket))
+    courses = Courses.search_courses(filter_params, search_locale(socket), offset: offset)
+
+    has_more_courses_to_load = more_courses_to_load?(courses, course_count, offset)
+
+    socket
+    |> assign(:offset, offset)
+    |> assign(:has_more_courses_to_load, has_more_courses_to_load)
+    |> assign(:has_courses, !Enum.empty?(courses))
+    |> stream(:courses, courses)
+    |> noreply()
   end
 end
