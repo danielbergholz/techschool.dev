@@ -1708,5 +1708,27 @@
     "framework_names": ["Ash"],
     "tool_names": [],
     "fundamentals_names": []
+  },
+  {
+    "name": "The Complete Svelte 5 Course For The Most Loved JavaScript Framework",
+    "youtube_course_id": "B2MhkPtBWs4",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": [
+      "Svelte"
+    ],
+    "tool_names": [],
+    "fundamentals_names": []
+  },
+  {
+    "name": "Full Stack SvelteKit CRUD App Using Remote Functions Tutorial",
+    "youtube_course_id": "Ldnmirx0QtI",
+    "locale": "en",
+    "language_names": [],
+    "framework_names": [
+      "Svelte"
+    ],
+    "tool_names": [],
+    "fundamentals_names": []
   }
 ]
