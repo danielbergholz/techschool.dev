@@ -57,6 +57,10 @@
   },
   {
     "name": "Ash",
-    "icon_name": "ash" 
+    "icon_name": "ash"
+  },
+  {
+    "name": "Svelte",
+    "icon_name": "svelte"
   }
 ]
