@@ -69,7 +69,9 @@
     <% end %>
 
     <div :if={@no_results} class="flex flex-wrap justify-center gap-8 md:gap-10">
-      <p>{gettext("No results for the given search")}</p>
+      <p id="course-search-empty-state">
+        {gettext(~s(No results for "%{search}"), search: @search)}
+      </p>
     </div>
   </div>
 </section>

@@ -43,12 +43,20 @@ defmodule TechschoolWeb.CourseLiveTest do
       assert html =~ "infinite-scroll-trigger"
     end
 
-    test "must return message 'no results' when courses are not found", %{conn: conn} do
+    test "must return a no-results message with the search term when courses are not found", %{
+      conn: conn
+    } do
       channel = channel_fixture()
       course = course_fixture(channel.youtube_channel_id)
 
-      assert {:ok, _index_live, html} = live(conn, ~p"/en/courses?search=invalid")
-      assert html =~ "No results for the given search"
+      assert {:ok, index_live, html} = live(conn, ~p"/en/courses?search=invalid")
+
+      assert has_element?(
+               index_live,
+               "#course-search-empty-state",
+               ~s(No results for "invalid")
+             )
+
       refute html =~ course.name
       refute html =~ "Loading more courses..."
     end

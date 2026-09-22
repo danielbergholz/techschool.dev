@@ -113,9 +113,9 @@ msgstr ""
 msgid "optional"
 msgstr ""
 
-#: lib/techschool_web/live/course_live/index.html.heex:72
+#: lib/techschool_web/live/course_live/index.html.heex:73
 #, elixir-autogen, elixir-format
-msgid "No results for the given search"
+msgid "No results for \"%{search}\""
 msgstr ""
 
 #: lib/techschool_web/live/course_live/components/search.html.heex:15
