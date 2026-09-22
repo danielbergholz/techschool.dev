@@ -155,7 +155,7 @@ defmodule Techschool.Courses do
       {:error, %Ecto.Changeset{}}
 
   """
-  def create_course(youtube_channel_id, attrs \\ %{}, opts \\ []) do
+  def create_course(youtube_channel_id, attrs, opts \\ []) do
     {:ok, opts} =
       opts
       |> Keyword.validate(
@@ -183,7 +183,7 @@ defmodule Techschool.Courses do
     |> Repo.insert()
   end
 
-  def create_course!(youtube_channel_id, attrs \\ %{}, opts \\ []) do
+  def create_course!(youtube_channel_id, attrs, opts \\ []) do
     {:ok, opts} =
       opts
       |> Keyword.validate(

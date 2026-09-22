@@ -5,7 +5,7 @@ defmodule Techschool.MixProject do
     [
       app: :techschool,
       version: "0.1.0",
-      elixir: "~> 1.17",
+      elixir: "~> 1.20",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
@@ -58,7 +58,7 @@ defmodule Techschool.MixProject do
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.2.0"},
       {:bandit, "~> 1.2"},
-      {:req, "~> 0.5.0"},
+      {:req, "~> 0.7.4"},
       {:cachex, "~> 4.0"},
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
       {:tidewave, "~> 0.9", only: :dev},
