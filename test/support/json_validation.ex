@@ -5,7 +5,7 @@ defmodule Techschool.JSONValidator do
   defmacro __using__(opts) do
     path = opts[:path]
     types = opts[:types]
-    required = opts[:required]
+    required = opts[:required] || Map.keys(types)
 
     quote do
       import Ecto.Changeset
@@ -19,8 +19,6 @@ defmodule Techschool.JSONValidator do
       def as_changeset(item) do
         keys = Map.keys(unquote(types))
         required = unquote(required)
-
-        required = if(required, do: required, else: keys)
 
         {%{}, unquote(types)}
         |> cast(item, keys)

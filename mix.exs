@@ -13,6 +13,10 @@ defmodule Techschool.MixProject do
     ]
   end
 
+  def cli do
+    [preferred_envs: [precommit: :test]]
+  end
+
   # Configuration for the OTP application.
   #
   # Type `mix help compile.app` for more information.
@@ -87,11 +91,12 @@ defmodule Techschool.MixProject do
         "esbuild techschool --minify",
         "phx.digest"
       ],
-      check: [
+      precommit: [
         "format --check-formatted",
         "deps.unlock --check-unused",
         "compile --warnings-as-errors",
-        "credo --strict"
+        "gettext.extract --check-up-to-date",
+        "test --warnings-as-errors"
       ]
     ]
   end

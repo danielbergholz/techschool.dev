@@ -208,7 +208,7 @@ msgstr ""
 msgid "Total Views"
 msgstr ""
 
-#: lib/techschool_web/live/page_live/components/programming-languages-grid.html.heex:79
+#: lib/techschool_web/live/page_live/components/programming-languages-grid.html.heex:87
 #, elixir-autogen, elixir-format
 msgid "Much more"
 msgstr ""
